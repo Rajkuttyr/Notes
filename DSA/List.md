@@ -106,11 +106,4 @@ If you want, next I can do:
     
 - `Map + Iterator + ListIterator`
     
-- **Complete Java Collections cheat sheet (single md file)**
-    
-
-Just tell me 🔥
-
-  
-
-ChatGPT can make mistakes. Check important info. See Cookie Preferences.
+-
