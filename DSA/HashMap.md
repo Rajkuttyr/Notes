@@ -15,4 +15,4 @@ HashMap<key,value> obj = new HashMap<>();
 - unique pairs 
 - searching 
 -
-### letcode problem number and name to check
+### leetcode problem number and name to check
