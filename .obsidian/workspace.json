@@ -167,7 +167,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ALGORITHMS.md",
+                "file": "DSA/ALGORITHMS.md",
                 "mode": "source",
                 "source": false
               },
@@ -349,10 +349,10 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "6658f51880f8875e",
+  "active": "3db67ec90d9b9c17",
   "lastOpenFiles": [
     "DSA/RoadMap.md",
-    "ALGORITHMS.md",
+    "DSA/ALGORITHMS.md",
     "DSA/Template.md",
     "DSA/Important Consideration.md",
     "DSA/HOW TO CHOOSE TECNIQUES.md",
