@@ -54,8 +54,4 @@
 
 ---
 
-# <font color=
-
-# "red">List (Interface)</font>
-
-**Syntax**
+#

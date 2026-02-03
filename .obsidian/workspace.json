@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DSA/HashMap.md",
+                "file": "DSA/ArrayList.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "HashMap"
+              "title": "ArrayList"
             }
           }
         ],
@@ -237,10 +237,10 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "1a2b475eeeb0a576",
+  "active": "3db67ec90d9b9c17",
   "lastOpenFiles": [
-    "ArrayList.md",
     "DSA/HashMap.md",
+    "DSA/ArrayList.md",
     "Leetcode/532. K-diff Pairs in an Array.md",
     "Leetcode/Leetcode Questions.md",
     "Untitled 1",
