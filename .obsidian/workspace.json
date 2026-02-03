@@ -39,17 +39,14 @@
             "id": "a12725d6fd395e2d",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Untitled.canvas",
-                "viewState": {
-                  "x": 0,
-                  "y": -349.8861541748047,
-                  "zoom": 0
-                }
+                "file": "Leetcode/Leetcode Questions.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Untitled"
+              "icon": "lucide-file",
+              "title": "Leetcode Questions"
             }
           }
         ],
@@ -228,8 +225,8 @@
   },
   "active": "a12725d6fd395e2d",
   "lastOpenFiles": [
-    "Leetcode/Leetcode Questions.md",
     "Untitled.canvas",
+    "Leetcode/Leetcode Questions.md",
     "Leetcode",
     "Myfile/Java Trees.md",
     "Untitled",

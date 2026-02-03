@@ -1,7 +1,0 @@
-{
-	"nodes":[
-		{"id":"07692d7d97950cf5","x":-280,"y":-640,"width":250,"height":60,"color":"2","type":"text","text":"Notes\n"},
-		{"id":"b6a2fac914cb380f","x":-280,"y":-560,"width":250,"height":60,"type":"text","text":"DSA TOPICS "}
-	],
-	"edges":[]
-}
