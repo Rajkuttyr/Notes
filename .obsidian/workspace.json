@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HashMap.md",
+                "file": "DSA/HashMap.md",
                 "mode": "source",
                 "source": false
               },
@@ -209,10 +209,11 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "c1e10ec039517c8a",
+  "active": "3db67ec90d9b9c17",
   "lastOpenFiles": [
+    "DSA",
     "Leetcode/Leetcode Questions.md",
-    "HashMap.md",
+    "DSA/HashMap.md",
     "Notes/MD NOTES.md",
     "Untitled.canvas",
     "Leetcode",

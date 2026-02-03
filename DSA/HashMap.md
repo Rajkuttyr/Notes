@@ -13,4 +13,6 @@ HashMap<key,value> obj = new HashMap<>();
 ## Use Case
 - Count frequency
 - unique pairs 
-- 
+- searching 
+-
+### letcode problem number and name to check
