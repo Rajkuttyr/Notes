@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MD NOTES.md",
+                "file": "Notes/MD NOTES.md",
                 "mode": "source",
                 "source": false
               },
@@ -194,10 +194,10 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "682b57e5cc8abb8a",
+  "active": "3db67ec90d9b9c17",
   "lastOpenFiles": [
     "Leetcode/Leetcode Questions.md",
-    "MD NOTES.md",
+    "Notes/MD NOTES.md",
     "Untitled.canvas",
     "Leetcode",
     "Myfile/Java Trees.md",
