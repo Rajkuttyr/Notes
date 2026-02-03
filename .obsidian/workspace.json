@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Untitled 1.md",
+                "file": "Leetcode/Leetcode Questions.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled 1"
+              "title": "Leetcode Questions"
             }
           }
         ],
@@ -223,11 +223,11 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "3db67ec90d9b9c17",
+  "active": "a12725d6fd395e2d",
   "lastOpenFiles": [
     "Leetcode",
     "Myfile/Java Trees.md",
-    "Untitled 1.md",
+    "Leetcode/Leetcode Questions.md",
     "Untitled",
     "Untitled.md",
     "Myfile",
