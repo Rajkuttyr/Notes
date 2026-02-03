@@ -11,4 +11,6 @@ HashMap<key,value> obj = new HashMap<>();
 
 
 ## Use Case
-- Count fre
+- Count frequency
+- unique pairs 
+- 
