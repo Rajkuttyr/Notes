@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HashMap logic  and use case.md",
+                "file": "HashMap.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "HashMap logic  and use case"
+              "title": "HashMap"
             }
           }
         ],
@@ -212,7 +212,7 @@
   "active": "c1e10ec039517c8a",
   "lastOpenFiles": [
     "Leetcode/Leetcode Questions.md",
-    "HashMap logic  and use case.md",
+    "HashMap.md",
     "Notes/MD NOTES.md",
     "Untitled.canvas",
     "Leetcode",
