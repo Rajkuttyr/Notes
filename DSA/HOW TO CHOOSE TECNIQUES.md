@@ -9,20 +9,20 @@ Written **strictly in YOUR note format**, clean `.md`, Obsidian-ready.
 
 # Problem → Pattern Mapping Table
 
-|Problem Clue|Pattern to Use|
-|---|---|
-|Sorted array|Two Pointer|
-|Subarray / substring|Sliding Window|
-|Longest / shortest|Sliding Window / Binary Search|
-|K times / frequency|HashMap|
-|Next greater / smaller|Monotonic Stack|
-|Tree traversal|DFS / BFS|
-|Level-wise|BFS|
-|Minimum / Maximum|Heap / Binary Search|
-|Range sum|Prefix Sum|
-|All combinations|Backtracking|
-|Overlapping subproblems|DP|
-|Cycle detection|Fast & Slow Pointer|
+| Problem Clue            | Pattern to Use                 |
+| ----------------------- | ------------------------------ |
+| Sorted array            | Two Pointer                    |
+| Subarray / substring    | Sliding Window                 |
+| Longest / shortest      | Sliding Window / Binary Search |
+| K times / frequency     | HashMap                        |
+| Next greater / smaller  | Monotonic Stack                |
+| Tree traversal          | DFS / BFS                      |
+| Level-wise              | BFS                            |
+| Minimum / Maximum       | Heap / Binary Search           |
+| Range sum               | Prefix Sum                     |
+| All combinations        | Backtracking                   |
+| Overlapping subproblems | DP                             |
+| Cycle detection         | Fast & Slow Pointer            |
 
 > [!TIP]  
 > **Keywords in problem statement are hints**, not decoration.
