@@ -5,9 +5,10 @@ HashMap<key,value> obj = new HashMap<>();
 # Important Methods
 1. map.put(key,value) 
 2. map.get(key)
-3. map.contains(key)
+3. map.containsKey(key)
 4. map.getOrDefault(key,default);
 5. map.size();
+6. map.
 
 
 ## Use Case
