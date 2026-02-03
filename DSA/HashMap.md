@@ -16,5 +16,5 @@ HashMap<key,value> obj = new HashMap<>();
 - searching 
 -
 ### leetcode problem number and name to check
-1. 532. K-diff Pairs in an Array
+1. [[532. K-diff Pairs in an Array]]
 2. 
