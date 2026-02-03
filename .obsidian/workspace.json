@@ -111,7 +111,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HOW TO CHOOSE TECNIQUES.md",
+                "file": "DSA/HOW TO CHOOSE TECNIQUES.md",
                 "mode": "source",
                 "source": false
               },
@@ -296,7 +296,7 @@
   "active": "261b492b6e23ec3b",
   "lastOpenFiles": [
     "DSA/Techniques.md",
-    "HOW TO CHOOSE TECNIQUES.md",
+    "DSA/HOW TO CHOOSE TECNIQUES.md",
     "DSA/Collections.md",
     "DSA/List.md",
     "DSA/ArrayList.md",
