@@ -2,5 +2,6 @@
 
 **Syntax**
 HashMap<key,value> obj = new HashMap<>();
-# Importnat Methods
+# Important Methods
+1. map.put(a,b) 
 
