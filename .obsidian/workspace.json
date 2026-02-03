@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Myfile/Java.md",
+                "file": "Myfile/Java Trees.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Java"
+              "title": "Java Trees"
             }
           }
         ],
@@ -212,7 +212,7 @@
   "active": "75825725e884de6e",
   "lastOpenFiles": [
     "Untitled.md",
-    "Myfile/Java.md",
+    "Myfile/Java Trees.md",
     "Myfile",
     "Notes",
     "Untitled.canvas",
