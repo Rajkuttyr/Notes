@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Myfile/Untitled 1.md",
+                "file": "Myfile/Java.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled 1"
+              "title": "Java"
             }
           }
         ],
@@ -209,10 +209,10 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "3db67ec90d9b9c17",
+  "active": "75825725e884de6e",
   "lastOpenFiles": [
     "Untitled.md",
-    "Myfile/Untitled 1.md",
+    "Myfile/Java.md",
     "Myfile",
     "Notes",
     "Untitled.canvas",
