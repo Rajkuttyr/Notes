@@ -8,7 +8,8 @@ HashMap<key,value> obj = new HashMap<>();
 3. map.containsKey(key)
 4. map.getOrDefault(key,default);
 5. map.size();
-6. map.
+6. map.values();
+7. map.keySet();
 
 
 ## Use Case
