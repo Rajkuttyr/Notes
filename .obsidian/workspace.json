@@ -4,53 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "6513341f507b06b0",
+        "id": "fa06b6cdea1bca69",
         "type": "tabs",
         "children": [
           {
-            "id": "5ddd3436a8d4bea9",
+            "id": "682b57e5cc8abb8a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Untitled.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Untitled"
-            }
-          },
-          {
-            "id": "75825725e884de6e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Myfile/Java Trees.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Java Trees"
-            }
-          },
-          {
-            "id": "a12725d6fd395e2d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Leetcode/Leetcode Questions.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Leetcode Questions"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -223,7 +190,7 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "a12725d6fd395e2d",
+  "active": "3db67ec90d9b9c17",
   "lastOpenFiles": [
     "Untitled.canvas",
     "Leetcode/Leetcode Questions.md",
