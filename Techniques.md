@@ -299,4 +299,373 @@ while (!q.isEmpty()) {
 
 ---
 
+🔥 This is a **next-level DSA move**.  
+You already covered core patterns — now these are the **“supporting techniques”** that actually decide whether you _solve_ the problem or get stuck.
 
+Below are **ESSENTIAL DSA TECHNIQUES** that are **NOT the usual two-pointer / sliding window**, but are **required for almost EVERY DSA problem**.
+
+Written **strictly in your format** ✅  
+Markdown-ready, Obsidian-friendly 📘
+
+---
+
+# Frequency Counting
+
+**Syntax**
+
+```java
+Map<Character, Integer> freq = new HashMap<>();
+
+for (char c : s.toCharArray()) {
+    freq.put(c, freq.getOrDefault(c, 0) + 1);
+}
+```
+
+# Important Ideas
+
+1. Convert problem to count-based logic
+    
+2. Avoid nested loops
+    
+3. Works with arrays, strings, windows
+    
+
+## Use Case
+
+- Anagrams
+    
+- Majority element
+    
+- Character counting
+    
+- Window problems
+    
+
+### Leetcode problem number and name to check
+
+1. [[242. Valid Anagram]]
+    
+2. [[169. Majority Element]]
+    
+3. [[438. Find All Anagrams in a String]]
+    
+
+---
+
+# Prefix Sum
+
+**Syntax**
+
+```java
+int[] prefix = new int[n];
+prefix[0] = arr[0];
+
+for (int i = 1; i < n; i++) {
+    prefix[i] = prefix[i - 1] + arr[i];
+}
+```
+
+# Important Ideas
+
+1. Precompute cumulative data
+    
+2. Range queries in O(1)
+    
+3. Avoid repeated summation
+    
+
+## Use Case
+
+- Subarray sum
+    
+- Range queries
+    
+- Sliding window optimization
+    
+
+### Leetcode problem number and name to check
+
+1. [[560. Subarray Sum Equals K]]
+    
+2. [[724. Find Pivot Index]]
+    
+
+---
+
+# Difference Array
+
+**Syntax**
+
+```java
+int[] diff = new int[n + 1];
+
+diff[l] += val;
+diff[r + 1] -= val;
+```
+
+# Important Ideas
+
+1. Lazy range updates
+    
+2. Convert back using prefix sum
+    
+3. O(1) range update
+    
+
+## Use Case
+
+- Range update problems
+    
+- Flight bookings
+    
+- Array manipulation
+    
+
+### Leetcode problem number and name to check
+
+1. [[1109. Corporate Flight Bookings]]
+    
+
+---
+
+# Sorting as a Preprocessing Step
+
+**Syntax**
+
+```java
+Arrays.sort(arr);
+```
+
+# Important Ideas
+
+1. Enables two pointer
+    
+2. Groups duplicates
+    
+3. Simplifies logic
+    
+
+## Use Case
+
+- Pair problems
+    
+- Greedy solutions
+    
+- Remove duplicates
+    
+
+### Leetcode problem number and name to check
+
+1. [[15. 3Sum]]
+    
+2. [[56. Merge Intervals]]
+    
+
+---
+
+# Greedy Choice Strategy
+
+**Syntax (Pattern)**
+
+```java
+// Choose locally optimal decision
+if (better(option1, option2)) {
+    choose option1;
+}
+```
+
+# Important Ideas
+
+1. Local optimal → global optimal
+    
+2. Requires proof
+    
+3. Often combined with sorting
+    
+
+## Use Case
+
+- Interval scheduling
+    
+- Resource allocation
+    
+
+### Leetcode problem number and name to check
+
+1. [[435. Non-overlapping Intervals]]
+    
+2. [[55. Jump Game]]
+    
+
+---
+
+# Binary Search on Answer
+
+**Syntax**
+
+```java
+int low = min, high = max;
+
+while (low <= high) {
+    int mid = low + (high - low) / 2;
+    if (isPossible(mid)) high = mid - 1;
+    else low = mid + 1;
+}
+```
+
+# Important Ideas
+
+1. Search on result, not array
+    
+2. Monotonic condition
+    
+3. Reduces O(n²) → O(n log n)
+    
+
+## Use Case
+
+- Optimization problems
+    
+- Capacity / minimum / maximum
+    
+
+### Leetcode problem number and name to check
+
+1. [[875. Koko Eating Bananas]]
+    
+2. [[1011. Capacity To Ship Packages Within D Days]]
+    
+
+---
+
+# Recursion Template
+
+**Syntax**
+
+```java
+void solve(params) {
+    if (baseCase) return;
+
+    solve(nextState);
+}
+```
+
+# Important Ideas
+
+1. Base case is mandatory
+    
+2. Stack space matters
+    
+3. Think in terms of subproblem
+    
+
+## Use Case
+
+- Tree problems
+    
+- Backtracking
+    
+- DFS
+    
+
+---
+
+# Backtracking Template
+
+**Syntax**
+
+```java
+void backtrack(path, options) {
+    if (goalReached) {
+        result.add(path);
+        return;
+    }
+
+    for (choice : options) {
+        makeChoice(choice);
+        backtrack(path, options);
+        undoChoice(choice);
+    }
+}
+```
+
+## Use Case
+
+- Permutations
+    
+- Combinations
+    
+- Sudoku
+    
+
+### Leetcode problem number and name to check
+
+1. [[46. Permutations]]
+    
+2. [[77. Combinations]]
+    
+
+---
+
+# State Representation
+
+**Syntax Idea**
+
+```java
+class State {
+    int node;
+    int mask;
+    int cost;
+}
+```
+
+# Important Ideas
+
+1. Encode problem state
+    
+2. Used in BFS / DP
+    
+3. Prevent revisiting
+    
+
+## Use Case
+
+- Graph problems
+    
+- Bitmask DP
+    
+- BFS shortest path
+    
+
+---
+
+# Universal DSA Thinking Checklist
+
+> [!TIP]  
+> Before coding, ask:
+> 
+> 1. Can I sort?
+>     
+> 2. Can I use prefix / map?
+>     
+> 3. Can I reduce brute force?
+>     
+> 4. Is condition monotonic?
+>     
+> 5. Is this recursion / DP?
+>     
+
+---
+
+If you want next 🔥:
+
+- **Problem → Pattern mapping table**
+    
+- **DSA decision flowchart**
+    
+- **Mistakes checklist (why WA/TLE happens)**
+    
+- **Interview-only techniques**
+    
+
+Just tell me — we’ll build a **DSA master notebook** 📘🚀
