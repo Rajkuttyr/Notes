@@ -6,5 +6,9 @@ HashMap<key,value> obj = new HashMap<>();
 1. map.put(key,value) 
 2. map.get(key)
 3. map.contains(key)
-4. map.getOrDefault()
+4. map.getOrDefault(key,default);
+5. map.size();
 
+
+## Use Case
+- Count fre
