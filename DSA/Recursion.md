@@ -23,7 +23,7 @@ void solve(params) {
 
 1. Function calls itself
     
-2. Problem broken into smaller subproblems
+2. Problem broken into smaller sub-problems
     
 3. Must have **base case**
     
