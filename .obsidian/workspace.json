@@ -167,12 +167,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DSA/Template.md",
+                "file": "DSA/ArrayList.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Template"
+              "title": "ArrayList"
             }
           }
         ],
@@ -351,16 +351,16 @@
   },
   "active": "6658f51880f8875e",
   "lastOpenFiles": [
+    "DSA/Important Consideration.md",
+    "DSA/HOW TO CHOOSE TECNIQUES.md",
+    "DSA/Template.md",
     "DSA/Techniques.md",
     "DSA/RoadMap.md",
     "DSA/List.md",
-    "DSA/Important Consideration.md",
-    "DSA/HOW TO CHOOSE TECNIQUES.md",
     "DSA/HashMap.md",
     "DSA/Collections.md",
     "DSA/ArrayList.md",
     "DSA/ALGORITHMS.md",
-    "DSA/Template.md",
     "List",
     "Leetcode/532. K-diff Pairs in an Array.md",
     "Leetcode/Leetcode Questions.md",
