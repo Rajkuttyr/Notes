@@ -190,8 +190,7 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
-      "obsidian-git:Open Git source control": false,
-      "github-sync:Sync with Remote": false
+      "obsidian-git:Open Git source control": false
     }
   },
   "active": "aabdb6a5bd8c332c",
