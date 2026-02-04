@@ -1,5 +1,6 @@
 # Hashmap
 1. [[532. K-diff Pairs in an Array]]
+2. 
 
 
 # Two Pointers
