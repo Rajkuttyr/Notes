@@ -8,35 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "aabdb6a5bd8c332c",
+            "id": "d5a38cac9950a38f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Leetcode/532. K-diff Pairs in an Array.md",
+                "file": "DSA/Topics.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "532. K-diff Pairs in an Array"
-            }
-          },
-          {
-            "id": "a3902fa67cc5cc67",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "22. Generate Parentheses.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "22. Generate Parentheses"
+              "title": "Topics"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -208,10 +193,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a3902fa67cc5cc67",
+  "active": "d5a38cac9950a38f",
   "lastOpenFiles": [
+    "DSA/List.md",
+    "Leetcode/22. Generate Parentheses.md",
+    "DSA/Topics.md",
+    "Leetcode/75. Sort Colors.md",
     "Leetcode/532. K-diff Pairs in an Array.md",
-    "22. Generate Parentheses.md",
     "DSA/HOW TO CHOOSE TECNIQUES.md",
     "DSA/ALGORITHMS.md",
     "Myfile/Java Trees.md",
@@ -222,7 +210,6 @@
     "DSA/Important Consideration.md",
     "DSA/Techniques.md",
     "DSA/Collections.md",
-    "DSA/List.md",
     "DSA/ArrayList.md",
     "DSA/HashMap.md",
     "Leetcode/Leetcode Questions.md",
