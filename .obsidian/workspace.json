@@ -181,7 +181,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Recursion.md",
+                "file": "DSA/Recursion.md",
                 "mode": "source",
                 "source": false
               },
@@ -363,10 +363,10 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "aabdb6a5bd8c332c",
+  "active": "3db67ec90d9b9c17",
   "lastOpenFiles": [
     "DSA/ALGORITHMS.md",
-    "Recursion.md",
+    "DSA/Recursion.md",
     "DSA/ArrayList.md",
     "DSA/HOW TO CHOOSE TECNIQUES.md",
     "DSA/HashMap.md",
