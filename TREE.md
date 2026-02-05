@@ -19,13 +19,19 @@ return 1+max(lh,rh);
 6. add left to q
 7. add rigth to q
 8. on one completion 
-9. add one to list 
+9. add node to list 
 10. take the element in q
 11. check left thenn right and both to q
 12. then and so on
 13. if q is empty print the list
 
 ```
-Queue<TREE> queue
+Queue<TREE> queue = new Queuse<>();
+List<List<Integer>> a = new LinkeList<>();
+if(root==null) return a;
+
+
+
+
 
 ```
