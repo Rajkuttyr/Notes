@@ -29,6 +29,21 @@ return 1+max(lh,rh);
 Queue<TREE> queue = new Queue<>();
 List<List<Integer>> a = new LinkedList<>();
 if(root==null) return a;
+while(!q.isEmpty()){
+int n=q.size();
+List<Integer>List = new List<>();
+for(int i=0;i<n;i++){
+
+if(q.peek()!=null)q.push(q.peek().left);
+if(q.peek()!=null)q.push(q.peek().left);
+list.add(q.poll().val);
+}
+a.add(list);
+
+
+}
+return a;
+
 
 
 
