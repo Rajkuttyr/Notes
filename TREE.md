@@ -26,11 +26,9 @@ return 1+max(lh,rh);
 13. if q is empty print the list
 
 ```
-Queue<TREE> queue = new Queuse<>();
+Queue<TREE> queue = new Queue<>();
 List<List<Integer>> a = new LinkeList<>();
 if(root==null) return a;
-
-
 
 
 
