@@ -12,3 +12,6 @@
 
 # Sliding Window 
 1. [[567. Permutation in String]]
+
+# Stack
+1. [[503. Next Greater Element II]]
