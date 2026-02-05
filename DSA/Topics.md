@@ -15,3 +15,6 @@
 
 # Stack
 1. [[503. Next Greater Element II]]
+
+# Binary Search
+1. [[633. Sum of Square Numbers]]
