@@ -21,14 +21,16 @@ return 1+max(lh,rh);
 8. on one completion 
 9. add node to list 
 10. take the element in q
-11. check left thenn right and both to q
+11. check left then n right and both to q
 12. then and so on
 13. if q is empty print the list
 
 ```
 Queue<TREE> queue = new Queue<>();
-List<List<Integer>> a = new LinkeList<>();
+List<List<Integer>> a = new LinkedList<>();
 if(root==null) return a;
+
+
 
 
 
