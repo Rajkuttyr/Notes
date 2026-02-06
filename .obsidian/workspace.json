@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Trees.md",
+                "file": "Leetcode/75. Sort Colors.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Trees"
+              "title": "75. Sort Colors"
             }
           }
         ],
@@ -225,9 +225,9 @@
   },
   "active": "5b2c66923b3a343a",
   "lastOpenFiles": [
+    "Trees.md",
     "TREE.md",
     "DSA/Queue.md",
-    "Trees.md",
     "Untitled.md",
     "DSA/Topics.md",
     "DSA/Template.md",
