@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Leetcode/75. Sort Colors.md",
+                "file": "Trees.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "75. Sort Colors"
+              "title": "Trees"
             }
           }
         ],
@@ -225,8 +225,9 @@
   },
   "active": "5b2c66923b3a343a",
   "lastOpenFiles": [
-    "Trees.md",
     "TREE.md",
+    "Leetcode/75. Sort Colors.md",
+    "Trees.md",
     "DSA/Queue.md",
     "Untitled.md",
     "DSA/Topics.md",
@@ -237,7 +238,6 @@
     "Leetcode/567. Permutation in String.md",
     "DSA/List.md",
     "Leetcode/22. Generate Parentheses.md",
-    "Leetcode/75. Sort Colors.md",
     "Leetcode/532. K-diff Pairs in an Array.md",
     "DSA/HOW TO CHOOSE TECNIQUES.md",
     "DSA/ALGORITHMS.md",
