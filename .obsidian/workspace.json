@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Trees.md",
+                "file": "Leetcode/633. Sum of Square Numbers.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Trees"
+              "title": "633. Sum of Square Numbers"
             }
           }
         ],
@@ -225,20 +225,20 @@
   },
   "active": "5b2c66923b3a343a",
   "lastOpenFiles": [
-    "TREE.md",
+    "Leetcode/567. Permutation in String.md",
+    "Leetcode/532. K-diff Pairs in an Array.md",
+    "Leetcode/503. Next Greater Element II.md",
+    "Leetcode/104 DEPTH OF TREE.md",
     "Leetcode/75. Sort Colors.md",
-    "Trees.md",
+    "Leetcode/633. Sum of Square Numbers.md",
+    "DSA/Trees.md",
+    "DSA/TREE.md",
     "DSA/Queue.md",
     "Untitled.md",
     "DSA/Topics.md",
     "DSA/Template.md",
-    "Leetcode/104 DEPTH OF TREE.md",
-    "Leetcode/633. Sum of Square Numbers.md",
-    "Leetcode/503. Next Greater Element II.md",
-    "Leetcode/567. Permutation in String.md",
     "DSA/List.md",
     "Leetcode/22. Generate Parentheses.md",
-    "Leetcode/532. K-diff Pairs in an Array.md",
     "DSA/HOW TO CHOOSE TECNIQUES.md",
     "DSA/ALGORITHMS.md",
     "Myfile/Java Trees.md",
