@@ -48,9 +48,21 @@
               "icon": "lucide-file",
               "title": "Untitled"
             }
+          },
+          {
+            "id": "721dc559270b4bc4",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.11.7"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.11.7"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -223,7 +235,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3db67ec90d9b9c17",
+  "active": "721dc559270b4bc4",
   "lastOpenFiles": [
     "DSA/BST METHODS.md",
     "Leetcode/633. Sum of Square Numbers.md",
