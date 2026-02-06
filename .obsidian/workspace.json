@@ -222,7 +222,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 329.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -236,7 +236,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "090c753f4766ecc9",
+  "active": "721dc559270b4bc4",
   "lastOpenFiles": [
     "Nithessh loosu.md",
     "DSA/BST METHODS.md",
