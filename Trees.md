@@ -1,3 +1,10 @@
+---
+tags:
+  - TREE
+  - DFS
+  - BFS
+---
+
 🔥 **Excellent choice.**  
 Below is a **COMPLETE, SELF-SUFFICIENT NOTES SET** for **Binary Tree & Binary Search Tree (BST)** — concepts, techniques, and algorithms — written **strictly in your exact format**, clean `.md`, easy to learn, revise, and apply.
 
@@ -431,10 +438,5 @@ If you want next:
 - Tree interview cheat sheet
     
 
-Just tell me 👊
-```
-
-```
----
 
 
