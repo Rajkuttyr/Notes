@@ -185,6 +185,118 @@ Reason: Safe upper bound to store the full segment tree.
 
 ---
 
+
+```java
+class ST {
+
+int seg[];
+
+int n;
+
+  
+
+ST(int[] arr) {
+
+n = arr.length;
+
+seg = new int[4 * n];
+
+build(0, 0, n - 1, arr);
+
+}
+
+  
+
+public void build(int idx, int low, int high, int[] a) {
+
+if (low == high) {
+
+seg[idx] = a[low];
+
+return;
+
+}
+
+  
+
+int mid = low + (high - low) / 2;
+
+build(2 * idx + 1, low, mid, a);
+
+build(2 * idx + 2, mid + 1, high, a);
+
+seg[idx] = Math.max(seg[2 * idx + 1], seg[2 * idx + 2]);
+
+}
+
+  
+
+public int query(int l, int r) {
+
+return query(0, 0, n - 1, l, r);
+
+}
+
+  
+
+public int query(int idx, int low, int high, int l, int r) {
+
+// No overlap
+
+if (r < low || l > high) {
+
+return Integer.MIN_VALUE;
+
+}
+
+  
+
+// Complete overlap
+
+if (l <= low && high <= r) {
+
+return seg[idx];
+
+}
+
+  
+
+int mid = low + (high - low) / 2;
+
+int left = query(2 * idx + 1, low, mid, l, r);
+
+int right = query(2 * idx + 2, mid + 1, high, l, r);
+
+return Math.max(left, right);
+
+}
+
+}
+
+  
+
+public class RMQ {
+
+public static void main(String[] args) {
+
+int[] arr = {2, 1, 5, 3, 4};
+
+ST st = new ST(arr);
+
+  
+
+System.out.println(st.query(0, 4)); // 5
+
+System.out.println(st.query(1, 3)); // 5
+
+System.out.println(st.query(2, 4)); // 5
+
+System.out.println(st.query(0, 2)); // 5
+
+}
+
+}
+```
 ## 🔗 Tags
 
 #segment-tree #rmq #data-structures #leetcode #competitive-programming
