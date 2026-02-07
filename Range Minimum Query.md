@@ -297,6 +297,52 @@ System.out.println(st.query(0, 2)); // 5
 
 }
 ```
+```java
+/* The functions which
+builds the segment tree */
+class GfG {
+    static int seg[];
+
+    public static int[] constructST(int arr[], int n) {
+        // Add your code here
+        seg=new int[4*n];
+        build(0,0,n-1,arr);
+        return seg;
+    }
+    public static void build(int i,int low,int high ,int[] a){
+        if(high==low){
+            seg[i]=a[low];
+            return ;
+        }
+        int mid = low+(high-low)/2;
+        build(2*i+1,low,mid,a);
+        build(2*i+2,mid+1,high,a);
+        seg[i]=Math.min(seg[2*i+1],seg[2*i+2]);
+        
+    }
+    public static int query(int i,int low,int high,int l,int r){
+        if(l>high||r<low){
+            return Integer.MAX_VALUE;
+            
+        }
+        if(l<=low && high<=r){
+            return seg[i];
+        }
+        int mid = low +(high-low)/2;
+        int left = query(2*i+1,low,mid,l,r);
+        int right = query(2*i+2,mid+1,high,l,r);
+        return Math.min(left,right);
+    }
+
+    /* The functions returns the
+      min element in the range
+      from l and r */
+    public static int RMQ(int st[], int n, int l, int r) {
+        return query(0,0,n-1,l,r);
+        // Add your code here
+    }
+}
+```
 ## 🔗 Tags
 
 #segment-tree #rmq #data-structures #leetcode #competitive-programming
