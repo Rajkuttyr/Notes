@@ -97,7 +97,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TRIE TREE.md",
+                "file": "DSA/TRIE TREE.md",
                 "mode": "source",
                 "source": false
               },
@@ -278,11 +278,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5356a27a79b523b2",
+  "active": "3db67ec90d9b9c17",
   "lastOpenFiles": [
     "DSA/Range Minimum Query.md",
-    "TRIE TREE.md",
-    "SEGMENT TREE.md",
+    "DSA/TRIE TREE.md",
+    "DSA/SEGMENT TREE.md",
     "DSA/BST METHODS.md",
     "Nithessh loosu.md",
     "DSA/ArrayList.md",
