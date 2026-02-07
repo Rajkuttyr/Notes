@@ -76,9 +76,23 @@
               "icon": "lucide-file",
               "title": "Range Minimum Query"
             }
+          },
+          {
+            "id": "d123c9ca3fa91a68",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SEGMENT TREE.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "SEGMENT TREE"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -250,10 +264,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "618541630b156b6e",
+  "active": "d123c9ca3fa91a68",
   "lastOpenFiles": [
-    "DSA/BST METHODS.md",
     "Range Minimum Query.md",
+    "SEGMENT TREE.md",
+    "DSA/BST METHODS.md",
     "Nithessh loosu.md",
     "DSA/ArrayList.md",
     "DSA/ALGORITHMS.md",
@@ -277,7 +292,6 @@
     "DSA/Recursion.md",
     "DSA/RoadMap.md",
     "DSA/Important Consideration.md",
-    "DSA/Techniques.md",
     "List",
     "Untitled 1",
     "DSA",
