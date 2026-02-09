@@ -48,9 +48,23 @@
               "icon": "lucide-file",
               "title": "Graph Cheat Sheet"
             }
+          },
+          {
+            "id": "ab686c1cf8807ca2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TODO.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "TODO"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -222,10 +236,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "01c32f8e1aeb1514",
+  "active": "ab686c1cf8807ca2",
   "lastOpenFiles": [
-    "DSA/TREE.md",
     "Graph Cheat Sheet.md",
+    "TODO.md",
+    "DSA/TREE.md",
     "DSA/Graph.md",
     "DSA/Range Minimum Query.md",
     "DSA/Template.md",
@@ -249,7 +264,6 @@
     "DSA/HOW TO CHOOSE TECNIQUES.md",
     "Myfile/Java Trees.md",
     "Notes/MD NOTES.md",
-    "DSA/Recursion.md",
     "List",
     "Untitled 1",
     "DSA",
