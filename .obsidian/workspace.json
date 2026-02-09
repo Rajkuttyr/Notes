@@ -83,7 +83,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Program Cheat Sheet.md",
+                "file": "DSA/Program Cheat Sheet.md",
                 "mode": "source",
                 "source": false
               },
@@ -264,10 +264,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a73d86712cb2dc21",
+  "active": "3db67ec90d9b9c17",
   "lastOpenFiles": [
     "DSA/Concept CheatSheet.md",
-    "Program Cheat Sheet.md",
+    "DSA/Program Cheat Sheet.md",
     "DSA/Graph.md",
     "TODO.md",
     "DSA/Graph Cheat Sheet.md",
