@@ -64,6 +64,20 @@
             }
           },
           {
+            "id": "9c44e133590edf43",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Hello.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Hello"
+            }
+          },
+          {
             "id": "3b82b8267cd56a88",
             "type": "leaf",
             "state": {
@@ -106,7 +120,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -163,8 +177,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "a523827e377efd3f",
@@ -279,15 +292,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ab686c1cf8807ca2",
+  "active": "9c44e133590edf43",
   "lastOpenFiles": [
+    "DSA/Graph.md",
+    "Hello.md",
     "207. Course Schedule.md",
     "DSA/ALGORITHMS.md",
     "Dynamic Programing.md",
     "DSA/Range Minimum Query.md",
     "DSA/Program Cheat Sheet.md",
     "DSA/Concept CheatSheet.md",
-    "DSA/Graph.md",
     "TODO.md",
     "DSA/Graph Cheat Sheet.md",
     "DSA/TREE.md",
@@ -306,7 +320,6 @@
     "DSA/Trees.md",
     "DSA/Queue.md",
     "DSA/Topics.md",
-    "DSA/List.md",
     "List",
     "Untitled 1",
     "DSA",
