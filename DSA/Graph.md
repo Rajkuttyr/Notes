@@ -551,3 +551,6 @@ If you want, I can also give:
 * 📌 **Obsidian-linked notes (with backlinks)**
 
 Just tell me 👀
+
+
+
