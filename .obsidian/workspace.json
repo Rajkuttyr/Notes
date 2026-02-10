@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hello.md",
+                "file": "DSA/Collections.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Hello"
+              "title": "Collections"
             }
           },
           {
@@ -294,7 +294,10 @@
   },
   "active": "9c44e133590edf43",
   "lastOpenFiles": [
+    "DSA/BST METHODS.md",
+    "DSA/ArrayList.md",
     "DSA/Graph.md",
+    "DSA/Graph Cheat Sheet.md",
     "Hello.md",
     "207. Course Schedule.md",
     "DSA/ALGORITHMS.md",
@@ -303,14 +306,11 @@
     "DSA/Program Cheat Sheet.md",
     "DSA/Concept CheatSheet.md",
     "TODO.md",
-    "DSA/Graph Cheat Sheet.md",
     "DSA/TREE.md",
     "DSA/Template.md",
     "DSA/TRIE TREE.md",
     "DSA/SEGMENT TREE.md",
-    "DSA/BST METHODS.md",
     "Nithessh loosu.md",
-    "DSA/ArrayList.md",
     "Leetcode/633. Sum of Square Numbers.md",
     "Leetcode/567. Permutation in String.md",
     "Leetcode/532. K-diff Pairs in an Array.md",
