@@ -8,3 +8,6 @@ Adjacent node should have an edges
 Degree of graph - no of edges attached to the graph in UD graph
 Degree of graph = 2* E(UD)
 Directed Graph- Indegree outdegree
+```java
+
+```
