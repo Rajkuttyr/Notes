@@ -175,3 +175,176 @@ Here are notes on the Introduction to Graph Data Structures based on the provide
 
 - **Time:** $O(N \times M)$ (Each cell is processed at most once).
 - **Space:** $O(N \times M)$ (Queue and Visited array size).
+  Based on the provided sources, here is the Java code implementing the three core concepts discussed: **Breadth-First Search (BFS)**, **Depth-First Search (DFS)**, and the **Rotten Oranges** problem (an application of BFS).
+
+### 1. BFS and DFS Traversals
+
+The following class demonstrates how to traverse a graph using an Adjacency List `ArrayList<ArrayList<Integer>>`, as described in the sources.
+
+```
+import java.util.*;
+
+public class GraphTraversals {
+
+    // BREADTH-FIRST SEARCH (BFS)
+    // Concept: Level-wise traversal using a Queue.
+    public ArrayList<Integer> bfsOfGraph(int V, ArrayList<ArrayList<Integer>> adj) {
+        ArrayList<Integer> bfs = new ArrayList<>();
+        boolean[] visited = new boolean[V]; // Visited array to track nodes
+        Queue<Integer> q = new LinkedList<>(); // Queue for FIFO operations
+
+        // Initial configuration: Push starting node (0) and mark as visited
+        q.add(0);
+        visited = true;
+
+        // Iterate until queue is empty
+        while (!q.isEmpty()) {
+            Integer node = q.poll(); // Take the node out
+            bfs.add(node); // Add to result list
+
+            // Traverse all neighbors of the current node
+            for (Integer neighbor : adj.get(node)) {
+                // If neighbor is not visited, add to queue and mark visited
+                if (!visited[neighbor]) {
+                    visited[neighbor] = true;
+                    q.add(neighbor);
+                }
+            }
+        }
+        return bfs;
+    }
+
+    // DEPTH-FIRST SEARCH (DFS)
+    // Concept: Depth-wise traversal using Recursion.
+
+    // Main DFS function to initialize variables
+    public ArrayList<Integer> dfsOfGraph(int V, ArrayList<ArrayList<Integer>> adj) {
+        boolean[] visited = new boolean[V]; // Visited array
+        ArrayList<Integer> ls = new ArrayList<>(); // List to store DFS result
+
+        // Assuming 0 is the starting node for 0-based indexing
+        dfs(0, visited, adj, ls);
+        return ls;
+    }
+
+    // Recursive helper function
+    private void dfs(int node, boolean[] visited, ArrayList<ArrayList<Integer>> adj, ArrayList<Integer> ls) {
+        visited[node] = true; // Mark node as visited
+        ls.add(node); // Add node to the list
+
+        // Traverse neighbors
+        for (Integer neighbor : adj.get(node)) {
+            // Only make a recursive call if the neighbor is unvisited
+            if (!visited[neighbor]) {
+                dfs(neighbor, visited, adj, ls);
+            }
+        }
+    }
+}
+```
+
+---
+
+### 2. Rotten Oranges (Grid BFS)
+
+This solution solves the "Rotten Oranges" problem using BFS because oranges rot simultaneously level-by-level.
+
+```
+import java.util.*;
+
+public class RottenOranges {
+
+    // Helper class to store coordinates and time
+    static class Pair {
+        int row;
+        int col;
+        int tm;
+
+        Pair(int row, int col, int tm) {
+            this.row = row;
+            this.col = col;
+            this.tm = tm;
+        }
+    }
+
+    public int orangesRotting(int[][] grid) {
+        int n = grid.length;
+        int m = grid.length;
+
+        // Queue stores {row, col, time}
+        Queue<Pair> q = new LinkedList<>();
+
+        // Visited array to keep track of rotten oranges
+        int[][] visited = new int[n][m];
+
+        int cntFresh = 0; // Count fresh oranges to check validity later
+
+        // Step 1: Initialize Queue with all initially rotten oranges
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < m; j++) {
+                // If cell contains rotten orange (2)
+                if (grid[i][j] == 2) {
+                    q.add(new Pair(i, j, 0)); // Push with time 0
+                    visited[i][j] = 2; // Mark as visited
+                } else {
+                    visited[i][j] = 0;
+                }
+
+                // If cell contains fresh orange (1), count it
+                if (grid[i][j] == 1) {
+                    cntFresh++;
+                }
+            }
+        }
+
+        int tm = 0; // Variable to track maximum time
+
+        // Delta arrays for 4 directions: top, right, bottom, left
+        int[] dRow = {-1, 0, 1, 0};
+        int[] dCol = {0, 1, 0, -1};
+        int cnt = 0; // Count of fresh oranges converted to rotten
+
+        // Step 2: BFS Traversal
+        while (!q.isEmpty()) {
+            int r = q.peek().row;
+            int c = q.peek().col;
+            int t = q.peek().tm; // Get current time
+            tm = Math.max(tm, t); // Update max time
+            q.remove();
+
+            // Check all 4 neighbors
+            for (int i = 0; i < 4; i++) {
+                int nrow = r + dRow[i];
+                int ncol = c + dCol[i];
+
+                // Check boundary validity and if the neighbor is a fresh orange
+                if (nrow >= 0 && nrow < n && ncol >= 0 && ncol < m &&
+                    visited[nrow][ncol] == 0 && grid[nrow][ncol] == 1) {
+
+                    // Push to queue with time + 1
+                    q.add(new Pair(nrow, ncol, t + 1));
+
+                    // Mark as visited/rotten
+                    visited[nrow][ncol] = 2;
+
+                    cnt++; // Increment count of converted oranges
+                }
+            }
+        }
+
+        // Step 3: Validation
+        // If the number of oranges we rotted != initial fresh count, return -1
+        if (cnt != cntFresh) {
+            return -1;
+        }
+
+        return tm; // Return the minimum time required
+    }
+}
+```
+
+### Key Logic Summary from Sources:
+
+- **BFS (Breadth-First Search):** Uses a **Queue**. It traverses neighbors (breadth) before moving deeper. Time Complexity is $O(N + 2E)$.
+- **DFS (Depth-First Search):** Uses **Recursion** (Stack). It traverses deep into one path before backtracking. Time Complexity is $O(N + 2E)$ (Summation of degrees).
+- **Rotten Oranges:** Uses **Multi-source BFS**. We push _all_ initially rotten oranges into the queue at time 0. We cannot use DFS because we need the _minimum_ time, which implies simultaneous level-wise processing.
