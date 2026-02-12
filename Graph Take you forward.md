@@ -348,3 +348,4 @@ public class RottenOranges {
 - **BFS (Breadth-First Search):** Uses a **Queue**. It traverses neighbors (breadth) before moving deeper. Time Complexity is $O(N + 2E)$.
 - **DFS (Depth-First Search):** Uses **Recursion** (Stack). It traverses deep into one path before backtracking. Time Complexity is $O(N + 2E)$ (Summation of degrees).
 - **Rotten Oranges:** Uses **Multi-source BFS**. We push _all_ initially rotten oranges into the queue at time 0. We cannot use DFS because we need the _minimum_ time, which implies simultaneous level-wise processing.
+  
