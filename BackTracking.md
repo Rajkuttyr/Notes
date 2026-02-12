@@ -75,3 +75,10 @@ public class RecursionExample {
 ```
 
 _(Note: The source example stops when `count == 3`, so it prints 0, 1, and 2 before returning.)_
+1D 
+how to understand is dp;
+count the total number of ways;
+multiple way find min or max ;
+Try all possible way like count figre out 
+# Shortcut
+1. try 
