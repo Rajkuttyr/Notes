@@ -181,7 +181,7 @@ Here are notes on the Introduction to Graph Data Structures based on the provide
 
 The following class demonstrates how to traverse a graph using an Adjacency List `ArrayList<ArrayList<Integer>>`, as described in the sources.
 
-```
+```java
 import java.util.*;
 
 public class GraphTraversals {
@@ -249,7 +249,7 @@ public class GraphTraversals {
 
 This solution solves the "Rotten Oranges" problem using BFS because oranges rot simultaneously level-by-level.
 
-```
+```java
 import java.util.*;
 
 public class RottenOranges {
