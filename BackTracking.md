@@ -1037,21 +1037,21 @@ unchoose
 ---
 
 ### Visualization Training (45–60 min)
-- [ ] Visualize recursion tree for [1,2]
-- [ ] Visualize recursion tree for [1,2,3]
-- [ ] Understand DFS nature
-- [ ] Understand leaf nodes are solutions
+- [x] Visualize recursion tree for [1,2]
+- [x] Visualize recursion tree for [1,2,3]
+- [x] Understand DFS nature
+- [x] Understand leaf nodes are solutions
 
 ---
 
 ## Hour 2 — Core Problems (60–120 min)
 
 ### Subsets (60–80 min)
-- [ ] Understand subsets problem
-- [ ] Understand start index concept
-- [ ] Understand duplicate prevention
-- [ ] Trace subsets execution manually
-- [ ] Implement subsets code yourself
+- [x] Understand subsets problem
+- [x] Understand start index concept
+- [x] Understand duplicate prevention
+- [x] Trace subsets execution manually
+- [x] Implement subsets code yourself
 
 ---
 
