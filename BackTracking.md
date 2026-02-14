@@ -1005,22 +1005,22 @@ If you want, I can also give
 ---
 
 ### Backtracking Core Concept (15–30 min)
-- [ ] Understand Choose → Explore → Unchoose
-- [ ] Understand decision tree model
-- [ ] Understand state (current path)
-- [ ] Understand choices (available options)
-- [ ] Understand base condition
-- [ ] Understand why backtracking (remove step) is required
+- [x] Understand Choose → Explore → Unchoose
+- [x] Understand decision tree model
+- [x] Understand state (current path)
+- [x] Understand choices (available options)
+- [x] Understand base condition
+- [x] Understand why backtracking (remove step) is required
 
 ---
 
 ### Universal Template (30–45 min)
-- [ ] Memorize backtracking template
-- [ ] Understand temp list purpose
-- [ ] Understand result list purpose
-- [ ] Understand loop inside recursion
-- [ ] Understand when to store result
-- [ ] Understand remove() step
+- [x] Memorize backtracking template
+- [x] Understand temp list purpose
+- [x] Understand result list purpose
+- [x] Understand loop inside recursion
+- [x] Understand when to store result
+- [x] Understand remove() step
 
 Template to memorize:
 
