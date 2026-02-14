@@ -75,3 +75,678 @@ public class RecursionExample {
 ```
 
 _(Note: The source example stops when `count == 3`, so it prints 0, 1, and 2 before returning.)_
+Here are your **complete Obsidian-style Backtracking Notes (A → Z)** designed so you can master it in **2 hours** and solve almost any backtracking problem.
+
+You can copy-paste this directly into Obsidian.
+
+---
+
+# BACKTRACKING — COMPLETE NOTES (A → Z)
+
+---
+
+# 1. What is Backtracking
+
+Backtracking is a technique used to solve problems by:
+
+* Trying all possible choices
+* If a choice leads to a dead end → undo the choice
+* Try another choice
+
+It is basically:
+
+> Recursion + Undo step
+
+Core idea:
+
+```
+Choose → Explore → Unchoose
+```
+
+---
+
+# 2. Real Life Example
+
+Imagine opening a lock with digits 0-9.
+
+Try:
+
+```
+000
+001
+002
+...
+999
+```
+
+If wrong → go back → change last digit
+
+This is backtracking.
+
+---
+
+# 3. When to use Backtracking (MOST IMPORTANT)
+
+Use backtracking when problem says:
+
+* find all possible
+* print all combinations
+* print all permutations
+* generate all
+* subset
+* arrangement
+* configuration
+
+Keywords:
+
+```
+ALL
+COMBINATIONS
+PERMUTATIONS
+GENERATE
+SUBSETS
+WAYS
+ARRANGEMENTS
+```
+
+If question asks ALL possibilities → BACKTRACKING
+
+---
+
+# 4. Backtracking Tree Visualization
+
+Example nums = [1,2,3]
+
+Tree:
+
+```
+                []
+          /      |      \
+        [1]     [2]     [3]
+       /   \    /   \    /   \
+    [1,2] [1,3] ...
+```
+
+Each node = choice
+
+Each branch = explore
+
+Going back up = backtrack
+
+---
+
+# 5. Core Components of Backtracking
+
+Every backtracking problem has:
+
+```
+1. state (current solution)
+2. choices (what you can pick)
+3. constraint (when to stop)
+4. result storage
+```
+
+---
+
+# 6. UNIVERSAL TEMPLATE (MEMORIZE THIS)
+
+This works for 90% problems.
+
+```java
+void backtrack(parameters) {
+
+    if(base condition) {
+        save result
+        return;
+    }
+
+    for(each choice) {
+
+        if(invalid choice)
+            continue;
+
+        // CHOOSE
+        make choice
+
+        // EXPLORE
+        backtrack(next state)
+
+        // UNCHOOSE (BACKTRACK)
+        undo choice
+    }
+}
+```
+
+---
+
+# 7. Most Important Line in Backtracking
+
+THIS LINE:
+
+```java
+temp.remove(temp.size()-1);
+```
+
+This is BACKTRACK.
+
+Without this → WRONG ANSWER
+
+---
+
+# 8. Example 1: SUBSETS
+
+Problem:
+
+nums = [1,2,3]
+
+Output:
+
+```
+[]
+[1]
+[2]
+[3]
+[1,2]
+[1,3]
+[2,3]
+[1,2,3]
+```
+
+Code:
+
+```java
+class Solution {
+
+    List<List<Integer>> result = new ArrayList<>();
+
+    public List<List<Integer>> subsets(int[] nums) {
+        backtrack(nums, 0, new ArrayList<>());
+        return result;
+    }
+
+    void backtrack(int[] nums, int start, List<Integer> temp) {
+
+        result.add(new ArrayList<>(temp));
+
+        for(int i = start; i < nums.length; i++) {
+
+            temp.add(nums[i]);
+
+            backtrack(nums, i+1, temp);
+
+            temp.remove(temp.size()-1);
+        }
+    }
+}
+```
+
+Key concept:
+start index prevents duplicates.
+
+---
+
+# 9. Example 2: PERMUTATIONS
+
+Problem:
+
+[1,2,3]
+
+Output:
+
+```
+[1,2,3]
+[1,3,2]
+[2,1,3]
+[2,3,1]
+[3,1,2]
+[3,2,1]
+```
+
+Code:
+
+```java
+class Solution {
+
+    List<List<Integer>> result = new ArrayList<>();
+
+    public List<List<Integer>> permute(int[] nums) {
+        boolean[] used = new boolean[nums.length];
+        backtrack(nums, used, new ArrayList<>());
+        return result;
+    }
+
+    void backtrack(int[] nums, boolean[] used, List<Integer> temp) {
+
+        if(temp.size() == nums.length) {
+            result.add(new ArrayList<>(temp));
+            return;
+        }
+
+        for(int i=0;i<nums.length;i++) {
+
+            if(used[i]) continue;
+
+            used[i] = true;
+            temp.add(nums[i]);
+
+            backtrack(nums, used, temp);
+
+            temp.remove(temp.size()-1);
+            used[i] = false;
+        }
+    }
+}
+```
+
+Key concept:
+used[] prevents reuse.
+
+---
+
+# 10. Example 3: COMBINATION SUM
+
+Code:
+
+```java
+void backtrack(int[] nums, int target, int start, List<Integer> temp) {
+
+    if(target == 0) {
+        result.add(new ArrayList<>(temp));
+        return;
+    }
+
+    if(target < 0) return;
+
+    for(int i=start;i<nums.length;i++) {
+
+        temp.add(nums[i]);
+
+        backtrack(nums, target-nums[i], i, temp);
+
+        temp.remove(temp.size()-1);
+    }
+}
+```
+
+---
+
+# 11. Backtracking vs Recursion
+
+Recursion:
+
+Only calls function
+
+Backtracking:
+
+Calls function + undo step
+
+Example:
+
+Wrong recursion:
+
+```
+add
+call
+```
+
+Correct backtracking:
+
+```
+add
+call
+remove
+```
+
+---
+
+# 12. Time Complexity
+
+Worst case:
+
+```
+O(2^n)
+O(n!)
+```
+
+Because trying all possibilities.
+
+---
+
+# 13. How to Identify Backtracking Problem (INTERVIEW TRICK)
+
+Ask yourself:
+
+Question asking ALL possibilities?
+
+YES → backtracking
+
+Example:
+
+* all subsets → yes
+* all permutations → yes
+* one best answer → NO (use DP or greedy)
+
+---
+
+# 14. Decision Tree Model
+
+Every backtracking problem forms a tree.
+
+Nodes = states
+
+Edges = choices
+
+Leaves = solutions
+
+---
+
+# 15. Most Common Patterns
+
+Pattern 1:
+
+Subsets
+
+Pattern 2:
+
+Permutations
+
+Pattern 3:
+
+Combination sum
+
+Pattern 4:
+
+N-Queens
+
+Pattern 5:
+
+Generate parentheses
+
+Pattern 6:
+
+Sudoku
+
+---
+
+# 16. Key Variables Explained
+
+temp → current path
+
+result → final answers
+
+start → avoid duplicate
+
+used[] → track visited
+
+---
+
+# 17. Golden Rule
+
+Always remember:
+
+```
+add
+recurse
+remove
+```
+
+---
+
+# 18. Common Mistakes
+
+Mistake 1:
+
+Not removing element
+
+Wrong:
+
+```java
+temp.add(nums[i]);
+backtrack(...);
+```
+
+Correct:
+
+```java
+temp.add(nums[i]);
+backtrack(...);
+temp.remove(temp.size()-1);
+```
+
+Mistake 2:
+
+Not copying list
+
+Wrong:
+
+```java
+result.add(temp);
+```
+
+Correct:
+
+```java
+result.add(new ArrayList<>(temp));
+```
+
+---
+
+# 19. Visualization Trick (VERY IMPORTANT)
+
+Think like exploring maze.
+
+Path = temp
+
+Dead end = backtrack
+
+---
+
+# 20. Backtracking Mental Model
+
+Think like:
+
+"I try every possible choice"
+
+If wrong:
+
+"I undo and try next choice"
+
+---
+
+# 21. General Backtracking Skeleton
+
+```java
+List<List<Integer>> result = new ArrayList<>();
+
+void backtrack(...) {
+
+    if(base condition) {
+        result.add(copy);
+        return;
+    }
+
+    for(choice) {
+
+        choose
+
+        backtrack()
+
+        unchoose
+    }
+}
+```
+
+---
+
+# 22. How to Analyze Any Backtracking Problem
+
+Step 1:
+
+What is state?
+
+Step 2:
+
+What are choices?
+
+Step 3:
+
+What is base condition?
+
+Step 4:
+
+What to undo?
+
+---
+
+# 23. Example Analysis
+
+Permutation:
+
+state → current list
+
+choice → unused numbers
+
+base → size == n
+
+undo → remove number
+
+---
+
+# 24. Interview Level Problems List (Must Practice)
+
+Easy:
+
+Subsets
+Permutations
+Combination sum
+
+Medium:
+
+N queens
+Generate parentheses
+
+Hard:
+
+Sudoku
+
+---
+
+# 25. Backtracking Flow
+
+```
+start
+choose option
+go deeper
+if solution save
+go back
+try next option
+```
+
+---
+
+# 26. Most Powerful Trick
+
+Write this first:
+
+```java
+temp.add(nums[i]);
+backtrack(...);
+temp.remove(temp.size()-1);
+```
+
+Everything revolves around this.
+
+---
+
+# 27. Master Template (FINAL)
+
+```java
+class Solution {
+
+    List<List<Integer>> result = new ArrayList<>();
+
+    public List<List<Integer>> solve(int[] nums) {
+
+        backtrack(nums, new ArrayList<>());
+
+        return result;
+    }
+
+    void backtrack(int[] nums, List<Integer> temp) {
+
+        if(condition) {
+            result.add(new ArrayList<>(temp));
+            return;
+        }
+
+        for(int i=0;i<nums.length;i++) {
+
+            temp.add(nums[i]);
+
+            backtrack(nums, temp);
+
+            temp.remove(temp.size()-1);
+        }
+    }
+}
+```
+
+---
+
+# 28. Backtracking vs DP
+
+Backtracking → try all
+
+DP → remember answers
+
+DP = optimized backtracking
+
+---
+
+# 29. Most Important Problems Probability
+
+Very high probability in exams:
+
+Subsets
+Permutations
+Combination Sum
+
+---
+
+# 30. Final Mental Formula
+
+Backtracking =
+
+```
+for(choice)
+    choose
+    recurse
+    unchoose
+```
+
+---
+
+# 31. 2-Hour Master Plan
+
+30 min:
+
+Concept + template
+
+30 min:
+
+Subsets
+
+30 min:
+
+Permutations
+
+30 min:
+
+Combination sum
+
+You will master backtracking.
+
+---
+
+If you want, I can also give
+**top 10 most important backtracking problems with patterns and solutions that guarantee exam success.**
