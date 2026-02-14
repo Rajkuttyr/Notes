@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "# 🚀 DSA Master Question List.md",
+                "file": "BackTracking.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "# 🚀 DSA Master Question List"
+              "title": "BackTracking"
             }
           }
         ],
@@ -253,8 +253,8 @@
   },
   "active": "8fdf039036ead75f",
   "lastOpenFiles": [
-    "BackTracking.md",
     "# 🚀 DSA Master Question List.md",
+    "BackTracking.md",
     "1D DP.md",
     "Dynamic Programing Take U forward.md",
     "Graph Take you forward.md",
