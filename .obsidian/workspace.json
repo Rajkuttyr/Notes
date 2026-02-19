@@ -69,7 +69,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PartB and C DW.md",
+                "file": "Academic/DW/PartB and C DW.md",
                 "mode": "source",
                 "source": false
               },
@@ -250,10 +250,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "197ab9a97f7beb39",
+  "active": "3db67ec90d9b9c17",
   "lastOpenFiles": [
     "DSA/Techniques.md",
-    "PartB and C DW.md",
+    "Academic/DW/PartB and C DW.md",
     "Leetcode/532. K-diff Pairs in an Array.md",
     "Academic/DW",
     "Dynamic Programing.md",
