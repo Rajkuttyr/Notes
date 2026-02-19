@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Academic/WT/Part B.md",
+                "file": "Leetcode/532. K-diff Pairs in an Array.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Part B"
+              "title": "532. K-diff Pairs in an Array"
             }
           }
         ],
@@ -236,11 +236,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3db67ec90d9b9c17",
+  "active": "30230b19d27209ac",
   "lastOpenFiles": [
+    "Dynamic Programing.md",
+    "Academic/WT/Part B.md",
     "Academic/IE/PART B AND C.md",
     "Academic/WT/Q1.md",
-    "Academic/WT/Part B.md",
     "Academic/WT/Two Marks.md",
     "Academic/WT/Q6.md",
     "Academic/WT/Q5.md",
@@ -256,7 +257,6 @@
     "Academic",
     "Leetcode/40. Combination Sum II.md",
     "Leetcode/39. Combination Sum.md",
-    "Dynamic Programing.md",
     "Pasted image 20260211205333.png",
     "Leetcode/78. Subsets.md",
     "Leetcode/567. Permutation in String.md",
