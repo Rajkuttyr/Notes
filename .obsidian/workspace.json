@@ -55,7 +55,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Part B.md",
+                "file": "Academic/WT/Part B.md",
                 "mode": "source",
                 "source": false
               },
@@ -236,10 +236,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "30230b19d27209ac",
+  "active": "3db67ec90d9b9c17",
   "lastOpenFiles": [
     "Academic/IE/PART B AND C.md",
-    "Part B.md",
+    "Academic/WT/Q1.md",
+    "Academic/WT/Part B.md",
+    "Academic/WT/Two Marks.md",
+    "Academic/WT/Q6.md",
+    "Academic/WT/Q5.md",
+    "Academic/WT/Q4.md",
+    "Academic/WT/Q3.md",
+    "Academic/WT/Q2.md",
     "Academic/WT",
     "Academic/IE",
     "Academic/OOSE/CIA.md",
@@ -263,13 +270,6 @@
     "DSA/Concept CheatSheet.md",
     "DSA/Collections.md",
     "DSA/Graph.md",
-    "DSA/BST METHODS.md",
-    "DSA/ArrayList.md",
-    "DSA/Graph Cheat Sheet.md",
-    "Hello.md",
-    "DSA/ALGORITHMS.md",
-    "DSA/Range Minimum Query.md",
-    "TODO.md",
     "List",
     "Untitled 1",
     "DSA",
