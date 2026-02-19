@@ -55,16 +55,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Leetcode/532. K-diff Pairs in an Array.md",
+                "file": "DSA/Techniques.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "532. K-diff Pairs in an Array"
+              "title": "Techniques"
+            }
+          },
+          {
+            "id": "197ab9a97f7beb39",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "PartB and C DW.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "PartB and C DW"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -236,9 +250,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3db67ec90d9b9c17",
+  "active": "197ab9a97f7beb39",
   "lastOpenFiles": [
-    "Untitled",
+    "DSA/Techniques.md",
+    "PartB and C DW.md",
+    "Leetcode/532. K-diff Pairs in an Array.md",
+    "Academic/DW",
     "Dynamic Programing.md",
     "Academic/WT/Part B.md",
     "Academic/IE/PART B AND C.md",
@@ -268,13 +285,10 @@
     "Graph Take you forward.md",
     "207. Course Schedule.md",
     "DSA/Program Cheat Sheet.md",
-    "DSA/Concept CheatSheet.md",
-    "DSA/Collections.md",
     "List",
     "Untitled 1",
     "DSA",
     "Untitled.canvas",
-    "Leetcode",
-    "Myfile"
+    "Leetcode"
   ]
 }
