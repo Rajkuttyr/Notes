@@ -1319,3 +1319,167 @@ Public key certificates are the most secure and widely used method. They ensure 
 If you want, I can also tell you **the most repeated questions from Units 4 and 5 so you can focus only on important ones.
 
 ---
+Between these two, **13(a) RSA encryption/decryption** is actually the easier one for scoring full marks — because it’s a fixed numerical problem with clear steps. Kerberos inter-realm is longer and harder to remember.
+
+So here is the **full step-by-step solution for RSA encryption and decryption**:
+
+---
+
+# Given
+
+p = 17  
+q = 11  
+e = 7  
+M = 88
+
+Where:  
+p, q = prime numbers  
+e = public key exponent  
+M = plaintext message
+
+We need to find:
+
+- Encryption (Ciphertext C)
+    
+- Decryption (Original message M)
+    
+
+---
+
+# Step 1: Calculate n
+
+Formula:
+
+n = p × q
+
+n = 17 × 11  
+n = 187
+
+---
+
+# Step 2: Calculate Euler’s Totient Function φ(n)
+
+Formula:
+
+φ(n) = (p − 1)(q − 1)
+
+φ(n) = (17 − 1)(11 − 1)  
+φ(n) = 16 × 10  
+φ(n) = 160
+
+---
+
+# Step 3: Find Private Key d
+
+Formula:
+
+d × e ≡ 1 mod φ(n)
+
+d × 7 ≡ 1 mod 160
+
+We need multiplicative inverse of 7 mod 160.
+
+Check:
+
+7 × 23 = 161  
+161 mod 160 = 1
+
+Therefore:
+
+d = 23
+
+---
+
+# Step 4: Public Key and Private Key
+
+Public key = (e, n) = (7, 187)  
+Private key = (d, n) = (23, 187)
+
+---
+
+# Step 5: Encryption
+
+Formula:
+
+C = M^e mod n
+
+C = 88^7 mod 187
+
+Using modular calculation:
+
+88² mod 187  
+= 7744 mod 187  
+= 77
+
+88⁴ mod 187  
+= 77² mod 187  
+= 5929 mod 187  
+= 132
+
+88⁷ mod 187  
+= 88⁴ × 88² × 88 mod 187  
+= 132 × 77 × 88 mod 187
+
+132 × 77 = 10164  
+10164 mod 187 = 66
+
+66 × 88 = 5808  
+5808 mod 187 = 11
+
+Therefore:
+
+Ciphertext C = 11
+
+---
+
+# Step 6: Decryption
+
+Formula:
+
+M = C^d mod n
+
+M = 11^23 mod 187
+
+Using modular exponentiation:
+
+11² mod 187 = 121  
+11⁴ mod 187 = 55  
+11⁸ mod 187 = 33  
+11¹⁶ mod 187 = 154
+
+11²³ = 11¹⁶ × 11⁴ × 11² × 11
+
+= 154 × 55 × 121 × 11 mod 187
+
+154 × 55 = 8470 mod 187 = 55  
+55 × 121 = 6655 mod 187 = 110  
+110 × 11 = 1210 mod 187 = 88
+
+Therefore:
+
+Decrypted Message M = 88
+
+---
+
+# Final Answer
+
+Public Key = (7, 187)  
+Private Key = (23, 187)
+
+Encryption:
+
+C = 11
+
+Decryption:
+
+M = 88
+
+---
+
+# Conclusion
+
+The encrypted ciphertext is 11. After decryption using private key, the original message 88 is obtained. This proves RSA encryption and decryption works correctly.
+
+---
+
+If you want, I can also show a **shortcut method to solve RSA in exam in under 2 minutes**.
