@@ -620,3 +620,702 @@ It is widely used in modern systems such as HTTPS, email security, and VPNs. X.5
 ---
 
 If you want, I can also give a **simple diagram version that is easy to draw in exams to get full diagram marks.**
+
+---
+Between these two, the **easier question for 30 marks is:**
+
+👉 **13(b) Framework for a Secure Public-Key Cryptosystem**
+
+---
+
+## Why 13(b) is easier
+
+|Criteria|13(a) Healthcare Security|13(b) Public-Key Cryptosystem|
+|---|---|---|
+|Requires real-world healthcare knowledge|Yes ❌|No ✅|
+|Requires attack-mechanism analysis|Yes ❌|No (mostly theory) ✅|
+|Structure is fixed and easy|Medium|Very easy ✅|
+|Diagram easy to draw|Hard|Very easy ✅|
+|Scoring potential|Medium|High ✅|
+
+Public-key cryptosystem has **clear structure**:
+
+- Introduction
+    
+- Framework diagram
+    
+- Key generation
+    
+- Encryption
+    
+- Decryption
+    
+- Security features
+    
+
+So it’s easier to write and score full marks.
+
+---
+
+# Secure Public-Key Cryptosystem Framework (30 Marks Answer)
+
+---
+
+# Introduction
+
+A public-key cryptosystem is a cryptographic system that uses two different keys for encryption and decryption. These keys are called:
+
+- Public key
+    
+- Private key
+    
+
+The public key is shared openly, while the private key is kept secret.
+
+This system ensures secure communication, authentication, and data protection.
+
+Public-key cryptography is also called **asymmetric cryptography**.
+
+Examples include:
+
+- RSA
+    
+- Diffie-Hellman
+    
+- ECC
+    
+
+---
+
+# Basic Concept
+
+Public-key cryptosystem uses two keys:
+
+- Public key → used for encryption
+    
+- Private key → used for decryption
+    
+
+Public key is known to everyone. Private key is known only to the receiver.
+
+---
+
+# Framework of Public-Key Cryptosystem
+
+## Diagram
+
+```id="yaz42k"
+        Sender                         Receiver
+      -----------                   -----------
+      Plaintext                    Plaintext
+          │                            ▲
+          │ Encryption                │ Decryption
+          ▼                            │
+      Ciphertext  ───────────────► Ciphertext
+          │                            │
+      Uses Public Key             Uses Private Key
+```
+
+---
+
+# Components of Public-Key Cryptosystem
+
+A public-key cryptosystem has the following components:
+
+1. Plaintext
+    
+2. Encryption algorithm
+    
+3. Public key
+    
+4. Private key
+    
+5. Ciphertext
+    
+6. Decryption algorithm
+    
+
+---
+
+# Step 1: Key Generation
+
+In this step, two keys are generated:
+
+- Public key (PU)
+    
+- Private key (PR)
+    
+
+Public key is shared publicly. Private key is kept secret.
+
+Example:
+
+Public Key = (e, n)  
+Private Key = (d, n)
+
+---
+
+# Step 2: Encryption Process
+
+Encryption is performed using the public key.
+
+Formula:
+
+Ciphertext = Encryption (Plaintext, Public Key)
+
+Example:
+
+C = E(PU, P)
+
+Where:  
+C = Ciphertext  
+PU = Public Key  
+P = Plaintext
+
+---
+
+# Step 3: Transmission
+
+Ciphertext is transmitted over network.
+
+Even if attacker intercepts ciphertext, they cannot decrypt without private key.
+
+---
+
+# Step 4: Decryption Process
+
+Receiver uses private key to decrypt ciphertext.
+
+Formula:
+
+Plaintext = Decryption (Ciphertext, Private Key)
+
+Example:
+
+P = D(PR, C)
+
+Where:  
+PR = Private Key  
+C = Ciphertext
+
+---
+
+# Working Example
+
+Step 1: Receiver generates keys  
+Public Key = shared  
+Private Key = secret
+
+Step 2: Sender encrypts message using public key
+
+Step 3: Ciphertext is sent
+
+Step 4: Receiver decrypts using private key
+
+Step 5: Original message is recovered
+
+---
+
+# Mathematical Representation
+
+Encryption:
+
+C = E(PU, P)
+
+Decryption:
+
+P = D(PR, C)
+
+---
+
+# Security of Public-Key Cryptosystem
+
+Security is based on:
+
+- Mathematical complexity
+    
+- Difficulty of factoring large numbers
+    
+- Private key secrecy
+    
+
+Example:
+
+RSA uses prime number factorization.
+
+---
+
+# Features of Public-Key Cryptosystem
+
+1. Uses two keys
+    
+2. Provides secure communication
+    
+3. Supports authentication
+    
+4. Supports digital signature
+    
+5. Supports encryption and decryption
+    
+
+---
+
+# Advantages
+
+1. High security
+    
+2. No need to share private key
+    
+3. Supports secure communication
+    
+4. Enables digital signature
+    
+5. Provides authentication
+    
+
+---
+
+# Disadvantages
+
+1. Slower than symmetric cryptography
+    
+2. Requires more computation
+    
+3. Complex implementation
+    
+
+---
+
+# Applications
+
+Public-key cryptosystem is used in:
+
+1. Secure websites (HTTPS)
+    
+2. Email security
+    
+3. Digital signatures
+    
+4. Online banking
+    
+5. VPN security
+    
+
+---
+
+# Example: RSA Public-Key Cryptosystem
+
+Step 1: Generate public and private keys  
+Step 2: Encrypt using public key  
+Step 3: Decrypt using private key
+
+---
+
+# Security Services Provided
+
+Public-key cryptosystem provides:
+
+1. Confidentiality
+    
+2. Authentication
+    
+3. Integrity
+    
+4. Non-repudiation
+    
+
+---
+
+# Real-World Example
+
+HTTPS uses public-key cryptography to secure communication between browser and server.
+
+---
+
+# Conclusion
+
+Public-key cryptosystem is an important cryptographic method that uses two keys for secure communication. It ensures confidentiality, authentication, and integrity.
+
+The framework includes key generation, encryption, transmission, and decryption. It is widely used in modern security systems such as HTTPS, digital signatures, and secure communication.
+
+Public-key cryptosystem provides strong security and plays a vital role in protecting sensitive information.
+
+---
+
+If you want, I can also tell you **which questions from 11, 12, 13 are easiest overall so you can choose the best ones in exam quickly.**
+
+---
+Between these two, the **easier question for 10 marks is:**
+
+👉 **11(b) Digital Signature – definition, working, diagram, example**
+
+Because:
+
+* It is simple concept
+* No complex math like DSA
+* Easy diagram
+* Easy real-world example
+* Faster to write in exam
+
+---
+
+# Digital Signature
+
+## Definition (2 Marks)
+
+A digital signature is a cryptographic technique used to verify the authenticity, integrity, and origin of a digital message or document.
+
+It is the electronic equivalent of a handwritten signature. It ensures that the message is sent by the correct sender and not modified during transmission.
+
+Digital signatures use public key cryptography.
+
+---
+
+## Working of Digital Signature (6 Marks)
+
+Digital signature works using two keys:
+
+* Private key (used for signing)
+* Public key (used for verification)
+
+---
+
+### Step 1: Message Creation
+
+Sender creates the message.
+
+Example:
+Message = "Hello"
+
+---
+
+### Step 2: Hash Generation
+
+Message is converted into hash value using hash function.
+
+Example:
+Hash = H(Message)
+
+---
+
+### Step 3: Signature Creation
+
+Sender encrypts hash using sender’s private key.
+
+Signature = Encrypt(Hash, Private Key)
+
+---
+
+### Step 4: Send Message and Signature
+
+Sender sends:
+
+* Message
+* Digital signature
+
+---
+
+### Step 5: Signature Verification
+
+Receiver decrypts signature using sender’s public key.
+
+Receiver also generates hash from received message.
+
+---
+
+### Step 6: Compare Hash Values
+
+If both hash values match:
+
+* Signature is valid
+* Message is authentic
+
+If not match:
+
+* Message is modified
+* Signature is invalid
+
+---
+
+## Diagram
+
+```id="vwjnp1"
+Sender Side:                    Receiver Side:
+
+Message                        Message
+   │                              │
+   ▼                              ▼
+Hash Function                 Hash Function
+   │                              │
+   ▼                              ▼
+Encrypt using Private Key     Decrypt using Public Key
+   │                              │
+   ▼                              ▼
+Digital Signature              Hash Value
+   │                              │
+   └────Send Message + Signature─┘
+                │
+                ▼
+           Compare Hash
+                │
+        Valid / Invalid
+```
+
+---
+
+## Example (2 Marks)
+
+Example: Email authentication
+
+Step 1: Sender sends email with digital signature
+Step 2: Receiver verifies signature using public key
+Step 3: If valid, receiver knows email is authentic
+
+Another example:
+
+* Online banking
+* Software download verification
+
+---
+
+## Advantages of Digital Signature
+
+* Provides authentication
+* Ensures data integrity
+* Prevents forgery
+* Provides non-repudiation
+
+---
+
+## Applications
+
+* Secure email
+* Online banking
+* Digital certificates
+* Software distribution
+* E-commerce
+
+---
+
+## Conclusion
+
+Digital signature is an important cryptographic method used to verify identity and protect data integrity. It uses private key for signing and public key for verification. It ensures secure communication and is widely used in modern security systems.
+
+---
+
+If you want, I can also give a **short 1-page exam version so you can write it in 5 minutes and still get full marks.**
+
+
+---
+Between these two, the **easier question for 10 marks is:**
+
+👉 **12(b) Distribution of Public Keys**
+
+Because:
+
+- It is simple theory
+    
+- No complex Kerberos steps (AS, TGS, tickets)
+    
+- Easy to remember 4 schemes
+    
+- Easy to give examples
+    
+- No difficult diagram required
+    
+
+---
+
+# Distribution of Public Keys
+
+## Introduction (2 Marks)
+
+Public key cryptography uses two keys: public key and private key. The public key must be distributed securely so that users can encrypt messages and verify digital signatures.
+
+Public key distribution is the process of sharing public keys between users in a secure and trusted manner.
+
+If public keys are not distributed securely, attackers can perform man-in-the-middle attacks.
+
+---
+
+# Schemes for Public Key Distribution (8 Marks)
+
+There are four widely used schemes:
+
+1. Public Announcement
+    
+2. Publicly Available Directory
+    
+3. Public Key Authority
+    
+4. Public Key Certificates
+    
+
+---
+
+## 1. Public Announcement
+
+In this method, users publicly announce their public keys.
+
+Example:  
+User A publishes public key on website or email.
+
+Example:  
+A → Public Key = PUa
+
+Anyone can use this key.
+
+### Advantages
+
+- Simple method
+    
+- Easy to implement
+    
+
+### Disadvantages
+
+- Not secure
+    
+- Attacker can publish fake key
+    
+
+---
+
+## 2. Publicly Available Directory
+
+In this method, public keys are stored in a central directory.
+
+The directory contains:
+
+- User name
+    
+- Public key
+    
+
+Example:
+
+|User|Public Key|
+|---|---|
+|A|PUa|
+|B|PUb|
+
+Users access directory to get public key.
+
+### Advantages
+
+- More secure than public announcement
+    
+- Easy access
+    
+
+### Disadvantages
+
+- Directory must be trusted
+    
+- Directory can be attacked
+    
+
+---
+
+## 3. Public Key Authority
+
+In this method, a trusted authority provides public keys.
+
+Steps:
+
+1. User requests public key from authority
+    
+2. Authority sends public key
+    
+3. Communication starts
+    
+
+Example:
+
+User A → Authority → Request PUb  
+Authority → A → Sends PUb
+
+### Advantages
+
+- High security
+    
+- Prevents fake keys
+    
+
+### Disadvantages
+
+- Authority must always be online
+    
+- Communication delay
+    
+
+---
+
+## 4. Public Key Certificates (Most Secure Method)
+
+Public key certificate is issued by Certificate Authority (CA).
+
+Certificate contains:
+
+- User name
+    
+- Public key
+    
+- CA signature
+    
+
+Example:  
+Digital certificate used in HTTPS websites.
+
+Browser verifies certificate using CA.
+
+### Advantages
+
+- Very secure
+    
+- Widely used
+    
+- Prevents attacks
+    
+
+### Disadvantages
+
+- Requires certificate authority
+    
+- Certificate management required
+    
+
+---
+
+# Example of Public Key Certificate
+
+Example: HTTPS website
+
+Step 1: Website sends certificate  
+Step 2: Browser verifies certificate  
+Step 3: Secure communication starts
+
+---
+
+# Comparison of Schemes
+
+|Method|Security|Example|
+|---|---|---|
+|Public Announcement|Low|Email|
+|Public Directory|Medium|Organization directory|
+|Public Key Authority|High|Government systems|
+|Public Key Certificate|Very High|HTTPS websites|
+
+---
+
+# Conclusion
+
+Public key distribution is essential for secure communication. There are four methods: public announcement, public directory, public key authority, and public key certificates.
+
+Public key certificates are the most secure and widely used method. They ensure authentication, integrity, and secure communication.
+
+---
+
+If you want, I can also tell you **the most repeated questions from Units 4 and 5 so you can focus only on important ones.
+
+---
