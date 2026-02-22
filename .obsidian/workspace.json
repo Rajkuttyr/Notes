@@ -125,12 +125,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Academic/NS/NS PART A.md",
+                "file": "Academic/NS/Part B and C.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "NS PART A"
+              "title": "Part B and C"
             }
           }
         ],
@@ -306,10 +306,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3db67ec90d9b9c17",
+  "active": "b105a5642ec9f7dd",
   "lastOpenFiles": [
-    "Academic/NS/Part B and C.md",
     "Academic/NS/NS PART A.md",
+    "Academic/NS/Part B and C.md",
     "Academic/NS",
     "Backtracking complete pattern.md",
     "Academic/DW/Part A.md",
