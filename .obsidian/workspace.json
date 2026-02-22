@@ -111,12 +111,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Untitled.md",
+                "file": "Part B and C.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "Part B and C"
             }
           }
         ],
@@ -295,7 +295,7 @@
   "active": "228828af078f6fbf",
   "lastOpenFiles": [
     "Backtracking complete pattern.md",
-    "Untitled.md",
+    "Part B and C.md",
     "Academic/DW/Part A.md",
     "Academic/DW/PartB and C DW.md",
     "DSA/Techniques.md",
