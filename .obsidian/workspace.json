@@ -125,7 +125,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NS PART A.md",
+                "file": "Academic/NS/NS PART A.md",
                 "mode": "source",
                 "source": false
               },
@@ -306,10 +306,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b105a5642ec9f7dd",
+  "active": "3db67ec90d9b9c17",
   "lastOpenFiles": [
     "Academic/NS/Part B and C.md",
-    "NS PART A.md",
+    "Academic/NS/NS PART A.md",
     "Academic/NS",
     "Backtracking complete pattern.md",
     "Academic/DW/Part A.md",
