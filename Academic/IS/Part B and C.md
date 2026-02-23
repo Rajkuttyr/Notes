@@ -935,3 +935,787 @@ Electrical shock hazard depends on parameters such as current, voltage, resistan
 ---
 
 If you want, I can also give a **memory trick + short keywords version to write this in exam within 5 minutes.
+---
+___
+Explain the following terms those resolved lethal dose and lethal concentration.Here is the **easy exam-writing answer (point-wise, simple, with one diagram)**.
+
+---
+
+# Lethal Dose and Lethal Concentration
+
+These terms are used in **toxicology and safety** to measure how dangerous a substance is.
+
+They indicate the amount of substance that can cause death.
+
+---
+
+# Single Diagram: Lethal Dose and Lethal Concentration
+
+Draw this diagram:
+
+```id="r5kn7m"
+        Toxic Substance
+           /     \
+          /       \
+         ▼         ▼
+   Lethal Dose   Lethal Concentration
+      (LD)             (LC)
+   Amount enters   Amount present in
+       body           air/water
+         │               │
+         ▼               ▼
+      Causes           Causes
+       Death            Death
+```
+
+---
+
+# 1. Lethal Dose (LD)
+
+## Definition
+
+Lethal Dose is the amount of toxic substance that causes death when it enters the body.
+
+It is usually expressed as LD₅₀.
+
+LD₅₀ means: Dose that causes death in 50% of test animals.
+
+---
+
+## Unit
+
+mg/kg (milligram per kilogram of body weight)
+
+---
+
+## Explanation
+
+• Substance enters body through mouth, skin, or injection  
+• Higher dose → More dangerous  
+• Lower LD₅₀ → More toxic substance
+
+---
+
+## Example
+
+Potassium cyanide has very low LD₅₀ → Very dangerous
+
+Paracetamol has higher LD₅₀ → Less dangerous
+
+---
+
+## Example in simple form
+
+If LD₅₀ = 10 mg/kg  
+Means 10 mg per kg body weight can kill 50% of test animals.
+
+---
+
+# 2. Lethal Concentration (LC)
+
+## Definition
+
+Lethal Concentration is the concentration of toxic substance in air or water that causes death.
+
+It is usually expressed as LC₅₀.
+
+LC₅₀ means: Concentration that causes death in 50% of test animals.
+
+---
+
+## Unit
+
+ppm (parts per million)  
+or mg/m³
+
+---
+
+## Explanation
+
+• Substance enters body through breathing  
+• Higher concentration → More dangerous  
+• Lower LC₅₀ → More toxic
+
+---
+
+## Example
+
+Carbon monoxide in air causes death at high concentration.
+
+Higher CO concentration → Higher danger
+
+---
+
+# Difference Between Lethal Dose and Lethal Concentration
+
+|Lethal Dose (LD)|Lethal Concentration (LC)|
+|---|---|
+|Amount entering body|Concentration in air or water|
+|Unit: mg/kg|Unit: ppm or mg/m³|
+|Through skin, mouth, injection|Through breathing|
+|Example: Poison ingestion|Example: Gas inhalation|
+
+---
+
+# Importance in Safety
+
+• Helps identify toxic substances  
+• Helps set safety limits  
+• Protects workers  
+• Prevents accidents
+
+---
+
+# Conclusion
+
+Lethal dose is the amount of substance that causes death when entering the body, while lethal concentration is the amount of substance present in air or water that causes death when inhaled. These terms help measure toxicity and ensure safety in workplaces and industries.
+
+---
+
+If you want, I can also give **LD50 and LC50 diagram with graph (very commonly asked in exams)**.
+
+---
+
+Explain the ways by which you can protect the environment from toxic component of chemical industry.
+Here is the **easy exam-writing answer (point-wise, 3 pages style, with one combined diagram)**.
+
+---
+
+# Protection of Environment from Toxic Components of Chemical Industry
+
+---
+
+# Definition
+
+Toxic components are harmful chemicals released from industries that can damage air, water, soil, humans, animals, and plants.
+
+Examples:
+
+• Carbon monoxide  
+• Sulphur dioxide  
+• Chemical waste  
+• Toxic gases  
+• Industrial effluents
+
+Goal: Prevent environmental pollution and protect living organisms.
+
+---
+
+# Single Diagram: Environmental Protection from Toxic Chemicals
+
+Draw this diagram:
+
+```id="jqr0rh"
+         Chemical Industry
+               │
+   ┌───────────┼───────────┐
+   ▼           ▼           ▼
+Air Pollution Water Pollution Soil Pollution
+   │           │           │
+Filters     Effluent     Waste
+Scrubbers   Treatment    Management
+   │           │           │
+   └───────────┼───────────┘
+               ▼
+     Safe Environment Protection
+```
+
+---
+
+# Ways to Protect Environment
+
+---
+
+# 1. Proper Waste Treatment
+
+Industrial waste should be treated before disposal.
+
+Methods:
+
+• Chemical treatment  
+• Biological treatment  
+• Neutralization
+
+Example:
+
+Effluent Treatment Plant (ETP)
+
+Benefit:
+
+Reduces water pollution
+
+---
+
+# 2. Use of Air Pollution Control Devices
+
+Devices used to remove toxic gases.
+
+Examples:
+
+• Filters  
+• Scrubbers  
+• Electrostatic precipitators
+
+Function:
+
+Remove harmful gases from air
+
+Benefit:
+
+Reduces air pollution
+
+---
+
+# 3. Proper Storage of Chemicals
+
+Chemicals must be stored safely.
+
+Methods:
+
+• Use proper containers  
+• Label chemicals clearly  
+• Store in safe locations
+
+Benefit:
+
+Prevents leaks and accidents
+
+---
+
+# 4. Recycling and Reuse of Waste
+
+Waste materials should be reused.
+
+Examples:
+
+• Reuse solvents  
+• Recycle chemical waste
+
+Benefit:
+
+Reduces environmental pollution
+
+---
+
+# 5. Use of Green Technology
+
+Use environment-friendly methods.
+
+Examples:
+
+• Non-toxic chemicals  
+• Eco-friendly processes
+
+Benefit:
+
+Reduces toxic waste generation
+
+---
+
+# 6. Proper Disposal of Hazardous Waste
+
+Hazardous waste should be disposed safely.
+
+Methods:
+
+• Incineration  
+• Landfill disposal  
+• Secure disposal systems
+
+Benefit:
+
+Prevents soil and water pollution
+
+---
+
+# 7. Installation of Effluent Treatment Plant (ETP)
+
+ETP removes harmful chemicals from wastewater.
+
+Process:
+
+• Collection  
+• Treatment  
+• Safe discharge
+
+Benefit:
+
+Protects water resources
+
+---
+
+# 8. Regular Monitoring and Inspection
+
+Check pollution levels regularly.
+
+Methods:
+
+• Air quality monitoring  
+• Water testing  
+• Soil testing
+
+Benefit:
+
+Detects pollution early
+
+---
+
+# 9. Safety Training and Awareness
+
+Workers must be trained.
+
+Training includes:
+
+• Chemical handling  
+• Waste disposal  
+• Emergency procedures
+
+Benefit:
+
+Prevents accidents and pollution
+
+---
+
+# 10. Following Environmental Laws
+
+Industries must follow government rules.
+
+Examples:
+
+• Pollution control standards  
+• Environmental protection laws
+
+Benefit:
+
+Ensures environmental safety
+
+---
+
+# Advantages of Environmental Protection
+
+• Protects human health  
+• Protects plants and animals  
+• Prevents pollution  
+• Maintains ecological balance  
+• Ensures sustainable development
+
+---
+
+# Conclusion
+
+Chemical industries release toxic substances that can harm the environment. Proper waste treatment, pollution control devices, recycling, green technology, and safe disposal methods help protect the environment. Following safety measures and environmental laws ensures a clean and safe environment.
+
+---
+
+If you want, I can also give a **real industrial example (ETP working diagram) which is often asked in exams.
+
+
+---
+1 explain briefly about the process of immediately dangerous tool life or health and short term exposure limit and threshold limit value
+Here is the **easy exam-writing answer (point-wise, simple explanation, with one combined diagram)**.
+
+---
+
+# IDLH, STEL and TLV – Explanation
+
+These terms are used in **industrial safety** to define safe exposure limits of toxic substances.
+
+They help protect workers from harmful chemical exposure.
+
+---
+
+# Single Diagram: Exposure Limits
+
+Draw this diagram:
+
+```id="iwpvcz"
+        Chemical Exposure Limits
+
+               TLV
+     (Safe exposure limit)
+               │
+               ▼
+              STEL
+   (Short-term exposure limit)
+               │
+               ▼
+              IDLH
+ (Immediately dangerous to life
+         or health)
+               │
+               ▼
+            Death Risk
+```
+
+---
+
+# 1. Immediately Dangerous to Life or Health (IDLH)
+
+## Definition
+
+IDLH is the concentration of a toxic substance that can cause immediate death or serious health effects.
+
+It is very dangerous level.
+
+---
+
+## Features
+
+• Causes death immediately  
+• Causes permanent health damage  
+• Dangerous within few minutes
+
+---
+
+## Example
+
+Carbon monoxide at high concentration can cause death quickly.
+
+---
+
+## Purpose
+
+• Helps in emergency planning  
+• Helps workers use protective equipment
+
+---
+
+## Example value
+
+Carbon monoxide IDLH = 1200 ppm
+
+---
+
+# 2. Short-Term Exposure Limit (STEL)
+
+## Definition
+
+STEL is the maximum concentration of a substance a worker can be exposed to for short time (15 minutes) without harmful effects.
+
+---
+
+## Features
+
+• Exposure allowed for 15 minutes only  
+• Should not exceed limit  
+• Prevents short-term health effects
+
+---
+
+## Purpose
+
+• Protect workers from sudden exposure  
+• Prevent irritation and breathing problems
+
+---
+
+## Example
+
+Ammonia STEL = 35 ppm
+
+---
+
+# 3. Threshold Limit Value (TLV)
+
+## Definition
+
+TLV is the maximum concentration of a substance a worker can be exposed to daily for 8 hours without harmful effects.
+
+---
+
+## Features
+
+• Safe exposure level  
+• Used for normal working conditions  
+• Based on 8 hours per day
+
+---
+
+## Purpose
+
+• Protect workers from long-term health effects  
+• Maintain safe working environment
+
+---
+
+## Example
+
+Carbon monoxide TLV = 50 ppm
+
+---
+
+# Difference Between IDLH, STEL and TLV
+
+|Term|Meaning|Exposure Time|Danger Level|
+|---|---|---|---|
+|TLV|Safe exposure limit|8 hours|Low|
+|STEL|Short-term exposure limit|15 minutes|Medium|
+|IDLH|Dangerous exposure limit|Immediate|Very High|
+
+---
+
+# Importance in Industrial Safety
+
+• Protects workers  
+• Prevents health problems  
+• Helps set safety standards  
+• Helps use proper protective equipment
+
+---
+
+# Conclusion
+
+IDLH, STEL, and TLV are important safety limits used to protect workers from toxic chemicals. TLV defines safe daily exposure, STEL defines safe short-term exposure, and IDLH defines dangerous exposure that can cause death or serious health effects.
+
+---
+
+If you want, I can also give a **memory trick diagram (Triangle method) to remember TLV, STEL, IDLH easily in exams.
+
+---
+ describe the process of material safety dataseat hazards identification and root of entry 
+ Here is the **easy exam-writing answer (point-wise, 3 pages style, with one combined diagram)**.
+
+---
+
+# Material Safety Data Sheet (MSDS), Hazard Identification and Routes of Entry
+
+---
+
+# Definition of Material Safety Data Sheet (MSDS)
+
+Material Safety Data Sheet (MSDS) is a document that provides information about chemical hazards, safe handling, storage, and emergency measures.
+
+Purpose:
+• Protect workers
+• Provide safety information
+• Prevent accidents
+
+MSDS is also called Safety Data Sheet (SDS).
+
+---
+
+# Single Diagram: MSDS, Hazard Identification and Routes of Entry
+
+Draw this diagram:
+
+```id="2n6c4s"
+            MATERIAL SAFETY DATA SHEET
+                     │
+     ┌───────────────┼───────────────┐
+     ▼               ▼               ▼
+Hazard Identification Safe Handling Routes of Entry
+     │                               │
+     ▼                               ▼
+ Toxic / Flammable            Inhalation
+ Corrosive / Explosive        Skin Contact
+                              Ingestion
+                              Injection
+                     │
+                     ▼
+                 Health Effects
+```
+
+---
+
+# 1. Process of Material Safety Data Sheet (MSDS)
+
+MSDS provides complete safety information of chemicals.
+
+MSDS contains the following details:
+
+---
+
+## 1. Chemical Identification
+
+• Name of chemical
+• Manufacturer name
+• Chemical formula
+
+Purpose: Identify the chemical
+
+---
+
+## 2. Hazard Identification
+
+• Type of hazard
+• Toxic hazard
+• Fire hazard
+• Health hazard
+
+Purpose: Know dangers of chemical
+
+---
+
+## 3. Composition Information
+
+• Chemical components
+• Percentage of each component
+
+Purpose: Know chemical contents
+
+---
+
+## 4. First Aid Measures
+
+• Treatment for exposure
+• First aid instructions
+
+Example:
+
+• Wash with water
+• Move to fresh air
+
+---
+
+## 5. Fire Fighting Measures
+
+• Fire extinguishing methods
+• Suitable extinguishers
+
+Example:
+
+• Foam extinguisher
+• CO₂ extinguisher
+
+---
+
+## 6. Handling and Storage
+
+• Safe handling methods
+• Safe storage conditions
+
+Purpose:
+
+Prevent accidents
+
+---
+
+## 7. Exposure Control
+
+• Use gloves
+• Use mask
+• Use safety equipment
+
+Purpose:
+
+Protect workers
+
+---
+
+# 2. Hazard Identification
+
+Hazard means danger caused by chemical.
+
+Types of hazards:
+
+---
+
+## 1. Physical Hazard
+
+Examples:
+
+• Fire
+• Explosion
+
+---
+
+## 2. Health Hazard
+
+Examples:
+
+• Skin irritation
+• Breathing problems
+
+---
+
+## 3. Environmental Hazard
+
+Examples:
+
+• Water pollution
+• Air pollution
+
+---
+
+# 3. Routes of Entry
+
+Routes of entry means how chemical enters the body.
+
+There are 4 main routes:
+
+---
+
+## 1. Inhalation
+
+Chemical enters through breathing.
+
+Example:
+
+• Toxic gas inhalation
+
+Effect:
+
+• Lung damage
+
+---
+
+## 2. Skin Contact
+
+Chemical enters through skin.
+
+Example:
+
+• Acid contact
+
+Effect:
+
+• Skin burns
+
+---
+
+## 3. Ingestion
+
+Chemical enters through mouth.
+
+Example:
+
+• Eating contaminated food
+
+Effect:
+
+• Poisoning
+
+---
+
+## 4. Injection
+
+Chemical enters through cuts or wounds.
+
+Example:
+
+• Sharp object injury
+
+Effect:
+
+• Infection
+
+---
+
+# Importance of MSDS
+
+• Provides safety information
+• Prevents accidents
+• Protects workers
+• Helps emergency response
+
+---
+
+# Conclusion
+
+Material Safety Data Sheet provides complete information about chemical hazards, safe handling, and emergency measures. Hazard identification helps identify dangers, and routes of entry explain how chemicals enter the body. MSDS helps ensure safety and prevent accidents in industries.
+
+---
+
+If you want, I can also give a **real MSDS sample format diagram exactly as asked in exams.
+
+---
