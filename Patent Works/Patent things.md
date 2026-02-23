@@ -1,0 +1,69 @@
+Your design overlaps with existing multi‑factor, device‑bound, and step‑up auth patterns, but you add a stricter, protocol‑level separation between “view‑only” and “admin/credential‑change” modes plus a phrase‑based device login. Below is a comparison with some closest ideas.
+
+## Overview (plain language)
+
+- Existing systems:
+    
+    - Use device + user factors to adjust privilege.Trusted device-specific authentication+2
+        
+    - Use JWT/OAuth tokens with scopes/claims (`roles`, `acr`) for step‑up auth.scottbrady+2
+        
+    - Use certificate/device‑bound tokens to prevent replay on other devices.raidiam+3
+        
+- Your system adds:
+    
+    - A passwordless **secret phrase + device** login that is _intentionally limited_ to restricted, view‑only mode.
+        
+    - A **privilege‑encoded challenge** (requested level inside the signed challenge).
+        
+    - **Non‑elevatable tokens**: VIEW_ONLY tokens can never be upgraded; credential changes always require a separate Level 2 (password) flow.
+        
+
+## Comparison table
+
+**Legend**
+
+- Existing patents: US7979899B2 and US8336091B2 = trusted device + multi‑level auth.Multi-level authentication+2
+    
+- OAuth Step‑Up: RFC 9470 and common step‑up patterns.datatracker.ietf+2
+    
+- Cert‑bound tokens: OAuth mTLS / certificate‑bound access tokens.rfc-editor+3
+    
+
+|Aspect|Existing patents (trusted device + multi‑level auth)|OAuth step‑up & claims (RFC 9470 etc.)|Certificate‑bound tokens|**Your proposed system**|
+|---|---|---|---|---|
+|Core idea|User plus device factors used to authenticate and then assign different privilege levels or trusted status. Trusted device-specific authentication+2|Client gets a token with certain `acr`/auth strength; when API needs stronger auth, it triggers a step‑up flow to get a new token. scottbrady+2|Access tokens are cryptographically bound to a client certificate/key so they cannot be replayed from another device. raidiam+3|Device‑bound secret phrase login gives restricted, view‑only JWT; password (optionally with device) gives admin JWT for credential changes; tokens are device‑bound and privilege‑encoded.|
+|Device binding|Device ID or certificate used as a second factor; trust state may depend on having a known device. Trusted device-specific authentication+2|Not mandatory; device awareness typically via separate policies or `acr` values (e.g., “strong auth” includes device). scottbrady+1|Explicit: token includes confirmation (`cnf`) claim with cert/key thumbprint; server checks token + client cert. raidiam+3|Device has a public key registered per user; server stores pubkey and derives thumbprint; all tokens for Level 1/2 can carry device thumbprint, and server verifies binding on each request.|
+|User factor type|Generally username/password or other secrets, sometimes biometrics; device factor is in addition. Trusted device-specific authentication+2|Typically password + MFA, or passkeys via OIDC; not focused on “secret phrase + device only view mode.” scottbrady+2|Agnostic to user factor; focuses on token–client binding. raidiam+2|Two distinct modes: (1) secret phrase + device signature (no password) for Level 1; (2) password (optionally + device) for Level 2. Secret phrase is intentionally not enough for admin actions.|
+|Multi‑level / tiered access|Yes, multi‑level authentication: different combinations of user and device credentials yield different access rights. Multi-level authentication+1|Yes: tokens with different auth strength (`acr`) or scopes; APIs require higher level for sensitive operations and trigger step‑up. scottbrady+2|Not about levels; focuses on sender constraints. raidiam+2|Two explicit levels: Level 1 = VIEW_ONLY (phrase+device), Level 2 = ADMIN (password). Level 1 tokens are designed to never call credential‑modification APIs.|
+|How privilege is represented|In some cases, as roles or access level associated with user/device in server logic; not necessarily a signed token with detailed claims. Trusted device-specific authentication+2|In token claims like `scope`, `roles`, `acr`, and `amr`; APIs enforce required claim values. cerberauth+3|Token has `cnf` claim for binding; privilege still via scopes/roles. raidiam+3|JWT explicitly carries `auth_level` = VIEW_ONLY or ADMIN plus device thumbprint; backend enforces access purely from these signed claims (e.g., `/view/**` vs `/admin/**`).|
+|Step‑up behaviour|Higher level access may be granted when both user and device credentials succeed; can be multi‑stage, but descriptions are typically high level. Trusted device-specific authentication+2|Designed around step‑up: resource server sends challenge indicating required higher auth; client re‑authenticates and gets stronger token. scottbrady+2|No step‑up semantics; just binding. raidiam+2|You can support step‑up, but with stricter rule: **VIEW_ONLY tokens cannot be upgraded**; admin must always come from a fresh Level 2 login, preventing “token upgrade” flows from phrase‑only sessions.|
+|Challenge content|Usually nonce/timestamp and maybe device info; not explicitly encoding “requested privilege level” into the challenge that the device signs. Trusted device-specific authentication+2|Challenge may reference required `acr` or scope but not standardised as “privilege level in signed challenge.” scottbrady+2|mTLS handshake binds token to cert; challenge is TLS‑level, not privilege‑aware. raidiam+2|Challenge includes `requested_auth_level` (VIEW_ONLY or ADMIN) plus nonce/timestamp; device signs this entire blob, and server ensures issued token’s `auth_level` matches what was signed → replaying a VIEW_ONLY signature cannot yield ADMIN token.|
+|Token upgrade / elevation model|Multi‑level auth may allow session/role elevation when more factors are presented; specifics vary. Multi-level authentication+1|Designed to upgrade: initial token → step‑up challenge → new, stronger token; earlier token may still exist. scottbrady+2|No built‑in elevation; used in normal OAuth flows. raidiam+2|Non‑elevatable design: VIEW_ONLY tokens are never accepted for any credential‑change flow or exchange; there is **no token upgrade API**. Any privileged operation requires a distinct Level 2 auth run and fresh ADMIN token.|
+|Focus on credential‑modification protection|Often mentions stronger auth for sensitive operations, but not always formalised as “no credential changes possible under certain tokens.” Trusted device-specific authentication+2|Common practice is stronger auth for profile/credential endpoints, but pattern is generic (policy, not a protocol that forbids elevation from certain tokens). scottbrady+1|Not specific to credential changes. raidiam+1|Main goal: **protect credential changes and device registration** behind Level 2 only; protocol guarantees that phrase+device (Level 1) can never be used, directly or indirectly, to alter credentials or registered devices.|
+|Passwordless aspect|Typically centered on passwords + device; some patents discuss non‑password credentials but not in “view‑only mode” framing. Trusted device-specific authentication+2|Supports passwordless via WebAuthn/OIDC, but not focused on “passwordless only gives limited view mode by design.” scottbrady+2|Independent of password vs passwordless. raidiam+2|Explicit **passwordless restricted mode**: secret phrase + device → view‑only access; full admin is password‑gated.|
+|Protocol explicitness (for a patent)|Protocol is described but often at higher abstraction; core idea is multi‑factor → trust level. Trusted device-specific authentication+2|Well‑specified messages for step‑up challenge and response; strong prior art for “step‑up auth.” datatracker.ietf+2|RFCs describe exact token structure and binding; strong prior art for device‑bound tokens. raidiam+2|You can define a concrete, custom protocol: messages, challenge format including privilege, JWT claim model, and rules for what each token type can/cannot do, with a special focus on preventing credential‑change escalation from passwordless mode.|
+
+## Summary of “already exists” vs “your new part”
+
+**Already exists:**
+
+- Device‑specific authentication with multi‑level access based on factors.Multi-Level Authentication+2
+    
+- JWT/OAuth tokens with scopes/roles/`acr` and step‑up authentication for sensitive actions.authlete+2
+    
+- Certificate‑bound / device‑bound access tokens.verify.ibm+3
+    
+
+**You are adding:**
+
+- A clearly defined **passwordless, phrase + device mode** that is cryptographically constrained to view‑only access.
+    
+- A **privilege‑encoded challenge** signed by the device, directly mapped to a signed `auth_level` claim in the JWT, so VIEW_ONLY signatures cannot produce ADMIN tokens.
+    
+- A **non‑elevatable token model**: no token upgrade path from Level 1; all credential‑change and device‑registration flows require a fresh Level 2 (password) protocol run.
+    
+- A protocol explicitly framed around **credential‑modification protection** as the main security property, not just “strong auth for sensitive actions.”
+    
+
+These are the pieces you should highlight in any patent/paper, because they are the most differentiated compared to existing patterns.
