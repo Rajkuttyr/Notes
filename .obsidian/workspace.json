@@ -132,9 +132,37 @@
               "icon": "lucide-file",
               "title": "# 🚀 DSA Master Question List"
             }
+          },
+          {
+            "id": "e62ed732f45b63ef",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CyberSecurity/Cybersecurity.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Cybersecurity"
+            }
+          },
+          {
+            "id": "1f6a0603f570a4e7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Patent things.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Patent things"
+            }
           }
         ],
-        "currentTab": 8
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -292,7 +320,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 329.5
+    "width": 268.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -306,9 +335,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b105a5642ec9f7dd",
+  "active": "1f6a0603f570a4e7",
   "lastOpenFiles": [
-    "Untitled 1.md",
+    "CyberSecurity/Cybersecurity.md",
+    "Patent things.md",
+    "Patent Works",
+    "Untitled 2.md",
+    "# 🚀 DSA Master Question List.md",
+    "CyberSecurity",
     "Untitled.md",
     "Untitled.canvas",
     "DSA/HashMap.md",
@@ -339,12 +373,7 @@
     "CIA 1",
     "Academic/OOSE",
     "Academic",
-    "Leetcode/40. Combination Sum II.md",
-    "Leetcode/39. Combination Sum.md",
     "Pasted image 20260211205333.png",
-    "Leetcode/78. Subsets.md",
-    "List",
-    "Untitled 1",
-    "DSA"
+    "List"
   ]
 }
