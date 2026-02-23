@@ -181,12 +181,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Patent Works/Patent Comparison Table.md",
+                "file": "Academic/IS/Part B and C.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Patent Comparison Table"
+              "title": "Part B and C"
             }
           }
         ],
@@ -365,8 +365,10 @@
   },
   "active": "cd6eda395fb3b545",
   "lastOpenFiles": [
-    "Patent Works/Patent things.md",
     "Patent Works/Patent Comparison Table.md",
+    "Academic/IS/Part B and C.md",
+    "Academic/IS",
+    "Patent Works/Patent things.md",
     "Pasted image 20260211205333.png",
     "Comparison Table.md",
     "CyberSecurity/Cybersecurity.md",
@@ -396,12 +398,10 @@
     "Academic/WT/Q5.md",
     "Academic/WT/Q4.md",
     "Academic/WT/Q3.md",
-    "Academic/WT/Q2.md",
     "Academic/WT",
     "Academic/IE",
     "CIA 1",
     "Academic/OOSE",
-    "Academic",
-    "List"
+    "Academic"
   ]
 }
