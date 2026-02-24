@@ -8,188 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "2bc8a1261d98d9c2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "BackTracking.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "BackTracking"
-            }
-          },
-          {
-            "id": "dd44ad2d8ca97c3b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Academic/OOSE/CIA.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "CIA"
-            }
-          },
-          {
-            "id": "c73875f570984fbc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Academic/IE/PART B AND C.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "PART B AND C"
-            }
-          },
-          {
-            "id": "30230b19d27209ac",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DSA/Techniques.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Techniques"
-            }
-          },
-          {
-            "id": "197ab9a97f7beb39",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Academic/DW/PartB and C DW.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "PartB and C DW"
-            }
-          },
-          {
-            "id": "d74a153a53b9e2dc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Academic/DW/Part A.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Part A"
-            }
-          },
-          {
-            "id": "b0c68ee08bb2605a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Backtracking complete pattern.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Backtracking complete pattern"
-            }
-          },
-          {
-            "id": "228828af078f6fbf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Academic/NS/Part B and C.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Part B and C"
-            }
-          },
-          {
-            "id": "b105a5642ec9f7dd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "# 🚀 DSA Master Question List.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "# 🚀 DSA Master Question List"
-            }
-          },
-          {
-            "id": "e62ed732f45b63ef",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CyberSecurity/Cybersecurity.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Cybersecurity"
-            }
-          },
-          {
-            "id": "1f6a0603f570a4e7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Patent Works/Patent things.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Patent things"
-            }
-          },
-          {
-            "id": "07055f9dda9721f4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Patent Works/Patent things.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Patent things"
-            }
-          },
-          {
-            "id": "cd6eda395fb3b545",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Abstract.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Abstract"
-            }
-          },
-          {
             "id": "3a3a9068057c8714",
             "type": "leaf",
             "state": {
@@ -203,8 +21,7 @@
               "title": "Part B and C"
             }
           }
-        ],
-        "currentTab": 13
+        ]
       }
     ],
     "direction": "vertical"
@@ -378,40 +195,40 @@
   },
   "active": "3a3a9068057c8714",
   "lastOpenFiles": [
-    "Symposium Events.md",
-    "Academic/MA/Part B and C.md",
-    "Academic/MA",
     "Abstract.md",
+    "Patent Works/Patent things.md",
+    "CyberSecurity/Cybersecurity.md",
+    "# 🚀 DSA Master Question List.md",
+    "Academic/NS/Part B and C.md",
+    "Backtracking complete pattern.md",
+    "Academic/DW/Part A.md",
+    "Academic/DW/PartB and C DW.md",
+    "DSA/Techniques.md",
+    "Academic/IE/PART B AND C.md",
+    "Academic/OOSE/CIA.md",
+    "BackTracking.md",
+    "Academic/MA/Part B and C.md",
+    "Symposium Events.md",
+    "Academic/MA",
     "Untitled 2.md",
     "Untitled.canvas",
     "Untitled 1.md",
     "Academic/IS/Part B and C.md",
     "Patent Works/Patent Comparison Table.md",
     "Academic/IS",
-    "Patent Works/Patent things.md",
     "Pasted image 20260211205333.png",
     "Comparison Table.md",
-    "CyberSecurity/Cybersecurity.md",
     "Patent Works",
-    "# 🚀 DSA Master Question List.md",
     "CyberSecurity",
     "DSA/HashMap.md",
     "Hello.md",
-    "Academic/NS/Part B and C.md",
     "Academic/NS/NS PART A.md",
     "Academic/NS",
-    "Backtracking complete pattern.md",
-    "Academic/DW/Part A.md",
-    "Academic/DW/PartB and C DW.md",
-    "DSA/Techniques.md",
     "Leetcode/532. K-diff Pairs in an Array.md",
     "Academic/DW",
     "Dynamic Programing.md",
     "Academic/WT/Part B.md",
-    "Academic/IE/PART B AND C.md",
     "Academic/WT/Q1.md",
-    "Academic/WT/Two Marks.md",
-    "Academic/WT/Q6.md",
     "Academic/WT",
     "Academic/IE",
     "CIA 1",
