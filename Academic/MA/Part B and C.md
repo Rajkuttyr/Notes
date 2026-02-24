@@ -1306,3 +1306,129 @@ Both types are important in different situations. Linear multimedia is useful wh
 
 This answer is detailed enough for 10 marks and can comfortably fill around 3 pages when written neatly in the exam. If you want, I can also format future answers with a comparison table for extra presentation marks.
 
+## Introduction
+
+In multimedia, different types of files are used such as images, audio, video, text, and animation. These files are created using different software and devices. To make sure that these files can be opened and used on different systems without any problem, certain rules and standards are followed.
+
+These rules are called file standards. They help in maintaining quality and compatibility in multimedia projects.
+
+---
+
+# Definition (2 Marks)
+
+File standards in multimedia are predefined rules or specifications that define how multimedia files (audio, video, images, text, animation) should be stored, compressed, and shared so that they can work properly on different devices and software.
+
+In simple words, file standards ensure that multimedia files can be used everywhere without errors.
+
+---
+
+# Importance of File Standards (5 Marks)
+
+File standards are very important in multimedia for the following reasons:
+
+---
+
+## 1. Ensures Compatibility Across Devices
+
+Multimedia files are used on computers, mobile phones, tablets, smart TVs, and many other devices. If there were no standards, a file created in one device may not open in another.
+
+Example:  
+An MP4 video file can be played on almost all devices because it follows a standard format.
+
+This makes sharing easy and smooth.
+
+---
+
+## 2. Maintains Quality of Content
+
+Standards define how audio and video should be compressed and stored. This helps in maintaining good sound and picture quality.
+
+Example:  
+JPEG standard ensures acceptable image quality even after compression.  
+MP3 standard maintains clear audio with smaller file size.
+
+Thus, standards help balance quality and storage size.
+
+---
+
+## 3. Reduces File Size Efficiently
+
+Multimedia files can be very large. Standards define proper compression techniques so that files become smaller without losing too much quality.
+
+Example:  
+MPEG standard reduces video size for streaming.  
+PNG uses lossless compression for images.
+
+This is important for internet usage and storage.
+
+---
+
+## 4. Supports Interoperability
+
+Interoperability means different systems working together smoothly. File standards allow files created in one software to be opened in another.
+
+Example:  
+A PDF file can be opened in many different PDF readers.  
+An MP3 file can be played in any music player.
+
+This makes multimedia production and sharing easier.
+
+---
+
+## 5. Saves Time and Cost
+
+When common standards are followed, developers and companies do not need to create new formats for every project. This reduces development time and cost.
+
+It also avoids compatibility issues that may cause extra expenses.
+
+---
+
+# Role of File Standards in Ensuring Compatibility and Quality (3 Marks)
+
+---
+
+## 1. Provides Uniform Structure
+
+File standards define a fixed structure for storing data. Because of this uniform structure, devices and software understand how to read the file correctly.
+
+This ensures compatibility across platforms.
+
+---
+
+## 2. Defines Compression and Encoding Methods
+
+Standards specify how audio, video, and images should be compressed and encoded. Proper encoding ensures that quality is maintained while reducing file size.
+
+For example:
+
+- MP3 defines audio compression method.
+    
+- MPEG defines video compression method.
+    
+
+This ensures consistent quality.
+
+---
+
+## 3. Enables Global Sharing
+
+Since file standards are accepted worldwide, multimedia content can be shared globally without conversion problems.
+
+For example:  
+A YouTube video in MP4 format can be viewed anywhere in the world.
+
+Thus, standards play a key role in global communication.
+
+---
+
+# Conclusion
+
+File standards are essential in multimedia because they ensure that files can be opened, shared, and used across different devices and platforms. They help maintain quality, reduce file size, and support compatibility.
+
+Without file standards, multimedia files would face many problems like poor quality, large size, and incompatibility between devices.
+
+Therefore, file standards play a major role in maintaining both compatibility and quality in multimedia systems.
+
+---
+
+This answer is detailed, simple, and structured properly for 10 marks and can easily fill around 3 pages in exam writing. If you want, I can also give a diagram-based explanation for better presentation marks.
