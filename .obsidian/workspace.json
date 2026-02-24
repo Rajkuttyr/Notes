@@ -195,12 +195,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Symposium Events.md",
+                "file": "Academic/MA/Part B and C.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Symposium Events"
+              "title": "Part B and C"
             }
           }
         ],
@@ -378,8 +378,10 @@
   },
   "active": "3a3a9068057c8714",
   "lastOpenFiles": [
-    "Abstract.md",
     "Symposium Events.md",
+    "Academic/MA/Part B and C.md",
+    "Academic/MA",
+    "Abstract.md",
     "Untitled 2.md",
     "Untitled.canvas",
     "Untitled 1.md",
@@ -410,11 +412,9 @@
     "Academic/WT/Q1.md",
     "Academic/WT/Two Marks.md",
     "Academic/WT/Q6.md",
-    "Academic/WT/Q5.md",
     "Academic/WT",
     "Academic/IE",
     "CIA 1",
-    "Academic/OOSE",
-    "Academic"
+    "Academic/OOSE"
   ]
 }
