@@ -1119,3 +1119,190 @@ Object linking and embedding help integrate multimedia objects into documents. L
 If you want, I can also give a **one-page revision sheet covering entire Multimedia Unit 1–5 for last-day exam preparation.**
 
 ---
+
+## Introduction
+
+Multimedia means the combination of different types of media such as text, images, audio, video, animation, and graphics to present information. It is used in education, entertainment, business presentations, websites, mobile apps, games, and many other areas.
+
+Multimedia can be mainly classified into two types:
+
+1. Linear Multimedia
+    
+2. Non-linear Multimedia
+    
+
+Now let us understand each one clearly and then compare them in detail.
+
+---
+
+## 1. Linear Multimedia (Definition – 2 Marks)
+
+Linear multimedia is a type of multimedia in which the content plays from beginning to end in a fixed sequence, and the user cannot control or change the flow of content.
+
+It runs in a straight line, just like watching a movie in a theatre. The viewer can only watch or listen, but cannot change what comes next.
+
+### Example of Linear Multimedia:
+
+- Watching a movie on TV
+    
+- Listening to a recorded song
+    
+- Watching a pre-recorded video lecture
+    
+- A slideshow that plays automatically without user control
+    
+
+In all these cases, the content follows a fixed order.
+
+---
+
+## 2. Non-Linear Multimedia (Definition – 2 Marks)
+
+Non-linear multimedia is a type of multimedia in which the user can control the flow of content. The user can choose what to see next, skip sections, interact with the content, or move in different directions.
+
+It does not follow a fixed sequence. The user decides the path.
+
+### Example of Non-Linear Multimedia:
+
+- Educational websites
+    
+- Mobile apps
+    
+- Video games
+    
+- Interactive e-learning modules
+    
+- YouTube videos where we can pause, skip, rewind, or choose different videos
+    
+
+Here, the user actively participates and controls the experience.
+
+---
+
+# Key Differences Between Linear and Non-Linear Multimedia
+
+(8 Marks – Detailed Explanation)
+
+Now let us clearly differentiate between linear and non-linear multimedia.
+
+---
+
+### 1. Control Over Content
+
+Linear Multimedia:  
+The user has no control over the sequence. The content plays in a fixed order from start to finish.
+
+Example:  
+In a movie, you cannot change the story sequence while watching in a theatre.
+
+Non-Linear Multimedia:  
+The user has full or partial control over the sequence. They can choose what to view next.
+
+Example:  
+In an online learning website, you can select any topic you want to study first.
+
+---
+
+### 2. Interaction Level
+
+Linear Multimedia:  
+There is no interaction between the user and the system. The user only watches or listens.
+
+Example:  
+Watching a news broadcast on television.
+
+Non-Linear Multimedia:  
+There is interaction. The user clicks, selects, types, or navigates through content.
+
+Example:  
+Playing a video game where the player's actions decide what happens next.
+
+---
+
+### 3. Structure
+
+Linear Multimedia:  
+It follows a straight-line structure (beginning → middle → end).
+
+Example:  
+A documentary video that plays in a fixed order.
+
+Non-Linear Multimedia:  
+It follows a branching structure. Users can jump between sections.
+
+Example:  
+A website where you can move from the homepage to any page using links.
+
+---
+
+### 4. User Role
+
+Linear Multimedia:  
+The user is a passive viewer.
+
+Example:  
+Listening to a podcast without interacting.
+
+Non-Linear Multimedia:  
+The user is an active participant.
+
+Example:  
+Using an interactive simulation in a science learning app.
+
+---
+
+### 5. Flexibility
+
+Linear Multimedia:  
+Less flexible. Content cannot be changed during playback.
+
+Non-Linear Multimedia:  
+Highly flexible. Users can skip, replay, or select different options.
+
+Example:  
+In an e-learning app, you can repeat a lesson or skip to the next chapter.
+
+---
+
+### 6. Usage Area
+
+Linear Multimedia is commonly used in:
+
+- Movies
+    
+- TV programs
+    
+- Advertisements
+    
+- Recorded presentations
+    
+
+Non-Linear Multimedia is commonly used in:
+
+- Websites
+    
+- Educational software
+    
+- Games
+    
+- Mobile applications
+    
+- Interactive kiosks
+    
+
+---
+
+## Conclusion
+
+In simple words, the main difference between linear and non-linear multimedia is user control.
+
+Linear multimedia plays in a fixed sequence and does not allow user interaction. It is suitable for storytelling and entertainment like movies and recorded videos.
+
+Non-linear multimedia allows users to interact and control the content. It is widely used in modern applications like websites, apps, games, and online learning platforms.
+
+Both types are important in different situations. Linear multimedia is useful when a fixed message needs to be delivered, while non-linear multimedia is useful when user participation and flexibility are required.
+
+---
+
+This answer is detailed enough for 10 marks and can comfortably fill around 3 pages when written neatly in the exam. If you want, I can also format future answers with a comparison table for extra presentation marks.
+
