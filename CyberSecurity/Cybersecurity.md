@@ -115,3 +115,229 @@ UDP is a **connectionless protocol** that sends data without guaranteeing delive
 ---
 
 
+## CIA Triad in Cybersecurity
+
+The **CIA Triad** is a model used in cybersecurity to protect information. CIA stands for:
+
+- **C – Confidentiality**
+    
+- **I – Integrity**
+    
+- **A – Availability**
+    
+
+It ensures that data is **secure, accurate, and accessible when needed**.
+
+---
+
+## CIA Triad Diagram
+
+![Image](https://images.openai.com/static-rsc-3/5pZ3oMi_-4TJMfexGobM5yAu2fbWFLWbITbxNO8h-6vlS758MxaynnqdnIMJdfPK1v50AKdgLmmeeYyDNNADntEIxkjP_PSrEUPLXCDdTvQ?purpose=fullsize&v=1)
+
+![Image](https://images.openai.com/static-rsc-3/uCjQ88kc9ZW_orEVzCv0TNbXxSIslyy-ZiXLqxZ6mvIO-SK7HoMdkTZLcaxBq_q84oi1DbKtyFQ4Vo6rZSvQvQzOah2uJqVETgVOZuS0keo?purpose=fullsize&v=1)
+
+![Image](https://images.openai.com/static-rsc-3/kK7G9JOVvI3ypadEYxYIVE9HUzCP68_dThpn2L5zfQpgsi6x8ls2X87SlTux6vsN5YPtC-WyGrMdYRG0WtuJcMLROlhWYrZEgorcBi1f2SI?purpose=fullsize&v=1)
+
+---
+
+## 1. Confidentiality
+
+**Definition:**  
+Confidentiality means protecting data from unauthorized access.
+
+**Purpose:**  
+Only authorized users can access the information.
+
+**Examples:**
+
+- Password protection
+    
+- Encryption
+    
+- OTP authentication
+    
+
+**Real-life example:**  
+Only you can access your email using your password.
+
+---
+
+## 2. Integrity
+
+**Definition:**  
+Integrity ensures that data is accurate and not modified by unauthorized users.
+
+**Purpose:**  
+Prevents data tampering or alteration.
+
+**Examples:**
+
+- Hash functions (SHA-256)
+    
+- Digital signatures
+    
+- Checksums
+    
+
+**Real-life example:**  
+Your bank balance should not change without your permission.
+
+---
+
+## 3. Availability
+
+**Definition:**  
+Availability ensures that data and systems are accessible when needed.
+
+**Purpose:**  
+Ensures continuous access to information.
+
+**Examples:**
+
+- Backup systems
+    
+- Servers
+    
+- Regular maintenance
+    
+
+**Real-life example:**  
+Accessing your college portal anytime without downtime.
+
+---
+
+## Summary Table
+
+|Component|Meaning|Example|
+|---|---|---|
+|Confidentiality|Protect data from unauthorized access|Password, Encryption|
+|Integrity|Protect data from modification|Hashing, Digital signature|
+|Availability|Ensure data is accessible|Backup, Servers|
+
+---
+
+
+## 4 A’s in Security
+
+The **4 A’s in Security** are four important principles used to control and monitor access to systems and data.
+
+They are:
+
+1. **Authentication**
+    
+2. **Authorization**
+    
+3. **Accounting**
+    
+4. **Auditing**
+    
+
+---
+
+## Diagram of 4A Security Model
+
+![Image](https://miro.medium.com/0%2A9WZnM_foBQEql8nh.png)
+
+![Image](https://discover.strongdm.com/hubfs/aaa-security.jpg)
+
+![Image](https://www.researchgate.net/publication/349829923/figure/fig1/AS%3A998067373367299%401614969213900/Structure-of-the-suggested-network-security-model.ppm)
+
+![Image](https://img.brainkart.com/imagebk9/pfebZo6.jpg)
+
+---
+
+## 1. Authentication (Who are you?)
+
+**Definition:**  
+Authentication is the process of verifying the identity of a user.
+
+**Purpose:**  
+Ensures the user is genuine.
+
+**Examples:**
+
+- Username and password
+    
+- OTP
+    
+- Fingerprint
+    
+- Face recognition
+    
+
+**Example in real life:**  
+Logging into your Gmail using email and password.
+
+---
+
+## 2. Authorization (What can you access?)
+
+**Definition:**  
+Authorization determines what resources a user can access after authentication.
+
+**Purpose:**  
+Controls permissions.
+
+**Examples:**
+
+- Admin can edit data
+    
+- Student can only view data
+    
+
+**Example:**  
+Only teachers can upload marks, students can only view marks.
+
+---
+
+## 3. Accounting (What did you do?)
+
+**Definition:**  
+Accounting keeps a record of user activities in the system.
+
+**Purpose:**  
+Tracks user actions.
+
+**Examples:**
+
+- Login time
+    
+- Logout time
+    
+- Files accessed
+    
+
+**Example:**  
+System records when you logged into your college portal.
+
+---
+
+## 4. Auditing (Checking and reviewing)
+
+**Definition:**  
+Auditing is the process of reviewing and analyzing the records to detect security issues.
+
+**Purpose:**  
+Ensures security and detects misuse.
+
+**Examples:**
+
+- Checking login logs
+    
+- Detecting suspicious activity
+    
+
+**Example:**  
+Admin checking logs to detect hacking attempts.
+
+---
+
+## Summary Table
+
+|A|Meaning|Example|
+|---|---|---|
+|Authentication|Verify identity|Password, OTP|
+|Authorization|Access permission|Admin vs Student access|
+|Accounting|Record user activity|Login records|
+|Auditing|Review activity logs|Security checks|
+
