@@ -21,4 +21,12 @@ CSMA CSMA/CD(collision detection)
 # OSI reference model
  - OSi stands open system interconnection
  - it is beveloped by iso
- - it is a 7 layer a
+ - it is a 7 layer architectur
+ 1. Application layer - Data Generation
+ 2. Presentation layer -  Perform transulationn compression and encryption
+ 3. Sesssion layer-Managing session
+ 4. Transport Layer-End to end data transmission -TCP/IP
+ 5. Network Layer-Ip adress - routing that data
+ 6. DataLink layer-error free transmisssion
+ 7. Physical layer-Medium of transfer
+ - 
