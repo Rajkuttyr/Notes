@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Academic/MA/Part B and C.md",
+                "file": "CyberSecurity/Cybersecurity.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Part B and C"
+              "title": "Cybersecurity"
             }
           }
         ]
@@ -179,7 +179,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 268.5
+    "width": 268.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -195,6 +196,7 @@
   },
   "active": "3a3a9068057c8714",
   "lastOpenFiles": [
+    "Academic/MA/Part B and C.md",
     "Abstract.md",
     "Patent Works/Patent things.md",
     "CyberSecurity/Cybersecurity.md",
@@ -207,7 +209,6 @@
     "Academic/IE/PART B AND C.md",
     "Academic/OOSE/CIA.md",
     "BackTracking.md",
-    "Academic/MA/Part B and C.md",
     "Symposium Events.md",
     "Academic/MA",
     "Untitled 2.md",
