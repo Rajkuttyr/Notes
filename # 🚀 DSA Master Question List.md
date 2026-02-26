@@ -48,11 +48,11 @@
 ## 🔗 Two Pointers (6 Questions)
 
 ### College
-* [ ] [LC 125. Valid Palindrome](125.%20Valid%20Palindrome.md)
+* [x] [LC 125. Valid Palindrome](125.%20Valid%20Palindrome.md)
 * [ ] [LC 26. Remove Duplicates from Sorted Array](26.%20Remove%20Duplicates%20from%20Sorted%20Array.md)
-* [ ] [LC 11. Container With Most Water](Problems/11.%20Container%20With%20Most%20Water.md)
+* [x] [LC 11. Container With Most Water](Problems/11.%20Container%20With%20Most%20Water.md)
 * [ ] [LC 15. 3Sum](Problems/15.%203Sum.md)
-* [ ] [LC 42. Trapping Rain Water](42.%20Trapping%20Rain%20Water.md)
+* [x] [LC 42. Trapping Rain Water](42.%20Trapping%20Rain%20Water.md)
 * [ ] [LC 75. Sort Colors](75.%20Sort%20Colors.md)
 
 ---
