@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Leetcode/54. Spiral Matrix.md",
+                "file": "# 🚀 DSA Master Question List.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "54. Spiral Matrix"
+              "title": "# 🚀 DSA Master Question List"
             }
           }
         ],
@@ -210,6 +210,8 @@
   },
   "active": "fc2ff70b9c774416",
   "lastOpenFiles": [
+    "37. Sudoku Solver.md",
+    "Patent Works/Comparison Table.md",
     "# 🚀 DSA Master Question List.md",
     "Leetcode/54. Spiral Matrix.md",
     "Leetcode/48. Rotate Image.md",
@@ -222,7 +224,6 @@
     "DSA/Graph Take you forward.md",
     "DSA/Dynamic Programing Take U forward.md",
     "DSA/Dynamic Programing.md",
-    "Patent Works/Comparison Table.md",
     "DSA/Backtracking complete pattern.md",
     "DSA/BackTracking.md",
     "Abstract.md",
@@ -237,7 +238,6 @@
     "Academic/NS/Part B and C.md",
     "Academic/DW/Part A.md",
     "Academic/DW/PartB and C DW.md",
-    "DSA/Techniques.md",
     "Academic/MA",
     "Untitled.canvas",
     "Academic/IS",

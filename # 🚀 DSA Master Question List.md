@@ -112,7 +112,7 @@
 ## 🧊 Matrix (5 Questions)
 
 ### Grind 75 Only
-* [ ] [LC 54. Spiral Matrix](54.%20Spiral%20Matrix.md)
+* [x] [LC 54. Spiral Matrix](54.%20Spiral%20Matrix.md)
 * [ ] [LC 36. Valid Sudoku](36.%20Valid%20Sudoku.md)
 * [x] [LC 48. Rotate Image](48.%20Rotate%20Image.md)
 * [ ] [LC 73. Set Matrix Zeroes](73.%20Set%20Matrix%20Zeroes.md)
