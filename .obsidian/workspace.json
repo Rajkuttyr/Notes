@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "# 🚀 DSA Master Question List.md",
+                "file": "Leetcode/54. Spiral Matrix.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "# 🚀 DSA Master Question List"
+              "title": "54. Spiral Matrix"
             }
           }
         ],
@@ -210,8 +210,9 @@
   },
   "active": "fc2ff70b9c774416",
   "lastOpenFiles": [
-    "Leetcode/48. Rotate Image.md",
     "# 🚀 DSA Master Question List.md",
+    "Leetcode/54. Spiral Matrix.md",
+    "Leetcode/48. Rotate Image.md",
     "Leetcode/532. K-diff Pairs in an Array.md",
     "DSA/1D DP.md",
     "207. Course Schedule.md",
@@ -237,7 +238,6 @@
     "Academic/DW/Part A.md",
     "Academic/DW/PartB and C DW.md",
     "DSA/Techniques.md",
-    "Academic/IE/PART B AND C.md",
     "Academic/MA",
     "Untitled.canvas",
     "Academic/IS",
