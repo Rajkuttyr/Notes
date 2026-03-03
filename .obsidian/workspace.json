@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Problems/733. Flood Fill.md",
+                "file": "542. 01 Matrix.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "733. Flood Fill"
+              "title": "542. 01 Matrix"
             }
           }
         ]
@@ -196,8 +196,9 @@
   "active": "3a3a9068057c8714",
   "lastOpenFiles": [
     "# 🚀 DSA Master Question List.md",
+    "542. 01 Matrix.md",
+    "Leetcode/733. Flood Fill.md",
     "Symposium/Symposium Events.md",
-    "Problems/733. Flood Fill.md",
     "Problems",
     "Leetcode/733.md",
     "Patent Works/Comparison Table.md",
@@ -222,7 +223,6 @@
     "Leetcode/Leetcode Questions.md",
     "Leetcode/101. Symmetric Tree.md",
     "Symposium/RULE BOOK.md",
-    "CyberSecurity/Cybersecurity.md",
     "Symposium",
     "Academic/MA",
     "Untitled.canvas",

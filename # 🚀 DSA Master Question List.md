@@ -225,7 +225,7 @@
 ## 🕸️ Graph (21 Questions)
 
 ### Grind 75 Only
-* [x] [LC 733. Flood Fill](Problems/733.%20Flood%20Fill.md) ✅ 2026-01-29
+* [x] [LC 733. Flood Fill](733.%20Flood%20Fill.md) ✅ 2026-01-29
 * [ ] [LC 542. 01 Matrix](542.%2001%20Matrix.md)
 * [ ] [LC 133. Clone Graph](133.%20Clone%20Graph.md)
 * [ ] [LC 207. Course Schedule](207.%20Course%20Schedule.md)
