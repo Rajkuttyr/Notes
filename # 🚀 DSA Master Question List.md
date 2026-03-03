@@ -229,7 +229,7 @@
 * [ ] [LC 542. 01 Matrix](542.%2001%20Matrix.md)
 * [ ] [LC 133. Clone Graph](133.%20Clone%20Graph.md)
 * [x] [LC 207. Course Schedule](207.%20Course%20Schedule.md)
-* [ ] [LC 200. Number of Islands](Problems/200.%20Number%20of%20Islands.md)
+* [x] [LC 200. Number of Islands](Problems/200.%20Number%20of%20Islands.md)
 * [ ] [LC 994. Rotting Oranges](Problems/994.%20Rotting%20Oranges.md)
 * [ ] [LC 721. Accounts Merge](721.%20Accounts%20Merge.md)
 * [ ] [LC 127. Word Ladder](127.%20Word%20Ladder.md)
