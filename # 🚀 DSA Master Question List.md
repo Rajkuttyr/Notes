@@ -169,7 +169,7 @@
 ## 👥 Queue / BFS (5 Questions)
 
 ### College
-* [ ] [LC 232. Implement Queue using Stacks](232.%20Implement%20Queue%20using%20Stacks.md)
+* [x] [LC 232. Implement Queue using Stacks](232.%20Implement%20Queue%20using%20Stacks.md)
 * [ ] [LC 933. Number of Recent Calls](933.%20Number%20of%20Recent%20Calls.md)
 * [ ] [LC 994. Rotting Oranges](Problems/994.%20Rotting%20Oranges.md)
 * [ ] [LC 1091. Shortest Path in Binary Matrix](1091.%20Shortest%20Path%20in%20Binary%20Matrix.md)
