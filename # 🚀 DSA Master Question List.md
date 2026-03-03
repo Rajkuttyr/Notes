@@ -60,8 +60,8 @@
 ## 🪟 Sliding Window (8 Questions)
 
 ### College
-* [ ] [LC 643. Maximum Average Subarray I](643.%20Maximum%20Average%20Subarray%20I.md)
-* [ ] [LC 219. Contains Duplicate II](219.%20Contains%20Duplicate%20II.md)
+* [x] [LC 643. Maximum Average Subarray I](643.%20Maximum%20Average%20Subarray%20I.md)
+* [x] [LC 219. Contains Duplicate II](219.%20Contains%20Duplicate%20II.md)
 * [x] [LC 3. Longest Substring Without Repeating Characters](Problems/3.%20Longest%20Substring%20Without%20Repeating%20Characters.md)
 * [x] [LC 424. Longest Repeating Character Replacement](424.%20Longest%20Repeating%20Character%20Replacement.md)
 * [x] [LC 1004. Max Consecutive Ones III](1004.%20Max%20Consecutive%20Ones%20III.md)
@@ -225,7 +225,7 @@
 ## 🕸️ Graph (21 Questions)
 
 ### Grind 75 Only
-* [x] [LC 733. Flood Fill](Problems/733.%20Flood%20Fill.md) ✅ 2026-01-29
+* [ ] [LC 733. Flood Fill](Problems/733.%20Flood%20Fill.md) ✅ 2026-01-29
 * [ ] [LC 542. 01 Matrix](542.%2001%20Matrix.md)
 * [ ] [LC 133. Clone Graph](133.%20Clone%20Graph.md)
 * [ ] [LC 207. Course Schedule](207.%20Course%20Schedule.md)
@@ -276,8 +276,8 @@
 ## 🔄 Recursion / Backtracking (6 Questions)
 
 ### Grind 75 Only
-* [ ] [LC 46. Permutations](46.%20Permutations.md)
-* [ ] [LC 78. Subsets](78.%20Subsets.md)
+* [x] [LC 46. Permutations](46.%20Permutations.md)
+* [x] [LC 78. Subsets](78.%20Subsets.md)
 * [ ] [LC 17. Letter Combinations of a Phone Number](17.%20Letter%20Combinations%20of%20a%20Phone%20Number.md)
 * [ ] [LC 31. Next Permutation](Problems/31.%20Next%20Permutation.md)
 * [ ] [LC 22. Generate Parentheses](Problems/22.%20Generate%20Parentheses.md)
