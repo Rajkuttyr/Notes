@@ -152,9 +152,9 @@
 * [ ] [LC 150. Evaluate Reverse Polish Notation](150.%20Evaluate%20Reverse%20Polish%20Notation.md)
 
 ### Grind 75 Only
-* [ ] [LC 232. Implement Queue using Stacks](232.%20Implement%20Queue%20using%20Stacks.md)
-* [ ] [LC 155. Min Stack](155.%20Min%20Stack.md)
-* [ ] [LC 42. Trapping Rain Water](42.%20Trapping%20Rain%20Water.md)
+* [x] [LC 232. Implement Queue using Stacks](232.%20Implement%20Queue%20using%20Stacks.md)
+* [x] [LC 155. Min Stack](155.%20Min%20Stack.md)
+* [x] [LC 42. Trapping Rain Water](42.%20Trapping%20Rain%20Water.md)
 * [ ] [LC 224. Basic Calculator](224.%20Basic%20Calculator.md)
 * [ ] [LC 84. Largest Rectangle in Histogram](Problems/84.%20Largest%20Rectangle%20in%20Histogram.md)
 * [ ] [LC 844. Backspace String Compare](844.%20Backspace%20String%20Compare.md)
