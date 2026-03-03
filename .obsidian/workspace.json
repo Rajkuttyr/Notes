@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "542. 01 Matrix.md",
+                "file": "# 🚀 DSA Master Question List.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "542. 01 Matrix"
+              "title": "# 🚀 DSA Master Question List"
             }
           }
         ]
@@ -195,7 +195,9 @@
   },
   "active": "3a3a9068057c8714",
   "lastOpenFiles": [
+    "Problems/503. Next Greater Element II.md",
     "# 🚀 DSA Master Question List.md",
+    "Leetcode/503. Next Greater Element II.md",
     "542. 01 Matrix.md",
     "Leetcode/733. Flood Fill.md",
     "Symposium/Symposium Events.md",
@@ -221,8 +223,6 @@
     "DSA/BackTracking.md",
     "Abstract.md",
     "Leetcode/Leetcode Questions.md",
-    "Leetcode/101. Symmetric Tree.md",
-    "Symposium/RULE BOOK.md",
     "Symposium",
     "Academic/MA",
     "Untitled.canvas",
