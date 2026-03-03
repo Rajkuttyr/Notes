@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "# 🚀 DSA Master Question List.md",
+                "file": "Problems/733. Flood Fill.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "# 🚀 DSA Master Question List"
+              "title": "733. Flood Fill"
             }
           }
         ]
@@ -195,9 +195,13 @@
   },
   "active": "3a3a9068057c8714",
   "lastOpenFiles": [
+    "# 🚀 DSA Master Question List.md",
+    "Symposium/Symposium Events.md",
+    "Problems/733. Flood Fill.md",
+    "Problems",
+    "Leetcode/733.md",
     "Patent Works/Comparison Table.md",
     "1004. Max Consecutive Ones III.md",
-    "# 🚀 DSA Master Question List.md",
     "Leetcode/219. Contains Duplicate II.md",
     "37. Sudoku Solver.md",
     "Leetcode/73. Set Matrix Zeroes.md",
@@ -218,11 +222,8 @@
     "Leetcode/Leetcode Questions.md",
     "Leetcode/101. Symmetric Tree.md",
     "Symposium/RULE BOOK.md",
-    "Symposium/Symposium Events.md",
     "CyberSecurity/Cybersecurity.md",
     "Symposium",
-    "Academic/MA/Part B and C.md",
-    "Patent Works/Patent things.md",
     "Academic/MA",
     "Untitled.canvas",
     "Academic/IS",
@@ -231,7 +232,6 @@
     "Academic/NS",
     "Academic/DW",
     "Academic/WT",
-    "Academic/IE",
-    "CIA 1"
+    "Academic/IE"
   ]
 }
