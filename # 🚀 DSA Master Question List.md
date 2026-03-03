@@ -228,7 +228,7 @@
 * [x] [LC 733. Flood Fill](733.%20Flood%20Fill.md) ✅ 2026-01-29
 * [ ] [LC 542. 01 Matrix](542.%2001%20Matrix.md)
 * [ ] [LC 133. Clone Graph](133.%20Clone%20Graph.md)
-* [ ] [LC 207. Course Schedule](207.%20Course%20Schedule.md)
+* [x] [LC 207. Course Schedule](207.%20Course%20Schedule.md)
 * [ ] [LC 200. Number of Islands](Problems/200.%20Number%20of%20Islands.md)
 * [ ] [LC 994. Rotting Oranges](Problems/994.%20Rotting%20Oranges.md)
 * [ ] [LC 721. Accounts Merge](721.%20Accounts%20Merge.md)

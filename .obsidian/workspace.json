@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "# 🚀 DSA Master Question List.md",
+                "file": "DSA/GRAPH DFS AND BFS Difference.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "# 🚀 DSA Master Question List"
+              "title": "GRAPH DFS AND BFS Difference"
             }
           }
         ]
@@ -195,8 +195,10 @@
   },
   "active": "3a3a9068057c8714",
   "lastOpenFiles": [
-    "Problems/503. Next Greater Element II.md",
+    "Problems/200. Number of Islands.md",
+    "DSA/GRAPH DFS AND BFS Difference.md",
     "# 🚀 DSA Master Question List.md",
+    "Problems/503. Next Greater Element II.md",
     "Leetcode/503. Next Greater Element II.md",
     "542. 01 Matrix.md",
     "Leetcode/733. Flood Fill.md",
@@ -221,8 +223,6 @@
     "DSA/Dynamic Programing.md",
     "DSA/Backtracking complete pattern.md",
     "DSA/BackTracking.md",
-    "Abstract.md",
-    "Leetcode/Leetcode Questions.md",
     "Symposium",
     "Academic/MA",
     "Untitled.canvas",
