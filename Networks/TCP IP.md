@@ -5,4 +5,8 @@ Java server scoket is used to establish a communication on the server
 
 # UDP
 In UDP no connection between the server and client
+client send the data and server may or may not recive the data
 
+Socket creation
+>[!tip]
+`
