@@ -16,7 +16,7 @@
 * [x] [LC 53. Maximum Subarray](53.%20Maximum%20Subarray.md)
 * [x] [LC 560. Subarray Sum Equals K](560.%20Subarray%20Sum%20Equals%20K.md)
 * [x] [LC 56. Merge Intervals](56.%20Merge%20Intervals.md)
-* [ ] [LC 73. Set Matrix Zeroes](73.%20Set%20Matrix%20Zeroes.md)
+* [x] [LC 73. Set Matrix Zeroes](73.%20Set%20Matrix%20Zeroes.md)
 
 ### Grind 75 Only
 * [x] [LC 1. Two Sum](Problems/1.%20Two%20Sum.md)
