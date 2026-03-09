@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "268. Missing Number.md",
+                "file": "Problems/268. Missing Number.md",
                 "mode": "source",
                 "source": false
               },
@@ -193,10 +193,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5acbb03a5fbac5f5",
+  "active": "3db67ec90d9b9c17",
   "lastOpenFiles": [
     "# 🚀 DSA Master Question List.md",
-    "268. Missing Number.md",
+    "Problems/268. Missing Number.md",
     "Untitled.base",
     "LC 695. Max Area of Island.md",
     "DSA/Graph Cheat Sheet.md",
