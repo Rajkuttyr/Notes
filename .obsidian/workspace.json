@@ -11,13 +11,14 @@
             "id": "5acbb03a5fbac5f5",
             "type": "leaf",
             "state": {
-              "type": "bases",
+              "type": "markdown",
               "state": {
-                "file": "Untitled.base",
-                "viewName": "Table"
+                "file": "268. Missing Number.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-table",
-              "title": "Untitled"
+              "icon": "lucide-file",
+              "title": "268. Missing Number"
             }
           }
         ]
@@ -194,9 +195,10 @@
   },
   "active": "5acbb03a5fbac5f5",
   "lastOpenFiles": [
-    "LC 695. Max Area of Island.md",
-    "Untitled.base",
     "# 🚀 DSA Master Question List.md",
+    "268. Missing Number.md",
+    "Untitled.base",
+    "LC 695. Max Area of Island.md",
     "DSA/Graph Cheat Sheet.md",
     "Problems/22. Generate Parentheses.md",
     "17. Letter Combinations of a Phone Number.md",
