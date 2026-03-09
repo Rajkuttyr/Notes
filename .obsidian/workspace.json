@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DSA/BackTracking.md",
+                "file": "LC 695. Max Area of Island.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "BackTracking"
+              "title": "LC 695. Max Area of Island"
             }
           }
         ]
@@ -195,10 +195,13 @@
   },
   "active": "5acbb03a5fbac5f5",
   "lastOpenFiles": [
-    "DSA/Backtracking complete pattern.md",
-    "17. Letter Combinations of a Phone Number.md",
     "# 🚀 DSA Master Question List.md",
+    "LC 695. Max Area of Island.md",
+    "DSA/Graph Cheat Sheet.md",
+    "Problems/22. Generate Parentheses.md",
+    "17. Letter Combinations of a Phone Number.md",
     "DSA/BackTracking.md",
+    "DSA/Backtracking complete pattern.md",
     "Problems/200. Number of Islands.md",
     "37. Sudoku Solver.md",
     "Untitled.base",
@@ -221,10 +224,7 @@
     "Leetcode/532. K-diff Pairs in an Array.md",
     "DSA/1D DP.md",
     "207. Course Schedule.md",
-    "TODO.md",
     "Pasted image 20260211205333.png",
-    "Hello.md",
-    "DSA/Graph Take you forward.md",
     "Symposium",
     "Academic/MA",
     "Untitled.canvas",

@@ -246,6 +246,9 @@
 * [ ] [LC 269. Alien Dictionary](269.%20Alien%20Dictionary.md)
 * [ ] [LC 815. Bus Routes](815.%20Bus%20Routes.md)
 * [ ] [LC 787. Cheapest Flights Within K Stops](787.%20Cheapest%20Flights%20Within%20K%20Stops.md)
+* [ ] [[LC 695. Max Area of Island]]
+* [ ] 
+
 
 ---
 
@@ -278,9 +281,9 @@
 ### Grind 75 Only
 * [x] [LC 46. Permutations](46.%20Permutations.md)
 * [x] [LC 78. Subsets](78.%20Subsets.md)
-* [ ] [LC 17. Letter Combinations of a Phone Number](17.%20Letter%20Combinations%20of%20a%20Phone%20Number.md)
+* [x] [LC 17. Letter Combinations of a Phone Number](17.%20Letter%20Combinations%20of%20a%20Phone%20Number.md)
 * [ ] [LC 31. Next Permutation](Problems/31.%20Next%20Permutation.md)
-* [ ] [LC 22. Generate Parentheses](Problems/22.%20Generate%20Parentheses.md)
+* [x] [LC 22. Generate Parentheses](Problems/22.%20Generate%20Parentheses.md)
 * [ ] [LC 51. N-Queens](51.%20N-Queens.md)
 
 ---
