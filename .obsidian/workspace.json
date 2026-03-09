@@ -11,14 +11,13 @@
             "id": "5acbb03a5fbac5f5",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "bases",
               "state": {
-                "file": "LC 695. Max Area of Island.md",
-                "mode": "source",
-                "source": false
+                "file": "Untitled.base",
+                "viewName": "Table"
               },
-              "icon": "lucide-file",
-              "title": "LC 695. Max Area of Island"
+              "icon": "lucide-table",
+              "title": "Untitled"
             }
           }
         ]
@@ -195,8 +194,9 @@
   },
   "active": "5acbb03a5fbac5f5",
   "lastOpenFiles": [
-    "# 🚀 DSA Master Question List.md",
     "LC 695. Max Area of Island.md",
+    "Untitled.base",
+    "# 🚀 DSA Master Question List.md",
     "DSA/Graph Cheat Sheet.md",
     "Problems/22. Generate Parentheses.md",
     "17. Letter Combinations of a Phone Number.md",
@@ -204,7 +204,6 @@
     "DSA/Backtracking complete pattern.md",
     "Problems/200. Number of Islands.md",
     "37. Sudoku Solver.md",
-    "Untitled.base",
     "Networks/TCP IP.md",
     "Networks",
     "DSA/GRAPH DFS AND BFS Difference.md",
@@ -223,7 +222,6 @@
     "Leetcode/48. Rotate Image.md",
     "Leetcode/532. K-diff Pairs in an Array.md",
     "DSA/1D DP.md",
-    "207. Course Schedule.md",
     "Pasted image 20260211205333.png",
     "Symposium",
     "Academic/MA",
