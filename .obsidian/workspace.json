@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "CyberSecurity/JAVA  SECURITY.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "a523827e377efd3f",
@@ -195,8 +196,9 @@
   },
   "active": "5acbb03a5fbac5f5",
   "lastOpenFiles": [
-    "Problems/268. Missing Number.md",
+    "DSA/1D DP.md",
     "CyberSecurity/JAVA  SECURITY.md",
+    "Problems/268. Missing Number.md",
     "# 🚀 DSA Master Question List.md",
     "Untitled.base",
     "LC 695. Max Area of Island.md",
@@ -223,7 +225,6 @@
     "Leetcode/73. Set Matrix Zeroes.md",
     "Leetcode/54. Spiral Matrix.md",
     "Leetcode/48. Rotate Image.md",
-    "Leetcode/532. K-diff Pairs in an Array.md",
     "Pasted image 20260211205333.png",
     "Symposium",
     "Academic/MA",
