@@ -293,16 +293,26 @@ gcd(48, 18):
 **Extended Euclidean Algorithm** — finds integers x, y such that `ax + by = gcd(a,b)`:
 
 ```java
+
+
 import java.math.BigInteger;
 
-// Extended Euclidean Algorithm — returns [gcd, x, y] where a*x + b*y = gcd
-static BigInteger[] extendedGcd(BigInteger a, BigInteger b) {
-    if (b.equals(BigInteger.ZERO)) {
-        return new BigInteger[]{a, BigInteger.ONE, BigInteger.ZERO};
+public class Main {
+
+    public static BigInteger gcd(BigInteger a, BigInteger b) {
+        if (b.equals(BigInteger.ZERO))
+            return a;
+
+        return gcd(b, a.mod(b));
     }
-    BigInteger[] r = extendedGcd(b, a.mod(b));
-    BigInteger g = r[0], x = r[1], y = r[2];
-    return new BigInteger[]{g, y, x.subtract(a.divide(b).multiply(y))};
+
+    public static void main(String[] args) {
+
+        BigInteger a = new BigInteger("48");
+        BigInteger b = new BigInteger("18");
+
+        System.out.println(gcd(a, b));
+    }
 }
 
 // Example: gcd(35, 15) with coefficients:
