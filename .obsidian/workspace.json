@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "a523827e377efd3f",
@@ -196,8 +197,9 @@
   "active": "5acbb03a5fbac5f5",
   "lastOpenFiles": [
     "CyberSecurity/Cybersecurity.md",
-    "Patent Works/IDEA.md",
+    "Symposium/RULE BOOK.md",
     "CyberSecurity/JAVA  SECURITY.md",
+    "Patent Works/IDEA.md",
     "DSA/1D DP.md",
     "Problems/268. Missing Number.md",
     "# 🚀 DSA Master Question List.md",
@@ -223,7 +225,6 @@
     "Patent Works/Comparison Table.md",
     "1004. Max Consecutive Ones III.md",
     "Leetcode/219. Contains Duplicate II.md",
-    "Leetcode/73. Set Matrix Zeroes.md",
     "Pasted image 20260211205333.png",
     "Symposium",
     "Academic/MA",
