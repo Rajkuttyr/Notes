@@ -115,7 +115,7 @@
 * [x] [LC 54. Spiral Matrix](54.%20Spiral%20Matrix.md)
 * [ ] [LC 36. Valid Sudoku](36.%20Valid%20Sudoku.md)
 * [x] [LC 48. Rotate Image](48.%20Rotate%20Image.md)
-* [ ] [LC 73. Set Matrix Zeroes](73.%20Set%20Matrix%20Zeroes.md)
+* [x] [LC 73. Set Matrix Zeroes](73.%20Set%20Matrix%20Zeroes.md)
 * [ ] [LC 37. Sudoku Solver](37.%20Sudoku%20Solver.md)
 
 ---
@@ -145,10 +145,10 @@
 ## 🥞 Stack (15 Questions)
 
 ### College
-* [ ] [LC 20. Valid Parentheses](Problems/20.%20Valid%20Parentheses.md)
-* [ ] [LC 1021. Remove Outermost Parentheses](1021.%20Remove%20Outermost%20Parentheses.md)
-* [ ] [LC 503. Next Greater Element II](Problems/503.%20Next%20Greater%20Element%20II.md)
-* [ ] [LC 739. Daily Temperatures](739.%20Daily%20Temperatures.md)
+* [x] [LC 20. Valid Parentheses](Problems/20.%20Valid%20Parentheses.md)
+* [x] [LC 1021. Remove Outermost Parentheses](1021.%20Remove%20Outermost%20Parentheses.md)
+* [x] [LC 503. Next Greater Element II](Problems/503.%20Next%20Greater%20Element%20II.md)
+* [x] [LC 739. Daily Temperatures](739.%20Daily%20Temperatures.md)
 * [ ] [LC 150. Evaluate Reverse Polish Notation](150.%20Evaluate%20Reverse%20Polish%20Notation.md)
 
 ### Grind 75 Only
