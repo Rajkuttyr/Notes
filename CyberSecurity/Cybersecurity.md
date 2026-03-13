@@ -351,4 +351,13 @@ data in transmitt-sniffifng
 Controlls
 1. physical device-Door,Locks,Guard,Dogs
 2. Administrative controll-Policies,Procedures,Standards
-3. Logical /technical- Firewall,IDS<IPS<A
+3. Logical /technical- Firewall,IDS,ips,antivirus
+Deter-Board
+detect -Gaurd IDS
+prevent -Gaurad,Lock,Gates,
+Coorect -alert audit restart
+recover - Backup
+# Motives Goals and objectives information security  Attacks
+1. Disrupt buissness continuity
+2. information theft
+3. ma
