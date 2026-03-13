@@ -348,3 +348,7 @@ data in process-malware
 data in transmitt-sniffifng
 
 
+Controlls
+1. physical device-Door,Locks,Guard,Dogs
+2. Administrative controll-Policies,Procedures,Standards
+3. Logical /technical- Firewall,IDS<IPS<A
