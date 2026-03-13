@@ -334,10 +334,12 @@ Admin checking logs to detect hacking attempts.
 
 ## Summary Table
 
-|A|Meaning|Example|
-|---|---|---|
-|Authentication|Verify identity|Password, OTP|
-|Authorization|Access permission|Admin vs Student access|
-|Accounting|Record user activity|Login records|
-|Auditing|Review activity logs|Security checks|
+| A              | Meaning              | Example                 |
+| -------------- | -------------------- | ----------------------- |
+| Authentication | Verify identity      | Password, OTP           |
+| Authorization  | Access permission    | Admin vs Student access |
+| Accounting     | Record user activity | Login records           |
+| Auditing       | Review activity logs | Security checks         |
+|                |                      |                         |
+
 
