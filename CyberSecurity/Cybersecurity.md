@@ -360,4 +360,19 @@ recover - Backup
 # Motives Goals and objectives information security  Attacks
 1. Disrupt buissness continuity
 2. information theft
-3. ma
+3. maniulating data
+4. states military objective
+5. Bringing financial loss
+6. Damage reputation
+   
+## Threats
+1. cloud computing threat 
+2. advanced prrsistent threat-staealing information from victim without user being awre of it
+3. viruses and ransomare
+4. mobile threat
+## Vectors - means
+1. Botnet
+2. insider attcaks-employee atckaing th
+3. Phishing
+4. web Application Threat
+5. IoT threat
