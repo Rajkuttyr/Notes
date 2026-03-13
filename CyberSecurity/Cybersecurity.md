@@ -372,7 +372,11 @@ recover - Backup
 4. mobile threat
 ## Vectors - means
 1. Botnet
-2. insider attcaks-employee atckaing th
-3. Phishing
-4. web Application Threat
+2. insider attcaks-employee attacking the own company
+3. Phishing-site that are same as legitimate
+4. web Application Threat-SqL ingection,xss
 5. IoT threat
+   
+## Cyber kill chain methodology 
+1. used to understand the tactis techniques and procedures to attack a machine
+2. Reconnaissance,weponisation,delivery,Exploitation,Instalation,command and controll,Action on objectives
