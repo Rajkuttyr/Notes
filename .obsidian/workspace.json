@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CyberSecurity/JAVA  SECURITY.md",
+                "file": "CyberSecurity/Cybersecurity.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "JAVA  SECURITY"
+              "title": "Cybersecurity"
             }
           }
         ]
@@ -195,11 +195,11 @@
   },
   "active": "5acbb03a5fbac5f5",
   "lastOpenFiles": [
+    "CyberSecurity/JAVA  SECURITY.md",
     "# 🚀 DSA Master Question List.md",
     "DSA/Important Consideration.md",
     "DSA/Program Cheat Sheet.md",
     "DSA/Template.md",
-    "CyberSecurity/JAVA  SECURITY.md",
     "CyberSecurity/Cybersecurity.md",
     "Symposium/RULE BOOK.md",
     "Patent Works/IDEA.md",
