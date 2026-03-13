@@ -380,3 +380,11 @@ recover - Backup
 ## Cyber kill chain methodology 
 1. used to understand the tactis techniques and procedures to attack a machine
 2. Reconnaissance,weponisation,delivery,Exploitation,Instalation,command and controll,Action on objectives
+   
+# What is Hacking
+1. unathorised person gain access to the system
+2. it involves modifying the state
+# Hacker - person breaks into the system  without authorisation
+
+# Hacker class
+1.Black hat hackers - motive to destroy the sysyte
