@@ -342,4 +342,9 @@ Admin checking logs to detect hacking attempts.
 | Auditing       | Review activity logs | Security checks         |
 |                |                      |                         |
 
+Types
+1.Data at rest -physical access malware
+data in process-malware
+data in transmitt-sniffifng
+
 
