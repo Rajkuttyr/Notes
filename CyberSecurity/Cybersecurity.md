@@ -387,4 +387,7 @@ recover - Backup
 # Hacker - person breaks into the system  without authorisation
 
 # Hacker class
-1.Black hat hackers - motive to destroy the sysyte
+1.Black hat hackers - motive to destroy the sysytem
+2. white hat - for good means
+3. Script kiddes - for sum practise
+4. Cyber terrorist - poliical or religious belief
