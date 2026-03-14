@@ -391,3 +391,4 @@ recover - Backup
 2. white hat - for good means
 3. Script kiddes - for sum practise
 4. Cyber terrorist - poliical or religious belief
+hello
