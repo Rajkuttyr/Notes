@@ -400,5 +400,6 @@ refers to degree of uncertainity that an adverse event may caude damage to the s
 # Cryptography
 1. Encryption and decryption
    Kryptos-secret graphy - writing
-2. Types Classical,
+2. Types Classical,Modern 
 3. 
+4. 
