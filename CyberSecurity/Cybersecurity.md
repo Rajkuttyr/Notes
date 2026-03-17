@@ -391,3 +391,9 @@ recover - Backup
 2. white hat - for good means
 3. Script kiddes - for sum practise
 4. Cyber terrorist - poliical or religious belief
+
+# Indicators of compromise
+
+1. unusual traffic bound
+# Risk 
+refers to degree of uncertainity that an adverse event may caude damage to the sysytem
