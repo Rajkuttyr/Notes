@@ -397,3 +397,8 @@ recover - Backup
 1. unusual traffic bound
 # Risk 
 refers to degree of uncertainity that an adverse event may caude damage to the sysytem
+# Cryptography
+1. Encryption and decryption
+   Kryptos-secret graphy - writing
+2. Types Classical,
+3. 
