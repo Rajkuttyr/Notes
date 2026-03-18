@@ -14,8 +14,8 @@ Reel making
  6. nazeer 
  7. nitheesh n 
  8. yuva - ii year
- Duration - 
- venue - 4h floor seminar hall
+ Duration - prepartion before 2pm;
+ venue - 4h floor seminar hall-
  reels arround campus
  Algo auction 
  9. Aswant 
