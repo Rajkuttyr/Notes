@@ -25,4 +25,13 @@ Reel making
  platform - hackerranck 
  time - 2hrs 
  Team - 2 members per team 
+Startup pitching 
+Team size - max of 4 
+per team 5 mins 
+timing based on participant 
+max 20 team - 3hrs 
+slot will be alloted to each team to engage them in events
+venue - seminar hall
+
+blind coding 
 
