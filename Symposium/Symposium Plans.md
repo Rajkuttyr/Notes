@@ -21,4 +21,8 @@ Reel making
  9. Aswant 
  10. Vijya raja 
  11. fahim
- venue 
+ venue - 3 floor seminar hall to display question and participants are requested to bring their own laptop
+ platform - hackerranck 
+ time - 2hrs 
+ Team - 2 members per team 
+
