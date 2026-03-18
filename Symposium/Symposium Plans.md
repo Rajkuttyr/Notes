@@ -41,4 +41,5 @@ timing 2 hr
 
 Ai prompt 
 venue - lab
-
+timing 2 hrs 
+solo
