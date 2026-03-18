@@ -45,4 +45,5 @@ timing 2 hrs
 solo
 
 ai/techescapemroom
-blind coding/
+blind coding/algo auctio
+reels making/startup ppitching
