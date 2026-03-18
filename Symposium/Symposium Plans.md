@@ -47,3 +47,12 @@ solo
 techescapemroom/algo auction -1.5
 blind coding/ai - 1hr
 reels making/startup ppitching
+
+|     |                                   |          |             |
+| --- | --------------------------------- | -------- | ----------- |
+| SNO | EVENTS                            | Duration | Time        |
+| 1   | Inaguration                       |          | 9.30-10.30  |
+| 2   | TechEscaperoom/algoaction         | 1.5 hrs  | 10.45-12.15 |
+| 3   | Blind coding /AI                  | 1 hrs    | 12.00-1.00  |
+| 4   | ReelsMaking /Startup Pitching     | 2hrs     | 2.00-3.00   |
+| 5   | validation and Price distribution |          | 3.15-4.30   |
