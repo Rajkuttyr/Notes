@@ -5,5 +5,14 @@ Tech escape room -
 Plan 
 4. CRyptography- on papeer will be handed over to the hand 
 5. MCQ - 8 question
-Venue - CC1 lab
+Venue - CC1 lab 
+Team - 2 members
 Timimng - 1hr
+Timing - 10 am
+Reel making 
+ Team member 
+ 6. nazeer 
+ 7. nitheesh n 
+ 8. yuva - ii year
+ Duration - 1 hr for video making 1 hr for eding total 3hrs 
+ venue - 
