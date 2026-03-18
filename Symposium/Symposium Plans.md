@@ -9,7 +9,7 @@ Venue - CC1 lab
 Team - 2 members
 Timimng - 1hr
 Timing - 10 am
-Reel making 
+Reel making -5th floor seminar hall
  Team member 
  6. nazeer 
  7. nitheesh n 
@@ -17,11 +17,11 @@ Reel making
  Duration - prepartion before 2pm;
  venue - 4h floor seminar hall-
  reels arround campus
- Algo auction 
+ Algo auction -4th floor seminar hall
  9. Aswant 
  10. Vijya raja 
  11. fahim
- venue - 3 floor seminar hall to display question and participants are requested to bring their own laptop
+ venue - 4 floor seminar hall to display question and participants are requested to bring their own laptop
  platform - hackerranck 
  time - 2hrs 
  Team - 2 members per team 
@@ -43,3 +43,6 @@ Ai prompt
 venue - lab
 timing 2 hrs 
 solo
+
+ai/techescapemroom
+blind coding/
