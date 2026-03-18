@@ -14,7 +14,7 @@ Reel making
  6. nazeer 
  7. nitheesh n 
  8. yuva - ii year
- Duration - 1 hr for video making 1 hr for eding total 3hrs 
+ Duration - 
  venue - 4h floor seminar hall
  reels arround campus
  Algo auction 
