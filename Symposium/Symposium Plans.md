@@ -23,7 +23,7 @@ Reel making -5th floor seminar hall
  11. fahim
  venue - 4 floor seminar hall to display question and participants are requested to bring their own laptop
  platform - hackerranck 
- time - 1hrs 
+ time - 1.5hrs 
  Team - 2 members per team 
 Startup pitching 
 Team size - max of 4 
@@ -37,13 +37,13 @@ blind coding
 venue - lab 
 platform hacker earth 
 indivuidual
-timing 1 hr
+timing 1.5 hr
 
 Ai prompt 
 venue - lab
-timing 2 hrs 
+timing 1 hrs 
 solo
 
-ai/techescapemroom
-blind coding/algo auctio
+techescapemroom/algo auction -1.5
+blind coding/ai - 1hr
 reels making/startup ppitching
