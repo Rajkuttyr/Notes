@@ -48,19 +48,19 @@ techescapemroom/algo auction -1.5
 blind coding/ai - 1hr
 reels making/startup ppitching
 
-|     |                                   |          |             |       |     |     |
-| --- | --------------------------------- | -------- | ----------- | ----- | --- | --- |
-| SNO | EVENTS                            | Duration | Time        | venue |     |     |
-| 1   | Inaguration                       |          | 9.30-10.30  |       |     |     |
-| 2   | TechEscaperoom                    | 1.5 hrs  | 10.45-12.15 |       |     |     |
-| 3   | Algorithm Auction                 | 1.5hrs   | 10.45-12    |       |     |     |
-| 3   | Blind coding /AI                  | 1 hrs    | 12.00-1.00  |       |     |     |
-|     | AI prompt                         | 1hrs     | 12.00-1.00  |       |     |     |
-| 4   | ReelsMaking /Startup Pitching     | 2hrs     | 2.00-3.00   |       |     |     |
-|     | Startup Pitching                  | 2hrs     | 2.00-3.     |       |     |     |
-| 5   | validation and Price distribution |          | 3.15-4.30   |       |     |     |
-|     |                                   |          |             |       |     |     |
-|     |                                   |          |             |       |     |     |
+|     |                                   |          |             |                        |     |     |
+| --- | --------------------------------- | -------- | ----------- | ---------------------- | --- | --- |
+| SNO | EVENTS                            | Duration | Time        | venue                  |     |     |
+| 1   | Inaguration                       |          | 9.30-10.30  | 5th floor Seminar hall |     |     |
+| 2   | TechEscaperoom                    | 1.5 hrs  | 10.45-12.15 | cc1 lab                |     |     |
+| 3   | Algorithm Auction                 | 1.5hrs   | 10.45-12    | 4th floor seminar hall |     |     |
+| 3   | Blind coding                      | 1 hrs    | 12.00-1.00  | cc2 lab                |     |     |
+|     | AI prompt                         | 1hrs     | 12.00-1.00  | cc3 lab                |     |     |
+| 4   | ReelsMaking                       | 2hrs     | 2.00-3.00   | 5th floor seminar hall |     |     |
+|     | Startup Pitching                  | 2hrs     | 2.00-3.00   | 3rd floor seminar hall |     |     |
+| 5   | validation and Price distribution |          | 3.15-4.30   | 5th floor seminar hall |     |     |
+|     |                                   |          |             |                        |     |     |
+|     |                                   |          |             |                        |     |     |
 
 | SNO | EVENTS                              | Duration | Timing        | Venue                                   |
 |-----|-------------------------------------|----------|---------------|------------------------------------------|
