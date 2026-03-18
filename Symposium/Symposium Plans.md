@@ -34,4 +34,11 @@ slot will be alloted to each team to engage them in events
 venue - seminar hall
 
 blind coding 
+venue - lab 
+platform hacker earth 
+indivuidual
+timing 2 hr
+
+Ai prompt 
+venue - lab
 
