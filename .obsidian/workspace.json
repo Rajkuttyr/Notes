@@ -143,7 +143,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "a523827e377efd3f",
@@ -261,6 +262,7 @@
   },
   "active": "e11ea9e7db4d5f92",
   "lastOpenFiles": [
+    "Pasted image 20260320101900.png",
     "System design.md",
     "SpringSecurity.md",
     "RULE BOOK.pdf",
@@ -291,7 +293,6 @@
     "Networks/TCP IP.md",
     "Networks",
     "DSA/GRAPH DFS AND BFS Difference.md",
-    "Problems/503. Next Greater Element II.md",
     "Problems",
     "Pasted image 20260211205333.png",
     "Symposium",
