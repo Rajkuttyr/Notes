@@ -38,5 +38,5 @@ Issues
       6. we will add cashe to access frequently used data
       7. add multiple server
     8. add load balancer
-    9. message queue -ordering multiple task 
+    9. message queue -ordering multiple task monitoring and logs 
         
