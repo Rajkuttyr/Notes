@@ -13,4 +13,14 @@ Live streaming
 6. streaming video
 7. processing video
 8. broadcasting 
-9. 
+9.
+System Design 
+System-components+Common goal
+Alien Bank-> Cash Counter Cshier requirement ->Multiple customers -
+
+Cutsomer flow cycle/
+1. customer comes to the counter
+2. withdraw/deposit
+3. Take recipt
+4. done
+Issues
