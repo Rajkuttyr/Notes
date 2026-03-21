@@ -29,4 +29,5 @@ Issues
    7. Customer count increases increases-provide cash counting macine
 
 8. Centralised db
-   
+   9. Components 
+      1.  Dta
