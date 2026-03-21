@@ -27,3 +27,6 @@ Issues
 5. process is slow
 6.  10mins percustomer-trainn tro count fast train to type fast -5min/per customer
    7. Customer count increases increases-provide cash counting macine
+
+8. Centralised db
+   
