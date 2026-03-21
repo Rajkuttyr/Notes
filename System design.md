@@ -6,3 +6,5 @@ Ex. Broadcasting a video to million of people
 4. objects
 5. Database 
 After that Make edpoint API for the features 
+Core features are documented on the documents
+multiple servers and 
