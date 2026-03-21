@@ -35,5 +35,8 @@ Issues
       3. Client application or front end
       4. Connect the application code to the server
       5. We will get the data from the data base
-      6. we will add cashe to access frequently use 
+      6. we will add cashe to access frequently used data
+      7. add multiple server
+    8. add load balancer
+    9. message queue -ordering multiple task 
         
