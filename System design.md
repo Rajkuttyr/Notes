@@ -30,4 +30,10 @@ Issues
 
 8. Centralised db
    9. Components 
-      1.  Dta
+      1.  Dtabase - sql or no sql
+      2. Api to creat ened point or Application code
+      3. Client application or front end
+      4. Connect the application code to the server
+      5. We will get the data from the data base
+      6. we will add cashe to access frequently use 
+        
