@@ -24,3 +24,6 @@ Cutsomer flow cycle/
 3. Take recipt
 4. done
 Issues
+5. process is slow
+6.  10mins percustomer-trainn tro count fast train to type fast -5min/per customer
+   7. Customer count increases increases-provide cash counting macine
