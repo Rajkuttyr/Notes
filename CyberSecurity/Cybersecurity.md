@@ -403,3 +403,4 @@ refers to degree of uncertainity that an adverse event may caude damage to the s
 2. Types Classical,Modern 
 3. 
 4. 
+   nmap - scan first 1000 out 65000 ports
