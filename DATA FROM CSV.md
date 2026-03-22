@@ -295,7 +295,7 @@ public class CVEService {
 
 📄 CVEController.java
 
-```
+```java
 package com.example.cve.controller;
 
 import com.example.cve.model.CVE;
@@ -449,3 +449,244 @@ I can help you:
 
 Just tell me 👍
 
+Perfect — I’ll give you a **clean, complete Spring Boot version (Service + Controller)** that you can directly run 🔥
+
+---
+
+# **🧠 What this includes**
+
+- ✅ JSON → XML conversion (as per your spec)
+    
+- ✅ REST API (POST /convert)
+    
+- ✅ Proper XML response header
+    
+- ✅ Clean structure
+    
+
+---
+
+# **📦 1. Service Class**
+
+  
+
+📄 JSONToXMLService.java
+
+```
+package com.example.demo.service;
+
+import org.json.*;
+import org.springframework.stereotype.Service;
+
+@Service
+public class JSONToXMLService {
+
+    public String convert(String jsonText) {
+        Object json = new JSONTokener(jsonText).nextValue();
+
+        if (json instanceof JSONObject) {
+            return convertObject((JSONObject) json);
+        } else if (json instanceof JSONArray) {
+            return convertArray((JSONArray) json);
+        }
+
+        return "";
+    }
+
+    private String convertValue(Object value, String name) {
+        if (value == JSONObject.NULL) {
+            return "<null/>";
+        } else if (value instanceof String) {
+            return buildTag("string", name, value.toString());
+        } else if (value instanceof Number) {
+            return buildTag("number", name, value.toString());
+        } else if (value instanceof Boolean) {
+            return buildTag("boolean", name, value.toString());
+        } else if (value instanceof JSONObject) {
+            return convertObject((JSONObject) value, name);
+        } else if (value instanceof JSONArray) {
+            return convertArray((JSONArray) value, name);
+        }
+        return "";
+    }
+
+    private String buildTag(String type, String name, String value) {
+        if (name != null) {
+            return "<" + type + " name=\"" + name + "\">" + value + "</" + type + ">";
+        } else {
+            return "<" + type + ">" + value + "</" + type + ">";
+        }
+    }
+
+    private String convertObject(JSONObject obj) {
+        return convertObject(obj, null);
+    }
+
+    private String convertObject(JSONObject obj, String name) {
+        StringBuilder xml = new StringBuilder();
+
+        if (name != null)
+            xml.append("<object name=\"").append(name).append("\">");
+        else
+            xml.append("<object>");
+
+        for (String key : obj.keySet()) {
+            xml.append(convertValue(obj.get(key), key));
+        }
+
+        xml.append("</object>");
+        return xml.toString();
+    }
+
+    private String convertArray(JSONArray arr) {
+        return convertArray(arr, null);
+    }
+
+    private String convertArray(JSONArray arr, String name) {
+        StringBuilder xml = new StringBuilder();
+
+        if (name != null)
+            xml.append("<array name=\"").append(name).append("\">");
+        else
+            xml.append("<array>");
+
+        for (int i = 0; i < arr.length(); i++) {
+            xml.append(convertValue(arr.get(i), null));
+        }
+
+        xml.append("</array>");
+        return xml.toString();
+    }
+}
+```
+
+---
+
+# **🌐 2. Controller Class**
+
+  
+
+📄 ConverterController.java
+
+```
+package com.example.demo.controller;
+
+import com.example.demo.service.JSONToXMLService;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.*;
+
+@RestController
+@RequestMapping("/convert")
+public class ConverterController {
+
+    private final JSONToXMLService service;
+
+    public ConverterController(JSONToXMLService service) {
+        this.service = service;
+    }
+
+    @PostMapping
+    public ResponseEntity<String> convertJSON(@RequestBody String json) {
+
+        String xml = service.convert(json);
+
+        return ResponseEntity
+                .ok()
+                .header("Content-Type", "application/xml")
+                .body(xml);
+    }
+}
+```
+
+---
+
+# **▶️ 3. Run the App**
+
+```
+mvn spring-boot:run
+```
+
+---
+
+# **🧪 4. Test API**
+
+  
+
+### **Endpoint:**
+
+```
+POST http://localhost:8080/convert
+```
+
+---
+
+### **Body (JSON):**
+
+```
+{
+  "name": "Raj",
+  "age": 21,
+  "skills": ["Java", "Python"],
+  "isStudent": true
+}
+```
+
+---
+
+### **Response (XML):**
+
+```
+<object>
+<string name="name">Raj</string>
+<number name="age">21</number>
+<array name="skills">
+<string>Java</string>
+<string>Python</string>
+</array>
+<boolean name="isStudent">true</boolean>
+</object>
+```
+
+---
+
+# **🔥 Bonus (Optional Improvement)**
+
+  
+
+If you want **pretty formatted XML**, I can upgrade this to:
+
+```
+<object>
+  <string name="name">Raj</string>
+  ...
+</object>
+```
+
+---
+
+# **⚡ Important Reminder**
+
+  
+
+👉 Use this **for learning / demo / portfolio**
+
+👉 Submit **CLI version** for assignment (safe side)
+
+---
+
+# **👍 If you want next**
+
+  
+
+I can help you:
+
+- Add Swagger UI 🔥
+    
+- Add file upload API
+    
+- Convert this into **production-level clean architecture**
+    
+
+  
+
+Just tell me 👍
