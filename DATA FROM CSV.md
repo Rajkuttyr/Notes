@@ -30,6 +30,35 @@ public class CSVService {
 
 ```
 
-Controller
+📄 XMLToJSONService.java
 ```java
+package com.example.demo.service;
+
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.dataformat.xml.XmlMapper;
+import org.springframework.stereotype.Service;
+
+@Service
+public class XMLToJSONService {
+
+    public String convert(String xml) {
+
+        try {
+            XmlMapper xmlMapper = new XmlMapper();
+            Object obj = xmlMapper.readValue(xml, Object.class);
+
+            ObjectMapper jsonMapper = new ObjectMapper();
+            return jsonMapper.writerWithDefaultPrettyPrinter()
+                    .writeValueAsString(obj);
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
+        return "Error converting XML";
+    }
+}
+```
+
+
 
