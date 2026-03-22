@@ -404,3 +404,5 @@ refers to degree of uncertainity that an adverse event may caude damage to the s
 3. 
 4. 
    nmap - scan first 1000 out 65000 ports
+   port has three ports -open clos and filter - filter enables firewall
+5. 
