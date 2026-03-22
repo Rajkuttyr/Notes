@@ -12,6 +12,7 @@ public class CSVService {
     public List<User> readCSV(String filePath) {
 
         try {
+        //List<User> user = ...
             return new CsvToBeanBuilder<User>(new FileReader(filePath))
                     .withType(User.class)
                     .withIgnoreLeadingWhiteSpace(true)
