@@ -91,12 +91,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Leetcode/Frog Jump.md",
+                "file": "Leetcode/Rotten oranges.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Frog Jump"
+              "title": "Rotten oranges"
             }
           },
           {
@@ -290,7 +290,7 @@
   "active": "3687abc1b58ab05b",
   "lastOpenFiles": [
     "Leetcode/Cimbing stairs.md",
-    "Leetcode/Frog Jump.md",
+    "Leetcode/Rotten oranges.md",
     "Untitled.md",
     "Untitled.base",
     "DATA FROM CSV.md",
