@@ -6,4 +6,7 @@
    First write recurrsive solution then optimise it 
 try all possible ways 
 shortcut 
-re
+3. try to represent the problem in terms index
+4. do all the possible stuff on that index according to the ps
+5. sum of all stuffs count all stuffs if min find min if max find max 
+   memonize it to dp and tablute it 
