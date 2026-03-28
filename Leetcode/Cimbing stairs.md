@@ -10,3 +10,4 @@ shortcut
 4. do all the possible stuff on that index according to the ps
 5. sum of all stuffs count all stuffs if min find min if max find max 
    memonize it to dp and tablute it 
+   
