@@ -105,12 +105,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DSA/Dynamic Programing.md",
+                "file": "# 🚀 DSA Master Question List.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Dynamic Programing"
+              "title": "# 🚀 DSA Master Question List"
             }
           },
           {
@@ -301,12 +301,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3db67ec90d9b9c17",
+  "active": "ccaa8a14c2b7c5bb",
   "lastOpenFiles": [
+    "DSA/Dynamic Programing.md",
     "DSA/GRAPH DFS AND BFS Difference.md",
     "DSA/Graph Take you forward.md",
     "DSA/DP.md",
-    "DSA/Dynamic Programing.md",
     "DSA/Dynamic Programing Take U forward.md",
     "DSA/Techniques.md",
     "Detect a cycle in undirected graph.md",
