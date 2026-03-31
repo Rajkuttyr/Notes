@@ -76,11 +76,11 @@
 ## 🔤 Strings (14 Questions)
 
 ### Grind 75 Only
-* [ ] [LC 242. Valid Anagram](242.%20Valid%20Anagram.md)
-* [ ] [LC 409. Longest Palindrome](409.%20Longest%20Palindrome.md)
-* [ ] [LC 8. String to Integer (atoi)](8.%20String%20to%20Integer%20(atoi).md)
+* [x] [LC 242. Valid Anagram](242.%20Valid%20Anagram.md)
+* [x] [LC 409. Longest Palindrome](409.%20Longest%20Palindrome.md)
+* [x] [LC 8. String to Integer (atoi)](8.%20String%20to%20Integer%20(atoi).md)
 * [ ] [LC 5. Longest Palindromic Substring](5.%20Longest%20Palindromic%20Substring.md)
-* [ ] [LC 14. Longest Common Prefix](14.%20Longest%20Common%20Prefix.md)
+* [x] [LC 14. Longest Common Prefix](14.%20Longest%20Common%20Prefix.md)
 * [ ] [LC 179. Largest Number](179.%20Largest%20Number.md)
 * [ ] [LC 271. Encode and Decode Strings](271.%20Encode%20and%20Decode%20Strings.md)
 * [ ] [LC 336. Palindrome Pairs](336.%20Palindrome%20Pairs.md)
@@ -228,7 +228,7 @@
 * [x] [LC 733. Flood Fill](733.%20Flood%20Fill.md) ✅ 2026-01-29
 * [ ] [LC 542. 01 Matrix](542.%2001%20Matrix.md)
 * [ ] [LC 133. Clone Graph](133.%20Clone%20Graph.md)
-* [x] [LC 207. Course Schedule](207.%20Course%20Schedule.md)
+* [ ] [LC 207. Course Schedule](207.%20Course%20Schedule.md)
 * [x] [LC 200. Number of Islands](Problems/200.%20Number%20of%20Islands.md)
 * [ ] [LC 994. Rotting Oranges](Problems/994.%20Rotting%20Oranges.md)
 * [ ] [LC 721. Accounts Merge](721.%20Accounts%20Merge.md)
