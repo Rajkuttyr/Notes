@@ -105,12 +105,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DSA/GRAPH DFS AND BFS Difference.md",
+                "file": "DSA/Dynamic Programing.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "GRAPH DFS AND BFS Difference"
+              "title": "Dynamic Programing"
             }
           },
           {
@@ -301,8 +301,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ccaa8a14c2b7c5bb",
+  "active": "3db67ec90d9b9c17",
   "lastOpenFiles": [
+    "DSA/GRAPH DFS AND BFS Difference.md",
     "DSA/Graph Take you forward.md",
     "DSA/DP.md",
     "DSA/Dynamic Programing.md",
@@ -333,7 +334,6 @@
     "DSA/Template.md",
     "Patent Works/IDEA.md",
     "DSA/1D DP.md",
-    "Problems/268. Missing Number.md",
     "Networks",
     "Problems",
     "Pasted image 20260211205333.png",
