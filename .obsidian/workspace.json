@@ -105,12 +105,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "# 🚀 DSA Master Question List.md",
+                "file": "230. Kth Smallest Element in a BST.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "# 🚀 DSA Master Question List"
+              "title": "230. Kth Smallest Element in a BST"
             }
           },
           {
@@ -185,7 +185,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "a523827e377efd3f",
@@ -303,6 +304,8 @@
   },
   "active": "ccaa8a14c2b7c5bb",
   "lastOpenFiles": [
+    "# 🚀 DSA Master Question List.md",
+    "230. Kth Smallest Element in a BST.md",
     "DSA/Dynamic Programing.md",
     "DSA/GRAPH DFS AND BFS Difference.md",
     "DSA/Graph Take you forward.md",
@@ -328,12 +331,10 @@
     "Symposium/Symposium Events.md",
     "Todo.md",
     "CyberSecurity/JAVA  SECURITY.md",
-    "# 🚀 DSA Master Question List.md",
     "DSA/Important Consideration.md",
     "DSA/Program Cheat Sheet.md",
     "DSA/Template.md",
     "Patent Works/IDEA.md",
-    "DSA/1D DP.md",
     "Networks",
     "Problems",
     "Pasted image 20260211205333.png",

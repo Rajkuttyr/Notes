@@ -198,7 +198,7 @@
 ### Grind 75 Only
 * [ ] [LC 235. Lowest Common Ancestor of a BST](Problems/235.%20Lowest%20Common%20Ancestor%20of%20a%20BST.md)
 * [ ] [LC 98. Validate Binary Search Tree](Problems/98.%20Validate%20Binary%20Search%20Tree.md)
-* [ ] [LC 230. Kth Smallest Element in a BST](230.%20Kth%20Smallest%20Element%20in%20a%20BST.md)
+* [x] [LC 230. Kth Smallest Element in a BST](230.%20Kth%20Smallest%20Element%20in%20a%20BST.md)
 * [ ] [LC 285. Inorder Successor in BST](285.%20Inorder%20Successor%20in%20BST.md)
 * [ ] [LC 108. Convert Sorted Array to BST](108.%20Convert%20Sorted%20Array%20to%20BST.md)
 * [ ] [LC 226. Invert Binary Tree](226.%20Invert%20Binary%20Tree.md)
