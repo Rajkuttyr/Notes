@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "# 🚀 DSA Master Question List.md",
+                "file": "Symposium/REPORT.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "# 🚀 DSA Master Question List"
+              "title": "REPORT"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "a523827e377efd3f",
@@ -197,14 +196,15 @@
   },
   "active": "ccaa8a14c2b7c5bb",
   "lastOpenFiles": [
-    "230. Kth Smallest Element in a BST.md",
     "Symposium Plans.pdf",
+    "Symposium/REPORT.md",
+    "# 🚀 DSA Master Question List.md",
+    "230. Kth Smallest Element in a BST.md",
     "RULE BOOK.pdf",
     "Untitled.md",
     "CyberSecurity/Cybersecurity.md",
     "Leetcode/Rotten oranges.md",
     "SpringSecurity.md",
-    "# 🚀 DSA Master Question List.md",
     "DSA/Dynamic Programing.md",
     "DSA/GRAPH DFS AND BFS Difference.md",
     "DSA/Graph Take you forward.md",
@@ -226,7 +226,6 @@
     "CyberSecurity/JAVA  SECURITY.md",
     "DSA/Important Consideration.md",
     "DSA/Program Cheat Sheet.md",
-    "DSA/Template.md",
     "Networks",
     "Problems",
     "Pasted image 20260211205333.png",
