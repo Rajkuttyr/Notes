@@ -7,4 +7,6 @@ a team can bid max of three
 based on the points winners and runners are selected 
 each set have 3 easy consist of 10 marks total 30 
 medium 2 ech 20 total 40 
-hard 
+hard 1 total 30 
+total 100  max 300 points
+
