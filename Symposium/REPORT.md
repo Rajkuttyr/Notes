@@ -54,5 +54,5 @@ coordinator -3 volunters 10
 no screening 
 responce -10
 winner -1 runner 1
-each of 3 member in  
+each of 3 member in  team 
 
