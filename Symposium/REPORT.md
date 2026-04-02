@@ -43,4 +43,7 @@ each team presented in front of judges for the duartion of 10 mins
 coordinator - 3 
 volunteer - 15 
 no screening
-students a solved problem on Hacker rank 
+students a solved problem on Hacker rank  
+given two problem to solve one easy and one medium 
+participants 
+based on profile 
