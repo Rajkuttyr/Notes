@@ -2,4 +2,9 @@
 Coordintors -3
 volunteers -7
 screening - 1-4-2026 - conducted single coding test and shortlisted 10 tema
-today - displays code 
+today - displays code 24 set and auction and solve the code they bid 
+a team can bid max of three
+based on the points winners and runners are selected 
+each set have 3 easy consist of 10 marks total 30 
+medium 2 ech 20 total 40 
+hard 
