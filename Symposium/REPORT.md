@@ -41,4 +41,6 @@ each team presented in front of judges for the duartion of 10 mins
 
 #Blind coding
 coordinator - 3 
-volunteer
+volunteer - 
+no screening
+1
