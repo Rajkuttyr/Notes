@@ -1,14 +1,12 @@
 Good evening everyone,
 
-  
-
 I am _R. Rajadurai_, Vice President of the CODECRAFTERS Club and Webmaster of the IEEE Student Branch of SRM TRP Engineering College. I had the privilege of initiating the idea, planning, and executing this event as the Overall Coordinator of _COGNIZANCE_.
 
 It is my great honor to deliver the Vote of Thanks for this wonderful occasion.
 
 First and foremost, I would like to express my heartfelt gratitude to our respected Chairman and Management for their constant support and encouragement, which made this event possible.
 
-I extend my sincere thanks to our Dean and Principal for their guidance, motivation, and for giving us the opportunity to organize such a meaningful and enriching event.
+I extend my sincere thanks to our Dean Academics  and Principal for their guidance, motivation, and for giving us the opportunity to organize such a meaningful and enriching event.
 
 My special thanks to our respected Head of the Department, **Dr. P. Sudhakaran**, and all our faculty members for their valuable support, insights, and encouragement throughout this journey.
 
