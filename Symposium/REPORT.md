@@ -22,3 +22,10 @@ social engineering
 aptitude
 quizz
 first to solve all four rounds will be winner and runner
+
+AI Prompt
+coordrinators - 3
+volunteers - 12
+screening - 1-4-2026 conducted a quiz and shortlisted 40
+today 
+gave case files and solved the question and based on their efficency nd presentation and pitch we shortlisted team 
