@@ -10,7 +10,7 @@ I extend my sincere thanks to our Dean and Principal for their guidance, motivat
 
 My special thanks to our respected Head of the Department Dr P Sudhakaran, and all our faculty members for their valuable support, insights, and encouragement throughout this journey.
 
-I would also like to acknowledge and appreciate the tremendous efforts of our Faculty Coordinator Mr TamilKudimagan, Mrs Suganya ,Mrs Sampavi,Mr V Rajesh ,and Student Coordinator Mr D Sam ,Mr Rajadura, whose dedication and coordination ensured the smooth execution of this event.
+I would also like to acknowledge and appreciate the tremendous efforts of our Faculty Coordinators Mr TamilKudimagan, Mrs Suganya ,Mrs Sampavi,Mr V Rajesh ,and Student Coordinators Mr D Sam ,MySelf Rajadurai ,Mr Aswanth whose dedication and coordination ensured the smooth execution of this event.
 
 A big thank you to all the organizing team members of CODECRAFTERS, whose hard work behind the scenes made this event a grand success.
 
