@@ -48,3 +48,11 @@ given two problem to solve one easy and one medium
 participants 
 based on leaderboard shortlisted 2 members 
 one winner and one runner
+
+# Reel making 
+coordinator -3 volunters 10 
+no screening 
+responce -10
+winner -1 runner 1
+each of 3 member in  
+
