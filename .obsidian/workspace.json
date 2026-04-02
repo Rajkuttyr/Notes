@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Symposium/REPORT.md",
+                "file": "Symposium/My speech.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "REPORT"
+              "title": "My speech"
             }
           }
         ]
@@ -196,8 +196,8 @@
   },
   "active": "ccaa8a14c2b7c5bb",
   "lastOpenFiles": [
-    "Symposium/My speech.md",
     "Symposium/REPORT.md",
+    "Symposium/My speech.md",
     "Symposium Plans.pdf",
     "# 🚀 DSA Master Question List.md",
     "230. Kth Smallest Element in a BST.md",

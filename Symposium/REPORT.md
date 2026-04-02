@@ -36,5 +36,5 @@ coordintor - 3
 volunteers - 9
 screening - 20 tems
 10 teams has been shortlisted based on abstract 
-10 teams presented today and one winner and runner has been selected based on evealuvation of judges 
+10 teams presented today and one winner and runner has been selected based on evealuvation of judges  2 externl jurys  and 2 internal jurys
 each team presented in front of judges for the duartion of 10 mins
