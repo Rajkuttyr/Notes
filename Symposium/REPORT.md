@@ -29,3 +29,8 @@ volunteers - 12
 screening - 1-4-2026 conducted a quiz and shortlisted 40
 today 
 gave case files and solved the question and based on their efficency nd presentation and pitch we shortlisted team 
+winner and runner are selcted by the evluvation of AIDS HOD and sendhooran sir
+
+Startup pitching
+coordintor - 3
+volunteers - 
