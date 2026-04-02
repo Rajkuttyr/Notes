@@ -10,3 +10,6 @@ medium 2 ech 20 total 40
 hard 1 total 30 
 total 100  max 300 points
 
+# TechEscape room
+coordinators-3
+volunteers - 
