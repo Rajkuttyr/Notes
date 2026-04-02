@@ -46,4 +46,5 @@ no screening
 students a solved problem on Hacker rank  
 given two problem to solve one easy and one medium 
 participants 
-based on profile 
+based on leaderboard shortlisted 2 members 
+one winner and one runner
