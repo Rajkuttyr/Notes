@@ -12,4 +12,13 @@ total 100  max 300 points
 
 # TechEscape room
 coordinators-3
-volunteers - 
+volunteers - 6
+screening - 38  screening 1 shortlisted 25 2nd screening 17
+connections as screeing round of two levels
+today
+4 round 
+round 1 crypto
+social engineering
+aptitude
+quizz
+first to solve all four rounds will be winner and runner
