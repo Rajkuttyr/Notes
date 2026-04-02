@@ -39,8 +39,8 @@ screening - 20 tems
 10 teams presented today and one winner and runner has been selected based on evealuvation of judges  2 externl jurys  and 2 internal jurys
 each team presented in front of judges for the duartion of 10 mins
 
-#Blind coding
+# Blind coding
 coordinator - 3 
-volunteer - 
+volunteer - 15 
 no screening
-1
+students a solved problem on Hacker rank 
