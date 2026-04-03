@@ -301,3 +301,8 @@ lc -133
 Clone graph
 Facebook -44 amazon google 
 given conected undirected graph  we can reach to any node by traversing from any node return deep copy 
+lc 994 rotting oranges
+0 representing empty cell
+1 representing fresh orange 
+2 rotten ornage
+Every minutes a fresh oranges thatis 4 directionaly adjacent to each will rotten 
