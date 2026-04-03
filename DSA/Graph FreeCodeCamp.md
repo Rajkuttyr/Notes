@@ -9,3 +9,7 @@ Reprsentaion of graph as
 547 provicences 
 a provinces is group of directly connected or inderctly and no othe
 n*n matrix is connected isConnected[i][j]=1 they are connected
+
+```java
+class Solution{
+}
