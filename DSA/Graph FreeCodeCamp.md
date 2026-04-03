@@ -239,7 +239,7 @@ class Solution {
 261- Graph valid tree -google facebook 
 Every tree is a graph but every graph is not tree
 Node n edges =n-1;
-To determine nodes are connected if nodes = n and edges=n-1
+To determine nodes are cyclic if nodes = n and edges=n-1
 ```java
 
 ```
