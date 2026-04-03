@@ -194,3 +194,44 @@ give n nodes and array of edges of undirected graph based on the input we have t
 dfs;
 when edges are given 
 convert edges to 
+```java
+import java.util.*;
+
+class Solution {
+    public int countComponents(int n, int[][] edges) {
+        List<List<Integer>> adj = new ArrayList<>();
+
+        // Step 1: Build graph
+        for(int i = 0; i < n; i++){
+            adj.add(new ArrayList<>());
+        }
+
+        for(int[] edge : edges){
+            adj.get(edge[0]).add(edge[1]);
+            adj.get(edge[1]).add(edge[0]);
+        }
+
+        boolean[] visited = new boolean[n];
+        int res = 0;
+
+        // Step 2: DFS traversal
+        for(int i = 0; i < n; i++){
+            if(!visited[i]){
+                dfs(i, adj, visited);
+                res++;
+            }
+        }
+
+        return res;
+    }
+
+    public void dfs(int node, List<List<Integer>> adj, boolean[] visited){
+        visited[node] = true;
+
+        for(int nei : adj.get(node)){
+            if(!visited[nei]){
+                dfs(nei, adj, visited);
+            }
+        }
+    }
+}
