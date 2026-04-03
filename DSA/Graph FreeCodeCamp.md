@@ -5,4 +5,7 @@ Reprsentaion of graph as
    more edges - matrix
 
 22 leetcode problems 
-1.No of provicences - amazon bloomberg goog
+1.No of provicences - amazon bloomberg google
+547 provicences 
+a provinces is group of directly connected or inderctly and no othe
+n*n matrix is connected isConnected[i][j]=1 they are connected
