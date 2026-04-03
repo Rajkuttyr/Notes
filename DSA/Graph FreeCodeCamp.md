@@ -298,3 +298,4 @@ if(vis[i]==0)dfs(i,vis,adj);
 
 ```
 
+lc -684 redundantconnection trees and DSU
