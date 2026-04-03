@@ -188,7 +188,9 @@ return area;
 }
 ```
 
-Number of Connected Components in Undirescted Graph - google amazon facebook
+323 Number of Connected Components in Undirescted Graph - google amazon facebook
 
 give n nodes and array of edges of undirected graph based on the input we have to return number of connected omponnets exsist 
 dfs;
+when edges are given 
+convert edges to 
