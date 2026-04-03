@@ -241,7 +241,59 @@ Every tree is a graph but every graph is not tree
 Node n edges =n-1;
 To determine nodes are cyclic if nodes = n and edges=n-1
 ```java
+class Solution {
 
+public boolean validTree(int n, int[][] edges) {
+
+if(n-1!=edges.length)return false;
+
+List<List<Integer>> adj = new ArrayList<>();
+
+for(int i=0;i<n;i++){
+
+adj.add(new ArrayList<>());
+
+}
+
+for(int[] node : edges){
+
+adj.get(node[0]).add(node[1]);
+
+adj.get(node[1]).add(node[0]);
+
+}
+
+int[] vis = new int[n];
+
+dfs(0,vis,adj);
+
+int count=0;
+
+for(int i:vis){
+
+if(i==1)count++;
+
+}
+
+return count==n ? true:false;
+
+  
+
+}
+
+public void dfs(int start, int[] vis, List<List<Integer>> adj){
+
+vis[start]=1;
+
+for(int i :adj.get(start)){
+
+if(vis[i]==0)dfs(i,vis,adj);
+
+}
+
+}
+
+}
 
 
 ```
