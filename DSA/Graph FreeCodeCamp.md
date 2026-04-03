@@ -68,4 +68,7 @@ vis[i]=true;
 }
 ```
 
-200 number of island
+200 number of island-apple google amazon facebook
+
+input - n*n grid - filled with 1 or 0 1- land 0- water we need to find total no island in the grid 
+Island - a land covered four sides by water
