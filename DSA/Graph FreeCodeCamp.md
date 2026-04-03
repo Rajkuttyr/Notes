@@ -74,3 +74,4 @@ input - n*n grid - filled with 1 or 0 1- land 0- water we need to find total no 
 Island - a land covered four sides by water
 All land can be conected together and can be consider as land 
 travers the input array  and find matrix = 1; 
+DFS 
