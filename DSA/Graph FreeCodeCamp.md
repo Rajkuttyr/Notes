@@ -308,3 +308,76 @@ lc 994 rotting oranges
 Every minutes a fresh oranges thatis 4 directionaly adjacent to each will rotten 
 returm minimu numer of time to rott all orange if not possible return 0
 BFS traversal for evry bfs call increase the min 
+```java
+class Solution {
+
+public int orangesRotting(int[][] grid) {
+
+if(grid==null||grid.length==0) return -1;
+
+int n = grid.length,m=grid[0].length;
+
+Queue<int[]> q = new LinkedList<>();
+
+int fc=0;
+
+for(int i=0;i<n;i++){
+
+for(int j=0;j<m;j++){
+
+if(grid[i][j]==1)fc++;
+
+else if(grid[i][j]==2)q.offer(new int[]{i,j});
+
+  
+
+}
+
+}
+
+if(fc==0)return 0;
+
+int min=0;
+
+int[][] dir = new int[][]{{1,0},{-1,0},{0,1},{0,-1}};
+
+while(!q.isEmpty()){
+
+int size = q.size();
+
+for(int i=0;i<size;i++){
+
+int[] rotten = q.poll();
+
+for(int[] d :dir){
+
+int x = rotten[0]+d[0];
+
+int y = rotten[1]+d[1];
+
+if(x>=0 && y>=0 && x<n&& y<m &&grid[x][y]==1){
+
+grid[x][y]=2;
+
+fc--;
+
+q.offer(new int[]{x,y});
+
+}
+
+}
+
+}
+
+min++;
+
+}
+
+return fc==0 ? min-1:-1;
+
+}
+
+}
+
+```
+
