@@ -382,4 +382,4 @@ return fc==0 ? min-1:-1;
 ```
 
 lc-207
-course schedule numCourses you are g
+course schedule numCourses you are given prerequiste in order to complete course a we have tp complete b
