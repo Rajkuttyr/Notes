@@ -307,4 +307,4 @@ lc 994 rotting oranges
 2 rotten ornage
 Every minutes a fresh oranges thatis 4 directionaly adjacent to each will rotten 
 returm minimu numer of time to rott all orange if not possible return 0
-BFS traversal 
+BFS traversal for evry bfs call increase the min 
