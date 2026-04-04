@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DSA/BackTracking.md",
+                "file": "DSA/DYNAMIC PROGRAMMING.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "BackTracking"
+              "title": "DYNAMIC PROGRAMMING"
             }
           }
         ]
@@ -196,6 +196,7 @@
   },
   "active": "ccaa8a14c2b7c5bb",
   "lastOpenFiles": [
+    "DSA/BackTracking.md",
     "DSA/Backtracking complete pattern.md",
     "DSA/DYNAMIC PROGRAMMING.md",
     "DSA/Graph FreeCodeCamp.md",
@@ -226,7 +227,6 @@
     "Symposium/Symposium Plans.md",
     "Symposium/RULE BOOK.md",
     "Symposium/Symposium Events.md",
-    "Todo.md",
     "Networks",
     "Problems",
     "Pasted image 20260211205333.png",
