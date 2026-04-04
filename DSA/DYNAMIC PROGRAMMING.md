@@ -28,3 +28,4 @@ Prerequisties - Recurssion
 lc-198 House Robber 
 understanding the problem 
 you are professional robber and planning to robb a house along a street . 
+Brute force 0+2,0+3
