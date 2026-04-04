@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DSA/DYNAMIC PROGRAMMING.md",
+                "file": "DSA/Backtracking complete pattern.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DYNAMIC PROGRAMMING"
+              "title": "Backtracking complete pattern"
             }
           }
         ]
@@ -197,8 +197,8 @@
   },
   "active": "ccaa8a14c2b7c5bb",
   "lastOpenFiles": [
-    "DSA/Graph FreeCodeCamp.md",
     "DSA/DYNAMIC PROGRAMMING.md",
+    "DSA/Graph FreeCodeCamp.md",
     "Symposium/REPORT.md",
     "Symposium/My speech.md",
     "Symposium Plans.pdf",
