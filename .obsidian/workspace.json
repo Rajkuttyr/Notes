@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DSA/Graph FreeCodeCamp.md",
+                "file": "DSA/DYNAMIC PROGRAMMING.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Graph FreeCodeCamp"
+              "title": "DYNAMIC PROGRAMMING"
             }
           }
         ]
@@ -197,8 +197,9 @@
   },
   "active": "ccaa8a14c2b7c5bb",
   "lastOpenFiles": [
-    "Symposium/REPORT.md",
     "DSA/Graph FreeCodeCamp.md",
+    "DSA/DYNAMIC PROGRAMMING.md",
+    "Symposium/REPORT.md",
     "Symposium/My speech.md",
     "Symposium Plans.pdf",
     "# 🚀 DSA Master Question List.md",
@@ -227,7 +228,6 @@
     "Symposium/Symposium Events.md",
     "Todo.md",
     "CyberSecurity/JAVA  SECURITY.md",
-    "DSA/Important Consideration.md",
     "Networks",
     "Problems",
     "Pasted image 20260211205333.png",
