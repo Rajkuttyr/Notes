@@ -20,3 +20,8 @@ we break the perblem in set of permutation and substring and distinct substring 
 w1 = abaabab w2 abc
 combination of a1 against a2 in form of grid
 DP
+4. grid based problem -2D
+5. Substring related problem - 2D DP
+6. Paritioning permutation and combination- Multiple path exsisit
+Prerequisties - Recurssion 
+l
