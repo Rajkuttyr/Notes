@@ -6,3 +6,6 @@ example fibannoci number
 fib[0]=1
 
 ```
+Dp
+1. reccursion
+2. Memoisation - top down 
