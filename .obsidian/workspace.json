@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DSA/Concept CheatSheet.md",
+                "file": "# 🚀 DSA Master Question List.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Concept CheatSheet"
+              "title": "# 🚀 DSA Master Question List"
             }
           }
         ]
@@ -196,12 +196,16 @@
   },
   "active": "ccaa8a14c2b7c5bb",
   "lastOpenFiles": [
+    "DSA/Graph.md",
+    "DSA/DYNAMIC PROGRAMMING.md",
+    "DSA/Dynamic Programing.md",
+    "DSA/DP.md",
+    "DSA/Concept CheatSheet.md",
     "DSA/Collections.md",
     "DSA/BST METHODS.md",
     "DSA/Backtracking complete pattern.md",
     "DSA/BackTracking.md",
     "DSA/ArrayList.md",
-    "DSA/DYNAMIC PROGRAMMING.md",
     "DSA/Graph FreeCodeCamp.md",
     "Symposium/REPORT.md",
     "Symposium/My speech.md",
@@ -213,18 +217,14 @@
     "CyberSecurity/Cybersecurity.md",
     "Leetcode/Rotten oranges.md",
     "SpringSecurity.md",
-    "DSA/Dynamic Programing.md",
     "DSA/GRAPH DFS AND BFS Difference.md",
     "DSA/Graph Take you forward.md",
-    "DSA/DP.md",
     "DSA/Dynamic Programing Take U forward.md",
     "DSA/Techniques.md",
     "Detect a cycle in undirected graph.md",
-    "DSA/Graph.md",
     "Leetcode/Cimbing stairs.md",
     "Untitled.base",
     "DATA FROM CSV.md",
-    "System design.md",
     "Pasted image 20260320101900.png",
     "System Design",
     "Networks",
