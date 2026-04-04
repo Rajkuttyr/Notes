@@ -19,3 +19,4 @@ extension of original of dp in dp we are given a problem and we store the sub pr
 we break the perblem in set of permutation and substring and distinct substring if 
 w1 = abaabab w2 abc
 combination of a1 against a2 in form of grid
+DP
