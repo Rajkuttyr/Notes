@@ -15,3 +15,7 @@ topdown-Problem can be solved using reursion then Memoisation,Stack,Selectivecal
 Bottom up subproblem basecase
 All - dense case Bottom up is iterrative approach
 2D - Dp
+extension of original of dp in dp we are given a problem and we store the sub problem ans and use it 
+we break the perblem in set of permutation and substring and distinct substring if 
+w1 = abaabab w2 abc
+combination of a1 against a2 in form of grid
