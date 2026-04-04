@@ -25,3 +25,6 @@ DP
 6. Paritioning permutation and combination- Multiple path exsisit
 Prerequisties - Recurssion 
 
+lc-198 House Robber 
+understanding the problem 
+you are professional robber and planning to robb a house along a street . 
