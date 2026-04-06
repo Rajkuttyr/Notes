@@ -384,3 +384,5 @@ return fc==0 ? min-1:-1;
 lc-261 
 valid tree
 given a graph check 
+Every tree is a graph 
+
