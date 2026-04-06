@@ -387,5 +387,7 @@ tree is a undirected graph without cycle
 given graph may be a tree that contains total nodes and edges array
 we need to return a that can be removed to be a tree
 disjointed set union data structue
-1. Disjointed set union all0
+1. find - return it belongs to which group
+2. merges - if two it will merge into single group
+
 
