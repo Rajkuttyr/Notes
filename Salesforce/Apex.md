@@ -75,12 +75,17 @@ public class newClass {
         String s2=s+s1;//concatination
         Date d1;
         d1=Date.today();//current date
+        d1=Date.newInstances(2018,01,01);//2018-01-01
         //methods
         d1=d1.toStartOfMonth();
         d1=d1.toStartOfWeek();
         d1=d1.addDays(5);
         d1=d1.addYears(5);
         d1=d1.Months(5);
+        //Time
+        Time t1=Time.newInstances(hr,min,sec,ms);
+        t1.addHours(2);
+        t1.addMinutes(20);
         
         
     }
