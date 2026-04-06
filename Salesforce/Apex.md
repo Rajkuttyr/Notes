@@ -33,3 +33,10 @@ code editor in sales force inteface
 
 Apex Variables
 Variable named value holder 
+similar to java and rules are also similar 
+name of variable is called Identifier
+Integer num;
+Apex Constants 
+Apex constant are the variable whose value cannot be changed after declares;
+it can be done by declaring the keyword with final key word
+eg final integer a
