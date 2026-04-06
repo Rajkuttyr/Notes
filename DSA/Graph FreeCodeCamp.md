@@ -392,3 +392,54 @@ disjointed set union data structue
 
 
 ```java
+class Solution {
+
+public int[] findRedundantConnection(int[][] edges) {
+
+int parent[] = new int[edges.length+1];
+
+for(int i=1;i<=edges.length;i++){
+
+parent[i]=i;
+
+}
+
+for(int[] i: edges){
+
+int n1=i[0];
+
+int n2 =i[1];
+
+int r1= find(parent,n1);
+
+int r2 = find(parent,n2);
+
+if(r1==r2) return i;
+
+parent[r2]=r1;
+
+  
+  
+
+}
+
+return new int[0];
+
+}
+
+public int find(int[] parent,int node){
+
+while(node!=parent[node]){
+
+parent[node]=parent[parent[node]];
+
+node=parent[node];
+
+}
+
+return node;
+
+}
+
+}
+```
