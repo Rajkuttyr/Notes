@@ -381,14 +381,8 @@ return fc==0 ? min-1:-1;
 
 ```
 
-lc-261 
-valid tree
-given a graph check 
-Every tree is a graph 
-check if cycle exist or not
-first take a node traverse and add the neighbour if not exisist in the hashset 
-this is 
-create a hash map  key as parent and value as child
-from zero traverse using bfs or dfs
-first add zero and it child
+lc - 684 
+graph tree dsu
+tree is a undirected graph without cycle 
+given graph may be 
 
