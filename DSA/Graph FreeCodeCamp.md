@@ -384,5 +384,6 @@ return fc==0 ? min-1:-1;
 lc - 684 
 graph tree dsu
 tree is a undirected graph without cycle 
-given graph may be 
+given graph may be a tree that contains total nodes and edges array
+we need to return a that can be removed to be a tree
 
