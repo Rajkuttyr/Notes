@@ -60,5 +60,19 @@ Integer is divided into two type int and long
 
 ```java
 
+public class newClass {
+    public static void myMethod(){
+        integer a;
+        a=50;
+        integer a1 =50;
+        long l1;
+        l1=89989;
+        long l2 =678909789L;
+        long l3 = 214737l;
+        
+    }
 
+}
 ```
+Floating used to store a decimal value;
+no datatype is ca
