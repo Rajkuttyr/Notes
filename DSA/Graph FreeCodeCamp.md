@@ -386,4 +386,6 @@ graph tree dsu
 tree is a undirected graph without cycle 
 given graph may be a tree that contains total nodes and edges array
 we need to return a that can be removed to be a tree
+disjointed set union data structue
+1. Disjointed set union all0
 
