@@ -69,10 +69,16 @@ public class newClass {
         l1=89989;
         long l2 =678909789L;
         long l3 = 214737l;
+        decimal = 784;
+        String s ='Raj';
+        String s1 ='A';
+        String s2=s+s1;//concatination
         
     }
 
 }
 ```
 Floating used to store a decimal value;
-no datatype is ca
+no datatype is called as char in Apex
+stting should be enclosed in single qotes
+Date data type is used to represent date
