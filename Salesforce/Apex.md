@@ -39,4 +39,8 @@ Integer num;
 Apex Constants 
 Apex constant are the variable whose value cannot be changed after declares;
 it can be done by declaring the keyword with final key word
-eg final integer a
+eg final integer a =5;
+anything declared as final method cannot be overide
+if you dont want a method to be overiden it can be marked as final
+by default methods are final aslo classes are by default final
+
