@@ -13,4 +13,8 @@ when to use Apex
 2. to perform complex validation over multiple objects
 3. To create web service and email sevice 
 4. for transactions and roll back 
+Features not supported
+it cannot show the ui elements other than error message
 
+Apex is used only on the controller part
+It cannot change the standard sdfc functionality but can be used to stop its execution or to add new functionality -c
