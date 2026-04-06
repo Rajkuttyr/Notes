@@ -87,6 +87,12 @@ public class newClass {
         t1.addHours(2);
         t1.addMinutes(20);
         
+        DateTime dt1=DateTime.newInstances(2018,05,15,09,20,30);
+        boolean b =true;
+        boolean b1 = fale;
+        boolean b2 =5>7;
+        
+        
         
     }
 
