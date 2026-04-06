@@ -48,3 +48,12 @@ Flows of Action
 ![[Pasted image 20260406230930.png]]
 
 while saving it automatically get compiled and svaed
+
+Data Types in Apex
+Apex is strongly typed 
+Every variable i stype
+variable is used to store or refernce an value of a declared datatype on the memory
+primitive user defined
+primitive datatype
+Integer data type used to store a integer numeric value
+Integer is divided into two type int and long
