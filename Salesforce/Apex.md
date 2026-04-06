@@ -73,6 +73,15 @@ public class newClass {
         String s ='Raj';
         String s1 ='A';
         String s2=s+s1;//concatination
+        Date d1;
+        d1=Date.today();//current date
+        //methods
+        d1=d1.toStartOfMonth();
+        d1=d1.toStartOfWeek();
+        d1=d1.addDays(5);
+        d1=d1.addYears(5);
+        d1=d1.Months(5);
+        
         
     }
 
