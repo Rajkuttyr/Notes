@@ -44,3 +44,7 @@ anything declared as final method cannot be overide
 if you dont want a method to be overiden it can be marked as final
 by default methods are final aslo classes are by default final
 
+Flows of Action 
+![[Pasted image 20260406230930.png]]
+
+while saving it automatically get compiled and svaed
