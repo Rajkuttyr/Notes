@@ -388,4 +388,7 @@ Every tree is a graph
 check if cycle exist or not
 first take a node traverse and add the neighbour if not exisist in the hashset 
 this is 
+create a hash map  key as parent and value as child
+from zero traverse using bfs or dfs
+first add zero and it child
 
