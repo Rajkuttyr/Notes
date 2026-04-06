@@ -102,3 +102,10 @@ Floating used to store a decimal value;
 no datatype is called as char in Apex
 stting should be enclosed in single qotes
 Date data type is used to represent date
+
+Rules of Conversion
+to convert a value into another 
+lower to higher it automatically converts
+to convert higher t lower for explict mention
+Hieracy of numbers int<long<double<decimal
+ID can be always assigned to strings
