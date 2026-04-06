@@ -107,5 +107,6 @@ Rules of Conversion
 to convert a value into another 
 lower to higher it automatically converts
 to convert higher t lower for explict mention
-Hieracy of numbers int<long<double<decimal
+Hieracy of numbers int<long<double<decimal.
 ID can be always assigned to strings
+Strings can be assigned to id
