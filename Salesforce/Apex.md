@@ -57,3 +57,8 @@ primitive user defined
 primitive datatype
 Integer data type used to store a integer numeric value
 Integer is divided into two type int and long
+
+```java
+
+
+```
