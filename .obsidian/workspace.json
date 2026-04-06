@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "# 🚀 DSA Master Question List.md",
+                "file": "Salesforce/Apex.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "# 🚀 DSA Master Question List"
+              "title": "Apex"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "a523827e377efd3f",
@@ -196,6 +197,9 @@
   },
   "active": "ccaa8a14c2b7c5bb",
   "lastOpenFiles": [
+    "# 🚀 DSA Master Question List.md",
+    "Salesforce/Apex.md",
+    "Salesforce",
     "DSA/Graph.md",
     "DSA/DYNAMIC PROGRAMMING.md",
     "DSA/Dynamic Programing.md",
@@ -210,7 +214,6 @@
     "Symposium/REPORT.md",
     "Symposium/My speech.md",
     "Symposium Plans.pdf",
-    "# 🚀 DSA Master Question List.md",
     "230. Kth Smallest Element in a BST.md",
     "RULE BOOK.pdf",
     "Untitled.md",
@@ -224,7 +227,6 @@
     "Detect a cycle in undirected graph.md",
     "Leetcode/Cimbing stairs.md",
     "Untitled.base",
-    "DATA FROM CSV.md",
     "Pasted image 20260320101900.png",
     "System Design",
     "Networks",
@@ -233,7 +235,6 @@
     "Symposium",
     "Academic/MA",
     "Untitled.canvas",
-    "Academic/IS",
-    "Patent Works"
+    "Academic/IS"
   ]
 }
