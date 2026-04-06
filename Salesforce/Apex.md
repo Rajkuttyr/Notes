@@ -17,4 +17,13 @@ Features not supported
 it cannot show the ui elements other than error message
 
 Apex is used only on the controller part
-It cannot change the standard sdfc functionality but can be used to stop its execution or to add new functionality -c
+It cannot change the standard sdfc functionality but can be used to stop its execution or to add new functionality -can be overriden 
+it canot be used to create a temp fil
+it cannpt crearte multithread
+Apex environment
+1. production environment
+2. development 
+we can run apex in developer production and sandbox
+production org we cannot use apex
+
+
