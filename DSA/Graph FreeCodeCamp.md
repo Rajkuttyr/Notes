@@ -549,3 +549,4 @@ Given a number of corses and number of prerequisite that means we have to comple
 Based on the inofrmation we have to check wether we can finish the course are not
 graph problem we can treat them graph edges
 use dfs 
+
