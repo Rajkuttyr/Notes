@@ -123,4 +123,6 @@ Apex is aldready integrated with database
 single object return the 
 sobject if yoou want to represent s object 
 ```java
-public class
+public class s{
+
+}
