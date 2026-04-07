@@ -143,3 +143,12 @@ List set and Map
 List
 In list the element or values or stored in order like first in first second in second
 The elements in the List can have duplicate value
+List is similar t arrya in java
+first element 0 
+
+```java
+public class ListClass{
+List<Datatype> lList = new Lis3t<DataType>();
+
+}
+```
