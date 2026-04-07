@@ -137,3 +137,9 @@ Sobject values to the Sobject can be assigned through constructor or through Dot
 to add custom object "underscore underscore__c" at the end of the identifier
 
 Collection 
+we will use collection in order to store simillar type of information together we use collection 
+In apex we have three collection
+List set and Map
+List
+In list the element or values or stored in order like first in first second in second
+The elements in the List can have duplicate value
