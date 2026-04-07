@@ -131,4 +131,5 @@ Account a2 = new Account(Name='Amazon');
 
 }
 ```
-Sobject values to the Sobject can be assigned 
+Sobject values to the Sobject can be assigned through constructor or through Dot notation
+to add custom object "underscore underscore__c" at the end of the identifier
