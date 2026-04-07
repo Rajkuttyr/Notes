@@ -545,4 +545,7 @@ Given m*n matrix buncehs of x and o
 we have to capture all h o surronded by x on four sides
 not a immediate suronding but surronding
 Course Schedule leetcode 207
-Given a num
+Given a number of corses and number of prerequisite that means we have to complete course two in order to complete course 2
+Based on the inofrmation we have to check wether we can finish the course are not
+graph problem we can treat them graph edges
+use dfs 
