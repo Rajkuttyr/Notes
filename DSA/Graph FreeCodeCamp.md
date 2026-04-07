@@ -456,4 +456,7 @@ if entry does not exist creat a clone node and add a entry to clone node
 and key a current node
 then traverse the node 
 then do same way
-then for the last after the 
+then for the last after the loops and recuursive case end return the node
+Time : O(v+e);
+Space : O(V)
+Use dfs to solve the problem or use bfs
