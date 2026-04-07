@@ -531,4 +531,9 @@ Space : O(V)
 Use dfs to solve the problem or use bfs
 
 lc -286 - Walls and Gates
-yoou are given m
+yoou are given mxn 2 grid
+-1 a wall gate or an obstacle
+0 - A gate
+Inf - empty room
+fill the empty to romm to the distance to nearest gate
+if it is impossible to nearest gate then fill it will inf
