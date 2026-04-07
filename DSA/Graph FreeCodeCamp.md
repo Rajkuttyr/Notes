@@ -539,3 +539,7 @@ fill the empty to romm to the distance to nearest gate
 if it is impossible to nearest gate then fill it will inf
 traverse the matrix and mark te getes 
 bfs
+lc -130
+Surronded regions
+Given m*n matrix buncehs of x and o
+we have to capture all h o surronded by x on four sides
