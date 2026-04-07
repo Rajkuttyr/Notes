@@ -113,3 +113,6 @@ Strings can be assigned to id
 
 Enum 
 Enum 
+public enum Season{
+Winter,Summer,Spring
+}
