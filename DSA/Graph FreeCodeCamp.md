@@ -554,7 +554,13 @@ create a hashmap key as courses and prerq;
 class Solution{
 public courseSchedule(int numCourses,int[][] preq){
 HashMap<Integer,List<Integer>> map = new HashMap<>();
-HashSet
+HashSet<Integer> set = new HashSet<>();
+for(int[] pre : preq){
+if(map.containsKey(pre[1])){
+map.get(pre[1]).add()
+}
+}
+
 }
 }
 ```
