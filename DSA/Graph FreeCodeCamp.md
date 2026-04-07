@@ -444,3 +444,6 @@ return node;
 }
 ```
 
+Deep copy
+first a add new node
+create a neighbour and go to its neighbour
