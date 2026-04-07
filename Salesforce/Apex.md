@@ -123,6 +123,12 @@ Apex is aldready integrated with database
 single object return the 
 sobject if yoou want to represent s object 
 ```java
-public class s{
+public class sObjectClass{
+Accout a1 = new Account();
+Contact c1 = new Contact();
+Account a2 = new Account(Name='Amazon');
+
 
 }
+```
+Sobject values to the Sobject can be assigned 
