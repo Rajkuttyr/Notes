@@ -537,3 +537,4 @@ yoou are given mxn 2 grid
 Inf - empty room
 fill the empty to romm to the distance to nearest gate
 if it is impossible to nearest gate then fill it will inf
+traverse 
