@@ -450,4 +450,5 @@ create a neighbour and go to its neighbour
 ```java
 
 ```
-Creat
+Create hash map 
+key node and value as node
