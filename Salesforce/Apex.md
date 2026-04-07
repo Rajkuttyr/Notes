@@ -127,6 +127,8 @@ public class sObjectClass{
 Accout a1 = new Account();
 Contact c1 = new Contact();
 Account a2 = new Account(Name='Amazon');
+a1.Name = 'Raj';
+Student__c st1 = new Student__c(Student_name)
 
 
 }
