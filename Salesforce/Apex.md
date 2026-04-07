@@ -122,3 +122,5 @@ Sobject are basically used to represent a single record in the database
 Apex is aldready integrated with database
 single object return the 
 sobject if yoou want to represent s object 
+```java
+
