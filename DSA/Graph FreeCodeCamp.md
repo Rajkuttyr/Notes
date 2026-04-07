@@ -557,7 +557,14 @@ HashMap<Integer,List<Integer>> map = new HashMap<>();
 HashSet<Integer> set = new HashSet<>();
 for(int[] pre : preq){
 if(map.containsKey(pre[1])){
-map.get(pre[1]).add()
+map.get(pre[1]).add(pre[0]);
+
+}
+else{
+List<Integer> nextCourse = new ArrayList<>();
+nextCourse.add(pre[0]);
+map.put(pre[1],nextCoures);
+
 }
 }
 
