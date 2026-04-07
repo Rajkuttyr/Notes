@@ -550,4 +550,11 @@ Based on the inofrmation we have to check wether we can finish the course are no
 graph problem we can treat them graph edges
 use dfs 
 create a hashmap key as courses and prerq;
-
+```java
+class Solution{
+public courseSchedule(int numCourses,int[][] preq){
+HashMap<Integer,List<Integer>> map = new HashMap<>();
+HashSet
+}
+}
+```
