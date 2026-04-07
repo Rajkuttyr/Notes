@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DSA/Graph FreeCodeCamp.md",
+                "file": "Salesforce/Apex.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Graph FreeCodeCamp"
+              "title": "Apex"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "a523827e377efd3f",
@@ -197,10 +196,10 @@
   },
   "active": "ccaa8a14c2b7c5bb",
   "lastOpenFiles": [
+    "DSA/Graph FreeCodeCamp.md",
     "Salesforce/Apex.md",
     "Untitled.md",
     "Pasted image 20260406230930.png",
-    "DSA/Graph FreeCodeCamp.md",
     "# 🚀 DSA Master Question List.md",
     "Salesforce",
     "DSA/Graph.md",
