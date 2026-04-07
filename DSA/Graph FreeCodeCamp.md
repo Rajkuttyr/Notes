@@ -529,3 +529,6 @@ then for the last after the loops and recuursive case end return the node
 Time : O(v+e);
 Space : O(V)
 Use dfs to solve the problem or use bfs
+
+lc -286 - Walls and Gates
+yoou are given m
