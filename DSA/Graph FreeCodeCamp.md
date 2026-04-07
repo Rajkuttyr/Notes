@@ -452,3 +452,8 @@ create a neighbour and go to its neighbour
 ```
 Create hash map 
 key node and value as node
+if entry does not exist creat a clone node and add a entry to clone node
+and key a current node
+then traverse the node 
+then do same way
+then for the last after the 
