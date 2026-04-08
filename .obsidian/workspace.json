@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Untitled 1.md",
+                "file": "UML DIAGRAM/UML.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled 1"
+              "title": "UML"
             }
           }
         ],
@@ -212,7 +212,7 @@
   "active": "e7ae42757989da43",
   "lastOpenFiles": [
     "SQL/Order.md",
-    "Untitled 1.md",
+    "UML DIAGRAM/UML.md",
     "UML DIAGRAM",
     "Salesforce/Apex.md",
     "SQL/Joins",
