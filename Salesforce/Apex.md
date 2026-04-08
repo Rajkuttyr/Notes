@@ -148,7 +148,46 @@ first element 0
 
 ```java
 public class ListClass{
-List<Datatype> lList = new Lis3t<DataType>();
-
+List<Datatype> lList = new List<DataType>();
+List<Integer> llist = new List<Integer>();
+ll.add(2);
+ll.add(4);
+ll.add(6);
+List<Integer> l2  = new List<Integer>{2,4,6};
+l2.add(5);
 }
+```
+List Array Notation 
+List array Notation ;
+```java
+Integer[] l4 = new Integer[4];
+Integer[] l5 = new List<Integer>();
+List<Integer> l6 = new Integer[4];
+l6[0]=10;
+System.debug(l6[0])//10;
+
+```
+Array is dynamic similar to List in Apex
+Method in List 
+```java
+System.debug(l6.size());
+System.debug(l6.get(2));// return the elemrnt at index 2
+l6.remove(2);
+List<Integer> l7 = new Integer<>();
+l7 = l6.clone();
+l7.set(0,50);//set element at index position;
+l7.sort();
+System.debug(l2.isEmpty());
+l7.clear();
+
+```
+while removing the element from the list the next element will be shifted
+Sets 
+1. element in list are not ordererd where us in set is ordered
+2. Elements in the set are unique;
+```java
+Set<Datatype> s = new Set<DataTye>();
+s1.add(2);
+Swr<Integer> s2 = new Set<Integer>{1,2,3};
+s2.size();
 ```
