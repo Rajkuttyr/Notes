@@ -7,3 +7,6 @@ Class Diagram
 Component 
 4. components of software
 Deployment diagram - system architecture
+packages and dependiencies
+USe cases Diageram
+Activity Diagram 
