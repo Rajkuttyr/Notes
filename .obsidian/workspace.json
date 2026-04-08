@@ -194,8 +194,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ccaa8a14c2b7c5bb",
+  "active": "3db67ec90d9b9c17",
   "lastOpenFiles": [
+    "SQL/Joins",
+    "SQL",
     "DSA/Graph FreeCodeCamp.md",
     "Salesforce/Apex.md",
     "Untitled.md",
@@ -233,7 +235,6 @@
     "Pasted image 20260211205333.png",
     "Symposium",
     "Academic/MA",
-    "Untitled.canvas",
-    "Academic/IS"
+    "Untitled.canvas"
   ]
 }
