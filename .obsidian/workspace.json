@@ -27,16 +27,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "UML DIAGRAM/UML.md",
+                "file": "Leetcode/Detect a cycle in undirected graph.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "UML"
+              "title": "Detect a cycle in undirected graph"
+            }
+          },
+          {
+            "id": "c97151fca614fad0",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Pasted image 20260406230930.png"
+              },
+              "icon": "lucide-image",
+              "title": "Pasted image 20260406230930"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -209,18 +221,23 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e7ae42757989da43",
+  "active": "c97151fca614fad0",
   "lastOpenFiles": [
+    "Pasted image 20260320101900.png",
+    "RULE BOOK.pdf",
+    "Pasted image 20260406230930.png",
+    "Leetcode/Detect a cycle in undirected graph.md",
+    "DATA FROM CSV.md",
+    "Leetcode/17. Letter Combinations of a Phone Number.md",
+    "UML DIAGRAM/UML.md",
     "GraphicsViewer.png",
     "SQL/Order.md",
-    "UML DIAGRAM/UML.md",
     "UML DIAGRAM",
     "Salesforce/Apex.md",
     "SQL/Joins",
     "SQL",
     "DSA/Graph FreeCodeCamp.md",
     "Untitled.md",
-    "Pasted image 20260406230930.png",
     "# 🚀 DSA Master Question List.md",
     "Salesforce",
     "DSA/Graph.md",
@@ -236,16 +253,11 @@
     "Symposium/REPORT.md",
     "Symposium/My speech.md",
     "Symposium Plans.pdf",
-    "230. Kth Smallest Element in a BST.md",
-    "RULE BOOK.pdf",
+    "Leetcode/230. Kth Smallest Element in a BST.md",
     "CyberSecurity/Cybersecurity.md",
     "Leetcode/Rotten oranges.md",
     "SpringSecurity.md",
-    "DSA/GRAPH DFS AND BFS Difference.md",
-    "DSA/Graph Take you forward.md",
-    "DSA/Dynamic Programing Take U forward.md",
     "Untitled.base",
-    "Pasted image 20260320101900.png",
     "System Design",
     "Networks",
     "Problems",
