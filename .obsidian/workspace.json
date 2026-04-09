@@ -39,12 +39,14 @@
             "id": "c97151fca614fad0",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Pasted image 20260406230930.png"
+                "file": "CyberSecurity/Network Scanning.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20260406230930"
+              "icon": "lucide-file",
+              "title": "Network Scanning"
             }
           }
         ],
@@ -221,23 +223,29 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c97151fca614fad0",
+  "active": "3db67ec90d9b9c17",
   "lastOpenFiles": [
-    "Pasted image 20260320101900.png",
+    "Documents",
+    "Documents/Untitled.base",
+    "CyberSecurity/SpringSecurity.md",
+    "Documents/Pasted image 20260406230930.png",
+    "Documents/Pasted image 20260320101900.png",
+    "Documents/GraphicsViewer.png",
+    "Problems/DATA FROM CSV.md",
+    "CyberSecurity/Network Scanning.md",
+    "Todo.md",
+    "Symposium Plans.pdf",
+    "System design.md",
     "RULE BOOK.pdf",
-    "Pasted image 20260406230930.png",
     "Leetcode/Detect a cycle in undirected graph.md",
-    "DATA FROM CSV.md",
     "Leetcode/17. Letter Combinations of a Phone Number.md",
     "UML DIAGRAM/UML.md",
-    "GraphicsViewer.png",
     "SQL/Order.md",
     "UML DIAGRAM",
     "Salesforce/Apex.md",
     "SQL/Joins",
     "SQL",
     "DSA/Graph FreeCodeCamp.md",
-    "Untitled.md",
     "# 🚀 DSA Master Question List.md",
     "Salesforce",
     "DSA/Graph.md",
@@ -252,12 +260,7 @@
     "DSA/ArrayList.md",
     "Symposium/REPORT.md",
     "Symposium/My speech.md",
-    "Symposium Plans.pdf",
     "Leetcode/230. Kth Smallest Element in a BST.md",
-    "CyberSecurity/Cybersecurity.md",
-    "Leetcode/Rotten oranges.md",
-    "SpringSecurity.md",
-    "Untitled.base",
     "System Design",
     "Networks",
     "Problems",
