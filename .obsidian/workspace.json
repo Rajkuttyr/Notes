@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "was.zip/B2_Predictive_Modelling_Techniques.md",
+                "file": "was.zip/B3_Supply_Chain_Analytics.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "B2_Predictive_Modelling_Techniques"
+              "title": "B3_Supply_Chain_Analytics"
             }
           }
         ]
@@ -196,6 +196,7 @@
   },
   "active": "c97151fca614fad0",
   "lastOpenFiles": [
+    "was.zip/B2_Predictive_Modelling_Techniques.md",
     "was.zip/B3_Supply_Chain_Analytics.md",
     "was.zip/B1_ML_Predictive_Analytics.md",
     "UML DIAGRAM/UML.md",
@@ -203,7 +204,6 @@
     "was.zip/B6_Building_Predictive_Model.md",
     "was.zip/B7_Workforce_Analytics_Strategic.md",
     "was.zip/B5_Predictive_Analytics_Uncertainty.md",
-    "was.zip/B2_Predictive_Modelling_Techniques.md",
     "was.zip/B8_Inventory_Optimization.md",
     "was.zip/B4_HR_Analytics_Hourly_Demand.md",
     "was.zip/C3_Customer_Lifecycle_Analytics.md",
