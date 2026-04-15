@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "UML DIAGRAM/UML.md",
-                "mode": "source",
+                "file": "was.zip/B1_ML_Predictive_Analytics.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "UML"
+              "title": "B1_ML_Predictive_Analytics"
             }
           }
         ]
@@ -196,9 +196,23 @@
   },
   "active": "c97151fca614fad0",
   "lastOpenFiles": [
+    "UML DIAGRAM/UML.md",
+    "was.zip/C2_Customer_Behavior_Analytics.md",
+    "was.zip/B6_Building_Predictive_Model.md",
+    "was.zip/B7_Workforce_Analytics_Strategic.md",
+    "was.zip/B3_Supply_Chain_Analytics.md",
+    "was.zip/B5_Predictive_Analytics_Uncertainty.md",
+    "was.zip/B2_Predictive_Modelling_Techniques.md",
+    "was.zip/B8_Inventory_Optimization.md",
+    "was.zip/B4_HR_Analytics_Hourly_Demand.md",
+    "was.zip/C3_Customer_Lifecycle_Analytics.md",
+    "was.zip/C1_Marketing_Sales_Analytics.md",
+    "was.zip/B1_ML_Predictive_Analytics.md",
+    "was.zip/2Marks_QA_BusinessAnalytics_CCW331.md",
+    "was.zip/C4_Data_Driven_Campaign_Design.md",
+    "was.zip",
     "Leetcode/Detect a cycle in undirected graph.md",
     "SQL/Order.md",
-    "UML DIAGRAM/UML.md",
     "CyberSecurity/Network Scanning.md",
     "Documents",
     "Documents/Untitled.base",
@@ -220,20 +234,7 @@
     "# 🚀 DSA Master Question List.md",
     "Salesforce",
     "DSA/Graph.md",
-    "DSA/DYNAMIC PROGRAMMING.md",
-    "DSA/Dynamic Programing.md",
-    "DSA/DP.md",
-    "DSA/Concept CheatSheet.md",
-    "DSA/Collections.md",
-    "DSA/BST METHODS.md",
-    "DSA/Backtracking complete pattern.md",
-    "DSA/BackTracking.md",
-    "DSA/ArrayList.md",
-    "Symposium/REPORT.md",
-    "Symposium/My speech.md",
-    "Leetcode/230. Kth Smallest Element in a BST.md",
     "System Design",
-    "Networks",
     "Pasted image 20260211205333.png",
     "Untitled.canvas"
   ]
