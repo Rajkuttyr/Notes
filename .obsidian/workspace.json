@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "was.zip/B3_Supply_Chain_Analytics.md",
+                "file": "was.zip/B4_HR_Analytics_Hourly_Demand.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "B3_Supply_Chain_Analytics"
+              "title": "B4_HR_Analytics_Hourly_Demand"
             }
           }
         ]
@@ -196,8 +196,8 @@
   },
   "active": "c97151fca614fad0",
   "lastOpenFiles": [
-    "was.zip/B2_Predictive_Modelling_Techniques.md",
     "was.zip/B3_Supply_Chain_Analytics.md",
+    "was.zip/B2_Predictive_Modelling_Techniques.md",
     "was.zip/B1_ML_Predictive_Analytics.md",
     "UML DIAGRAM/UML.md",
     "was.zip/C2_Customer_Behavior_Analytics.md",
