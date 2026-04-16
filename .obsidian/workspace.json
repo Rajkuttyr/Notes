@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "was.zip/B4_HR_Analytics_Hourly_Demand.md",
-                "mode": "preview",
+                "file": "Salesforce/Apex.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "B4_HR_Analytics_Hourly_Demand"
+              "title": "Apex"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "a523827e377efd3f",
@@ -196,6 +197,7 @@
   },
   "active": "c97151fca614fad0",
   "lastOpenFiles": [
+    "was.zip/B4_HR_Analytics_Hourly_Demand.md",
     "was.zip/B3_Supply_Chain_Analytics.md",
     "was.zip/B2_Predictive_Modelling_Techniques.md",
     "was.zip/B1_ML_Predictive_Analytics.md",
@@ -205,7 +207,6 @@
     "was.zip/B7_Workforce_Analytics_Strategic.md",
     "was.zip/B5_Predictive_Analytics_Uncertainty.md",
     "was.zip/B8_Inventory_Optimization.md",
-    "was.zip/B4_HR_Analytics_Hourly_Demand.md",
     "was.zip/C3_Customer_Lifecycle_Analytics.md",
     "was.zip/C1_Marketing_Sales_Analytics.md",
     "was.zip/2Marks_QA_BusinessAnalytics_CCW331.md",

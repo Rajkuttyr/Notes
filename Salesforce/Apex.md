@@ -191,3 +191,8 @@ s1.add(2);
 Swr<Integer> s2 = new Set<Integer>{1,2,3};
 s2.size();
 ```
+
+Map
+Map is key value pair 
+key is unique and value is not unique
+store the name and roll number similar to Hashmap in java
