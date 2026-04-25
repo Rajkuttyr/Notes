@@ -9,3 +9,5 @@ will be in html format json or xml
 response as response object 
 In sevlet use annotation for maping 
 client -> sever-> webcontainer-> sevelet
+Configure Tomcat
+Tomcat download
