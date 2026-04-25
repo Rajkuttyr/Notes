@@ -1,0 +1,6 @@
+Client and server 
+Servlet is a container 
+Client sends request to server and server sends response
+Servelet is a java file that takes req from client and sends response as html
+Web container are also called as we bserver like tomcat 
+Tomcat 

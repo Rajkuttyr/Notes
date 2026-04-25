@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docker/Docker for java.md",
+                "file": "JSP/JSP.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Docker for java"
+              "title": "JSP"
             }
           }
         ],
@@ -212,8 +212,10 @@
   },
   "active": "021a87f951dafbda",
   "lastOpenFiles": [
-    "Salesforce/Apex.md",
     "Docker/Docker for java.md",
+    "JSP/JSP.md",
+    "JSP",
+    "Salesforce/Apex.md",
     "Docker",
     "was.zip/B4_HR_Analytics_Hourly_Demand.md",
     "was.zip/B3_Supply_Chain_Analytics.md",
@@ -249,8 +251,6 @@
     "SQL/Joins",
     "SQL",
     "DSA/Graph FreeCodeCamp.md",
-    "# 🚀 DSA Master Question List.md",
-    "Salesforce",
     "Pasted image 20260211205333.png",
     "Untitled.canvas"
   ]
