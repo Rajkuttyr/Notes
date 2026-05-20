@@ -223,8 +223,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3c85ee2076b18cb5",
+  "active": "3db67ec90d9b9c17",
   "lastOpenFiles": [
+    "Untitled",
     "JSP/JSP.md",
     "IEEE Epics.md",
     "Docker/Docker for java.md",
@@ -260,7 +261,6 @@
     "Symposium Plans.pdf",
     "System design.md",
     "RULE BOOK.pdf",
-    "Leetcode/17. Letter Combinations of a Phone Number.md",
     "UML DIAGRAM",
     "SQL/Joins",
     "SQL",
