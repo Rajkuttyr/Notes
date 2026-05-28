@@ -174,3 +174,20 @@ to check the robustness of the system under the varying loads.
 which is carried out to check the performance of a software application
 or system in terms of its capability to scale up or scale down the
 number of user request load
+
+Advantages of System Testing
+ The testers do not require more knowledge of programming to carry
+out this testing.
+ It will test the entire product or software so that we will easily detect
+the errors or defects which cannot be identified during the unit testing
+and integration testing.
+ The testing environment is similar to that of the real time production or
+business environment.
+ It checks the entire functionality of the system with different test
+scripts and also it covers the technical and business requirements of
+clients.
+ After this testing, the product will almost cover all the possible bugs or
+errors and hence the development team will confidently go ahead with
+acceptance testing
+
+# WHITEBOX TESTING
