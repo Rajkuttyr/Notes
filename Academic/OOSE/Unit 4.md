@@ -257,3 +257,58 @@ Black-box testing is a type of software testing in which the tester is not
 concerned with the internal knowledge or implementation details of the
 software but rather focuses on validating the functionality based on the
 provided specifications or requirements.
+
+The technique involves two steps:
+1. Identification of equivalence class – Partition any input domain into
+a minimum of two sets: valid values and invalid values. For
+example, if the valid range is 0 to 100 then select one valid input like
+49 and one invalid like 104.
+2. Generating test cases – (i) To each valid and invalid class of input
+assign a unique identification number. (ii) Write a test case covering
+all valid and invalid test cases considering that no two invalid inputs
+mask each other. To calculate the square root of a number, the
+equivalence classes will be (a) Valid inputs:
+ The whole number which is a perfect square-output will be an
+integer.
+ The entire number which is not a perfect square-output will be a
+decimal number.
+ Positive decimals
+ Negative numbers(integer or decimal).
+ Characters other than numbers like “a”,”!”,”;”, etc.
+3. Boundary value analysis – Boundaries are very good places for
+errors to occur. Hence, if test cases are designed for boundary values of
+the input domain then the efficiency of testing improves and the
+probability of finding errors also increases. For example – If the valid
+range is 10 to 100 then test for 10,100 also apart from valid and invalid
+inputs.
+
+. Discovers missing functions, incorrect function & interface errors
+2. Discover the errors faced in accessing the database
+3. Discovers the errors that occur while initiating & terminating any
+functions.
+4. Discovers the errors in performance or behaviour of software.
+Features of black box testing:
+5. Independent testing: Black box testing is performed by testers who
+are not involved in the development of the application, which helps to
+ensure that testing is unbiased and impartial.
+6. Testing from a user’s perspective: Black box testing is conducted
+from the perspective of an end user, which helps to ensure that the
+application meets user requirements and is easy to use.
+7. No knowledge of internal code: Testers performing black box testing
+do not have access to the application’s internal code, which allows
+them to focus on testing the application’s external behaviour and
+functionality.
+8. Requirements-based testing: Black box testing is typically based on
+the application’s requirements, which helps to ensure that the
+application meets the required specifications.
+9. Different testing techniques: Black box testing can be performed
+using various testing techniques, such as functional testing, usability
+testing, acceptance testing, and regression testing.
+10. Easy to automate: Black box testing is easy to automate using
+various automation tools, which helps to reduce the overall testing
+time and effort.
+11. Scalability: Black box testing can be scaled up or down depending on
+the size and complexity of the application being tested.
+12. Limited knowledge of application: Testers performing black box
+testing have limited knowledge of the application being tested, which helps to ensure that testing is more representative of how the end
+users will interact with the application.
