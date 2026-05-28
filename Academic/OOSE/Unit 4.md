@@ -125,4 +125,20 @@ System testing is a type of software testing that evaluates the
 overall functionality and performance of a complete and fully integrated
 software solution
 
+ It tests if the system meets the specified requirements
+and if it is suitable for delivery to the end-users
+
+This type of testing is
+performed after the integration testing and before the acceptance testing.
+
+he goal of integration
+testing is to detect any irregularity between the units that are integrated
+together
+
+System testing detects defects within both the integrated units
+and the whole system
+
+System testing tests the design and behavior of the
+system and also the expectations of the customer. 
+
 
