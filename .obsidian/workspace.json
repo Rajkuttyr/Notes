@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Academic/OOSE/UNIT 2.md",
+                "file": "Academic/OOSE/UNIT 1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "UNIT 2"
+              "title": "UNIT 1"
             }
           }
         ],
@@ -227,7 +227,7 @@
   "active": "3c85ee2076b18cb5",
   "lastOpenFiles": [
     "Academic/OOSE/Unit 4.md",
-    "Academic/OOSE/UNIT 2.md",
+    "Academic/OOSE/UNIT 1.md",
     "Pasted image 20260528145929.png",
     "PHP/PHP notes.md",
     "IEEE Epics.md",
