@@ -250,3 +250,10 @@ write a small program that helps for all 50,000 cycles, as we can see in the
 below program, that test P is written in the similar language as the source
 code program, and this is known as a Unit test. And it is written by the
 developers only.
+
+BlackBox TEsting
+
+Black-box testing is a type of software testing in which the tester is not
+concerned with the internal knowledge or implementation details of the
+software but rather focuses on validating the functionality based on the
+provided specifications or requirements.
