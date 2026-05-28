@@ -201,3 +201,25 @@ testing programming skills are required to design test cases
 The primary
 goal of white box testing is to focus on the flow of inputs and outputs
 through the software and strengthening the security of the software
+
+The term 'white box' is used because of the internal perspective of the
+system. The clear box or white box or transparent box name denote the
+ability to see through the software's outer shell into its inner workings.
+
+Developers do white box testing. In this, the developer will test every line of
+the code of the program.
+
+The developers perform the White-box testing and
+then send the application or the software to the testing team, where they
+will perform the black box testing and verify the application along with the
+requirements and identify the bugs and sends it to the developer.
+The developer fixes the bugs and does one round of white box testing and
+sends it to the testing team. Here, fixing the bugs implies that the bug is
+deleted, and the particular feature is working fine on the application.
+
+The white box testing contains various tests, which are as follows:
+o Path testing
+o Loop testing
+o Condition testing
+o Testing based on the memory perspective
+o Test performance of the program
