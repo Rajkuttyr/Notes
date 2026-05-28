@@ -9,4 +9,7 @@ design:
 2. Architectural Design
 3. Detailed Design
 
-# INTERFACE 
+# INTERFACE DESIGN
+
+Interface design is the specification of the interaction between a system
+and its environment.
