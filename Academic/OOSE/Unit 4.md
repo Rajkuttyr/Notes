@@ -191,3 +191,13 @@ errors and hence the development team will confidently go ahead with
 acceptance testing
 
 # WHITEBOX TESTING
+It tests internal coding
+and infrastructure of a software focus on checking of predefined inputs
+against expected and desired outputs
+
+In this type of
+testing programming skills are required to design test cases
+
+The primary
+goal of white box testing is to focus on the flow of inputs and outputs
+through the software and strengthening the security of the software
