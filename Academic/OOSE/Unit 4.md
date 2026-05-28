@@ -118,3 +118,11 @@ done
 Verify that the bugs fixed and the newly added
 features not created any problem in the previous working version of the
 Software.
+
+# SYSTEM TESTING
+
+System testing is a type of software testing that evaluates the
+overall functionality and performance of a complete and fully integrated
+software solution
+
+
