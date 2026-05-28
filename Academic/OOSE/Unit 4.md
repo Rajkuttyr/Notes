@@ -100,3 +100,21 @@ came from is a problem, and we don't know the source of the bug.
 o Small modules missed easily.
 o Time provided for testing is very less.
 o We may miss to test some of the interfaces
+
+REGRESSION TESTING
+Regression testing is a black box testing techniques. It is used to
+authenticate a code change in the software does not impact the existing
+functionality of the product. Regression testing is making sure that the
+product works fine with new functionality, bug fixes, or any change in the
+existing feature.
+
+Test cases are re-executed
+to check the previous functionality of the application is working fine, and the
+new changes have not produced any bugs. 
+
+This method is used to test the product for modifications or any updates
+done
+
+Verify that the bugs fixed and the newly added
+features not created any problem in the previous working version of the
+Software.
