@@ -312,3 +312,24 @@ the size and complexity of the application being tested.
 12. Limited knowledge of application: Testers performing black box
 testing have limited knowledge of the application being tested, which helps to ensure that testing is more representative of how the end
 users will interact with the application.
+
+Advantages of Black Box Testing:
+ The tester does not need to have more functional knowledge or
+programming skills to implement the Black Box Testing.
+ It is efficient for implementing the tests in the larger system.
+ Tests are executed from the user’s or client’s point of view.
+ Test cases are easily reproducible.
+ It is used in finding the ambiguity and contradictions in the functional
+specifications.
+Disadvantages of Black Box Testing:
+ There is a possibility of repeating the same tests while implementing
+the testing process.
+ Without clear functional specifications, test cases are difficult to
+implement.
+ It is difficult to execute the test cases because of complex inputs at
+different stages of testing.
+ Sometimes, the reason for the test failure cannot be detected.
+ Some programs in the application are not tested.
+ It does not reveal the errors in the control structure.
+ Working with a large sample space of inputs can be exhaustive and
+consumes a lot of time.
