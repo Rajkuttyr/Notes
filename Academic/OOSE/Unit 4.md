@@ -223,3 +223,30 @@ o Loop testing
 o Condition testing
 o Testing based on the memory perspective
 o Test performance of the program
+
+Path testing
+In the path testing, we will write the flow graphs and test all independent
+paths. Here writing the flow graph implies that flow graphs are representing
+the flow of the program and also show how every program is added with
+one another as we can see in the below image:
+And test all the independent paths implies that suppose a path from main()
+to function G, first set the parameters and test if the program is correct in
+that particular path, and in the same way test all other paths and fix the
+bugs.
+
+Loop testing
+In the loop testing, we will test the loops such as while, for, and do-while,
+etc. and also check for ending condition if working correctly and if the size
+of the conditions is enough.
+For example: we have one program where the developers have given
+about 50,000 loops.
+1. {
+2. while(50,000)
+3. ……
+4. ……
+5. }
+We cannot test this program manually for all the 50,000 loops cycle. So we
+write a small program that helps for all 50,000 cycles, as we can see in the
+below program, that test P is written in the similar language as the source
+code program, and this is known as a Unit test. And it is written by the
+developers only.
