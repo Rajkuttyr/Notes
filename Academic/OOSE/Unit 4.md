@@ -141,4 +141,36 @@ and the whole system
 System testing tests the design and behavior of the
 system and also the expectations of the customer. 
 
+System Testing is basically performed by a testing
+team that is independent of the development team that helps to test the
+quality of the system 
+It has both functional and non-functional
+testing. System Testing is a black-box testing.
 
+ystem Testing Process: System Testing is performed in the following
+steps:
+ Test Environment Setup: Create testing environment for the better
+quality testing.
+ Create Test Case: Generate test case for the testing process.
+ Create Test Data: Generate the data that is to be tested.
+ Execute Test Case: After the generation of the test case and the test
+data, test cases are executed.
+ Defect Reporting: Defects in the system are detected.
+ Regression Testing: It is carried out to test the side effects of the
+testing process.
+ Log Defects: Defects are fixed in this step.
+ Retest: If the test is not successful then again test is performed.
+
+Types of System Testing
+ Performance Testing: Performance Testing is a type of software
+testing that is carried out to test the speed, scalability, stability and
+reliability of the software product or application.
+ Load Testing: Load Testing is a type of software Testing which is
+carried out to determine the behavior of a system or software product
+under extreme load.
+ Stress Testing: Stress Testing is a type of software testing performed
+to check the robustness of the system under the varying loads.
+ Scalability Testing: Scalability Testing is a type of software testing
+which is carried out to check the performance of a software application
+or system in terms of its capability to scale up or scale down the
+number of user request load
