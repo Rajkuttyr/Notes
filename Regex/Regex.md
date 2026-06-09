@@ -11,3 +11,10 @@ boolean matches = matcher.matches();
 System.out.printl(matches);
 ```
 FInd the next expression that matches the pattern within the same input string by starting at the very first index of that string
+```java
+Pattern pattern = Pattern.compile("[A-Z][a-z]");
+Matcher matcher = pattern.matcher("Rajkutty");
+for(int i=0;i<5;i++){
+boolean match = matche.find();
+System.out.println(match);
+}
