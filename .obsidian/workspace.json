@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docker/Docker for java.md",
+                "file": "DSA/BackTracking.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Docker for java"
+              "title": "BackTracking"
             }
           }
         ],
@@ -107,8 +107,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "a523827e377efd3f",
@@ -226,6 +225,7 @@
   },
   "active": "3c85ee2076b18cb5",
   "lastOpenFiles": [
+    "Docker/Docker for java.md",
     "Claude Code/Claude Code.md",
     "Regex/Regex.md",
     "Claude Code",
@@ -238,7 +238,6 @@
     "IEEE Epics.md",
     "PHP",
     "JSP/JSP.md",
-    "Docker/Docker for java.md",
     "JSP",
     "Salesforce/Apex.md",
     "Docker",
