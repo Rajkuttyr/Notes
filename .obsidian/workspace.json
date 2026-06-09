@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Academic/OOSE/Unit 4.md",
+                "file": "Regex/Regex.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Unit 4"
+              "title": "Regex"
             }
           }
         ],
@@ -225,9 +225,11 @@
   },
   "active": "3c85ee2076b18cb5",
   "lastOpenFiles": [
+    "Academic/OOSE/Unit 4.md",
+    "Regex/Regex.md",
+    "Regex",
     "Academic/OOSE/UNIT 3.md",
     "Academic/OOSE/UNIT 1.md",
-    "Academic/OOSE/Unit 4.md",
     "Pasted image 20260528145929.png",
     "PHP/PHP notes.md",
     "IEEE Epics.md",
@@ -257,14 +259,12 @@
     "CyberSecurity/Network Scanning.md",
     "Documents",
     "Documents/Untitled.base",
-    "CyberSecurity/SpringSecurity.md",
     "Documents/Pasted image 20260406230930.png",
     "Documents/Pasted image 20260320101900.png",
     "Documents/GraphicsViewer.png",
     "Symposium Plans.pdf",
     "RULE BOOK.pdf",
     "UML DIAGRAM",
-    "SQL/Joins",
     "Pasted image 20260211205333.png",
     "Untitled.canvas"
   ]
