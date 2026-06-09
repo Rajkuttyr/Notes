@@ -5,4 +5,9 @@ accept regex as arg
 Matcher - interupts the patern and perfoms match operation against an input String to obtain a matcher object we must invokemethod on a Pattern object
 
 ```java
-
+Pattern pat = Pattern.compile("[A-Z].[fk]e");
+Matcher matcher - pattern.matcher("Like");
+boolean matches = matcher.matches();
+System.out.printl(matches);
+```
+FInd the next expression that matches the pattern within the same input string by starting at the very first index of that string
