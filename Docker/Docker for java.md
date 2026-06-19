@@ -17,4 +17,15 @@ and network components
 Docker has volume to store data
 Docker compose helps dockers to communicate
 
+```bash
+docker run {image name}
+```
+
+user to check the containers that are currently running
+```bash
+docker ps
+```
+ 
+ to check all the  container
+ ```bash
  
