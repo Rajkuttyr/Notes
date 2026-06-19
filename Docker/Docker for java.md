@@ -52,5 +52,18 @@ docker ps
       Docker pull imagename
       ```
 
- 3. Docker create 
+ 3. Docker create -creates container
+    ```bash
+    docker create image id
+    ```
+    
+  4. docker start - start the container
+     ```bash
+     docker start container id
+     ```
+     
+  5. docker stop - to stop the container
+ 6. docker pause 
+    
+    docker run all the above steps
     
