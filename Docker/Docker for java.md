@@ -641,3 +641,18 @@ docker run -dit openjdk:22-jdk
  docker commit --change='CMD ["java","-jdk","/tmp/HelloWorld.jar"]' containerid
  docker run imageid
 ```
+
+create dockerfile
+add
+```java
+FROM openjdk:22-jdk
+
+ADD target/HelloWorld.jar HelloWorld.jar
+
+ENTRYPOINT [ "java","-jar","/HelloWorld.jar"]
+
+EXPOSE 8080 8081
+```
+docker build -t helloworld:v3 .
+docker images
+docker run -p 8080:8080 dockerimagerid 
