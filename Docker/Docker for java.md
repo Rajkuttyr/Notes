@@ -634,4 +634,6 @@ CONTAINER ID   IMAGE         COMMAND    CREATED              STATU
 rajkutty@Rajkuttys-MacBook-Air ~ %
 ```
 
+```bash
+docker run -dit openjdk:22-jdk
 
