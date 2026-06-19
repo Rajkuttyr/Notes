@@ -67,3 +67,7 @@ docker ps
     
     docker run all the above steps
     
+Docker Architecture
+Client ->Docker client ->Docker[Image Container Volumes Deamon] ->Registery
+Docker Deamon -> exectues the background task search images get pull create container are managed by deamon 
+
