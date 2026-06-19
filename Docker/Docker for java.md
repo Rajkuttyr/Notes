@@ -15,5 +15,6 @@ Docker hub - contains all the images of the popular service
 Container has network protocols
 and network components
 Docker has volume to store data
-Docker compose helps dockers to co
+Docker compose helps dockers to communicate
+
  
