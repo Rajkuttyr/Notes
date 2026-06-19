@@ -41,4 +41,16 @@ docker ps
  
  remover the images
  
- 
+ steps1
+ 1. Docker Search 
+    ```bash
+    docker search imagename
+    ```
+   
+   2. Docker pull 
+      ```bash
+      Docker pull imagename
+      ```
+
+ 3. Docker create 
+    
