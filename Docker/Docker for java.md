@@ -9,5 +9,11 @@ Docker is a tool for containersaition
 Components
 Docker Engine - creating and managing container
 User interact with comands
-Images 
+Images - blueprint , light weight file of the container 
+Docker file 
+Docker hub - contains all the images of the popular service
+Container has network protocols
+and network components
+Docker has volume to store data
+Docker compose helps dockers to co
  
