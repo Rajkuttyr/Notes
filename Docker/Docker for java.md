@@ -1,658 +1,748 @@
-Build application and millions of people use
-Before docker we had virtualisation 
+# 🐳 Docker - Complete Beginner Notes
 
-Contenarisation
-Contaniner manages the application enable the app to run on multiple device 
-Support scalablity and portablity 
-Packages of software and ship it to the other machine
-Docker is a tool for containersaition
-Components
-Docker Engine - creating and managing container
-User interact with comands
-Images - blueprint , light weight file of the container 
-Docker file 
-Docker hub - contains all the images of the popular service
-Container has network protocols
-and network components
-Docker has volume to store data
-Docker compose helps dockers to communicate
+> [!info]
+> Docker is an open-source platform that enables developers to **build, package, distribute, and run applications inside containers**. It solves the classic problem:
+>
+> **"It works on my machine, but not on yours."**
 
-```bash
-docker run {image name}
+---
+
+# Why Docker?
+
+Imagine you develop an application on your laptop.
+
+When you send it to another developer or deploy it to a server, it may fail because of:
+
+- Different Operating System
+- Different Java/Python/Node version
+- Missing libraries
+- Missing dependencies
+- Different configurations
+
+Docker packages **everything required to run the application** into a single unit called a **Container**.
+
+Thus,
+
+> Build once → Run Anywhere
+
+---
+
+# Before Docker (Virtualization)
+
+Before Docker, applications were deployed using **Virtual Machines (VMs).**
+
+Each VM contains:
+
+- Application
+- Libraries
+- Dependencies
+- Complete Guest Operating System
+
+## Architecture
+
+```mermaid
+graph TD
+
+Hardware --> Hypervisor
+
+Hypervisor --> VM1
+Hypervisor --> VM2
+Hypervisor --> VM3
+
+VM1 --> Ubuntu
+VM2 --> Windows
+VM3 --> Linux
+
+Ubuntu --> App1
+Windows --> App2
+Linux --> App3
 ```
 
-user to check the containers that are currently running
+## Problems
+
+- Heavyweight
+- High RAM usage
+- Slow startup
+- Each VM requires a complete Operating System
+- Large storage consumption
+
+---
+
+# Containerization
+
+Containerization packages
+
+- Application
+- Dependencies
+- Libraries
+- Runtime
+
+inside a **Container**.
+
+Containers share the Host Operating System.
+
+```mermaid
+graph TD
+
+Hardware --> HostOS
+
+HostOS --> DockerEngine
+
+DockerEngine --> Container1
+DockerEngine --> Container2
+DockerEngine --> Container3
+
+Container1 --> App1
+Container2 --> App2
+Container3 --> App3
+```
+
+## Advantages
+
+- Lightweight
+- Fast startup
+- Less memory usage
+- Portable
+- Easy deployment
+- Consistent environment
+- Scalable
+- Isolated execution
+
+---
+
+# Docker Architecture
+
+```mermaid
+graph LR
+
+User --> CLI
+
+CLI --> DockerDaemon
+
+DockerDaemon --> Images
+DockerDaemon --> Containers
+DockerDaemon --> Networks
+DockerDaemon --> Volumes
+
+DockerDaemon --> DockerHub
+```
+
+---
+
+# Docker Components
+
+## 1. Docker Client (CLI)
+
+User interacts with Docker using commands.
+
+Example
+
+```bash
+docker run nginx
+```
+
+The client sends the request to Docker Daemon.
+
+---
+
+## 2. Docker Daemon
+
+The Docker Daemon (`dockerd`) is the background service that manages Docker.
+
+Responsibilities
+
+- Pull Images
+- Build Images
+- Create Containers
+- Start Containers
+- Stop Containers
+- Remove Containers
+- Manage Networks
+- Manage Volumes
+
+---
+
+## 3. Docker Engine
+
+Docker Engine is the core runtime that creates and manages containers.
+
+It consists of
+
+- Docker CLI
+- Docker Daemon
+- REST API
+
+---
+
+## 4. Docker Image
+
+An Image is a **read-only template** used to create containers.
+
+Think of it as:
+
+```
+Image = Blueprint (Class)
+
+Container = Running Instance (Object)
+```
+
+Example Images
+
+- ubuntu
+- nginx
+- mysql
+- mongo
+- redis
+- openjdk
+
+---
+
+## 5. Docker Container
+
+A Container is a running instance of an Image.
+
+One Image can create multiple Containers.
+
+```
+hello-world Image
+
+↓
+
+Container 1
+
+↓
+
+Container 2
+
+↓
+
+Container 3
+```
+
+---
+
+## 6. Dockerfile
+
+A Dockerfile is a text file containing instructions to build a Docker Image.
+
+Example
+
+```dockerfile
+FROM openjdk:22-jdk
+
+WORKDIR /app
+
+COPY target/HelloWorld.jar app.jar
+
+EXPOSE 8080
+
+ENTRYPOINT ["java","-jar","app.jar"]
+```
+
+Common Dockerfile Instructions
+
+| Instruction | Purpose |
+|-------------|----------|
+| FROM | Base Image |
+| WORKDIR | Working Directory |
+| COPY | Copy Files |
+| ADD | Copy files (extra features) |
+| RUN | Execute commands during build |
+| ENV | Environment Variables |
+| EXPOSE | Declare Ports |
+| CMD | Default Command |
+| ENTRYPOINT | Main Application |
+
+---
+
+## 7. Docker Hub
+
+Docker Hub is an online repository containing Docker Images.
+
+Examples
+
+- ubuntu
+- mysql
+- nginx
+- redis
+- mongo
+- openjdk
+
+Official Images are marked with **[OK]** during search.
+
+---
+
+## 8. Docker Volumes
+
+Containers are temporary.
+
+Deleting a container deletes its internal data.
+
+Volumes store data permanently.
+
+```
+Container Deleted
+
+↓
+
+Volume Remains
+
+↓
+
+Data Safe
+```
+
+Useful for
+
+- MySQL
+- MongoDB
+- PostgreSQL
+
+---
+
+## 9. Docker Networks
+
+Docker automatically creates virtual networks.
+
+Network Types
+
+- Bridge (Default)
+- Host
+- None
+- Overlay
+
+Purpose
+
+- Container Communication
+- Service Discovery
+- Isolation
+
+---
+
+## 10. Docker Compose
+
+Docker Compose manages multiple containers using a single YAML file.
+
+Example Stack
+
+```text
+Frontend
+
+↓
+
+Backend
+
+↓
+
+Database
+```
+
+Instead of
+
+```bash
+docker run frontend
+
+docker run backend
+
+docker run mysql
+```
+
+Use
+
+```bash
+docker compose up
+```
+
+---
+
+# Docker Workflow
+
+```mermaid
+graph LR
+
+Search --> Pull
+
+Pull --> Image
+
+Image --> Create
+
+Create --> Start
+
+Start --> RunningContainer
+```
+
+---
+
+# Common Docker Commands
+
+## Check Docker Version
+
+```bash
+docker --version
+```
+
+---
+
+## Search Images
+
+```bash
+docker search hello-world
+```
+
+Search Docker Hub.
+
+---
+
+## Download Image
+
+```bash
+docker pull hello-world
+```
+
+Downloads an Image.
+
+---
+
+## List Images
+
+```bash
+docker images
+```
+
+Shows downloaded Images.
+
+---
+
+## Create Container
+
+```bash
+docker create hello-world
+```
+
+Creates a container but does **NOT** start it.
+
+State
+
+```
+Created
+```
+
+---
+
+## Start Container
+
+```bash
+docker start <container_id>
+```
+
+Starts an existing container.
+
+---
+
+## Stop Container
+
+```bash
+docker stop <container_id>
+```
+
+Stops a running container.
+
+---
+
+## Restart Container
+
+```bash
+docker restart <container_id>
+```
+
+Restart container.
+
+---
+
+## Pause Container
+
+```bash
+docker pause <container_id>
+```
+
+Pauses processes.
+
+Resume
+
+```bash
+docker unpause <container_id>
+```
+
+---
+
+## Run Container
+
+```bash
+docker run hello-world
+```
+
+Internally performs
+
+```
+Pull Image
+↓
+
+Create Container
+↓
+
+Start Container
+↓
+
+Run Program
+```
+
+---
+
+## Running Containers
+
 ```bash
 docker ps
 ```
- 
- to check all the  container
- ```bash
- docker ps -a
- ```
- 
- to check the docker images
- 
- ```bash
- docker images
- ```
- 
- remove the contianer
- 
- remover the images
- 
- steps1
- 1. Docker Search 
-    ```bash
-    docker search imagename
-    ```
-   
-   2. Docker pull 
-      ```bash
-      Docker pull imagename
-      ```
 
- 3. Docker create -creates container
-    ```bash
-    docker create image id
-    ```
-    
-  4. docker start - start the container
-     ```bash
-     docker start container id
-     ```
-     
-  5. docker stop - to stop the container
- 6. docker pause 
-    
-    docker run all the above steps
-    
-Docker Architecture
-Client ->Docker client ->Docker[Image Container Volumes Deamon] ->Registery
-Docker Deamon -> exectues the background task search images get pull create container are managed by deamon 
+Shows only running containers.
 
-TO push java
-need jdk 
+---
+
+## All Containers
 
 ```bash
-Last login: Fri Jun 19 16:02:23 on ttys000
-
-rajkutty@Rajkuttys-MacBook-Air ~ % docker --version
-
-Docker version 29.5.3, build d1c06ef
-
-rajkutty@Rajkuttys-MacBook-Air ~ % docker run hello-world
-
-Unable to find image 'hello-world:latest' locally
-
-latest: Pulling from library/hello-world
-
-58dee6a49ef1: Pull complete 
-
-c3bdf82c34d1: Download complete 
-
-Digest: sha256:96498ffd522e70807ab6384a5c0485a79b9c7c08ca79ba08623edcad1054e62d
-
-Status: Downloaded newer image for hello-world:latest
-
-  
-
-Hello from Docker!
-
-This message shows that your installation appears to be working correctly.
-
-  
-
-To generate this message, Docker took the following steps:
-
- 1. The Docker client contacted the Docker daemon.
-
- 2. The Docker daemon pulled the "hello-world" image from the Docker Hub.
-
-    (arm64v8)
-
- 3. The Docker daemon created a new container from that image which runs the
-
-    executable that produces the output you are currently reading.
-
- 4. The Docker daemon streamed that output to the Docker client, which sent it
-
-    to your terminal.
-
-  
-
-To try something more ambitious, you can run an Ubuntu container with:
-
- $ docker run -it ubuntu bash
-
-  
-
-Share images, automate workflows, and more with a free Docker ID:
-
- https://hub.docker.com/
-
-  
-
-For more examples and ideas, visit:
-
- https://docs.docker.com/get-started/
-
-  
-
-rajkutty@Rajkuttys-MacBook-Air ~ % docker ps
-
-CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
-
-rajkutty@Rajkuttys-MacBook-Air ~ % docker ps -a
-
-CONTAINER ID   IMAGE         COMMAND    CREATED         STATUS                     PORTS     NAMES
-
-2fc608b6a121   hello-world   "/hello"   6 minutes ago   Exited (0) 5 minutes ago             vibrant_germain
-
-rajkutty@Rajkuttys-MacBook-Air ~ % docker images
-
-                                                                                **i** Info →   U  In Use
-
-**IMAGE**                **ID**             **DISK USAGE**   **CONTENT SIZE**   **EXTRA**
-
-**hello-world:latest**   96498ffd522e       22.6kB         10.3kB    U   
-
-rajkutty@Rajkuttys-MacBook-Air ~ % docker help
-
-Usage:  docker [OPTIONS] COMMAND
-
-  
-
-A self-sufficient runtime for containers
-
-  
-
-Common Commands:
-
-  run         Create and run a new container from an image
-
-  exec        Execute a command in a running container
-
-  ps          List containers
-
-  build       Build an image from a Dockerfile
-
-  bake        Build from a file
-
-  pull        Download an image from a registry
-
-  push        Upload an image to a registry
-
-  images      List images
-
-  login       Authenticate to a registry
-
-  logout      Log out from a registry
-
-  search      Search Docker Hub for images
-
-  version     Show the Docker version information
-
-  info        Display system-wide information
-
-  
-
-Management Commands:
-
-  agent*      Docker AI Agent Runner
-
-  ai*         Docker AI Agent - Ask Gordon
-
-  builder     Manage builds
-
-  buildx*     Docker Buildx
-
-  compose*    Docker Compose
-
-  container   Manage containers
-
-  context     Manage contexts
-
-  debug*      Get a shell into any image or container
-
-  desktop*    Docker Desktop commands
-
-  dhi*        CLI for managing Docker Hardened Images
-
-  extension*  Manages Docker extensions
-
-  image       Manage images
-
-  init*       Creates Docker-related starter files for your project
-
-  manifest    Manage Docker image manifests and manifest lists
-
-  mcp*        Docker MCP Plugin
-
-  model*      Docker Model Runner
-
-  network     Manage networks
-
-  offload*    Docker Offload
-
-  pass*       Docker Pass Secrets Manager Plugin (beta)
-
-  plugin      Manage plugins
-
-  sandbox*    Docker Sandbox
-
-  scout*      Docker Scout
-
-  system      Manage Docker
-
-  volume      Manage volumes
-
-  
-
-Swarm Commands:
-
-  swarm       Manage Swarm
-
-  
-
-Commands:
-
-  attach      Attach local standard input, output, and error streams to a running container
-
-  commit      Create a new image from a container's changes
-
-  cp          Copy files/folders between a container and the local filesystem
-
-  create      Create a new container
-
-  diff        Inspect changes to files or directories on a container's filesystem
-
-  events      Get real time events from the server
-
-  export      Export a container's filesystem as a tar archive
-
-  history     Show the history of an image
-
-  import      Import the contents from a tarball to create a filesystem image
-
-  inspect     Return low-level information on Docker objects
-
-  kill        Kill one or more running containers
-
-  load        Load an image from a tar archive or STDIN
-
-  logs        Fetch the logs of a container
-
-  pause       Pause all processes within one or more containers
-
-  port        List port mappings or a specific mapping for the container
-
-  rename      Rename a container
-
-  restart     Restart one or more containers
-
-  rm          Remove one or more containers
-
-  rmi         Remove one or more images
-
-  save        Save one or more images to a tar archive (streamed to STDOUT by default)
-
-  start       Start one or more stopped containers
-
-  stats       Display a live stream of container(s) resource usage statistics
-
-  stop        Stop one or more running containers
-
-  tag         Create a tag TARGET_IMAGE that refers to SOURCE_IMAGE
-
-  top         Display the running processes of a container
-
-  unpause     Unpause all processes within one or more containers
-
-  update      Update configuration of one or more containers
-
-  wait        Block until one or more containers stop, then print their exit codes
-
-  
-
-Global Options:
-
-      --config string      Location of client config files (default "/Users/rajkutty/.docker")
-
-  -c, --context string     Name of the context to use to connect to the daemon (overrides
-
-                           DOCKER_HOST env var and default context set with "docker context use")
-
-  -D, --debug              Enable debug mode
-
-  -H, --host string        Daemon socket to connect to
-
-  -l, --log-level string   Set the logging level ("debug", "info", "warn", "error", "fatal")
-
-                           (default "info")
-
-      --tls                Use TLS; implied by --tlsverify
-
-      --tlscacert string   Trust certs signed only by this CA (default
-
-                           "/Users/rajkutty/.docker/ca.pem")
-
-      --tlscert string     Path to TLS certificate file (default
-
-                           "/Users/rajkutty/.docker/cert.pem")
-
-      --tlskey string      Path to TLS key file (default "/Users/rajkutty/.docker/key.pem")
-
-      --tlsverify          Use TLS and verify the remote
-
-  -v, --version            Print version information and quit
-
-  
-
-Run 'docker COMMAND --help' for more information on a command.
-
-  
-
-For more help on how to use Docker, head to https://docs.docker.com/go/guides/
-
-rajkutty@Rajkuttys-MacBook-Air ~ % docker ps -a
-
-CONTAINER ID   IMAGE         COMMAND    CREATED          STATUS                     PORTS     NAMES
-
-2fc608b6a121   hello-world   "/hello"   11 minutes ago   Exited (0) 5 minutes ago             vibrant_germain
-
-rajkutty@Rajkuttys-MacBook-Air ~ % docker rm 2fc608b6a121
-
-2fc608b6a121
-
-rajkutty@Rajkuttys-MacBook-Air ~ % docker run hello-world
-
-  
-
-Hello from Docker!
-
-This message shows that your installation appears to be working correctly.
-
-  
-
-To generate this message, Docker took the following steps:
-
- 1. The Docker client contacted the Docker daemon.
-
- 2. The Docker daemon pulled the "hello-world" image from the Docker Hub.
-
-    (arm64v8)
-
- 3. The Docker daemon created a new container from that image which runs the
-
-    executable that produces the output you are currently reading.
-
- 4. The Docker daemon streamed that output to the Docker client, which sent it
-
-    to your terminal.
-
-  
-
-To try something more ambitious, you can run an Ubuntu container with:
-
- $ docker run -it ubuntu bash
-
-  
-
-Share images, automate workflows, and more with a free Docker ID:
-
- https://hub.docker.com/
-
-  
-
-For more examples and ideas, visit:
-
- https://docs.docker.com/get-started/
-
-  
-
-rajkutty@Rajkuttys-MacBook-Air ~ % docker ps -a          
-
-CONTAINER ID   IMAGE         COMMAND    CREATED         STATUS                     PORTS     NAMES
-
-e79e25e82017   hello-world   "/hello"   7 seconds ago   Exited (0) 6 seconds ago             determined_kepler
-
-rajkutty@Rajkuttys-MacBook-Air ~ % docker imgaes
-
-docker: unknown command: docker imgaes
-
-  
-
-Run 'docker --help' for more information
-
-rajkutty@Rajkuttys-MacBook-Air ~ % docker images
-
-                                                                                **i** Info →   U  In Use
-
-**IMAGE**                **ID**             **DISK USAGE**   **CONTENT SIZE**   **EXTRA**
-
-**hello-world:latest**   96498ffd522e       22.6kB         10.3kB    U   
-
-rajkutty@Rajkuttys-MacBook-Air ~ % docker rmi 96498ffd522e
-
-Error response from daemon: conflict: unable to delete 96498ffd522e (must be forced) - image is being used by stopped container e79e25e82017
-
-rajkutty@Rajkuttys-MacBook-Air ~ % docker rm e79e25e82017
-
-e79e25e82017
-
-rajkutty@Rajkuttys-MacBook-Air ~ % docker ps -a           
-
-CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
-
-rajkutty@Rajkuttys-MacBook-Air ~ % docker rmi 96498ffd522e
-
-Untagged: hello-world:latest
-
-Deleted: sha256:96498ffd522e70807ab6384a5c0485a79b9c7c08ca79ba08623edcad1054e62d
-
-rajkutty@Rajkuttys-MacBook-Air ~ % docker images
-
-                                                                                **i** Info →   U  In Use
-
-**IMAGE**   **ID**             **DISK USAGE**   **CONTENT SIZE**   **EXTRA**
-
-rajkutty@Rajkuttys-MacBook-Air ~ % docker start hello-world
-
-Error response from daemon: No such container: hello-world
-
-failed to start containers: hello-world
-
-rajkutty@Rajkuttys-MacBook-Air ~ % docker create hello-world
-
-Unable to find image 'hello-world:latest' locally
-
-latest: Pulling from library/hello-world
-
-58dee6a49ef1: Pull complete 
-
-c3bdf82c34d1: Download complete 
-
-Digest: sha256:96498ffd522e70807ab6384a5c0485a79b9c7c08ca79ba08623edcad1054e62d
-
-Status: Downloaded newer image for hello-world:latest
-
-dd66e64cb109f648a096df13927be3b6bbf8313b9cef339f8111459379257b69
-
-rajkutty@Rajkuttys-MacBook-Air ~ % docker images
-
-                                                                                **i** Info →   U  In Use
-
-**IMAGE**                **ID**             **DISK USAGE**   **CONTENT SIZE**   **EXTRA**
-
-**hello-world:latest**   96498ffd522e       22.6kB         10.3kB    U   
-
-rajkutty@Rajkuttys-MacBook-Air ~ % docker ps -a
-
-CONTAINER ID   IMAGE         COMMAND    CREATED          STATUS    PORTS     NAMES
-
-dd66e64cb109   hello-world   "/hello"   22 seconds ago   Created             zealous_noyce
-
-rajkutty@Rajkuttys-MacBook-Air ~ % dd66e64cb109
-
-zsh: command not found: dd66e64cb109
-
-rajkutty@Rajkuttys-MacBook-Air ~ % docker rm dd66e64cb109
-
-dd66e64cb109
-
-rajkutty@Rajkuttys-MacBook-Air ~ % docker images
-
-                                                                                **i** Info →   U  In Use
-
-**IMAGE**                **ID**             **DISK USAGE**   **CONTENT SIZE**   **EXTRA**
-
-**hello-world:latest**   96498ffd522e       22.6kB         10.3kB        
-
-rajkutty@Rajkuttys-MacBook-Air ~ % docker rmi 96498ffd522e
-
-Untagged: hello-world:latest
-
-Deleted: sha256:96498ffd522e70807ab6384a5c0485a79b9c7c08ca79ba08623edcad1054e62d
-
-rajkutty@Rajkuttys-MacBook-Air ~ % docker search hello-world
-
-NAME                                DESCRIPTION                                     STARS     OFFICIAL
-
-hello-world                         Hello World! (an example of minimal Dockeriz…   2578      [OK]
-
-rancher/hello-world                 This container image is no longer maintained…   6         
-
-okteto/hello-world                                                                  0         
-
-atlassian/hello-world                                                               3         
-
-goharbor/hello-world                                                                0         
-
-tutum/hello-world                   Image to test docker deployments. Has Apache…   91        
-
-dockercloud/hello-world             Hello World!                                    20        
-
-crccheck/hello-world                Hello World web server in under 2.5 MB          25        
-
-koudaiii/hello-world                                                                0         
-
-ppc64le/hello-world                 Hello World! (an example of minimal Dockeriz…   2         
-
-prajwalendra/hello-world                                                            0         
-
-tsepotesting123/hello-world                                                         0         
-
-infrastructureascode/hello-world    A tiny "Hello World" web server with a healt…   1         
-
-kevindockercompany/hello-world                                                      0         
-
-arm32v7/hello-world                 Hello World! (an example of minimal Dockeriz…   3         
-
-arm64v8/hello-world                 Hello World! (an example of minimal Dockeriz…   3         
-
-cloudflare/hello-world              A simple example application which can be ru…   0         
-
-datawire/hello-world                Hello World! Simple Hello World implementati…   1         
-
-twistlocktest/hello-world                                                           0         
-
-uniplaces/hello-world                                                               0         
-
-wjimenez5271/hello-world                                                            0         
-
-danfengliu/hello-world                                                              0         
-
-lbadger/hello-world                                                                 0         
-
-ansibleplaybookbundle/hello-world   Simple containerized application that tests …   0         
-
-swarna3005/hello-world                                                              0         
-
-rajkutty@Rajkuttys-MacBook-Air ~ % docker pull hello-world
-
-Using default tag: latest
-
-latest: Pulling from library/hello-world
-
-58dee6a49ef1: Pull complete 
-
-c3bdf82c34d1: Download complete 
-
-Digest: sha256:96498ffd522e70807ab6384a5c0485a79b9c7c08ca79ba08623edcad1054e62d
-
-Status: Downloaded newer image for hello-world:latest
-
-docker.io/library/hello-world:latest
-
-  
-
-**What's next:**
-
-    View a summary of image vulnerabilities and recommendations → docker scout quickview hello-world
-
-rajkutty@Rajkuttys-MacBook-Air ~ % docker iamges
-
-docker: unknown command: docker iamges
-
-  
-
-Run 'docker --help' for more information
-
-rajkutty@Rajkuttys-MacBook-Air ~ % docker images
-
-                                                                                **i** Info →   U  In Use
-
-**IMAGE**                **ID**             **DISK USAGE**   **CONTENT SIZE**   **EXTRA**
-
-**hello-world:latest**   96498ffd522e       22.6kB         10.3kB        
-
-rajkutty@Rajkuttys-MacBook-Air ~ % docker create hello-world
-
-9c0ebf41ca2c15b9d7ebd0364fce63f2d5536d3ebaa2e3bacd82b13c1910a17e
-
-rajkutty@Rajkuttys-MacBook-Air ~ % docker ps -a
-
-CONTAINER ID   IMAGE         COMMAND    CREATED          STATUS    PORTS     NAMES
-
-9c0ebf41ca2c   hello-world   "/hello"   23 seconds ago   Created             flamboyant_sutherland
-
-rajkutty@Rajkuttys-MacBook-Air ~ % docker start 9c0
-
-9c0
-
-rajkutty@Rajkuttys-MacBook-Air ~ % docker ps
-
-CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
-
-rajkutty@Rajkuttys-MacBook-Air ~ % docker ps -a
-
-CONTAINER ID   IMAGE         COMMAND    CREATED              STATUS                      PORTS     NAMES
-
-9c0ebf41ca2c   hello-world   "/hello"   About a minute ago   Exited (0) 31 seconds ago             flamboyant_sutherland
-
-rajkutty@Rajkuttys-MacBook-Air ~ %
+docker ps -a
 ```
 
-mannual version
+Shows
+
+- Running
+- Exited
+- Created
+
+Containers.
+
+---
+
+## Remove Container
+
+```bash
+docker rm <container_id>
+```
+
+Deletes container.
+
+---
+
+## Remove Image
+
+```bash
+docker rmi <image_id>
+```
+
+Deletes image.
+
+Cannot remove if a container still exists.
+
+---
+
+## View Logs
+
+```bash
+docker logs <container_id>
+```
+
+Displays container logs.
+
+---
+
+## Execute Commands Inside Container
+
+```bash
+docker exec -it <container_id> bash
+```
+
+Open a terminal inside a running Linux container.
+
+---
+
+## Inspect Container
+
+```bash
+docker inspect <container_id>
+```
+
+Shows detailed JSON configuration.
+
+---
+
+## List Networks
+
+```bash
+docker network ls
+```
+
+---
+
+## List Volumes
+
+```bash
+docker volume ls
+```
+
+---
+
+# Container Lifecycle
+
+```mermaid
+graph LR
+
+Image --> Created
+
+Created --> Running
+
+Running --> Paused
+
+Paused --> Running
+
+Running --> Stopped
+
+Stopped --> Removed
+```
+
+---
+
+# Docker Compose Commands
+
+```bash
+docker compose up
+```
+
+Start all services.
+
+---
+
+```bash
+docker compose down
+```
+
+Stop all services.
+
+---
+
+```bash
+docker compose ps
+```
+
+View running services.
+
+---
+
+# Java Application using Docker
+
+## Manual Method
+
 ```bash
 docker run -dit openjdk:22-jdk
- docker cp target/HelloWorld.jar containerid:/tmp
- docker commit --change='CMD ["java","-jdk","/tmp/HelloWorld.jar"]' containerid
- docker run imageid
+
+docker cp target/HelloWorld.jar <container_id>:/tmp
+
+docker commit --change='CMD ["java","-jar","/tmp/HelloWorld.jar"]' <container_id> my-java-image
+
+docker run my-java-image
 ```
 
-create dockerfile
-add
-```java
+---
+
+## Dockerfile Method (Recommended)
+
+```dockerfile
 FROM openjdk:22-jdk
 
-ADD target/HelloWorld.jar HelloWorld.jar
+WORKDIR /app
 
-ENTRYPOINT [ "java","-jar","/HelloWorld.jar"]
+COPY target/HelloWorld.jar app.jar
 
-EXPOSE 8080 8081
+EXPOSE 8080
+
+ENTRYPOINT ["java","-jar","app.jar"]
 ```
-docker build -t helloworld:v3 .
-docker images
-docker run -p 8080:8080 dockerimagerid 
+
+Build Image
+
+```bash
+docker build -t helloworld:v1 .
+```
+
+Run Container
+
+```bash
+docker run -p 8080:8080 helloworld:v1
+```
+
+---
+
+# Frequently Used Docker Commands
+
+| Command | Description |
+|----------|-------------|
+| docker --version | Docker version |
+| docker search | Search image |
+| docker pull | Download image |
+| docker images | List images |
+| docker create | Create container |
+| docker run | Create & Start container |
+| docker start | Start container |
+| docker stop | Stop container |
+| docker restart | Restart container |
+| docker ps | Running containers |
+| docker ps -a | All containers |
+| docker logs | View logs |
+| docker exec | Enter container |
+| docker rm | Remove container |
+| docker rmi | Remove image |
+| docker network ls | List networks |
+| docker volume ls | List volumes |
+| docker compose up | Start multiple containers |
+| docker compose down | Stop multiple containers |
+
+---
+
+# Key Interview Questions
+
+> [!question]
+> **What is Docker?**
+>
+> Docker is a platform that packages applications and their dependencies into lightweight containers, enabling consistent execution across different environments.
+
+---
+
+> [!question]
+> **Difference between Image and Container?**
+>
+> Image → Read-only blueprint.
+>
+> Container → Running instance of an Image.
+
+---
+
+> [!question]
+> **Difference between VM and Container?**
+>
+> VM contains an entire Guest Operating System.
+>
+> Container shares the Host Operating System, making it lightweight and faster.
+
+---
+
+> [!question]
+> **What is Docker Compose?**
+>
+> Docker Compose is a tool used to define and manage multiple containers using a single `compose.yaml` (or `docker-compose.yml`) file.
+
+---
+
+> [!tip]
+> Remember the Docker flow:
+>
+> **Search → Pull → Build/Create → Run → Stop → Remove**
