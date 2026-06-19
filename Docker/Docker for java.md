@@ -634,6 +634,10 @@ CONTAINER ID   IMAGE         COMMAND    CREATED              STATU
 rajkutty@Rajkuttys-MacBook-Air ~ %
 ```
 
+mannual version
 ```bash
 docker run -dit openjdk:22-jdk
-
+ docker cp target/HelloWorld.jar containerid:/tmp
+ docker commit --change='CMD ["java","-jdk","/tmp/HelloWorld.jar"]' containerid
+ docker run imageid
+```
