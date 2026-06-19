@@ -28,4 +28,17 @@ docker ps
  
  to check all the  container
  ```bash
+ docker ps -a
+ ```
+ 
+ to check the docker images
+ 
+ ```bash
+ docker images
+ ```
+ 
+ remove the contianer
+ 
+ remover the images
+ 
  
