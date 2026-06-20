@@ -746,3 +746,5 @@ docker run -p 8080:8080 helloworld:v1
 > Remember the Docker flow:
 >
 > **Search → Pull → Build/Create → Run → Stop → Remove**
+
+Docker compose we can run multiple container using compose
