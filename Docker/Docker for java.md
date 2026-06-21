@@ -749,4 +749,7 @@ docker run -p 8080:8080 helloworld:v1
 
 Docker compose we can run multiple container using compose
 
-Docker file starts
+Docker file starts with the base image 
+it is a docker image that your image is based upon
+for java open-jdk:22-jdk
+for node js - 
