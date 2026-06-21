@@ -752,4 +752,6 @@ Docker compose we can run multiple container using compose
 Docker file starts with the base image 
 it is a docker image that your image is based upon
 for java open-jdk:22-jdk
-for node js - 
+for node js - node:latest
+next run directive allow  to execute linux comand
+
