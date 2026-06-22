@@ -223,8 +223,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3c85ee2076b18cb5",
+  "active": "3db67ec90d9b9c17",
   "lastOpenFiles": [
+    "Kubernetes",
     "Leetcode/567. Permutation in String.md",
     "DSA/BackTracking.md",
     "DSA/Dynamic Programing.md",
@@ -256,7 +257,6 @@
     "was.zip/B6_Building_Predictive_Model.md",
     "was.zip/B7_Workforce_Analytics_Strategic.md",
     "was.zip/B5_Predictive_Analytics_Uncertainty.md",
-    "was.zip/B8_Inventory_Optimization.md",
     "was.zip",
     "Documents",
     "Documents/Untitled.base",
