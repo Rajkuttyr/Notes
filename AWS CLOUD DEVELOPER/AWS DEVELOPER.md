@@ -13,3 +13,12 @@ Working as cloud developer
   RDS Database
 - EC2 nstance preconfigred platform like dokers
 - Monitoring 
+- in-place and blue/green development methodologies
+- Security 
+- can run dockerised
+  
+  Supported languages
+- Tomcat - springboot 
+  Web vs worker Environment
+- web environment for webapp
+  worker enivronment - back
