@@ -22,3 +22,5 @@ Working as cloud developer
   Web vs worker Environment
 - web environment for webapp
   worker enivronment - back
+  Web environment -ASG ,loadBlanace
+- work environment -ASG,SQS Queue
