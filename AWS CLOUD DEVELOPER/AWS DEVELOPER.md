@@ -4,3 +4,7 @@ What is DEVELOPER assosciate
 - Developing a cloud first mindset when building application
 Working as cloud developer 
 - 
+  #  Introduction to Elastic Beanstalk
+- Pass - platform allowing customers to develop,run and manage applications without the complexity of building infrastructure typically associated with developing and launching app
+- Elastic beanstalk as the heroku of aws
+- 
