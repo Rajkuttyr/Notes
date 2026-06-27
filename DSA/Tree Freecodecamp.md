@@ -5,3 +5,9 @@ Child node - every node is child node except root node
 Leaf node - nodes that are at the bottom of tree without child
 Subtree-part of a tree
 Height - Longest path 
+Depth - for any node its distance from root
+degree- no of child 
+Types of trees 
+-General trees -complex
+-Binary tree - everysingle node have atmost two node -i.e two child
+-Binary search tree - at most have tow child and root will be greater than the left child and right child should be gre
