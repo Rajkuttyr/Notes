@@ -10,4 +10,5 @@ degree- no of child
 Types of trees 
 -General trees -complex
 -Binary tree - everysingle node have atmost two node -i.e two child
--Binary search tree - at most have tow child and root will be greater than the left child and right child should be gre
+-Binary search tree - at most have tow child and root will be greater than the left child and right child should be greater than root
+-Types of binary tree
