@@ -12,3 +12,7 @@ Types of trees
 -Binary tree - everysingle node have atmost two node -i.e two child
 -Binary search tree - at most have tow child and root will be greater than the left child and right child should be greater than root
 -Types of binary tree
+-full binary tree- zero or 2 child
+-complete binary tree - all the level are completely filled except the last child
+-perfect binary tree - comple
+-balanced bt - hight differnt b/w left and right is atmost 1
