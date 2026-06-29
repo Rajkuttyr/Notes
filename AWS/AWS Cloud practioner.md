@@ -7,3 +7,4 @@ AWS enable yoou to build sophsticated callable application
 host website
 backend service
 Data Storage
+AWS region -all arround the world - us-east 
