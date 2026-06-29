@@ -30,3 +30,4 @@ network card public ip
 firewall rule 
 bootstrap configure ec2 user data
 ![[Pasted image 20260629201823.png]]
+t2.micro is free 
