@@ -31,3 +31,9 @@ firewall rule
 bootstrap configure ec2 user data
 ![[Pasted image 20260629201823.png]]
 t2.micro is free 
+AWS IAM passwordpolicy 
+strong password-higher security
+Set minimum character length
+Allow iam user to change thier own paswword 
+useful for suitable for brue force attcak 
+MFA on aws it is mandatory 
