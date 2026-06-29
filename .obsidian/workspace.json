@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Leetcode/100 Same tree.md",
+                "file": "AWS/AWS Cloud practioner.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "100 Same tree"
+              "title": "AWS Cloud practioner"
             }
           }
         ],
@@ -239,12 +239,13 @@
   },
   "active": "a9c3fc8fae50b696",
   "lastOpenFiles": [
-    "DSA/Tree Freecodecamp.md",
     "Leetcode/100 Same tree.md",
-    "AWS CLOUD DEVELOPER/AWS DEVELOPER.md",
+    "AWS/AWS Cloud practioner.md",
+    "DSA/Tree Freecodecamp.md",
+    "AWS/AWS DEVELOPER.md",
     "DSA/Untitled.md",
     "Docker/Docker for java.md",
-    "AWS CLOUD DEVELOPER",
+    "AWS",
     "Kubernetes",
     "Leetcode/567. Permutation in String.md",
     "DSA/BackTracking.md",
@@ -272,7 +273,6 @@
     "was.zip/B2_Predictive_Modelling_Techniques.md",
     "was.zip/B1_ML_Predictive_Analytics.md",
     "UML DIAGRAM/UML.md",
-    "was.zip/C2_Customer_Behavior_Analytics.md",
     "was.zip",
     "Documents",
     "Documents/Untitled.base",
