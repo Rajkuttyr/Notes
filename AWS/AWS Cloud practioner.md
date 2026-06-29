@@ -21,4 +21,12 @@ AWS region scoped
 # AWS EC2
 Ec2 - poplar aws offeribg
 elastic compute clloud - IaaS
-EC2 
+EC2 - rent vm 
+store dta on EBSdistributing load across machine ELB
+Scalling the service using Auto Scalling group 
+EC2 - choose linux or windows 
+how much computer power cpu - Ram and storeage space
+network card public ip
+firewall rule 
+bootstrap configure ec2 user data
+![[Pasted image 20260629201823.png]]
