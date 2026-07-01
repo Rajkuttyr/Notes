@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AWS/AWS Cloud practioner.md",
+                "file": "Leetcode/226 Invert tree.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AWS Cloud practioner"
+              "title": "226 Invert tree"
             }
           }
         ],
@@ -239,9 +239,10 @@
   },
   "active": "a9c3fc8fae50b696",
   "lastOpenFiles": [
+    "AWS/AWS Cloud practioner.md",
+    "Leetcode/226 Invert tree.md",
     "Pasted image 20260629201823.png",
     "Leetcode/100 Same tree.md",
-    "AWS/AWS Cloud practioner.md",
     "DSA/Tree Freecodecamp.md",
     "AWS/AWS DEVELOPER.md",
     "DSA/Untitled.md",
