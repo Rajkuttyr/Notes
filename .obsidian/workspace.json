@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Leetcode/226 Invert tree.md",
+                "file": "Leetcode/110 Balanced BinaryTree.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "226 Invert tree"
+              "title": "110 Balanced BinaryTree"
             }
           }
         ],
@@ -239,8 +239,9 @@
   },
   "active": "a9c3fc8fae50b696",
   "lastOpenFiles": [
-    "AWS/AWS Cloud practioner.md",
     "Leetcode/226 Invert tree.md",
+    "Leetcode/110 Balanced BinaryTree.md",
+    "AWS/AWS Cloud practioner.md",
     "Pasted image 20260629201823.png",
     "Leetcode/100 Same tree.md",
     "DSA/Tree Freecodecamp.md",
@@ -273,7 +274,6 @@
     "was.zip/B4_HR_Analytics_Hourly_Demand.md",
     "was.zip/B3_Supply_Chain_Analytics.md",
     "was.zip/B2_Predictive_Modelling_Techniques.md",
-    "was.zip/B1_ML_Predictive_Analytics.md",
     "was.zip",
     "Documents",
     "Documents/Untitled.base",
