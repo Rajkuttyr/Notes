@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Leetcode/110 Balanced BinaryTree.md",
+                "file": "Leetcode/17. Letter Combinations of a Phone Number.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "110 Balanced BinaryTree"
+              "title": "17. Letter Combinations of a Phone Number"
             }
           }
         ],
@@ -239,8 +239,8 @@
   },
   "active": "a9c3fc8fae50b696",
   "lastOpenFiles": [
-    "Leetcode/226 Invert tree.md",
     "Leetcode/110 Balanced BinaryTree.md",
+    "Leetcode/226 Invert tree.md",
     "AWS/AWS Cloud practioner.md",
     "Pasted image 20260629201823.png",
     "Leetcode/100 Same tree.md",
