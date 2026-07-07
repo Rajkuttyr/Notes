@@ -49,4 +49,13 @@ hybrid - combination of public and private
 Characterstics of cloud computing 
 on-demand self service 
 Broad network access 
+resource pooling 
+rapid elasticty and scalablity 
+measured service
 
+Advantage 
+opex 
+massive economic scale 
+stop guessing capacity
+
+Ty
