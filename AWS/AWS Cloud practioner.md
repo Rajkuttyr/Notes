@@ -58,4 +58,8 @@ opex
 massive economic scale 
 stop guessing capacity
 
-Ty
+Types of cloud computing
+IaaS , paaS,SaaS
+IaaS - network datastorage computer ex EC2
+PaaS - focos on deployments eg Elastic Beanstalk
+
