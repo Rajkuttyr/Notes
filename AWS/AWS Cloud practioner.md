@@ -37,3 +37,8 @@ Set minimum character length
 Allow iam user to change thier own paswword 
 useful for suitable for brue force attcak 
 MFA on aws it is mandatory 
+
+Cloud computing - on demand - delivery of computing power Db and application 
+pay as go pricing 
+instant access
+easy acces to storage server database and application service 

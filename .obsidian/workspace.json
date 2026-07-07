@@ -4,67 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "80d26c15272f8d0a",
+        "id": "7dee8a1a3c08b47a",
         "type": "tabs",
         "children": [
           {
-            "id": "c97151fca614fad0",
+            "id": "d7680a3fbaff1c15",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Salesforce/Apex.md",
+                "file": "AWS/AWS Cloud practioner.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Apex"
-            }
-          },
-          {
-            "id": "021a87f951dafbda",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "JSP/JSP.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "JSP"
-            }
-          },
-          {
-            "id": "3c85ee2076b18cb5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Docker/Docker for java.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Docker for java"
-            }
-          },
-          {
-            "id": "a9c3fc8fae50b696",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Leetcode/17. Letter Combinations of a Phone Number.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "17. Letter Combinations of a Phone Number"
+              "title": "AWS Cloud practioner"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -88,6 +45,20 @@
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
+            }
+          },
+          {
+            "id": "3c85ee2076b18cb5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Docker/Docker for java.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Docker for java"
             }
           },
           {
@@ -237,8 +208,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a9c3fc8fae50b696",
+  "active": "d7680a3fbaff1c15",
   "lastOpenFiles": [
+    "Untitled.canvas",
+    "Docker/Docker for java.md",
+    "Leetcode/17. Letter Combinations of a Phone Number.md",
     "Leetcode/110 Balanced BinaryTree.md",
     "Leetcode/226 Invert tree.md",
     "AWS/AWS Cloud practioner.md",
@@ -247,7 +221,6 @@
     "DSA/Tree Freecodecamp.md",
     "AWS/AWS DEVELOPER.md",
     "DSA/Untitled.md",
-    "Docker/Docker for java.md",
     "AWS",
     "Kubernetes",
     "Leetcode/567. Permutation in String.md",
@@ -272,15 +245,12 @@
     "Salesforce/Apex.md",
     "Docker",
     "was.zip/B4_HR_Analytics_Hourly_Demand.md",
-    "was.zip/B3_Supply_Chain_Analytics.md",
-    "was.zip/B2_Predictive_Modelling_Techniques.md",
     "was.zip",
     "Documents",
     "Documents/Untitled.base",
     "Documents/Pasted image 20260406230930.png",
     "Documents/Pasted image 20260320101900.png",
     "Documents/GraphicsViewer.png",
-    "Pasted image 20260211205333.png",
-    "Untitled.canvas"
+    "Pasted image 20260211205333.png"
   ]
 }
