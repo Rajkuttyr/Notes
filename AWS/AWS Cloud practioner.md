@@ -42,3 +42,11 @@ Cloud computing - on demand - delivery of computing power Db and application
 pay as go pricing 
 instant access
 easy acces to storage server database and application service 
+The deployment mode 
+private - owned by organistaio 
+public cloud - for public use like aws google cloud azure
+hybrid - combination of public and private 
+Characterstics of cloud computing 
+on-demand self service 
+Broad network access 
+
