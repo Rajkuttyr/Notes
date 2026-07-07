@@ -68,4 +68,6 @@ root account to setup account - shouldnt not be shared
 user can be create 1 user = 1 people 
 also can be created groups 
 a user can belong to multiple group
-we eed group and user 
+we eed group and user to give permision
+policies
+IAM roles - 
