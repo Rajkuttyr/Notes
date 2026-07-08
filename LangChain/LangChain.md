@@ -4,3 +4,6 @@ To intitialise a working repo
 uv init
 ```
 
+uv venv
+ source .venv/bin/activate
+ 
