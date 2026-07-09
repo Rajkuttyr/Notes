@@ -32,3 +32,4 @@ chain of thought step by step
 
 prompt engineering - lee boonstra
 hhtps://www.promptingguide.ai
+1.0.0
