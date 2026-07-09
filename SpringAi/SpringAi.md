@@ -31,4 +31,4 @@ chain of thought step by step
 ![[Pasted image 20260709065959.png]]
 
 prompt engineering - lee boonstra
-hhtps://www.prompting
+hhtps://www.promptingguide.ai
