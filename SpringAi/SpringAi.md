@@ -27,3 +27,4 @@ ml - helps a machine to learn
 advanced technique s - zero shopt prompting will not contain examples or demo 
 one shot - provide single examplw
 few shot - multiple ex
+chain of thought step by step
