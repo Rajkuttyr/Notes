@@ -21,3 +21,6 @@ ml - helps a machine to learn
 - Generarive Ai 
 - gnerarive pre-trained transformer
 - transformers architectur how they process data pre trained on vast amount of data
+- prompt engineering - used to effectively communicate with ai 
+- used to teach a 
+- 
