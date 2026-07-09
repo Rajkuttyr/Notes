@@ -7,4 +7,6 @@ ml - helps a machine to learn
 - un labelled like lassification 
 - reinforcement - sysytem learn through reccursive interaction through the system
 - use case - facial recognisation abnormality on ultrasound self drive fraud detection product recomendation
-- 
+- Deep learning - subset of of ml 
+- neural network mimc the structure of human brain
+- adjust weights automatically extract the features and learn automaticallyy
