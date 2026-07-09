@@ -36,4 +36,5 @@ hhtps://www.promptingguide.ai
 signing up api key - open ai 
 stat.spring.ai
 LLM pricing - 
-chat clien
+chat client is interface 
+builder is another interface used to create a model and connect to model
