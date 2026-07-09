@@ -17,4 +17,7 @@ ml - helps a machine to learn
 - input ->tokenisne ->neural network{pattern recognisation}-> prediction
 - rawlanguage-> break into peices-> find relationship ->generate nextword
 - how llm learn. ->> massive datasets 
-- 
+- fine tuning specialisation of llm -> task specific datasets human eedback training
+- Generarive Ai 
+- gnerarive pre-trained transformer
+- transformers architectur how they process data pre trained on vast amount of data
