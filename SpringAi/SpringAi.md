@@ -28,3 +28,7 @@ advanced technique s - zero shopt prompting will not contain examples or demo
 one shot - provide single examplw
 few shot - multiple ex
 chain of thought step by step
+![[Pasted image 20260709065959.png]]
+
+prompt engineering - lee boonstra
+hhtps://www.prompting
