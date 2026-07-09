@@ -23,4 +23,7 @@ ml - helps a machine to learn
 - transformers architectur how they process data pre trained on vast amount of data
 - prompt engineering - used to effectively communicate with ai 
 - used to teach a 
-- 
+- ![[Pasted image 20260709065055.png]]
+advanced technique s - zero shopt prompting will not contain examples or demo 
+one shot - provide single examplw
+few shot - multiple ex
