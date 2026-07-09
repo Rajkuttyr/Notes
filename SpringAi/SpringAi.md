@@ -35,3 +35,4 @@ hhtps://www.promptingguide.ai
 1.0.0
 signing up api key - open ai 
 stat.spring.ai
+LLM pricing - 
