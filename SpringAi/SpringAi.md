@@ -13,4 +13,8 @@ ml - helps a machine to learn
 - LLM - large language model 
 - neural etwork designed for understanding langugage 
 - uses attention mechanism to weight the importance of wwords in contet 
+- can process all at once and understand relationship between the words
+- input ->tokenisne ->neural network{pattern recognisation}-> prediction
+- rawlanguage-> break into peices-> find relationship ->generate nextword
+- how llm learn. ->> massive datasets 
 - 
