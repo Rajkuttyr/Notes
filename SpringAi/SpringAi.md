@@ -9,4 +9,8 @@ ml - helps a machine to learn
 - use case - facial recognisation abnormality on ultrasound self drive fraud detection product recomendation
 - Deep learning - subset of of ml 
 - neural network mimc the structure of human brain
-- adjust weights automatically extract the features and learn automaticallyy
+- adjust weights automatically extract the features and learn automatically
+- LLM - large language model 
+- neural etwork designed for understanding langugage 
+- uses attention mechanism to weight the importance of wwords in contet 
+- 
