@@ -38,3 +38,91 @@ stat.spring.ai
 LLM pricing - 
 chat client is interface 
 builder is another interface used to create a model and connect to model
+
+```java
+// for chatCLient autoconfigure enabled
+package com.example.demo.Chat;
+
+  
+
+import org.springframework.ai.chat.client.ChatClient;
+
+import org.springframework.ai.chat.model.ChatResponse;
+
+import org.springframework.web.bind.annotation.GetMapping;
+
+import org.springframework.web.bind.annotation.RestController;
+
+  
+
+import reactor.core.publisher.Flux;
+
+  
+
+//import org.springframework.web.bind.annotation.RequestParam;
+
+  
+  
+
+@RestController
+
+public class ChatController {
+
+  
+
+private final ChatClient chatClient;
+
+  
+
+public ChatController(ChatClient.Builder builder) {
+
+this.chatClient = builder.build();
+
+}
+
+  
+
+@GetMapping("/chat")
+
+public String chat() {
+
+return chatClient.prompt()
+
+.user("Tell me an interesting fact about Java")
+
+.call()
+
+.content();//blocking calls
+
+}
+
+@GetMapping("/stream")
+
+public Flux<String> stream() {
+
+return chatClient.prompt()
+
+.user("I am visting chennai give me 10 place to visit")
+
+.stream()
+
+.content();
+
+}
+
+@GetMapping("/c")
+
+public ChatResponse jole(){
+
+return chatClient.prompt()
+
+.user("in 10 words describe mac not more than 10")
+
+.call()
+
+.chatResponse();
+
+}
+
+}
+```
