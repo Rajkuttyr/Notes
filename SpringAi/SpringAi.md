@@ -36,3 +36,4 @@ hhtps://www.promptingguide.ai
 signing up api key - open ai 
 stat.spring.ai
 LLM pricing - 
+chat clien
