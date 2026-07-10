@@ -126,3 +126,9 @@ return chatClient.prompt()
 
 }
 ```
+
+prompts and prompt template 
+Structured output
+multimodal (Text image and video)
+
+# prompts
