@@ -137,3 +137,7 @@ System message are used to put some guard rails on the prompt
 - promptUserSpec
 # code to generateImage
 ![[Pasted image 20260711004458.png]]
+
+# Chat Memory
+- used to store the data  and use it in the conversation
+- 
