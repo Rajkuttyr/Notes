@@ -132,3 +132,4 @@ Structured output
 multimodal (Text image and video)
 
 # prompts
+System message are used to put some guard rails on the prompt 
