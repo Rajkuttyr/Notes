@@ -135,3 +135,5 @@ multimodal (Text image and video)
 System message are used to put some guard rails on the prompt 
 - overall context to prompts
 - promptUserSpec
+# code to generateImage
+![[Pasted image 20260711004458.png]]
