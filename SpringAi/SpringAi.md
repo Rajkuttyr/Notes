@@ -163,3 +163,6 @@ domain gaps
  It searches the proof doc and 
  ![[Pasted image 20260713132627.png]]
 ![[Pasted image 20260713132817.png]]
+
+how to create a bean in spring framework 
+and find me data that answer all these questions
