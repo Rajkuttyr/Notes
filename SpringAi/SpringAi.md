@@ -162,3 +162,4 @@ domain gaps
  RAG - search engine for your knowldge
  It searches the proof doc and 
  ![[Pasted image 20260713132627.png]]
+![[Pasted image 20260713132817.png]]
