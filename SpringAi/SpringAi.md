@@ -144,3 +144,8 @@ System message are used to put some guard rails on the prompt
 why do we care 
 Risk of wrong answer
 Risk of lost of trust 
+Run-away costs
+Hallucinate - invents fact or api names with total confidence
+stale data 
+bias & safety 
+domain gaps
