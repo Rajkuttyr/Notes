@@ -153,4 +153,8 @@ domain gaps
 
 ![[Pasted image 20260713125710.png]]
  prompt guarding 
- System prompt - to limit the usage, implement guides ad instruction'
+ System prompt - to limit the usage, implement guides ad instruction
+ '
+ Prompt tuffuing 
+ slip in exact policy pdf and to get exact output
+ 
