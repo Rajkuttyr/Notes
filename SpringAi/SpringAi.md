@@ -153,3 +153,4 @@ domain gaps
 
 ![[Pasted image 20260713125710.png]]
  prompt guarding 
+ System prompt - to limit the usage, implement guides ad instruction'
