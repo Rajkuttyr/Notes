@@ -140,4 +140,7 @@ System message are used to put some guard rails on the prompt
 
 # Chat Memory
 - used to store the data  and use it in the conversation
-- 
+# LLM Limitations
+why do we care 
+Risk of wrong answer
+Risk of lost of trust 
