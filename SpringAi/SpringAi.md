@@ -159,3 +159,6 @@ domain gaps
  slip in exact policy pdf and to get exact output
  no random information argumented with the documents
  
+ RAG - search engine for your knowldge
+ It searches the proof doc and 
+ ![[Pasted image 20260713132627.png]]
