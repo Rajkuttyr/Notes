@@ -149,3 +149,4 @@ Hallucinate - invents fact or api names with total confidence
 stale data 
 bias & safety 
 domain gaps
+![[Pasted image 20260713123944.png]]
