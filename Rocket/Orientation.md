@@ -12,3 +12,4 @@ signing the contract
 after one year their will be assesment just for purpose 
 certification naps and Rocket
 two certififcates - gov and rocket
+29 - th july - date of joining
