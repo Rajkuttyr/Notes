@@ -15,3 +15,7 @@ two certififcates - gov and rocket
 29 - th july - date of joining
 Complete Naps
 Instal the software 
+weekly three hours 
+should be flexible 
+and attendance is mandatory 
+meet and greet call - next week 
