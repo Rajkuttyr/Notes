@@ -19,3 +19,4 @@ weekly three hours
 should be flexible 
 and attendance is mandatory 
 meet and greet call - next week 
+whatsapp group
