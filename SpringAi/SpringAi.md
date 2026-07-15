@@ -166,3 +166,5 @@ domain gaps
 
 how to create a bean in spring framework 
 and find me data that answer all these questions
+
+![[Pasted image 20260716005030.png]]
