@@ -169,3 +169,12 @@ and find me data that answer all these questions
 
 ![[Pasted image 20260716005030.png]]
 ![[Pasted image 20260716005846.png]]
+
+Advanced RAG(pre - retrivalll and postRetrival)
+![[Pasted image 20260722102250.png]]
+
+pre and post - get accurate result 
+ pre retrival - transform the prompt
+ ![[Pasted image 20260722102410.png]]
+![[Pasted image 20260722112403.png]]
+
