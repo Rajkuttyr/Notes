@@ -180,3 +180,4 @@ pre and post - get accurate result
 
 ![[Pasted image 20260722145455.png]]![[Pasted image 20260722150332.png]]![[Pasted image 20260722162205.png]]
 ![[Pasted image 20260723103352.png]]
+![[Pasted image 20260723114439.png]]
