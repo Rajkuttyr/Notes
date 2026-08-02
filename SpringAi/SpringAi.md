@@ -1,4 +1,4 @@
-What is AI
+![[Pasted image 20260803001923.png]]What is AI
 mmic how the human brain process the info to solve a problem 
 moder AI recocgnises data 
 ml - helps a machine to learn 
@@ -181,3 +181,5 @@ pre and post - get accurate result
 ![[Pasted image 20260722145455.png]]![[Pasted image 20260722150332.png]]![[Pasted image 20260722162205.png]]
 ![[Pasted image 20260723103352.png]]
 ![[Pasted image 20260723114439.png]]![[Pasted image 20260723114804.png]]
+
+![[Pasted image 20260803001932.png]]
