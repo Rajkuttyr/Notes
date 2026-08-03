@@ -40,3 +40,10 @@ unsolicted attachments
 Request for Confdential information such as log in credentials 
 
 # How to keep organisation secure
+1. create strong password - avoid dictiionary words
+2. aware of spoof emails
+3. careful with unsolicted attachment or links
+4. dont disclose email
+5. encrypt emoal 
+6. secure network 
+7. report 
