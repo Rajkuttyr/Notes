@@ -20,9 +20,14 @@ overview of information of security
 # InfoSec 
 - balnce of CIA 
 # Types of CS THREATS 
-1. malware 
+1. malware  - malcious software 
 2. phising - like offer fake email like legitimate 
-3. MIMA 
-4. DNS 
+3. spear phising - targeted not general 
+4. MIMA - 
+5. DNS 
+6. DoS - 1000 reques
+7. SQL injection - bypassing SQL quesries 
+8. zero - day exploit - software attck and has to act immediately 
+9. 
 
 
