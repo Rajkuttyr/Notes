@@ -12,4 +12,10 @@ overview of information of security
 - - auhtorisation and authentication
 ## integrity 
 - ensuring the data is not modified
-- 
+- ensure
+## Availablity 
+- should be able to access whenever needed 
+# InfoSec 
+- balnce of CIA 
+
+
