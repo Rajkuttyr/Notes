@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SpringAi/Day 2.md",
+                "file": "Rocket/Day 3.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Day 2"
+              "title": "Day 3"
             }
           }
         ]
@@ -94,8 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "a523827e377efd3f",
@@ -213,8 +212,9 @@
   },
   "active": "d7680a3fbaff1c15",
   "lastOpenFiles": [
-    "SpringAi/Day 1.md",
-    "SpringAi/Day 2.md",
+    "Rocket/Day 2.md",
+    "Rocket/Day 3.md",
+    "Rocket/Day 1.md",
     "SpringAi/SpringAi.md",
     "Pasted image 20260803001932.png",
     "Pasted image 20260803001923.png",
@@ -256,7 +256,6 @@
     "Regex",
     "Academic/OOSE/UNIT 3.md",
     "Academic/OOSE/UNIT 1.md",
-    "PHP/PHP notes.md",
     "PHP",
     "JSP",
     "Docker"
