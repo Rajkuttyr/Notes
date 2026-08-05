@@ -15,4 +15,13 @@ amortization process
 
 A loan secured by real property - the home is collateral
 
-A mortage is a loan used to purchase real property itself serves as the collateral. The borrower repays the lender - typicaly 15 or 30 years with intrest
+A mortage is a loan used to purchase real property itself serves as the collateral. The borrower repays the lender - typicaly 15 or 30 years with intrest. 
+
+# homebuying process
+
+pre approval process - Lender recieves credit score
+verifies income and asserts 
+issues pre approval letter 
+sets your budget celling
+2. home search - work with rea
+
