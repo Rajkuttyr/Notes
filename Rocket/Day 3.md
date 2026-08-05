@@ -24,5 +24,5 @@ verifies income and asserts
 issues pre approval letter 
 sets your budget celling
 2. home search - work with real estate agent , makes offers with budget negostiate purchase price sign purchase agrre ment 
-3. 
+3. ![[Pasted image 20260805192150.png]]
 
