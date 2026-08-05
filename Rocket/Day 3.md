@@ -28,3 +28,4 @@ sets your budget celling
 
 
 Anotmy of monthly loan 
+principal interst taxes and insurance
