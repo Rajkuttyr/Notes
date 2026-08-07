@@ -183,3 +183,5 @@ pre and post - get accurate result
 ![[Pasted image 20260723114439.png]]![[Pasted image 20260723114804.png]]
 
 ![[Pasted image 20260803001932.png]]![[Pasted image 20260807150910.png]]
+Student vote class rep voting continues  untill all student vote which loop is suitable
+A bus has 40 seat. seats are booked one by oen untill all the eats are filer which seat is suitable
