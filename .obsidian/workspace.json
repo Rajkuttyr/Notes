@@ -94,7 +94,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "a523827e377efd3f",
@@ -212,6 +213,7 @@
   },
   "active": "d7680a3fbaff1c15",
   "lastOpenFiles": [
+    "Pasted image 20260810201831.png",
     "Pasted image 20260810201712.png",
     "Rocket/Day 3.md",
     "Rocket/Day 4.md",
@@ -226,7 +228,6 @@
     "Pasted image 20260805195150.png",
     "Pasted image 20260805195130.png",
     "Pasted image 20260805194822.png",
-    "Pasted image 20260805194140.png",
     "Rocket/Day 2.md",
     "Rocket/Day 1.md",
     "Rocket",

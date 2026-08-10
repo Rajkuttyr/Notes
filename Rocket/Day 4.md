@@ -20,4 +20,4 @@ Building righr
  realy neededd
 
 protecting techs valuable asseet 
-![[Pasted image 20260810201712.png]]
+![[Pasted image 20260810201712.png]]![[Pasted image 20260810201831.png]]
