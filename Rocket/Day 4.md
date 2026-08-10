@@ -21,3 +21,6 @@ Building righr
 
 protecting techs valuable asseet 
 ![[Pasted image 20260810201712.png]]![[Pasted image 20260810201831.png]]
+
+North star metric exact metric 
+one metrics valuvate a product and product manager look at 
