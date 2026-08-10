@@ -24,3 +24,4 @@ protecting techs valuable asseet
 
 North star metric exact metric 
 one metrics valuvate a product and product manager look at 
+noth strat of spotify = time sepnt on listening to music
