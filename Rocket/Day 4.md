@@ -6,3 +6,5 @@ Product management
 Swiggy as ex 
 
 product management identifies the core problem 
+
+cutti
