@@ -14,3 +14,5 @@ musthave
 could hsve
 should have
 wont have
+Impact/Effort Matrix
+![[Pasted image 20260811194713.png]]
