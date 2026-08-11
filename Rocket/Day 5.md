@@ -3,3 +3,5 @@ pallaviUpendra
 
 
 ![[Pasted image 20260811191815.png]]![[Pasted image 20260811191957.png]]
+prioritatation 
+framework 
