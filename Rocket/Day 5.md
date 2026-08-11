@@ -9,3 +9,8 @@ r-reach
 i-impact
 confidence person
 e-effort-person months
+MoScoW
+musthave 
+could hsve
+should have
+wont have
