@@ -11,12 +11,14 @@
             "id": "d7680a3fbaff1c15",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Pasted image 20260713125536.png"
+                "file": "SpringAi/SpringAi.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20260713125536"
+              "icon": "lucide-file",
+              "title": "SpringAi"
             }
           }
         ]
@@ -210,6 +212,7 @@
   },
   "active": "d7680a3fbaff1c15",
   "lastOpenFiles": [
+    "Pasted image 20260713125536.png",
     "Pasted image 20260709065959.png",
     "Pasted image 20260709065055.png",
     "Pasted image 20260629201823.png",
@@ -225,7 +228,6 @@
     "Pasted image 20260811191815.png",
     "Pasted image 20260811125153.png",
     "Pasted image 20260810201831.png",
-    "Pasted image 20260810201712.png",
     "Rocket/Orientation.md",
     "Rocket/Day 1.md",
     "Rocket",
