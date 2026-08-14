@@ -11,14 +11,12 @@
             "id": "d7680a3fbaff1c15",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "SpringAi/SpringAi.md",
-                "mode": "source",
-                "source": false
+                "file": "Pasted image 20260713125536.png"
               },
-              "icon": "lucide-file",
-              "title": "SpringAi"
+              "icon": "lucide-image",
+              "title": "Pasted image 20260713125536"
             }
           }
         ]
@@ -94,8 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "a523827e377efd3f",
@@ -213,6 +210,11 @@
   },
   "active": "d7680a3fbaff1c15",
   "lastOpenFiles": [
+    "Pasted image 20260709065959.png",
+    "Pasted image 20260709065055.png",
+    "Pasted image 20260629201823.png",
+    "Pasted image 20260528145929.png",
+    "SpringAi/SpringAi.md",
     "Pasted image 20260811210201.png",
     "Rocket/Day 5.md",
     "Pasted image 20260811194713.png",
@@ -221,15 +223,10 @@
     "Rocket/Day 2.md",
     "Pasted image 20260811191957.png",
     "Pasted image 20260811191815.png",
-    "SpringAi/SpringAi.md",
     "Pasted image 20260811125153.png",
     "Pasted image 20260810201831.png",
     "Pasted image 20260810201712.png",
-    "Pasted image 20260810192011.png",
-    "Pasted image 20260810171731.png",
-    "Pasted image 20260810170624.png",
     "Rocket/Orientation.md",
-    "Pasted image 20260807161412.png",
     "Rocket/Day 1.md",
     "Rocket",
     "LangChain/LangChain.md",
