@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Rocket/24th August.md",
+                "file": "Rocket/25th August.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "24th August"
+              "title": "25th August"
             }
           }
         ]
@@ -212,8 +212,9 @@
   },
   "active": "d7680a3fbaff1c15",
   "lastOpenFiles": [
-    "Rocket/Day 5.md",
     "Rocket/24th August.md",
+    "Rocket/25th August.md",
+    "Rocket/Day 5.md",
     "Rocket/Day 4.md",
     "SpringAi/SpringAi.md",
     "Pasted image 20260713125536.png",
@@ -253,7 +254,6 @@
     "Symposium/REPORT.md",
     "Symposium/My speech.md",
     "Claude Code/Claude Code.md",
-    "Regex/Regex.md",
     "Claude Code",
     "Regex",
     "PHP",
