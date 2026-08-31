@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SpringAi/SpringAi.md",
+                "file": "Rocket/August 31st.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SpringAi"
+              "title": "August 31st"
             }
           }
         ]
@@ -94,8 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "a523827e377efd3f",
@@ -213,12 +212,13 @@
   },
   "active": "d7680a3fbaff1c15",
   "lastOpenFiles": [
+    "SpringAi/SpringAi.md",
+    "Rocket/August 31st.md",
     "Rocket/25th August.md",
     "Pasted image 20260825191715.png",
     "Rocket/24th August.md",
     "Rocket/Day 5.md",
     "Rocket/Day 4.md",
-    "SpringAi/SpringAi.md",
     "Pasted image 20260713125536.png",
     "Pasted image 20260709065959.png",
     "Pasted image 20260709065055.png",
