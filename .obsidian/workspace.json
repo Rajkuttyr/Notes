@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Rocket/August 31st.md",
+                "file": "Rocket/1st September.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "August 31st"
+              "title": "1st September"
             }
           }
         ]
@@ -94,8 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "a523827e377efd3f",
@@ -213,8 +212,9 @@
   },
   "active": "d7680a3fbaff1c15",
   "lastOpenFiles": [
-    "SpringAi/SpringAi.md",
     "Rocket/August 31st.md",
+    "Rocket/1st September.md",
+    "SpringAi/SpringAi.md",
     "Rocket/25th August.md",
     "Pasted image 20260825191715.png",
     "Rocket/24th August.md",
@@ -254,7 +254,6 @@
     "DSA/Dynamic Programing.md",
     "Symposium/RULE BOOK.md",
     "Symposium/REPORT.md",
-    "Symposium/My speech.md",
     "Claude Code",
     "Regex",
     "PHP",
