@@ -10,4 +10,5 @@ Java platfor indepent with the help of jre and jvm
  Encapsulation - hiding the senstive information. properties are defined within the class and method with in the class can access the property 
  done using access modifier keyword private
  
- obeject are created using constructor - 
+ obeject are created using constructor -  constructor allocate memory 
+
