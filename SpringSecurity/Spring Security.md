@@ -43,3 +43,9 @@ adds a login form
 handles login error
 creates a user and default passwword imediately adding spring security 
 
+Authentication configuration 
+based on the bunch of users
+configuring users 
+Authentication manager that manages the authentication
+it has a method called authenticate
+config using builder cl
