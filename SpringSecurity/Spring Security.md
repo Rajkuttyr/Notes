@@ -27,3 +27,8 @@ Authorisation - what am i allowed to do . how much control i have
 Principal - person who is identified using authentication and authorised 
 or the user who is authenticated or logged in
 
+Granted Authority - who has access to perform the action fine grain permission
+
+Role -  group of authorities 
+coarse grained permission
+
