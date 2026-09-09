@@ -48,4 +48,5 @@ based on the bunch of users
 configuring users 
 Authentication manager that manages the authentication
 it has a method called authenticate
-config using builder cl
+config using builder class called authentication maager builder
+
