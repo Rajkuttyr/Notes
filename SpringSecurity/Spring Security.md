@@ -24,4 +24,6 @@ MFA - combination knoldge and possesion
 
 Authorisation - what am i allowed to do . how much control i have
 
+Principal - person who is identified using authentication and authorised 
+or the user who is authenticated or logged in
 
