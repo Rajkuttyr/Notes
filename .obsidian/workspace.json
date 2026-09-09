@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SpringSecurity/Spring Security.md",
+                "file": "Rocket/9th September.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Spring Security"
+              "title": "9th September"
             }
           }
         ]
@@ -212,8 +212,9 @@
   },
   "active": "d7680a3fbaff1c15",
   "lastOpenFiles": [
-    "AWS/AWS DEVELOPER.md",
     "SpringSecurity/Spring Security.md",
+    "Rocket/9th September.md",
+    "AWS/AWS DEVELOPER.md",
     "SpringSecurity",
     "Rocket/8th September.md",
     "Pasted image 20260908192605.png",
@@ -254,7 +255,6 @@
     "Kubernetes",
     "Leetcode/567. Permutation in String.md",
     "DSA/BackTracking.md",
-    "DSA/Dynamic Programing.md",
     "Claude Code",
     "Regex",
     "PHP",
