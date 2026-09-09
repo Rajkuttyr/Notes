@@ -22,3 +22,5 @@ knowldge based authentication - uses password
 posseion based - phone/text message. key card and badges
 MFA - combination knoldge and possesion
 
+Authorisation - what am i allowed to do . how much control i have
+
