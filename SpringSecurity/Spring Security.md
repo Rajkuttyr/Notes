@@ -18,4 +18,7 @@ method level security
 3. principal
 4. granted authority
 5. roles
+knowldge based authentication - uses password
+posseion based - phone/text message. key card and badges
+MFA - combination knoldge and possesion
 
