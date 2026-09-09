@@ -35,4 +35,11 @@ coarse grained permission
 Filters
 web app is a buch of servlet 
 servelet is performing the function
-Filters right in th
+Filters right in the middle of the server and servelets
+servelets mapped to url filters can applied to url
+spring security add filter
+it add mandatory authentication
+adds a login form
+handles login error
+creates a user and default passwword imediately adding spring security 
+
