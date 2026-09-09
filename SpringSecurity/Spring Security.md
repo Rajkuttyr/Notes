@@ -8,4 +8,14 @@ widely adopted
 User name / password authentication 
 SSo / okta /LDAP
 app level authorisation
+intraa app like oaut
+microservices using tokens
+method level security
+
+5 core concepts in spring security 
+1. authentication 
+2. authorisation
+3. principal
+4. granted authority
+5. roles
 
