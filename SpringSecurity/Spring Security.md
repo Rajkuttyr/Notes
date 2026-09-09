@@ -32,3 +32,7 @@ Granted Authority - who has access to perform the action fine grain permission
 Role -  group of authorities 
 coarse grained permission
 
+Filters
+web app is a buch of servlet 
+servelet is performing the function
+Filters right in th
