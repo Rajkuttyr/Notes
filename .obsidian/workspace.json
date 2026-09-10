@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JARVIS_Patent_Oriented_Obsidian_Notes.md",
+                "file": "JARVIS_Prototype_Testing_Guide.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "JARVIS_Patent_Oriented_Obsidian_Notes"
+              "title": "JARVIS_Prototype_Testing_Guide"
             }
           }
         ]
@@ -213,9 +213,9 @@
   },
   "active": "d7680a3fbaff1c15",
   "lastOpenFiles": [
+    "JARVIS_Patent_Oriented_Obsidian_Notes.md",
     "JARVIS_Prototype_Testing_Guide.md",
     "Rocket/9th September.md",
-    "JARVIS_Patent_Oriented_Obsidian_Notes.md",
     "SpringSecurity/Spring Security.md",
     "AWS/AWS DEVELOPER.md",
     "SpringSecurity",
