@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Rocket/MoneyLaundering.md",
+                "file": "DSA/Backtracking complete pattern.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "MoneyLaundering"
+              "title": "Backtracking complete pattern"
             }
           }
         ]
@@ -213,8 +213,8 @@
   },
   "active": "d7680a3fbaff1c15",
   "lastOpenFiles": [
-    "JARVIS_Prototype_Testing_Guide.md",
     "Rocket/MoneyLaundering.md",
+    "JARVIS_Prototype_Testing_Guide.md",
     "JARVIS_Patent_Oriented_Obsidian_Notes.md",
     "Rocket/9th September.md",
     "SpringSecurity/Spring Security.md",
