@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docker/Docker for java.md",
+                "file": "AI_Cryptography_MCP_Server_Obsidian_Notes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Docker for java"
+              "title": "AI_Cryptography_MCP_Server_Obsidian_Notes"
             }
           }
         ]
@@ -94,8 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "a523827e377efd3f",
@@ -213,6 +212,8 @@
   },
   "active": "d7680a3fbaff1c15",
   "lastOpenFiles": [
+    "Docker/Docker for java.md",
+    "AI_Cryptography_MCP_Server_Obsidian_Notes.md",
     "AWS/Untitled.md",
     "AWS/AWS DEVELOPER.md",
     "DSA/BackTracking.md",
@@ -251,9 +252,7 @@
     "AWS/AWS Cloud practioner.md",
     "LangChain",
     "Untitled.canvas",
-    "Docker/Docker for java.md",
     "Leetcode/17. Letter Combinations of a Phone Number.md",
-    "Leetcode/110 Balanced BinaryTree.md",
     "AWS",
     "Kubernetes",
     "Claude Code",
