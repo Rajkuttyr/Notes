@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DSA/BackTracking.md",
+                "file": "AWS/Untitled.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "BackTracking"
+              "title": "Untitled"
             }
           }
         ]
@@ -94,8 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "a523827e377efd3f",
@@ -213,13 +212,15 @@
   },
   "active": "d7680a3fbaff1c15",
   "lastOpenFiles": [
+    "AWS/AWS DEVELOPER.md",
+    "AWS/Untitled.md",
+    "DSA/BackTracking.md",
     "DSA/Backtracking complete pattern.md",
     "Rocket/MoneyLaundering.md",
     "JARVIS_Prototype_Testing_Guide.md",
     "JARVIS_Patent_Oriented_Obsidian_Notes.md",
     "Rocket/9th September.md",
     "SpringSecurity/Spring Security.md",
-    "AWS/AWS DEVELOPER.md",
     "SpringSecurity",
     "Rocket/8th September.md",
     "Pasted image 20260908192605.png",
@@ -252,8 +253,6 @@
     "Docker/Docker for java.md",
     "Leetcode/17. Letter Combinations of a Phone Number.md",
     "Leetcode/110 Balanced BinaryTree.md",
-    "Leetcode/226 Invert tree.md",
-    "Leetcode/100 Same tree.md",
     "AWS",
     "Kubernetes",
     "Claude Code",
