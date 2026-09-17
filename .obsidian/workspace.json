@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Leetcode/Untitled.md",
+                "file": "Leetcode/216. Combination Sum III.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "216. Combination Sum III"
             }
           }
         ]
@@ -213,7 +213,7 @@
   "active": "d7680a3fbaff1c15",
   "lastOpenFiles": [
     "Leetcode/494. Target Sum.md",
-    "Leetcode/Untitled.md",
+    "Leetcode/216. Combination Sum III.md",
     "Rocket/Day 4.md",
     "Rocket/SOLID.md",
     "Rocket/15th September.md",
