@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Rocket/Day 4.md",
+                "file": "Leetcode/494. Target Sum.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Day 4"
+              "title": "494. Target Sum"
             }
           }
         ]
@@ -212,6 +212,8 @@
   },
   "active": "d7680a3fbaff1c15",
   "lastOpenFiles": [
+    "Rocket/Day 4.md",
+    "Leetcode/494. Target Sum.md",
     "Rocket/SOLID.md",
     "Rocket/15th September.md",
     "AI_Cryptography_MCP_Server_Obsidian_Notes.md",
@@ -236,7 +238,6 @@
     "Pasted image 20260825191715.png",
     "Rocket/24th August.md",
     "Rocket/Day 5.md",
-    "Rocket/Day 4.md",
     "Pasted image 20260713125536.png",
     "Pasted image 20260709065959.png",
     "Pasted image 20260709065055.png",
@@ -249,7 +250,6 @@
     "Rocket/Orientation.md",
     "Rocket/Day 1.md",
     "Rocket",
-    "LangChain/LangChain.md",
     "SpringAi",
     "LangChain",
     "Untitled.canvas",
