@@ -7,3 +7,5 @@ Speaker : Bharath Kumar
  Observer 
  Repository 
   
+example ecommerce app
+ Singleton - single object - and all the application service in a single fill
