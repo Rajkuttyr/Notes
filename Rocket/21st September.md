@@ -6,4 +6,4 @@ Speaker : Bharath Kumar
  Strategy 
  Observer 
  Repository 
- 
+  
