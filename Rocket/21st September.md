@@ -8,4 +8,5 @@ Speaker : Bharath Kumar
  Repository 
   
 example ecommerce app
- Singleton - single object - and all the application service in a single fill
+ Singleton - single object - and all the application service in a single fille
+ 
