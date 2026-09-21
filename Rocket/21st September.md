@@ -12,5 +12,6 @@ example ecommerce app
   Factory - what i am going to develop
   Strategy - how it going to work 
   factory and strategy could work togeter
+  Observer - event driven 
   
   
