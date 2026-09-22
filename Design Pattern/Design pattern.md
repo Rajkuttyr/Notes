@@ -3,4 +3,4 @@ creational
 sructural 
 behaviour 
 
-Singleton - 
+Singleton - one 
