@@ -21,12 +21,12 @@ Imagine a restaurant:
 
 ### Pattern vs algorithm
 
-| Concept | Meaning |
-|---|---|
-| Algorithm | Steps used to solve a computational problem |
-| Design pattern | Structure used to solve a recurring design problem |
-| Architecture | High-level organization of an entire system |
-| Framework | Software infrastructure that provides reusable functionality |
+| Concept        | Meaning                                                      |
+| -------------- | ------------------------------------------------------------ |
+| Algorithm      | Steps used to solve a computational problem                  |
+| Design pattern | Structure used to solve a recurring design problem           |
+| Architecture   | High-level organization of an entire system                  |
+| Framework      | Software infrastructure that provides reusable functionality |
 
 ---
 
