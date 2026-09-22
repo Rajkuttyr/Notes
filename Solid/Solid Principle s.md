@@ -15,4 +15,5 @@ student class should have all the functionalties related student class
  senidng email 
  1. open close 
  2. open to extension closed to mocification
- 3.
+ -.  adding functionality without modifying the existing code
+ 3. li
