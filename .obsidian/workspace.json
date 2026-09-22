@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Design Pattern/Untitled.md",
+                "file": "Design Pattern/Design pattern.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "Design pattern"
             }
           }
         ]
@@ -213,7 +213,7 @@
   "active": "d7680a3fbaff1c15",
   "lastOpenFiles": [
     "Solid/Solid Principle s.md",
-    "Design Pattern/Untitled.md",
+    "Design Pattern/Design pattern.md",
     "Design Pattern",
     "Pasted image 20260922164140.png",
     "Pasted image 20260723103352.png",
