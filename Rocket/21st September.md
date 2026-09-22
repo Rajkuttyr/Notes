@@ -10,13 +10,13 @@ Design patterns are **reusable solutions to common software design problems**. T
 
 In an e-commerce application, different patterns can solve different responsibilities:
 
-|**Pattern**|**Main Idea**|**E-commerce Example**|
-|---|---|---|
-|**Singleton**|One shared instance|Application configuration / shared service|
-|**Factory**|Decides **what** object to create|Payment method|
-|**Strategy**|Decides **how** an operation works|Payment algorithm / discount calculation|
-|**Observer**|Event-driven notification|Order placed → notify services|
-|**Repository**|Separates data access from business logic|Product/Order database access|
+| **Pattern**    | **Main Idea**                             | **E-commerce Example**                     |
+| -------------- | ----------------------------------------- | ------------------------------------------ |
+| **Singleton**  | One shared instance                       | Application configuration / shared service |
+| **Factory**    | Decides **what** object to create         | Payment method                             |
+| **Strategy**   | Decides **how** an operation works        | Payment algorithm / discount calculation   |
+| **Observer**   | Event-driven notification                 | Order placed → notify services             |
+| **Repository** | Separates data access from business logic | Product/Order database access              |
 
 ---
 
