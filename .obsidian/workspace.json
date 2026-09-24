@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JARVIS_Patent_Oriented_Obsidian_Notes.md",
+                "file": "AI_Cryptography_MCP_Server_Obsidian_Notes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "JARVIS_Patent_Oriented_Obsidian_Notes"
+              "title": "AI_Cryptography_MCP_Server_Obsidian_Notes"
             }
           }
         ]
@@ -212,6 +212,7 @@
   },
   "active": "d7680a3fbaff1c15",
   "lastOpenFiles": [
+    "JARVIS_Patent_Oriented_Obsidian_Notes.md",
     "Design_Patterns_Java_SpringBoot_Obsidian.md",
     "Design Pattern/Design pattern.md",
     "Rocket/August 31st.md",
@@ -234,7 +235,6 @@
     "DSA/Backtracking complete pattern.md",
     "Rocket/MoneyLaundering.md",
     "JARVIS_Prototype_Testing_Guide.md",
-    "JARVIS_Patent_Oriented_Obsidian_Notes.md",
     "Rocket/9th September.md",
     "SpringSecurity/Spring Security.md",
     "SpringSecurity",
