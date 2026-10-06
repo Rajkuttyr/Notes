@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Rocket/30th September.md",
+                "file": "Rocket/6th October.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "30th September"
+              "title": "6th October"
             }
           }
         ]
@@ -94,8 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "a523827e377efd3f",
@@ -213,8 +212,9 @@
   },
   "active": "d7680a3fbaff1c15",
   "lastOpenFiles": [
-    "Rocket/8th September.md",
     "Rocket/30th September.md",
+    "Rocket/6th October.md",
+    "Rocket/8th September.md",
     "AI_Cryptography_MCP_Server_Obsidian_Notes.md",
     "JARVIS_Patent_Oriented_Obsidian_Notes.md",
     "Design_Patterns_Java_SpringBoot_Obsidian.md",
@@ -245,7 +245,6 @@
     "Rocket/1st September and 2nd September.md",
     "Pasted image 20260902191447.png",
     "SpringAi/SpringAi.md",
-    "Rocket/25th August.md",
     "Pasted image 20260825191715.png",
     "Pasted image 20260713125536.png",
     "Pasted image 20260709065959.png",
