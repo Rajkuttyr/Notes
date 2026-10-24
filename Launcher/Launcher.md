@@ -10,3 +10,8 @@ adb shell input keyevent KEYCODE_HOME
 
 To make UPSIDE TV default again:
 ```bash
+adb shell pm disable-user --user 0 com.google.android.tvlauncher
+adb shell cmd package set-home-activity --user 0 com.rajadurai.upsidetv
+adb shell input keyevent KEYCODE_HOME
+```
+
