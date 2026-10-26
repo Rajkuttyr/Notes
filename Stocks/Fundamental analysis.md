@@ -62,5 +62,6 @@ borrowing from bank - postive -borrowing , negative - repay or divedents
 investing + finavcing +investing = cash flow
 start with cash flow
 operating cash shoul be stable there should not be flactuation
+generating 7 cr and paying cr as debt - so the ans is no
 
 
