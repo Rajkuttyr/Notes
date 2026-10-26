@@ -78,7 +78,14 @@ intrst coverage and debut to equity ratio
 valuvationration - stoc price : value of the company
 price to book
 
+operating profit margin
+ebidta = tatal income - expenses
+ebita / revenue from operations = operating profit margin
 
+pat margin 
+pat/total income
+roe = return the share holders gets on investing on profits
+net profit afte
 
 
 
