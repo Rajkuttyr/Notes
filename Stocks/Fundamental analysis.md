@@ -85,7 +85,8 @@ ebita / revenue from operations = operating profit margin
 pat margin 
 pat/total income
 roe = return the share holders gets on investing on profits
-net profit afte
+net profit after tax/ shareholders equity
+higher roe  higher return . check for debut
 
 
 
