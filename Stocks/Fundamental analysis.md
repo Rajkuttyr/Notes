@@ -101,7 +101,11 @@ higher roe  higher return . check for debut
   = current share price /sales per share 
   total sales/ outstanding
   evry 1 rs values 3.5 times
-    
+if price to sales is higher check on PAT margin
+price to book 
+the book value of the firm is the amount is on tabel after all the obligations
+book value = total equit/total outstanding 
+share price / book value = price to book value 
 
 
 
