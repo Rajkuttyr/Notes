@@ -54,5 +54,12 @@ investing
 finacing 
 consume or generate
 sum total is a cash flow 
-operating activites of ba
+operating activites of bajaj is  manufacturing bike
+investing activity like - new plant  
+positive - so selling and negative - investing in investing activity so here negative is goof
+
+borrowing from bank - postive -borrowing , negative - repay or divedents 
+investing + finavcing +investing = cash flow
+start with cash flow
+
 
