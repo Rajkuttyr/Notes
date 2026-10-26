@@ -116,7 +116,12 @@ relative value - applied when intenstric
 in relative we compare a stock of same sector like debuut to equity price to book price to sales cash flow
 
 starting point of your investment journey 
-company - gross profit - atleast 
+company - gross profit - atleast 20 percent 
+eps should grow
+blance  sheet - debut is sutainable 
+cover intrest coverage ratio 
+return on equity of of 20 - to 25
+
 
 
 
