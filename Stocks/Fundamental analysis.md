@@ -19,3 +19,9 @@ profits
 and taxes
 Revenue rcogined - top level 
 sales and other income 
+total income is top line 
+next is expenses - raw material salary 
+intrest and rent ads
+revenue - expenses = operating profit
+operating profit and tax deduction = PAT or profit after tax
+
