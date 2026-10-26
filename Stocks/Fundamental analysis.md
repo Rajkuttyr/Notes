@@ -112,7 +112,12 @@ eps = PAt/outstanding shares
 value a company 
 DCF model - intenstric value
 free cash flow growth rate 
-relative value - applied 
+relative value - applied when intenstric 
+in relative we compare a stock of same sector like debuut to equity price to book price to sales cash flow
+
+starting point of your investment journey 
+company - gross profit - atleast 
+
 
 
 
