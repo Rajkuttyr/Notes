@@ -99,7 +99,9 @@ higher roe  higher return . check for debut
   valuation ratio 
   price to sales ration - stock price with share 
   = current share price /sales per share 
-   
+  total sales/ outstanding
+  evry 1 rs values 3.5 times
+    
 
 
 
