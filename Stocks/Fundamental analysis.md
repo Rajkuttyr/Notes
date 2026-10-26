@@ -70,5 +70,16 @@ if surplus is more in operating
 
 profit and loss after tax = balnce sheet reserves and surlus
 
+financial ratio 
+profitablity ratio - operating margin return on equity
+leavrage ration - debub the company has taken to run operation 
+leaverage also called solvency . 
+intrst coverage and debut to equity ratio
+valuvationration - stoc price : value of the company
+price to book
+
+
+
+
 
 
