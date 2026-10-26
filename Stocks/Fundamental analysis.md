@@ -24,4 +24,10 @@ next is expenses - raw material salary
 intrest and rent ads
 revenue - expenses = operating profit
 operating profit and tax deduction = PAT or profit after tax
-
+look after the associated notes 
+Blance sheet 
+consolidated one 
+balance is year on yeae 
+p and l is current year where as balance sheet 
+contains - assesrts and lialbalities 
+non -current 
