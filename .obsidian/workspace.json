@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Stocks/Fundamental analysis.md",
+                "file": "Stocks/Untitled.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Fundamental analysis"
+              "title": "Untitled"
             }
           }
         ]
@@ -94,7 +94,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "a523827e377efd3f",
@@ -212,8 +213,9 @@
   },
   "active": "d7680a3fbaff1c15",
   "lastOpenFiles": [
-    "Launcher/Launcher.md",
     "Stocks/Fundamental analysis.md",
+    "Stocks/Untitled.md",
+    "Launcher/Launcher.md",
     "Stocks",
     "Pasted image 20261023221351.png",
     "Pasted image 20261023221127.png",
@@ -249,7 +251,6 @@
     "Rocket/MoneyLaundering.md",
     "JARVIS_Prototype_Testing_Guide.md",
     "Rocket/9th September.md",
-    "SpringSecurity/Spring Security.md",
     "SpringSecurity",
     "Pasted image 20260908192605.png",
     "Pasted image 20260902191447.png",
