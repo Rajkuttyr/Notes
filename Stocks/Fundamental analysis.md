@@ -109,6 +109,10 @@ share price / book value = price to book value
 high price to book is over valued and lower is undervalued
 p/e is 
 eps = PAt/outstanding shares
+value a company 
+DCF model - intenstric value
+free cash flow growth rate 
+relative value - applied 
 
 
 
