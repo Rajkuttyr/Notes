@@ -66,6 +66,8 @@ generating 7 cr and paying cr as debt - so the ans is no
 sum of operating 
 cash flow in investing  = sum of investing 
 if finacing is send as dividend i will invest 
-if surplus is more in 
+if surplus is more in operating
+
+profit and loss after tax = balnce sheet reserves an 
 
 
