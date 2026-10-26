@@ -11,3 +11,9 @@ Directors reprt - skip
 consolidated finacial statement 
 standalon and consolidated 
 deal with consolidated
+
+consolidated profit and loss statement
+how much revenue rcoginesed 
+expenses spend
+profits 
+and taxe
