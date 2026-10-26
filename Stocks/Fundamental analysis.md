@@ -48,4 +48,11 @@ equity - share capitar of the company + reserves and surpleses
 share capital - amount of money invested while starting. share capital - 290 core 
 reserves - profit flowing in profit and stored in reserves
 cash flow statemet - exact cash positon of the company
+activites conduct
+opersting 
+investing 
+finacing 
+consume or generate
+sum total is a cash flow 
+operating activites of ba
 
