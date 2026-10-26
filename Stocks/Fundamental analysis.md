@@ -44,3 +44,6 @@ current - has to be full filled in next 1 year
 ex rent to be paid - non current 
 non current - new home 
 
+equity - share capitar of the company + reserves and surpleses
+share capital - amount of money invested while starting. share capital - 290 core 
+reserves - profit flowing in profit and 
