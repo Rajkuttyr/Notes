@@ -63,5 +63,9 @@ investing + finavcing +investing = cash flow
 start with cash flow
 operating cash shoul be stable there should not be flactuation
 generating 7 cr and paying cr as debt - so the ans is no
+sum of operating 
+cash flow in investing  = sum of investing 
+if finacing is send as dividend i will invest 
+if surplus is more in 
 
 
