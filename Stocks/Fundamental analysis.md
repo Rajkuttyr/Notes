@@ -87,7 +87,14 @@ pat/total income
 roe = return the share holders gets on investing on profits
 net profit after tax/ shareholders equity
 higher roe  higher return . check for debut
-
+ ensure pat and ebita is trending upward
+ esure margin is stable
+ roe is 25 percent 
+ leverage - intrest coverage - how much compnay with intrst burden
+ intrest burden is 100 ans income is 400
+ debut to equity = debut / equity 
+ d/e=1 equal debut and equity
+   
 
 
 
