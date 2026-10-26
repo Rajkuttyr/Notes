@@ -94,6 +94,11 @@ higher roe  higher return . check for debut
  intrest burden is 100 ans income is 400
  debut to equity = debut / equity 
  d/e=1 equal debut and equity
+  d>e = deput high
+  lower than one is higner
+  valuation ratio 
+  price to sales ration - stock price with share 
+  = current share price /sales per share 
    
 
 
