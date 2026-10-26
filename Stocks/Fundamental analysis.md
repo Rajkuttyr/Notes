@@ -30,4 +30,8 @@ consolidated one
 balance is year on yeae 
 p and l is current year where as balance sheet 
 contains - assesrts and lialbalities 
-non -current 
+non -current asserta current asserts current liablitiee
+non -current  asserts - long term profitablity like plant machinary  and property like trademark patents and long term investment 
+current - ecoomic output with in the year like - products payment from customers , loans given cash balanceshelp
+sum of current and non-current = total assert 
+non current - invest
