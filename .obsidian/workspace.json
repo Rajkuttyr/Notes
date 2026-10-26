@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Launcher/Launcher.md",
+                "file": "Stocks/Fundamental analysis.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Launcher"
+              "title": "Fundamental analysis"
             }
           }
         ]
@@ -212,13 +212,15 @@
   },
   "active": "d7680a3fbaff1c15",
   "lastOpenFiles": [
+    "Launcher/Launcher.md",
+    "Stocks/Fundamental analysis.md",
+    "Stocks",
     "Pasted image 20261023221351.png",
     "Pasted image 20261023221127.png",
     "Pasted image 20261023221113.png",
     "Pasted image 20261023220646.png",
     "Pasted image 20261023214715.png",
     "Rocket/8th September.md",
-    "Launcher/Launcher.md",
     "Launcher",
     "Rocket/6th October.md",
     "Pasted image 20261006191452.png",
@@ -251,13 +253,11 @@
     "SpringSecurity",
     "Pasted image 20260908192605.png",
     "Pasted image 20260902191447.png",
-    "Pasted image 20260825191715.png",
     "Rocket",
     "SpringAi",
     "LangChain",
     "Untitled.canvas",
     "AWS",
-    "Kubernetes",
-    "Claude Code"
+    "Kubernetes"
   ]
 }
