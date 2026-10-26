@@ -16,4 +16,6 @@ consolidated profit and loss statement
 how much revenue rcoginesed 
 expenses spend
 profits 
-and taxe
+and taxes
+Revenue rcogined - top level 
+sales and other income 
