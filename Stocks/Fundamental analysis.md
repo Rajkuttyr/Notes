@@ -106,6 +106,9 @@ price to book
 the book value of the firm is the amount is on tabel after all the obligations
 book value = total equit/total outstanding 
 share price / book value = price to book value 
+high price to book is over valued and lower is undervalued
+p/e is 
+eps = PAt/outstanding shares
 
 
 
