@@ -34,4 +34,13 @@ non -current asserta current asserts current liablitiee
 non -current  asserts - long term profitablity like plant machinary  and property like trademark patents and long term investment 
 current - ecoomic output with in the year like - products payment from customers , loans given cash balanceshelp
 sum of current and non-current = total assert 
-non current - invest
+non current - investment like long line 
+look on heavy line item 
+liablities 
+current and non current 
+liablities - finacial obligation 
+non current -finacial obligation can be ful filled over time
+current - has to be full filled in next 1 year 
+ex rent to be paid - non current 
+non current - new home 
+
