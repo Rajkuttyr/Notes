@@ -1,62 +1,7 @@
----
-
-## 
-
-## ## 
-
-## ## 
-
-## ## 
-
-## ## 
-
-## ## 
-
-## ## 
-
-## ## 
-
-## ## 
-
-## ## 
-
-## ## 
-
-## ## **type: fundamental-analysis** 
-
-**company: “”** 
-
-**ticker: “”** 
-
-**sector: “”** 
-
-**industry: “”** 
-
-**exchange: NSE** 
-
-**analysis_date: “{{date}}”** 
-
-**current_price:** 
-
-**market_cap:** 
-
-**investment_horizon: “”** 
-
-**analysis_status: Not Started** 
-
-**overall_rating: “”**
 
 # **📊 Fundamental Analysis — {{title}}**
 
-[!info] How to use this form
 
->   
-
-1. Fill in the company details.
-2. Open [Screener.in](https://www.screener.in/) and enter the financial data.
-3. Record the latest five financial years where available.
-4. Complete the analysis and risk assessment.
-5. Make a final decision only after evaluating business quality, financial strength, and valuation.
 
 ## **1. 🏢 Company Overview**
 
