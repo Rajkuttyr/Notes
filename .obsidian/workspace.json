@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Stocks/Template/Fundamental Anaysis template.md",
+                "file": "Problems/22. Generate Parentheses.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Fundamental Anaysis template"
+              "title": "22. Generate Parentheses"
             }
           }
         ]
@@ -212,8 +212,9 @@
   },
   "active": "d7680a3fbaff1c15",
   "lastOpenFiles": [
-    "Stocks/Fundamental analysis.md",
+    "DSA/Collections.md",
     "Stocks/Template/Fundamental Anaysis template.md",
+    "Stocks/Fundamental analysis.md",
     "Stocks/Template.md",
     "Stocks/Template",
     "Stocks/Untitled.md",
