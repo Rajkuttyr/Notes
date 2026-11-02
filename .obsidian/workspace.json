@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Stocks/Technical Analysyis.md",
+                "file": "SpringAi/SpringAi.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Technical Analysyis"
+              "title": "SpringAi"
             }
           }
         ]
@@ -212,10 +212,11 @@
   },
   "active": "d7680a3fbaff1c15",
   "lastOpenFiles": [
+    "Salesforce/Apex.md",
+    "Stocks/Technical Analysyis.md",
     "Pasted image 20261101111441.png",
     "Pasted image 20261101111339.png",
     "Problems/22. Generate Parentheses.md",
-    "Stocks/Technical Analysyis.md",
     "DSA/Collections.md",
     "Stocks/Template/Fundamental Anaysis template.md",
     "Stocks/Fundamental analysis.md",
@@ -253,7 +254,6 @@
     "Docker/Docker for java.md",
     "AWS/Untitled.md",
     "SpringSecurity",
-    "Pasted image 20260908192605.png",
     "Rocket",
     "SpringAi",
     "LangChain",
