@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Stocks/Technical Analysyis.md",
+                "file": "Stocks/Candle Sticke patterns.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Technical Analysyis"
+              "title": "Candle Sticke patterns"
             }
           }
         ]
@@ -212,6 +212,7 @@
   },
   "active": "d7680a3fbaff1c15",
   "lastOpenFiles": [
+    "Stocks/Technical Analysyis.md",
     "Stocks/Untitled.md",
     "Stocks/Candle Sticke patterns.md",
     "Pasted image 20261104202914.png",
@@ -220,7 +221,6 @@
     "JARVIS_Patent_Oriented_Obsidian_Notes.md",
     "SpringAi/SpringAi.md",
     "Salesforce/Apex.md",
-    "Stocks/Technical Analysyis.md",
     "Pasted image 20261101111441.png",
     "Pasted image 20261101111339.png",
     "Problems/22. Generate Parentheses.md",
