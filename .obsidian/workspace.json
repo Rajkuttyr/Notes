@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Stocks/Candle Sticke patterns.md",
+                "file": "DSA/Trees.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Candle Sticke patterns"
+              "title": "Trees"
             }
           }
         ]
@@ -94,8 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "a523827e377efd3f",
@@ -213,9 +212,10 @@
   },
   "active": "d7680a3fbaff1c15",
   "lastOpenFiles": [
+    "Networks/TCP IP.md",
+    "Stocks/Candle Sticke patterns.md",
     "Stocks/Technical Analysyis.md",
     "Stocks/Untitled.md",
-    "Stocks/Candle Sticke patterns.md",
     "Pasted image 20261104202914.png",
     "Pasted image 20261104202853.png",
     "AI_Cryptography_MCP_Server_Obsidian_Notes.md",
