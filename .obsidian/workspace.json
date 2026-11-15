@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DSA/Trees.md",
+                "file": "Leadership Priciples/LeaderShip principles.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Trees"
+              "title": "LeaderShip principles"
             }
           }
         ]
@@ -212,6 +212,9 @@
   },
   "active": "d7680a3fbaff1c15",
   "lastOpenFiles": [
+    "DSA/Trees.md",
+    "Leadership Priciples/LeaderShip principles.md",
+    "Leadership Priciples",
     "Networks/TCP IP.md",
     "Stocks/Candle Sticke patterns.md",
     "Stocks/Technical Analysyis.md",
@@ -251,13 +254,10 @@
     "Solid",
     "Leetcode/216. Combination Sum III.md",
     "Leetcode/494. Target Sum.md",
-    "Rocket/Day 4.md",
-    "Rocket/SOLID.md",
     "SpringSecurity",
     "Rocket",
     "SpringAi",
     "LangChain",
-    "Untitled.canvas",
-    "AWS"
+    "Untitled.canvas"
   ]
 }
