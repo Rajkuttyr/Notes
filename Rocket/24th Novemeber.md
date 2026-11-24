@@ -8,4 +8,4 @@ save cost and time
 build confidence
 
 Testing pyramid
-![[Pasted image 20261124191036.png]]
+![[Pasted image 20261124191036.png]]![[Pasted image 20261124191413.png]]![[Pasted image 20261124191513.png]]
