@@ -94,7 +94,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "a523827e377efd3f",
@@ -212,6 +213,7 @@
   },
   "active": "d7680a3fbaff1c15",
   "lastOpenFiles": [
+    "Pasted image 20261124191036.png",
     "Leadership Priciples/LeaderShip principles.md",
     "Rocket/24th Novemeber.md",
     "DSA/Trees.md",
@@ -253,7 +255,6 @@
     "Solid/Solid Principle s.md",
     "Design Pattern",
     "Solid",
-    "Leetcode/216. Combination Sum III.md",
     "SpringSecurity",
     "Rocket",
     "SpringAi",
